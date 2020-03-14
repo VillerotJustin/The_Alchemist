@@ -4,16 +4,16 @@
 - Le Jardinier
 - Le héro
 - Le fermier
-- Le Huissier
+- L'Huissier
 - Le Maire
 - Le Barman
-- L'assassin
+- L'assassin (Femme)
 - Le prêtre ( Le Croque Mort )
 - Le fermier
 - Les amoureux
-- Le guardien de la forets
-- Le guardien de la montagne
-- La vielle sorcière
+- Le gardien de la foret
+- Le gardien de la montagne
+- La vieille sorcière
 - Les sorcières du marai (2 ou 3)
 - Le couturier / marchand de vetement
 
