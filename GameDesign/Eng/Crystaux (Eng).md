@@ -4,5 +4,5 @@
 - Vulcan crystal (Lava)
 - Cursed crystal (swamp water)
 - Frozen crystal (Ice)
-- Night crystal (Concentré de fleur de nuit)   "Plante qui ne se trouve que la nuit cachez dans la montagne elle peu etre récoltez seulement a minuit."
-- Solar crystal (Concenter de Fleur du soleil )	"Plante qui pousse une fois par jour a midi au sommet du volcan"
+- Night crystal (Concentré de fleur de nuit)   " The plant hatch once a day (0h) in a cave hide in the montain "
+- Solar crystal (Concenter de Fleur du soleil )	" The plant hatch once a day (12h) on the top of the volcan "
