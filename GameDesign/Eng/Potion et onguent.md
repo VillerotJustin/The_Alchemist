@@ -17,7 +17,7 @@
 - Creme contre le froid > Pommade chaleureux > Onguent contre les engelures > Onguent bénie par UII 			(Tier1 ; Tier2 Tremblépine)
 - Breuvage d'ivresse > Potion de confusion > Potion de folie > Élixir de lypémanie								(Tier1 Jusquiame noire ; Tier2 Symphorine)
 - Énergisant > Adrenaline > Potion boost > Élixir de transandance												(Tier1 Matricaire Camomille ; Tier2 )
-- Potion de déguisement Potion de disimulation > Potion de transparance > Élixir d'invisibilité					(Tier1 ; Tier2)
+- Potion de déguisement Potion de disimulation > Potion de transparance > Élixir d'invisibilité					(Tier1 Nirnroot "marais" ; Tier2 Champignon fantôme)
 
 # Liste des potion et des onguent: (Unique)
 - Désinfectant 
