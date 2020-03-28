@@ -1,4 +1,4 @@
-# Liste des PNJ (actifs):
+# PNJ list (With quest):
 - Oncle's gost
 - The Librarian
 - The gardener
@@ -16,8 +16,6 @@
 - The swamp witch
 - The couturier
 
-# Liste des PNJ (inactif):   //comme dans pokemon il bouge pas et quand on leur parle ils dissent un truc aléatoire 
+## PNJ list (Without quest)  //Like pokemoen they don't move and they speak randomely
 - Villager 
 - Regular of the bar 
--
--

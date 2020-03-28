@@ -1,4 +1,4 @@
-# Liste des Crystaux :
+# Crystal list :
 
 - Holy crystal (holy water)
 - Vulcan crystal (Lava)
