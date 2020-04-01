@@ -4,6 +4,9 @@ ScriptsOnlyBuild:
     - FollowPlayer
     - PlayerMovement
     - attack
+    - easteregg
+    - exit
+    - gamestart
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -15,14 +18,61 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
+    Assets/Scenes/MainTitle.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 14944}
+    - Class: 114
+      Script: {instanceID: 18350}
+    - Class: 114
+      Script: {instanceID: 18828}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -505,8 +555,27 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 34fdfcd09a6eef07114392575f5387a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: gamestart
+  - hash:
+      serializedVersion: 2
+      Hash: 34fdfcd09a6eef07114392575f5387a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: exit
+  - hash:
+      serializedVersion: 2
+      Hash: efb683ab53a8ca374152bf41e97b3401
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: easteregg
   platform: 5
   scenePathNames:
+  - Assets/Scenes/MainTitle.unity
   - Assets/Scenes/SampleScene.unity
   playerPath: C:/Users/mael3/Desktop/The_Alchemist/GameProgramming/The Alchemist/build/The
     Alchemist.exe

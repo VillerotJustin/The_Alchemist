@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Timers;
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class attack : MonoBehaviour
 {
@@ -44,11 +45,10 @@ public class attack : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(System.Windows.Forms.InputLanguage.CurrentInputLanguage.LayoutName);
-        Application.Quit();
-       
-       
-        
+        SceneManager.LoadScene("MainTitle", LoadSceneMode.Single);
+
+
+
     }
     // Update is called once per frame
     void Update()
