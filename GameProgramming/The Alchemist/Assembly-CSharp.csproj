@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\attack.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/mael3/Desktop/The_Alchemist/GameProgramming/The Alchemist/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
