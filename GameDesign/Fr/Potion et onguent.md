@@ -11,7 +11,7 @@
 - Potion de fatigue > Narcotique > Potion du sommeil éternel > Élixir de morphée (poisson)						(Tier1 Grande/Petite Ciguée; Tier2 Véraire blanc)
 - Mixture étrange > Potion de vomissement > Laxatif > Élixir de Zigu											(Tier1 Racine de Rumex crépu ; Tier2 Lin Pugatif)
 - Potion contre les maux de ventre > Digestif > Remède contre les indigestions > Remède contre les ulcères à l'estomac					(Tier1 Aigremoine Eupatoire ; Tier2 les polypores/ le Coprin)
-- Antidote mineure > Antidote > Antidote Majeure > Bénédiction de Panacée										(Tier1 Le chèvrefeuille Dropmore Scarlet ; Tier2  )
+- Antidote mineure > Antidote > Antidote Majeure > Bénédiction de Panacée										(Tier1 Le chèvrefeuille Dropmore Scarlet ; Tier2 Béozar )
 - Potion contre les insectes > Potion contre les serpents > Potion contre les miriapodes > Anti-venin Universelle (héro)			  (craft spéciaux) (Bézoar)
 - Potion hallucinogène > Potion de brouillard > Potion d'aveuglement > Élixir de cécité							(Tier1 Ergot de seigle; Tier2 If )
 - Creme contre le froid > Pommade chaleureux > Onguent contre les engelures > Onguent bénie par UII 			(Tier1 Cyclamen de Naples ; Tier2 Tremblépine)
