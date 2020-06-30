@@ -16,6 +16,7 @@
 - La vieille sorcière
 - Les sorcières du marai (2 ou 3)
 - Le couturier / marchand de vetement
+- L'artisan (permet de réparer, ou d'améliorer les station de travail et les batiments)
 
 # Liste des PNJ (inactif):   //comme dans pokemon il bouge pas et quand on leur parle ils dissent un truc aléatoire 
 -Les habitant du village 
