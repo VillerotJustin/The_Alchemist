@@ -7,7 +7,7 @@
 - L'Huissier
 - Le Maire
 - Le Barman
-- L'assassin (Femme)
+- L'assassin ( Viridiana Sóvári )
 - Le prêtre ( Le Croque Mort )
 - Le fermier
 - Les amoureux
