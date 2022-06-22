@@ -1,9 +1,9 @@
 # Liste des potion et des onguent:
-- Potion contre les maux de gorge > Remède contre la toux > Remède contre les bronchite > Remède contre les problèmes pulmonaire 	(Tier1 Miel  ; Tier2 Échinacée "chemin pour allée à la montagne")   
+- Potion contre les maux de gorge > Remède contre la toux > Remède contre les bronchite > Remède contre les problèmes pulmonaire 	(Tier1 Miel  ; Tier2 Échinacée "chemin pour allée à la montagne") 
 - Calmant > Somnifère > Aesthésiant > sufentanil											(Tier1 Mélilot des champs ; Tier2 Hellébore noir)
 - Pommade contre les démangeaisons > Onguent contre les piqûres > Anti-inflamatoir > Beaume du golem					(Tier1 Potentille ansérine "bords de la riviere" ; tiers2 Le champignon du soleil)
 - Creme solaire > Pommade contre les brulures légere > Onguent contre les brulures sévères > Embrocation d'Agounia			(Tier1 Millepertuis perforé ; Tier2 Fleurs de lave)
-- Potion de soin mineure > Potion de soin > Potion de soin majeure > Élixir de vie 					    					(Tier1 Herbes médicinal ; Tier2 Champignion luminescent)
+- Potion de soin mineure > Potion de soin > Potion de soin majeure > Élixir de vie 					    					(Tier1 Herbes médicinal ; Tier2 Champignion luminescent) couleur : rouge fait
 - Réveil matin > Breuvage contre la fatigue > Café > Café magique															(Tier1 Gingembre ; Tier2 Gaillet gratteron)
 - Breuvages yeux de biche > Potion de séduction > Décoction de luxure > Élixir de la femme fatale 							(Tier1 beladone ; Tier2 baie de Sureau )   
 - Pommade cicatrisante > Baume réparateur > Onguant contre les plaix > Embrocation d'Iaso									(Tier1 Plantain moyen ; Tier2 Sanicle d'Europe)
