@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] Animator animator;
-    
+
     Vector2 movement;
 
     void Update()
