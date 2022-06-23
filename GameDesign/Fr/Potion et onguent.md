@@ -1,9 +1,9 @@
 # Liste des onguent:
 
-- Pommade contre les démangeaisons > Onguent contre les piqûres > Anti-inflamatoir > Beaume du golem						(Tier1 Potentille ansérine "bords de la riviere" ; tiers2 Le champignon du soleil)
-- Creme solaire > Pommade contre les brulures légere > Onguent contre les brulures sévères > Embrocation d'Agounia			(Tier1 Millepertuis perforé ; Tier2 Fleurs de lave)
-- Pommade cicatrisante > Baume réparateur > Onguant contre les plaix > Embrocation d'Iaso									(Tier1 Plantain moyen ; Tier2 Sanicle d'Europe)
-- Creme contre le froid > Pommade chaleureux > Onguent contre les engelures > Onguent bénie par UII 						(Tier1 Cyclamen de Naples ; Tier2 Tremblépine)
+- Pommade contre les démangeaisons > Onguent contre les piqûres > Anti-inflamatoir > Beaume du golem						(Tier1 Potentille ansérine "bords de la riviere" ; tiers2 Le champignon du soleil) Couleur : Marron
+- Creme solaire > Pommade contre les brulures légere > Onguent contre les brulures sévères > Embrocation d'Agounia			(Tier1 Millepertuis perforé ; Tier2 Fleurs de lave) Couleur : Rouge
+- Pommade cicatrisante > Baume réparateur > Onguant contre les plaix > Embrocation d'Iaso									(Tier1 Plantain moyen ; Tier2 Sanicle d'Europe) Couleur : Vert
+- Creme contre le froid > Pommade chaleureux > Onguent contre les engelures > Onguent bénie par UII 						(Tier1 Cyclamen de Naples ; Tier2 Tremblépine) Couleur : Bleu clair
 
 # Liste des potions
 
