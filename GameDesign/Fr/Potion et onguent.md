@@ -25,10 +25,10 @@
 
 
 # Liste des potion et des onguent: (Unique)
-- Désinfectant 
-- Boisson rafraichisante 
-- Vin et Vin de competition			( raisin )
-- Bière et Bière de competition		( houblons )
+- Désinfectant OK
+- Boisson rafraichisante OK
+- Vin et Vin de competition			( raisin ) OK
+- Bière et Bière de competition		( houblons ) 
 - Eau de vie ( Poire ; Génépi ) 
 - Potion de réssurection (héro plume de phénix )
 - Breuvage du marcheur de la nuit (Assasin Décoction du nyctalope et Élixir de la femme fatale )
