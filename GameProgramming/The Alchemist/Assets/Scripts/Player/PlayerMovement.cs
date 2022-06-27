@@ -28,5 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate(){
         rb.MovePosition(rb.position+movement*speed*Time.fixedDeltaTime);
+
+        Camera.main.transform.position = new Vector3(transform.position.x,transform.position.y,-10);
     }
 }
