@@ -39,9 +39,14 @@
      <Compile Include="Assets\Scripts\Utils\SortSpriteOrderInScene.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GUI\Inventory\InventoryGUI.cs" />
+     <Compile Include="Assets\Scripts\Manager\Player.cs" />
+     <Compile Include="Assets\Scripts\Items\InventoryItemContainer.cs" />
      <Compile Include="Assets\Scripts\DEBUG\WeatherTesting.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\ItemAttribute.cs" />
+     <Compile Include="Assets\Scripts\GUI\Inventory\InventoryGUI_ItemSlot.cs" />
+     <Compile Include="Assets\Scripts\GUI\InfoUI.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
