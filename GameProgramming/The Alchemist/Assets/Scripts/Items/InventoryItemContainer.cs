@@ -17,6 +17,6 @@ public class InventoryItemContainer
     }
 
     public bool IsItemSameAs(Item item){
-        return item.internalName.Equals(itemRef);
+        return item.internalName.Equals(itemRef.internalName);
     }
 }

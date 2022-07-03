@@ -5,15 +5,9 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
 
-public class InventoryGUI_ItemSlot : MonoBehaviour
+public class InventoryGUI_ItemSlot : UI_ItemSlot
 {
-    private int slot;
-    [SerializeField] private Image bg;
-    [SerializeField] private Image itemSprite;
-
-    [SerializeField] private TextMeshProUGUI nbItems;
-
-    private Item item;
+    
 
     [SerializeField] private EventTrigger eventTrigger;
 
@@ -22,6 +16,8 @@ public class InventoryGUI_ItemSlot : MonoBehaviour
     private float currentTimeToWait;
 
     private bool canWaitToShow = false;
+
+    private InventoryGUI inv;
 
     void Update(){
         if(canWaitToShow){
@@ -35,19 +31,11 @@ public class InventoryGUI_ItemSlot : MonoBehaviour
         }
     }
 
-    public void Init(int newSlot){
+    public void Init(int newSlot,InventoryGUI inventory){
+        inv = inventory;
         currentTimeToWait = maxTimeToWait;
-        slot = newSlot;
 
-        item = GameManager.instance.player.GetItemFromSlot(slot);
-        if(item == null){
-            itemSprite.color = new Color(0,0,0,0);
-            nbItems.text = "";
-        }else{
-            itemSprite.sprite = item.GetItemSprite();
-            nbItems.text = "x"+GameManager.instance.player.GetNbItemsInSlot(slot).ToString();
-        }
-
+        base.Init(newSlot);
     }
 
     public void OnEnter(BaseEventData eventData){
@@ -59,6 +47,22 @@ public class InventoryGUI_ItemSlot : MonoBehaviour
     public void OnExit(BaseEventData eventData){
         canWaitToShow = false;
         InfoUI.instance.HideInfo();
+    }
+
+    public void OnLeftClick(){
+        inv.TakeItem(slot);
+    }
+
+    public void OnRightClick(){
+        inv.PlaceItem(slot);
+    }
+
+    public void OnClick(BaseEventData eventData){
+        if(Input.GetMouseButton(0)){
+            OnLeftClick();
+        }else if(Input.GetMouseButton(1)){
+            OnRightClick();
+        }
     }
 
 }

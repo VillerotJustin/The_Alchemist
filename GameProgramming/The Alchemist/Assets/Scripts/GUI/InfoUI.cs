@@ -27,7 +27,7 @@ public class InfoUI : MonoBehaviour
 
     void Update(){
         if(infoRoot.activeInHierarchy){
-            infoRoot.GetComponent<RectTransform>().position = Input.mousePosition;
+            infoRoot.transform.position = Input.mousePosition;
         }
     }
 
