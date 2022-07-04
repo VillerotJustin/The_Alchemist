@@ -63,8 +63,14 @@ public class InventoryGUI : MonoBehaviour
                 player.DecrementSlot(slot);
                 numberItemsMoving++;
             }else{
-                PlaceItem(slot);
-                return;
+                Item inSlot = player.GetItemFromSlot(slot);
+                int nbInSlot = player.GetNbItemsInSlot(slot);
+
+                player.DeleteSlot(slot);
+                player.AddItemToSlot(itemMoving,numberItemsMoving,slot);
+
+                itemMoving = inSlot;
+                numberItemsMoving = nbInSlot;
             }
         }
         helper.Refresh(itemMoving,numberItemsMoving);
@@ -76,22 +82,15 @@ public class InventoryGUI : MonoBehaviour
 
         Player player = GameManager.instance.player;
 
-        if(player.IsItemInSlotSameAs(slot,itemMoving)){
+        if(player.IsItemInSlotSameAs(slot,itemMoving) ||
+            player.GetItemFromSlot(slot) == null){
 
-            player.AddItemToSlot(itemMoving,numberItemsMoving,slot);
-            itemMoving = null;
-            numberItemsMoving = 0;
-        }else{
-            Item inSlot = player.GetItemFromSlot(slot);
-            int nbInSlot = player.GetNbItemsInSlot(slot);
-
-            player.DeleteSlot(slot);
-            player.AddItemToSlot(itemMoving,numberItemsMoving,slot);
-
-            itemMoving = inSlot;
-            numberItemsMoving = nbInSlot;
+            player.AddItemToSlot(itemMoving,1,slot);
+            numberItemsMoving--;
+            if(numberItemsMoving == 0){
+                itemMoving = null;
+            }
         }
-
 
         helper.Refresh(itemMoving,numberItemsMoving);
         RefreshInventory();

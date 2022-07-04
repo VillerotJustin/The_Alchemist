@@ -33,6 +33,7 @@ public class InfoUI : MonoBehaviour
 
 
     public void ShowInfo(Item item){
+        if(item == null) return;
         infoRoot.SetActive(true);
         itemName.text = item.itemName;
         itemDescription.text = item.itemDescription;
