@@ -51,17 +51,25 @@ public class InventoryGUI : MonoBehaviour
     }
 
     public void TakeItem(int slot){
+        bool takeAll = Input.GetKey(KeyCode.LeftShift);
         Player player = GameManager.instance.player;
         if(itemMoving == null){
             itemMoving = player.GetItemFromSlot(slot);
             if(itemMoving != null){
-                numberItemsMoving = 1;
-                player.DecrementSlot(slot);
+                numberItemsMoving = 0;
+                int maxLoop = player.GetNbItemsInSlot(slot);
+                for(int i = 0;i< (takeAll ? maxLoop : 1 ) ;i++){
+                    player.DecrementSlot(slot);
+                    numberItemsMoving++;
+                }
             }
         }else{
             if(player.IsItemInSlotSameAs(slot,itemMoving)){
-                player.DecrementSlot(slot);
-                numberItemsMoving++;
+                int maxLoop = player.GetNbItemsInSlot(slot);
+                for(int i = 0;i< (takeAll ? maxLoop : 1 ) ;i++){
+                    player.DecrementSlot(slot);
+                    numberItemsMoving++;
+                }
             }else{
                 Item inSlot = player.GetItemFromSlot(slot);
                 int nbInSlot = player.GetNbItemsInSlot(slot);

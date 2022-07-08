@@ -59,3 +59,13 @@ MonoBehaviour:
       attributeName: Soin
       attributeValue: 30
       attributeDuration: -1
+  - internalName: WINE
+    itemName: Vin
+    itemDescription: Du pipi de vache en bouteille.
+    sellPrice: 200
+    itemType: 4
+    itemAttributes:
+    - internalName: HEALING
+      attributeName: Soin
+      attributeValue: 40
+      attributeDuration: -1

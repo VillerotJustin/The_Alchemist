@@ -26,6 +26,6 @@ public class GameManager : MonoBehaviour
 
     public void DEBUG_GIVEITEMS(){
         player.AddItemToSlot(allItems[0],4,0);
-        player.AddItemToSlot(allItems[0],4,5);
+        player.AddItemToSlot(allItems[1],4,5);
     }
 }
