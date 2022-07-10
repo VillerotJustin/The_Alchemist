@@ -16,7 +16,9 @@ public class SortSpriteOrderInScene : MonoBehaviour
 
         sprites = new List<SpriteRenderer>(allSprites);
 
-        sprites.Sort((o1,o2)=>(o2.transform.position.y.CompareTo(o1.transform.position.y)));
+        sprites.Sort((o1,o2)=>(
+            o2.transform.position.y.CompareTo(o1.transform.position.y)
+            ));
 
         for(int i = 0;i<sprites.Count;i++){
             sprites[i].sortingOrder = i+1;

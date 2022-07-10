@@ -23,6 +23,18 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Item[] allItems;
 
 
+    public Item GetItemFromName(string name){
+        foreach(Item item in allItems){
+            if(item.internalName.Equals(name)){
+                return item;
+            }
+        }
+        return null;
+    }
+
+    public Item GetItemFromID(int id){
+        return allItems[id];
+    }
 
     public void DEBUG_GIVEITEMS(){
         player.AddItemToSlot(allItems[0],4,0);

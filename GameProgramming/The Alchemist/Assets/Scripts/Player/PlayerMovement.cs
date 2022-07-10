@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] Animator animator;
 
-    Vector2 movement;
+    private Vector2 movement;
+
 
     void Update()
     {
@@ -27,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void FixedUpdate(){
+
         rb.MovePosition(rb.position+movement*speed*Time.fixedDeltaTime);
 
         Camera.main.transform.position = new Vector3(transform.position.x,transform.position.y,-10);

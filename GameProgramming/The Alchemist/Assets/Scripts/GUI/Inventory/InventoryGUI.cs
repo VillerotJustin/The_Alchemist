@@ -83,6 +83,7 @@ public class InventoryGUI : MonoBehaviour
         }
         helper.Refresh(itemMoving,numberItemsMoving);
         RefreshInventory();
+        PlayerHotBarUI.instance.RefreshHotBar();
     }
 
     public void PlaceItem(int slot){
@@ -102,6 +103,7 @@ public class InventoryGUI : MonoBehaviour
 
         helper.Refresh(itemMoving,numberItemsMoving);
         RefreshInventory();
+        PlayerHotBarUI.instance.RefreshHotBar();
     }
 
     void RefreshInventory(){

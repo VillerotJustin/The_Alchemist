@@ -41,4 +41,10 @@ public class PlayerHotBarUI : MonoBehaviour
         slotsRoot.SetActive(value);
     }
 
+    public void RefreshHotBar(){
+        for(int i = 0;i<GameManager.instance.player.maxInHotBar;i++){
+            slots[i].Init(i);
+        }
+    }
+
 }

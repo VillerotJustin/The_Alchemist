@@ -65,4 +65,22 @@ public class Player
             }
         }
     }
+
+    public void AddItem(Item item){
+        for(int i = 0;i < bagSize;i++){
+            if(items[i] != null){
+                if(items[i].IsItemSameAs(item)){
+                    AddItemToSlot(item,1,i);
+                    return;
+                }
+            }
+        }
+
+        for(int i = 0;i < bagSize;i++){
+            if(items[i] == null){
+                AddItemToSlot(item,1,i);
+                return;
+            }
+        }
+    }
 }
