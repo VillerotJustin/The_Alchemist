@@ -7,10 +7,17 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
+    public static Player player;
+
     void Awake(){
         if(instance == null){
             instance = this;
-            player = new Player();
+
+            _player = new Player();
+            player = _player;
+
+            playerCanMove = true;
+
             DEBUG_GIVEITEMS();
             DontDestroyOnLoad(gameObject);
         }else{
@@ -18,8 +25,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public bool playerCanMove;
 
-    public Player player;
+    private Player _player;
     [SerializeField] private Item[] allItems;
 
 
@@ -35,6 +43,8 @@ public class GameManager : MonoBehaviour
     public Item GetItemFromID(int id){
         return allItems[id];
     }
+
+    
 
     public void DEBUG_GIVEITEMS(){
         player.AddItemToSlot(allItems[0],4,0);

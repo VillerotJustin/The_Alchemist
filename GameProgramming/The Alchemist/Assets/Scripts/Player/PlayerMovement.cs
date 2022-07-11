@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if(!GameManager.instance.playerCanMove) return;
         
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
@@ -29,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void FixedUpdate(){
+        if(!GameManager.instance.playerCanMove) return;
 
         rb.MovePosition(rb.position+movement*speed*Time.fixedDeltaTime);
 

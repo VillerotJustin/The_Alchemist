@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class PlayerInventoryController : MonoBehaviour
 {
+    //TO DO
+    //Make items useful :)
+
     private Player player;
     private int startingKeycode = 49;
     void Start()
     {
-        player = GameManager.instance.player;
+        player = GameManager.player;
     }
 
 

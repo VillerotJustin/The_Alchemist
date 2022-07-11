@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: AlwaysOnTop
+  - name: InteractionIcons
     uniqueID: 249256675
+    locked: 0
+  - name: Weather
+    uniqueID: 3103766351
     locked: 0

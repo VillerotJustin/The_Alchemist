@@ -8,13 +8,17 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] protected GameObject interactionBuble;
 
     protected bool canWait;
+    
+    protected bool canInteract;
 
     protected void Start(){
         canWait = false;
+        canInteract = true;
         interactionBuble.SetActive(false);
     }
 
     protected void OnTriggerEnter2D(Collider2D col){
+        if(!canInteract) return;
         canWait = true;
         interactionBuble.SetActive(true);
     }
@@ -25,14 +29,17 @@ public class InteractableObject : MonoBehaviour
     }
 
     protected void Update(){
-        if(!canWait) return;
+        if(!canWait || !canInteract) return;
 
         if(Input.GetKeyDown(KeyCode.E)){
-            OnTrigger();
+            print("Object "+name+" triggered");
         }
     }
 
-    protected void OnTrigger(){
-        print("Object "+name+" triggered");
+    protected void DisableObject(){
+        canInteract = false;
+        canWait = false;
+        interactionBuble.SetActive(false);
     }
+
 }

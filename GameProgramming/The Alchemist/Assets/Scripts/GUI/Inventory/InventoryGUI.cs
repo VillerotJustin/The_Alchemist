@@ -36,7 +36,7 @@ public class InventoryGUI : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        for(int i = 0;i < GameManager.instance.player.bagSize;i++){
+        for(int i = 0;i < GameManager.player.bagSize;i++){
             Instantiate(prefabItemGUI,inventoryRoot.transform).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
         }
     }
@@ -44,6 +44,7 @@ public class InventoryGUI : MonoBehaviour
     public void CloseInventory(){
         if(itemMoving != null) return;
         inventoryRoot.SetActive(false);
+        InfoUI.instance.HideInfo();
         PlayerHotBarUI.instance.SetHotBarActive(true);
         foreach(Transform child in inventoryRoot.transform){
             Destroy(child.gameObject);
@@ -52,7 +53,7 @@ public class InventoryGUI : MonoBehaviour
 
     public void TakeItem(int slot){
         bool takeAll = Input.GetKey(KeyCode.LeftShift);
-        Player player = GameManager.instance.player;
+        Player player = GameManager.player;
         if(itemMoving == null){
             itemMoving = player.GetItemFromSlot(slot);
             if(itemMoving != null){
@@ -89,7 +90,7 @@ public class InventoryGUI : MonoBehaviour
     public void PlaceItem(int slot){
         if(itemMoving == null) return;
 
-        Player player = GameManager.instance.player;
+        Player player = GameManager.player;
 
         if(player.IsItemInSlotSameAs(slot,itemMoving) ||
             player.GetItemFromSlot(slot) == null){
@@ -107,7 +108,7 @@ public class InventoryGUI : MonoBehaviour
     }
 
     void RefreshInventory(){
-        for(int i = 0;i < GameManager.instance.player.bagSize;i++){
+        for(int i = 0;i < GameManager.player.bagSize;i++){
             inventoryRoot.transform.GetChild(i).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
         }
     }

@@ -23,7 +23,7 @@ public class PlayerHotBarUI : MonoBehaviour
     public void CreateHotBar(){
         UI_ItemSlot itemSlot;
         slots.Clear();
-        for(int i = 0;i<GameManager.instance.player.maxInHotBar;i++){
+        for(int i = 0;i<GameManager.player.maxInHotBar;i++){
             itemSlot = Instantiate(slotPrefab,slotsRoot.transform).GetComponent<UI_ItemSlot>();
             itemSlot.Init(i);
             slots.Add(itemSlot);
@@ -33,7 +33,7 @@ public class PlayerHotBarUI : MonoBehaviour
 
     public void RefreshSelection(){
         slots[currentSlot].GetComponent<Image>().color = Color.gray;
-        currentSlot = GameManager.instance.player.currentSlot;
+        currentSlot = GameManager.player.currentSlot;
         slots[currentSlot].GetComponent<Image>().color = Color.black;
     }
 
@@ -42,7 +42,7 @@ public class PlayerHotBarUI : MonoBehaviour
     }
 
     public void RefreshHotBar(){
-        for(int i = 0;i<GameManager.instance.player.maxInHotBar;i++){
+        for(int i = 0;i<GameManager.player.maxInHotBar;i++){
             slots[i].Init(i);
         }
     }

@@ -29,6 +29,6 @@ public class Item
             return null;
         }
 
-        return Resources.Load<Sprite>("Items/"+internalName);
+        return refSprite;
     }
 }

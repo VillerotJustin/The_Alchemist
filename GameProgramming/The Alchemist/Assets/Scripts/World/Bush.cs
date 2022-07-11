@@ -4,18 +4,34 @@ using UnityEngine;
 
 public class Bush : InteractableObject
 {
+
+    // TO DO
+    // Add system to check season for berries drop
+    // Setup global nature spawn system
+
+
     [SerializeField] private string itemDropName;
 
-    protected new void OnTrigger(){
-        GameManager.instance.player.AddItem(GameManager.instance.GetItemFromName(itemDropName));
-        PlayerHotBarUI.instance.RefreshHotBar();
+    [SerializeField] private Sprite bushFull;
+    [SerializeField] private Sprite bushEmpty;
+
+    [SerializeField] private SpriteRenderer bushRenderer;
+
+
+    protected new void Start(){
+        base.Start();
+        canInteract = true;
     }
 
     protected new void Update(){
-        if(!canWait) return;
+        if(!canWait || !canInteract) return;
 
         if(Input.GetKeyDown(KeyCode.E)){
-            OnTrigger();
+            GameManager.player.AddItem(GameManager.instance.GetItemFromName(itemDropName));
+            PlayerHotBarUI.instance.RefreshHotBar();
+
+            DisableObject();
+            bushRenderer.sprite = bushEmpty;
         }
     }
 }
