@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46343c90973e784489f83cd5d95114f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player:
-    bagSize: 24
-    maxInHotBar: 8
-    currentSlot: 0
+  playerCanMove: 0
+  dayNightCycle:
+    hourTimeInSeconds: 0
+    currentHour: 0
   allItems:
   - internalName: HEALING_POTION
     itemName: Potion de soins

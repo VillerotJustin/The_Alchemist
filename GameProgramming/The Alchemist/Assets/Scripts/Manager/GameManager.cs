@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
             player = _player;
 
             playerCanMove = true;
+            dayNightCycle.RestartCycle();
 
             DEBUG_GIVEITEMS();
             DontDestroyOnLoad(gameObject);
@@ -28,7 +29,17 @@ public class GameManager : MonoBehaviour
     public bool playerCanMove;
 
     private Player _player;
+
+    [SerializeField] private DayNightCycle dayNightCycle;
+
+    public int inGameHour {get{return dayNightCycle.currentHour;}}
+
     [SerializeField] private Item[] allItems;
+
+
+    void ResetDayNightCycle(){
+        dayNightCycle.RestartCycle();
+    }
 
 
     public Item GetItemFromName(string name){
