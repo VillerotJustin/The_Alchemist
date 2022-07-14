@@ -9,8 +9,15 @@ public class AmbientLightAdapter : MonoBehaviour
     [SerializeField] private Color colorNight;
     [SerializeField] private Light2D ambientLight;
 
+    [SerializeField] private int lightFadeAtHour;
+
     void Update()
     {
-        ambientLight.color = Color.Lerp(colorDay,colorNight,(float)(GameManager.instance.inGameHour)/24);
+        if(GameManager.instance.inGameHour < lightFadeAtHour){
+            ambientLight.color = colorDay;
+        }else{
+            ambientLight.color = Color.Lerp(colorDay,colorNight,(float)(GameManager.instance.inGameHour - lightFadeAtHour)/(24-lightFadeAtHour));
+        }
+        
     }
 }

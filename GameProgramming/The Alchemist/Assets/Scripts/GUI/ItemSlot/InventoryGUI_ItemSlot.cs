@@ -22,7 +22,7 @@ public class InventoryGUI_ItemSlot : UI_ItemSlot
     void Update(){
         if(canWaitToShow){
             if(currentTimeToWait>0){
-                currentTimeToWait-=Time.deltaTime;
+                currentTimeToWait-=Time.unscaledDeltaTime;
             }else{
                 currentTimeToWait = maxTimeToWait;
                 canWaitToShow = false;

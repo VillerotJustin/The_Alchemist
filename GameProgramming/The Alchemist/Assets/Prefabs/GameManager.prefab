@@ -46,8 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCanMove: 0
   dayNightCycle:
-    hourTimeInSeconds: 0
+    hourTimeInSeconds: 5
     currentHour: 0
+    canUpdateCycle: 0
   allItems:
   - internalName: HEALING_POTION
     itemName: Potion de soins
@@ -69,3 +70,4 @@ MonoBehaviour:
       attributeName: Soin
       attributeValue: 40
       attributeDuration: -1
+  _prefabInWorldItem: {fileID: 219784961339742416, guid: befe42bf272035644ad8419ca3807cbb, type: 3}

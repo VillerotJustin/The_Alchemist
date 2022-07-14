@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour
             player = _player;
 
             playerCanMove = true;
-            dayNightCycle.RestartCycle();
 
             DEBUG_GIVEITEMS();
             DontDestroyOnLoad(gameObject);
@@ -36,10 +35,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Item[] allItems;
 
-
-    void ResetDayNightCycle(){
-        dayNightCycle.RestartCycle();
-    }
+    [SerializeField] private GameObject _prefabInWorldItem;
+    public static GameObject prefabInWorldItem {get{return GameManager.instance._prefabInWorldItem;}}
 
 
     public Item GetItemFromName(string name){
@@ -55,6 +52,10 @@ public class GameManager : MonoBehaviour
         return allItems[id];
     }
 
+
+    public void UpdateTime(){
+        dayNightCycle.UpdateTime();
+    }
     
 
     public void DEBUG_GIVEITEMS(){

@@ -30,6 +30,7 @@ public class InventoryGUI : MonoBehaviour
     }
 
     private void InitializeInventory(){
+        Time.timeScale = 0;
         inventoryRoot.SetActive(true);
         PlayerHotBarUI.instance.SetHotBarActive(false);
         foreach(Transform child in inventoryRoot.transform){
@@ -43,6 +44,7 @@ public class InventoryGUI : MonoBehaviour
 
     public void CloseInventory(){
         if(itemMoving != null) return;
+        Time.timeScale = 1;
         inventoryRoot.SetActive(false);
         InfoUI.instance.HideInfo();
         PlayerHotBarUI.instance.SetHotBarActive(true);

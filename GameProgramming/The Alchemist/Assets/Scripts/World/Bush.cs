@@ -27,8 +27,9 @@ public class Bush : InteractableObject
         if(!canWait || !canInteract) return;
 
         if(Input.GetKeyDown(KeyCode.E)){
-            GameManager.player.AddItem(GameManager.instance.GetItemFromName(itemDropName));
-            PlayerHotBarUI.instance.RefreshHotBar();
+            InWorldItem obj = Instantiate(GameManager.prefabInWorldItem,transform.position,new Quaternion()).GetComponent<InWorldItem>();
+            obj.item = GameManager.instance.GetItemFromName(itemDropName);
+            obj.GetComponent<SpriteRenderer>().sprite = obj.item.GetItemSprite();
 
             DisableObject();
             bushRenderer.sprite = bushEmpty;

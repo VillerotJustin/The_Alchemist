@@ -66,12 +66,12 @@ public class Player
         }
     }
 
-    public void AddItem(Item item){
+    public bool AddItem(Item item){
         for(int i = 0;i < bagSize;i++){
             if(items[i] != null){
                 if(items[i].IsItemSameAs(item)){
                     AddItemToSlot(item,1,i);
-                    return;
+                    return true;
                 }
             }
         }
@@ -79,8 +79,9 @@ public class Player
         for(int i = 0;i < bagSize;i++){
             if(items[i] == null){
                 AddItemToSlot(item,1,i);
-                return;
+                return true;
             }
         }
+        return false;
     }
 }

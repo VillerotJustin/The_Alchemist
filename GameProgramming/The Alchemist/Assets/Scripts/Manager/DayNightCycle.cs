@@ -5,15 +5,31 @@ using UnityEngine;
 [System.Serializable]
 public class DayNightCycle
 {
-    [SerializeField] private int hourTimeInSeconds;
-    [HideInInspector] public int currentHour;
+    [SerializeField] private float hourTimeInSeconds;
+    [SerializeField] public int currentHour;
 
-    private Coroutine cycle;
+    private float currentHourDepletion;
+
+    [SerializeField] public bool canUpdateCycle;
 
     void Start()
     {
+        canUpdateCycle = true;
         currentHour = 6;
-        RestartCycle();
+        currentHourDepletion = hourTimeInSeconds;
+    }
+
+    public void UpdateTime(){
+        if(!canUpdateCycle) return;
+
+        currentHourDepletion-=Time.deltaTime;
+        if(currentHourDepletion <= 0){
+            currentHourDepletion = hourTimeInSeconds;
+            currentHour++;
+            if(currentHour == 24){
+                canUpdateCycle = false;
+            }
+        }
     }
 
     IEnumerator CycleFunction(){
@@ -21,15 +37,8 @@ public class DayNightCycle
             yield return new WaitForSeconds(hourTimeInSeconds);
             currentHour++;
         }
-        cycle = null;
+
     }
 
-    public void StopCycle(){
-        if(cycle != null) GameManager.instance.StopCoroutine(cycle);
-    }
 
-    public void RestartCycle(){
-        StopCycle();
-        cycle = GameManager.instance.StartCoroutine(CycleFunction());
-    }
 }
