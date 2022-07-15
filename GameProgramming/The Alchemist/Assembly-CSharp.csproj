@@ -44,6 +44,7 @@
      <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
      <Compile Include="Assets\Scripts\GUI\Inventory\InventoryGUI.cs" />
      <Compile Include="Assets\Scripts\World\Bush.cs" />
+     <Compile Include="Assets\Scripts\World\InWorldItem.cs" />
      <Compile Include="Assets\Scripts\GUI\InfoUI.cs" />
      <Compile Include="Assets\Scripts\Manager\Player.cs" />
      <Compile Include="Assets\Scripts\GUI\Inventory\InventorySelection_Helper.cs" />
@@ -58,7 +59,6 @@
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\ItemAttribute.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\World\InWorldItem.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 movement;
 
+    void Awake(){
+        Player.body = gameObject;
+    }
 
     void Update()
     {

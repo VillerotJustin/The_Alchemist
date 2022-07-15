@@ -6,6 +6,7 @@ using UnityEngine;
 [System.Serializable]
 public class Player
 {
+    public static GameObject body;
     public InventoryItemContainer[] items;
 
     public int bagSize;
@@ -79,6 +80,15 @@ public class Player
         for(int i = 0;i < bagSize;i++){
             if(items[i] == null){
                 AddItemToSlot(item,1,i);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool CanAddItem(Item item){
+        for(int i = 0;i < bagSize;i++){
+            if(items[i] == null || items[i].IsItemSameAs(item)){
                 return true;
             }
         }

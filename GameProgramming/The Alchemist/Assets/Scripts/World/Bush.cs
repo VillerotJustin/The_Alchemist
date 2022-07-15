@@ -17,6 +17,8 @@ public class Bush : InteractableObject
 
     [SerializeField] private SpriteRenderer bushRenderer;
 
+    [SerializeField] private Collider2D spriteCollider;
+
 
     protected new void Start(){
         base.Start();
@@ -30,6 +32,7 @@ public class Bush : InteractableObject
             InWorldItem obj = Instantiate(GameManager.prefabInWorldItem,transform.position,new Quaternion()).GetComponent<InWorldItem>();
             obj.item = GameManager.instance.GetItemFromName(itemDropName);
             obj.GetComponent<SpriteRenderer>().sprite = obj.item.GetItemSprite();
+            obj.Init(spriteCollider);
 
             DisableObject();
             bushRenderer.sprite = bushEmpty;
