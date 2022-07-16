@@ -30,9 +30,7 @@ public class Bush : InteractableObject
 
         if(Input.GetKeyDown(KeyCode.E)){
             InWorldItem obj = Instantiate(GameManager.prefabInWorldItem,transform.position,new Quaternion()).GetComponent<InWorldItem>();
-            obj.item = GameManager.instance.GetItemFromName(itemDropName);
-            obj.GetComponent<SpriteRenderer>().sprite = obj.item.GetItemSprite();
-            obj.Init(spriteCollider);
+            obj.Init(spriteCollider,GameManager.instance.GetItemFromName(itemDropName),1);
 
             DisableObject();
             bushRenderer.sprite = bushEmpty;

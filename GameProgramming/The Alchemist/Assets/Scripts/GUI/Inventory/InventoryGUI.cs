@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class InventoryGUI : MonoBehaviour
 {
     [SerializeField] private GameObject inventoryRoot;
+
+    [SerializeField] private Transform prefabsRoot;
     [SerializeField] private GameObject prefabItemGUI;
 
     private bool inventoryOpened;
@@ -33,12 +35,12 @@ public class InventoryGUI : MonoBehaviour
         Time.timeScale = 0;
         inventoryRoot.SetActive(true);
         PlayerHotBarUI.instance.SetHotBarActive(false);
-        foreach(Transform child in inventoryRoot.transform){
+        foreach(Transform child in prefabsRoot){
             Destroy(child.gameObject);
         }
 
         for(int i = 0;i < GameManager.player.bagSize;i++){
-            Instantiate(prefabItemGUI,inventoryRoot.transform).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
+            Instantiate(prefabItemGUI,prefabsRoot).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
         }
     }
 
@@ -48,9 +50,20 @@ public class InventoryGUI : MonoBehaviour
         inventoryRoot.SetActive(false);
         InfoUI.instance.HideInfo();
         PlayerHotBarUI.instance.SetHotBarActive(true);
-        foreach(Transform child in inventoryRoot.transform){
+        foreach(Transform child in prefabsRoot){
             Destroy(child.gameObject);
         }
+    }
+
+    public void DropItem(){
+        if(itemMoving == null || numberItemsMoving == 0) return;
+
+        InWorldItem item = Instantiate(GameManager.prefabInWorldItem,Player.body.transform.position,new Quaternion()).GetComponent<InWorldItem>();
+        item.Init(Player.body.GetComponentInChildren<Collider2D>(),itemMoving,numberItemsMoving);
+
+        itemMoving = null;
+        numberItemsMoving = 0;
+        helper.Refresh(itemMoving,numberItemsMoving);
     }
 
     public void TakeItem(int slot){
@@ -111,7 +124,7 @@ public class InventoryGUI : MonoBehaviour
 
     void RefreshInventory(){
         for(int i = 0;i < GameManager.player.bagSize;i++){
-            inventoryRoot.transform.GetChild(i).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
+            prefabsRoot.GetChild(i).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
         }
     }
 

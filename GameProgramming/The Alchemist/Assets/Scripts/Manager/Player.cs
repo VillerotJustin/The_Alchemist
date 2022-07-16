@@ -67,11 +67,11 @@ public class Player
         }
     }
 
-    public bool AddItem(Item item){
+    public bool AddItem(Item item,int number){
         for(int i = 0;i < bagSize;i++){
             if(items[i] != null){
                 if(items[i].IsItemSameAs(item)){
-                    AddItemToSlot(item,1,i);
+                    AddItemToSlot(item,number,i);
                     return true;
                 }
             }
@@ -79,7 +79,7 @@ public class Player
 
         for(int i = 0;i < bagSize;i++){
             if(items[i] == null){
-                AddItemToSlot(item,1,i);
+                AddItemToSlot(item,number,i);
                 return true;
             }
         }

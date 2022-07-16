@@ -59,6 +59,8 @@
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\ItemAttribute.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickUpSlot.cs" />
+     <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickupManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
