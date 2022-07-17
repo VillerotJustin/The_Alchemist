@@ -71,3 +71,6 @@ MonoBehaviour:
       attributeValue: 40
       attributeDuration: -1
   _prefabInWorldItem: {fileID: 219784961339742416, guid: befe42bf272035644ad8419ca3807cbb, type: 3}
+  _movingCharacters:
+    movingCharacters: []
+    charactersSpeed: 2

@@ -11799,6 +11799,7 @@ GameObject:
   - component: {fileID: 1521493551}
   - component: {fileID: 1521493550}
   - component: {fileID: 1521493552}
+  - component: {fileID: 1521493553}
   m_Layer: 0
   m_Name: World
   m_TagString: Untagged
@@ -11846,6 +11847,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1412075858}
+--- !u!114 &1521493553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521493549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d700ba80b5c2eb40adf64705f271c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabNPC: {fileID: 7402584382785549531, guid: 10af3a2566e123d46b500a01566ae27a, type: 3}
 --- !u!1 &1570632660
 GameObject:
   m_ObjectHideFlags: 0
@@ -26049,6 +26063,14 @@ PrefabInstance:
     - target: {fileID: 870615337694483711, guid: f91aeb0d22cd1be44b15e25d025096c4, type: 3}
       propertyPath: dayNightCycle.hourTimeInSeconds
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 870615337694483711, guid: f91aeb0d22cd1be44b15e25d025096c4, type: 3}
+      propertyPath: _movingCharacters.movingCharacters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 870615337694483711, guid: f91aeb0d22cd1be44b15e25d025096c4, type: 3}
+      propertyPath: _movingCharacters.movingCharacters.Array.data[0]._charName
+      value: TESTMAN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f91aeb0d22cd1be44b15e25d025096c4, type: 3}

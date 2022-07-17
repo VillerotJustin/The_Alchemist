@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player\PlayerInventoryController.cs" />
      <Compile Include="Assets\Scripts\Utils\SortSpriteOrderInScene.cs" />
+     <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickupManager.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemSlot\InventoryGUI_ItemSlot.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\World\Weather.cs" />
@@ -50,6 +51,7 @@
      <Compile Include="Assets\Scripts\GUI\Inventory\InventorySelection_Helper.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemSlot\UI_ItemSlot.cs" />
      <Compile Include="Assets\Scripts\World\AmbientLightAdapter.cs" />
+     <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickUpSlot.cs" />
      <Compile Include="Assets\Scripts\World\InteractableObject.cs" />
      <Compile Include="Assets\Scripts\Manager\DayNightCycle.cs" />
      <Compile Include="Assets\Scripts\World\NightLight.cs" />
@@ -59,8 +61,11 @@
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\ItemAttribute.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickUpSlot.cs" />
-     <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickupManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\MovingCharactersManager.cs" />
+     <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\MovingCharacter.cs" />
+     <Compile Include="Assets\Scripts\NPC\InWorldMovingNPC.cs" />
+     <Compile Include="Assets\Scripts\NPC\InWorldMovingCharacterCreator.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -77,6 +82,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Resources\CharactersPaths\TESTMAN\0.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
