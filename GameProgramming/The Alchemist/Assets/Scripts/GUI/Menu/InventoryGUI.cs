@@ -3,54 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InventoryGUI : MonoBehaviour
+public class InventoryGUI : MenuGUITab
 {
-    [SerializeField] private GameObject inventoryRoot;
-
-    [SerializeField] private Transform prefabsRoot;
     [SerializeField] private GameObject prefabItemGUI;
 
-    private bool inventoryOpened;
 
     private Item itemMoving;
     private int numberItemsMoving;
 
     [SerializeField] private InventorySelection_Helper helper;
 
-    void Start(){
-        inventoryOpened = false;
-        inventoryRoot.SetActive(false);
-    }
 
+    public override void OnOpen(){
+        base.OnOpen();
 
-    void Update(){
-        if(Input.GetKeyDown(KeyCode.Tab)){
-            inventoryOpened = !inventoryOpened;
-            if(inventoryOpened) InitializeInventory();
-            else CloseInventory();
-        }
-    }
-
-    private void InitializeInventory(){
-        Time.timeScale = 0;
-        inventoryRoot.SetActive(true);
-        PlayerHotBarUI.instance.SetHotBarActive(false);
-        foreach(Transform child in prefabsRoot){
+        foreach(Transform child in tabRoot.transform){
             Destroy(child.gameObject);
         }
 
         for(int i = 0;i < GameManager.player.bagSize;i++){
-            Instantiate(prefabItemGUI,prefabsRoot).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
+            Instantiate(prefabItemGUI,tabRoot.transform).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
         }
     }
 
-    public void CloseInventory(){
-        if(itemMoving != null) return;
-        Time.timeScale = 1;
-        inventoryRoot.SetActive(false);
+    public override void OnClose(){
+        base.OnClose();
+
+        if(itemMoving != null) DropItem();
         InfoUI.instance.HideInfo();
-        PlayerHotBarUI.instance.SetHotBarActive(true);
-        foreach(Transform child in prefabsRoot){
+
+        foreach(Transform child in tabRoot.transform){
             Destroy(child.gameObject);
         }
     }
@@ -124,7 +106,7 @@ public class InventoryGUI : MonoBehaviour
 
     void RefreshInventory(){
         for(int i = 0;i < GameManager.player.bagSize;i++){
-            prefabsRoot.GetChild(i).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
+            tabRoot.transform.GetChild(i).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
         }
     }
 
