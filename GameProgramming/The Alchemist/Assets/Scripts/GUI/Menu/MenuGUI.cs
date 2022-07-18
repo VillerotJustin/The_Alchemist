@@ -22,6 +22,7 @@ public class MenuGUI : MonoBehaviour
         foreach(MenuGUITab tab in tabs){
             tab.OnClose();
         }
+
     }
 
     void Update(){
@@ -35,14 +36,15 @@ public class MenuGUI : MonoBehaviour
     void OpenMenu(){
         root.SetActive(true);
         PlayerHotBarUI.instance.SetHotBarActive(false);
-        Time.timeScale = 0;
         tabs[currentTab].OnOpen();
+        Time.timeScale = 0;
+
     }
 
-    void CloseMenu(){        
+    void CloseMenu(){      
+        Time.timeScale = 1;
         root.SetActive(false);
         PlayerHotBarUI.instance.SetHotBarActive(true);
-        Time.timeScale = 1;
         tabs[currentTab].OnClose();
     }
 

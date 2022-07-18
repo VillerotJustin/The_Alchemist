@@ -7,7 +7,6 @@ public class InventoryGUI : MenuGUITab
 {
     [SerializeField] private GameObject prefabItemGUI;
 
-
     private Item itemMoving;
     private int numberItemsMoving;
 
@@ -16,6 +15,7 @@ public class InventoryGUI : MenuGUITab
 
     public override void OnOpen(){
         base.OnOpen();
+
 
         foreach(Transform child in tabRoot.transform){
             Destroy(child.gameObject);
@@ -28,7 +28,7 @@ public class InventoryGUI : MenuGUITab
 
     public override void OnClose(){
         base.OnClose();
-
+        
         if(itemMoving != null) DropItem();
         InfoUI.instance.HideInfo();
 

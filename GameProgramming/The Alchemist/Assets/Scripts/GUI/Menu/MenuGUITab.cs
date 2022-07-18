@@ -14,7 +14,6 @@ public class MenuGUITab : MonoBehaviour
     }
 
     public virtual void OnOpen(){
-        print("hello");
         tabRoot.SetActive(true);
     }
 
