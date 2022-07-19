@@ -24,6 +24,7 @@ public class InventoryGUI : MenuGUITab
         for(int i = 0;i < GameManager.player.bagSize;i++){
             Instantiate(prefabItemGUI,tabRoot.transform).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
         }
+        
     }
 
     public override void OnClose(){
