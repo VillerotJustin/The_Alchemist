@@ -19,7 +19,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if(!GameManager.instance.playerCanMove) return;
+        if(!GameManager.instance.playerCanMove){
+            animator.SetFloat("Speed",0);
+            return;
+        };
         
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
