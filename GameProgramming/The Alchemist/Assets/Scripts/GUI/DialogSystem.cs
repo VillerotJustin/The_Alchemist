@@ -13,16 +13,28 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textName;
     [SerializeField] private TextMeshProUGUI textDialog;
 
+    [SerializeField] private GameObject[] buttons;
+
     private Coroutine coroutine;
 
     public bool skipDialog;
 
     public bool inDialog {get{return coroutine != null;}}
 
+    private int choice;
+
+    private string[] choiceNext;
+
+
+
+
     void Start()
     {
+        choiceNext = new string[3];
+        choice = -1;
         skipDialog = false;
         instance = this;    
+        HideDialog();
     }
 
     public void StartDialog(string fileName){
@@ -36,16 +48,20 @@ public class DialogSystem : MonoBehaviour
         root.SetActive(false);
     }
 
+
+    public void SetChoice(int choiceMade){
+        choice = choiceMade;
+    }
     IEnumerator ProcessingDialog(string fileName){
         List<string> fileContent = FileManager.ReadTextAsset(Resources.Load<TextAsset>("Dialogs/"+fileName));
 
         GameManager.instance.playerCanMove = false;
 
-        foreach(string line in fileContent){
-            string[] splited = line.Replace("\t","").Split("(");
+        for(int i = 0;i < fileContent.Count;i++){
+            string[] splited = fileContent[i].Replace("\t","").Split("(");
             skipDialog = false;
 
-            if(line.Length >= 2){
+            if(fileContent[i].Length >= 2){
                 splited[1] = splited[1].Split(")")[0];
             }
 
@@ -56,6 +72,10 @@ public class DialogSystem : MonoBehaviour
                     textDialog.text = infos[1];
                     textDialog.maxVisibleCharacters = 0;
                     root.SetActive(true);
+                    textDialog.gameObject.SetActive(true);
+                    foreach(GameObject button in buttons){
+                        button.SetActive(false);
+                    }
 
                     while(textDialog.maxVisibleCharacters < infos[1].Length){
                         textDialog.maxVisibleCharacters++;
@@ -81,6 +101,37 @@ public class DialogSystem : MonoBehaviour
                 case "HIDE":
                     HideDialog();
                     break;
+                case "SHOW":
+                    root.SetActive(true);
+                    break;
+                case "{":
+                    textDialog.gameObject.SetActive(false);
+                    foreach(GameObject button in buttons){
+                        button.SetActive(false);
+                    }
+
+                    int currentBox = 0;
+                    i++;
+                    while(currentBox <= 3 && i < fileContent.Count && fileContent[i] != "}"){
+                        string[] choice = fileContent[i].Replace("\t","").Split("(");
+                        if(choice[0] == "CHOICE" && choice.Length > 1){
+                            choice[1] = choice[1].Split(")")[0];
+                            string[] splitedLine = choice[1].Split(",");
+                            choiceNext[currentBox] = splitedLine[1];
+                            buttons[currentBox].SetActive(true);
+                            buttons[currentBox].GetComponentInChildren<TextMeshProUGUI>().text = splitedLine[0];
+                            currentBox++;
+                        }
+                        i++;
+                    }
+
+                    choice = -1;
+                    while(choice == -1){
+                        yield return new WaitForEndOfFrame();
+                    }
+
+                    StartDialog(choiceNext[choice]);
+                    yield break;
             }
 
             yield return new WaitForEndOfFrame();
