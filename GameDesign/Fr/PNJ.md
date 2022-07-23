@@ -9,7 +9,6 @@
 - Le Barman
 - L'assassin ( Viridiana Sóvári )
 - Le prêtre ( Le Croque Mort )
-- Le fermier
 - Les amoureux
 - Le gardien de la foret
 - Le gardien de la montagne
@@ -20,6 +19,4 @@
 
 # Liste des PNJ (inactif):   //comme dans pokemon il bouge pas et quand on leur parle ils dissent un truc aléatoire 
 -Les habitant du village 
--Les habitués du bar 
--
--
+-Les habitués du bar
