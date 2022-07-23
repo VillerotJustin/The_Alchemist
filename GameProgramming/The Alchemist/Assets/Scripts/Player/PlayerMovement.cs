@@ -13,10 +13,16 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 movement;
 
+    void Awake(){
+        Player.body = gameObject;
+    }
 
     void Update()
     {
-        if(!GameManager.instance.playerCanMove) return;
+        if(!GameManager.instance.playerCanMove){
+            animator.SetFloat("Speed",0);
+            return;
+        };
         
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");

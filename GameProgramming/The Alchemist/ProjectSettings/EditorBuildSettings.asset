@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/DEBUG AREAS/TEST_WEATHER.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/TitleScreen.unity
+    guid: cf0bbc849eee3a940ae0e6998fe4e9cd
+  - enabled: 1
+    path: Assets/Scenes/DEBUG AREAS/TEST_AREA.unity
+    guid: 8d3d0aa9fdad7e2409576bb5b1b217aa
   m_configObjects: {}

@@ -1,0 +1,24 @@
+HISTOIRE
+
+INTRODUCTION :
+
+Papi est vieux et faible, il nous demande si on veux bien accepter son héritage : sa boutique d'alchimie. 
+	-> Peux être montrer que c'est mieux que notre vie actuelle
+	-> Schéma simple de "vie de merde -> vie cool"
+	
+On peut accepter ou refuser son héritage.
+	-> GAMEOVER si on refuse (On part devenir un type déprimé -> relation avec le choix expliqué avant)
+	-> Si on accepte, on part dans la région de ??? (pk il y a pas de nom) et plus précisément dans le village de ??? (serieux)
+	
+On arrive alors dans la maison de papi, et magie ! Ce dernier est là pour nous tuteurer dans sa forme père noël fantôme.
+	-> Maison délabré pour servir de tuto aux interactions ? (Genre réparer le chaudron, le lit...)
+	-> Papi nous donne des quêtes ultra simple à faire (Récolter des ingrédients, faire une potion, planter des végétaux)
+	-> On peux aussi l'ignorer et aller dans le village, mais on peut pas avancer dans l'histoire.
+	
+
+LE DEBUT DU VRAI JEU	
+
+On finit le tout et le tuto prend fin. (enfin on nous prend plus par la main)
+	-> Le maire vient nous dire un truc du genre "cool, tu peux gagner de la thune maintenant !" ?
+	-> On débloque d'autres quêtes en parlant à des PNJs (faire des potions, capturer des animaux...)
+	-> On débloque des zones en faisant des quêtes spéciales. (Champ, Bois,...)

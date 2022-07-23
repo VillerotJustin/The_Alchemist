@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,7 +18,11 @@ public class GameManager : MonoBehaviour
             player = _player;
 
             playerCanMove = true;
+            _map = SceneManager.GetActiveScene().name;
+            
+            movingCharacters.InitializeAllMovingCharacters();
 
+            recipeManager.DEBUG_SHOWALLRECIPES();
             DEBUG_GIVEITEMS();
             DontDestroyOnLoad(gameObject);
         }else{
@@ -37,6 +42,18 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject _prefabInWorldItem;
     public static GameObject prefabInWorldItem {get{return GameManager.instance._prefabInWorldItem;}}
+
+
+    [SerializeField] private MovingCharactersManager _movingCharacters;
+
+    public static MovingCharactersManager movingCharacters {get{return GameManager.instance._movingCharacters;}}
+
+
+    [SerializeField] private RecipeManager _recipeManager;
+    public static RecipeManager recipeManager {get{return GameManager.instance._recipeManager;}}
+
+    private string _map;
+    public static string map {get{return GameManager.instance._map;}}
 
 
     public Item GetItemFromName(string name){
