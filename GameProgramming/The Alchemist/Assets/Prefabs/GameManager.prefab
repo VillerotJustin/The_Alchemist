@@ -74,3 +74,5 @@ MonoBehaviour:
   _movingCharacters:
     movingCharacters: []
     charactersSpeed: 2
+  _recipeManager:
+    recipes: []
