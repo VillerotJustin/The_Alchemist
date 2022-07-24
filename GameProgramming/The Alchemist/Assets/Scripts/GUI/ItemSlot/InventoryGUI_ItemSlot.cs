@@ -9,15 +9,15 @@ public class InventoryGUI_ItemSlot : UI_ItemSlot
 {
     
 
-    [SerializeField] private EventTrigger eventTrigger;
+    [SerializeField] protected EventTrigger eventTrigger;
 
-    [SerializeField] private float maxTimeToWait = 1;
+    [SerializeField] protected float maxTimeToWait = 1;
 
-    private float currentTimeToWait;
+    protected float currentTimeToWait;
 
-    private bool canWaitToShow = false;
+    protected bool canWaitToShow = false;
 
-    private InventoryGUI inv;
+    protected InventoryGUI inv;
 
     void Update(){
         if(canWaitToShow){
@@ -49,11 +49,11 @@ public class InventoryGUI_ItemSlot : UI_ItemSlot
         InfoUI.instance.HideInfo();
     }
 
-    public void OnLeftClick(){
+    public virtual void OnLeftClick(){
         inv.TakeItem(slot);
     }
 
-    public void OnRightClick(){
+    public virtual void OnRightClick(){
         inv.PlaceItem(slot);
     }
 

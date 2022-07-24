@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class InventoryGUI : MenuGUITab
 {
-    [SerializeField] private GameObject prefabItemGUI;
+    [SerializeField] protected GameObject prefabItemGUI;
 
-    private Item itemMoving;
-    private int numberItemsMoving;
+    protected Item itemMoving;
+    protected int numberItemsMoving;
 
-    [SerializeField] private InventorySelection_Helper helper;
+    [SerializeField] protected InventorySelection_Helper helper;
 
 
     public override void OnOpen(){
@@ -38,7 +38,7 @@ public class InventoryGUI : MenuGUITab
         }
     }
 
-    public void DropItem(){
+    public virtual void DropItem(){
         if(itemMoving == null || numberItemsMoving == 0) return;
 
         InWorldItem item = Instantiate(GameManager.prefabInWorldItem,Player.body.transform.position,new Quaternion()).GetComponent<InWorldItem>();
@@ -49,7 +49,7 @@ public class InventoryGUI : MenuGUITab
         helper.Refresh(itemMoving,numberItemsMoving);
     }
 
-    public void TakeItem(int slot){
+    public virtual void TakeItem(int slot){
         bool takeAll = Input.GetKey(KeyCode.LeftShift);
         Player player = GameManager.player;
         if(itemMoving == null){
@@ -85,16 +85,17 @@ public class InventoryGUI : MenuGUITab
         PlayerHotBarUI.instance.RefreshHotBar();
     }
 
-    public void PlaceItem(int slot){
+    public virtual void PlaceItem(int slot){
         if(itemMoving == null) return;
+        bool takeAll = Input.GetKey(KeyCode.LeftShift);
 
         Player player = GameManager.player;
 
         if(player.IsItemInSlotSameAs(slot,itemMoving) ||
             player.GetItemFromSlot(slot) == null){
 
-            player.AddItemToSlot(itemMoving,1,slot);
-            numberItemsMoving--;
+            player.AddItemToSlot(itemMoving,takeAll ? numberItemsMoving : 1,slot);
+            numberItemsMoving-= takeAll ? numberItemsMoving : 1;
             if(numberItemsMoving == 0){
                 itemMoving = null;
             }
@@ -105,7 +106,7 @@ public class InventoryGUI : MenuGUITab
         PlayerHotBarUI.instance.RefreshHotBar();
     }
 
-    void RefreshInventory(){
+    protected void RefreshInventory(){
         for(int i = 0;i < GameManager.player.bagSize;i++){
             tabRoot.transform.GetChild(i).GetComponent<InventoryGUI_ItemSlot>().Init(i,this);
         }
