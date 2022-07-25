@@ -60,7 +60,8 @@ public class CraftingSlot : InventoryGUI_ItemSlot
 
 
     public bool IsItemSameAs(Item itemRef){
-        if(item == null) return false;
+        if(item == null && itemRef == null) return true;
+        if(item == null || itemRef == null) return false;
         return itemRef.internalName.Equals(item.internalName);
     }
 

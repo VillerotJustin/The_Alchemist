@@ -5,29 +5,37 @@ using UnityEngine.UI;
 
 public class CraftingUI : InventoryGUI
 {
+
+    public static CraftingUI instance;
+
+
     [SerializeField] private GameObject root;
 
     [SerializeField] private CraftingSlot slot1;
     [SerializeField] private CraftingSlot slot2;
 
+    [SerializeField] private CraftingSlot resultSlot;
+
     [SerializeField] private Image waterSprite;
     [SerializeField] private Color defaultWaterColor;
 
-    private bool craftingMenuOpened;
 
-    void Update(){
-        if(Input.GetKeyDown(KeyCode.Tab)){
-            craftingMenuOpened = !craftingMenuOpened;
-            if(craftingMenuOpened) OpenHUD();
-            else CloseHUD();
-        }
-    }
+    private bool recipesOpened;
+
+
+    [SerializeField] private RectTransform recipesRoot;
+    [SerializeField] private GameObject recipePrefab;
+    [SerializeField] private GameObject recipeRootParent;
 
     public new void Start(){
-        craftingMenuOpened = false;
+        recipesOpened = false;
+        recipeRootParent.SetActive(false);
+        instance = this;
         CloseHUD();
         slot1.RefreshSlot();
         slot2.RefreshSlot();
+        resultSlot.RefreshSlot();
+        resultSlot.gameObject.SetActive(false);
     }
 
     public void OpenHUD(){
@@ -42,9 +50,60 @@ public class CraftingUI : InventoryGUI
         root.SetActive(false);
     }
 
+    public void SwitchRecipes(){
+        recipesOpened = !recipesOpened;
+        if(recipesOpened) OpenRecipes();
+        else CloseRecipes();
+    }
+
+    public void OpenRecipes(){
+        recipeRootParent.SetActive(true);
+        List<Recipe> recipes = GameManager.recipeManager.GetAllRecipeInMachine(Recipe.Machines.ALL);
+        foreach(Recipe recipe in recipes){
+            Instantiate(recipePrefab,recipesRoot).GetComponent<RecipeGUI_Recipe>().RefreshRecipe(recipe);
+        }
+        recipesRoot.sizeDelta = new Vector2(recipesRoot.sizeDelta.x,recipePrefab.GetComponent<RectTransform>().sizeDelta.y * recipes.Count);
+    }
+
+    public void CloseRecipes(){
+        recipeRootParent.SetActive(false);
+        foreach(Transform child in recipesRoot.transform){
+            Destroy(child.gameObject);
+        }
+    }
+
 
     public void CraftItem(){
 
+        if(resultSlot.GetItem() != null) return;
+
+        Item item1;
+        Item item2;
+        foreach(Recipe recipe in GameManager.recipeManager.GetAllRecipeInMachine(Recipe.Machines.ALL)){
+            item1 = GameManager.instance.GetItemFromName(recipe.item1Name);
+            item2 = GameManager.instance.GetItemFromName(recipe.item2Name);
+            if((Item1CorrespondsTo(item1,recipe.item1Count) && Item2CorrespondsTo(item2,recipe.item2Count)) || 
+            (Item2CorrespondsTo(item1,recipe.item1Count) && Item1CorrespondsTo(item2,recipe.item2Count)) ){
+                resultSlot.gameObject.SetActive(true);
+                resultSlot.AddItem(GameManager.instance.GetItemFromName(recipe.resultName),recipe.resultCount);
+                slot1.ResetSlot();
+                slot2.ResetSlot();
+                return;
+            }
+        }
+    }
+
+
+    bool Item1CorrespondsTo(Item item,int number){
+        if(!slot1.IsItemSameAs(item)) return false;
+        if(item == null) return true;
+        return number == slot1.GetNbItems();
+    }
+
+    bool Item2CorrespondsTo(Item item,int number){
+        if(!slot2.IsItemSameAs(item)) return false;
+        if(item == null) return true;
+        return number == slot2.GetNbItems();
     }
 
     public void TakeItemFromCraftingSlot(CraftingSlot slot){
@@ -58,6 +117,9 @@ public class CraftingUI : InventoryGUI
                     slot.DecrementSlot();
                     numberItemsMoving++;
                 }
+                if(slot == resultSlot){
+                    slot.gameObject.SetActive(false);
+                }
             }
         }else{
             if(slot.IsItemSameAs(itemMoving)){
@@ -65,6 +127,9 @@ public class CraftingUI : InventoryGUI
                 for(int i = 0;i< (takeAll ? maxLoop : 1 ) ;i++){
                     slot.DecrementSlot();
                     numberItemsMoving++;
+                }
+                if(slot == resultSlot){
+                    slot.gameObject.SetActive(false);
                 }
             }else{
                 Item inSlot = slot.GetItem();

@@ -83,6 +83,7 @@
      <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
      <Compile Include="Assets\Scripts\Utils\GameCursor.cs" />
+     <Compile Include="Assets\Scripts\World\InteractableObject\CraftingTable.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Dialogs\testDialog.txt" />
