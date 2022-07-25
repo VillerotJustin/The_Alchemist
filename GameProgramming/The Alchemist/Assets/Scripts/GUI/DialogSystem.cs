@@ -26,8 +26,6 @@ public class DialogSystem : MonoBehaviour
     private string[] choiceNext;
 
 
-
-
     void Start()
     {
         choiceNext = new string[3];
@@ -52,6 +50,12 @@ public class DialogSystem : MonoBehaviour
     public void SetChoice(int choiceMade){
         choice = choiceMade;
     }
+
+    public void SkipCurrentDialog(){
+        skipDialog = true;
+    }
+
+
     IEnumerator ProcessingDialog(string fileName){
         List<string> fileContent = FileManager.ReadTextAsset(Resources.Load<TextAsset>("Dialogs/"+fileName));
 

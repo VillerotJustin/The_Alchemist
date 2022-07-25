@@ -20,20 +20,14 @@ public class Bush : InteractableObject
     [SerializeField] private Collider2D spriteCollider;
 
 
-    protected new void Start(){
-        base.Start();
-        canInteract = true;
-    }
 
-    protected new void Update(){
-        if(!canWait || !canInteract) return;
-
-        if(Input.GetKeyDown(KeyCode.E)){
+    protected override void InteractionEvent()
+    {
             InWorldItem obj = Instantiate(GameManager.prefabInWorldItem,transform.position,new Quaternion()).GetComponent<InWorldItem>();
             obj.Init(spriteCollider,GameManager.instance.GetItemFromName(itemDropName),1);
 
             DisableObject();
             bushRenderer.sprite = bushEmpty;
-        }
+            RefreshCursor();
     }
 }

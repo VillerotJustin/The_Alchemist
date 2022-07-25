@@ -4,42 +4,73 @@ using UnityEngine;
 
 public class InteractableObject : MonoBehaviour
 {
+    [SerializeField] protected string cursorName;
 
-    [SerializeField] protected GameObject interactionBuble;
-
-    protected bool canWait;
     
     protected bool canInteract;
 
+    protected bool mouseIn;
+
+    protected bool playerInZone;
+
     protected void Start(){
-        canWait = false;
         canInteract = true;
-        interactionBuble.SetActive(false);
+        playerInZone = false;
+        mouseIn = false;
     }
+
+
+    protected void RefreshCursor(){
+        if(mouseIn && playerInZone){
+            GameCursor.ChangeCursor(cursorName);
+        }else{
+            GameCursor.ChangeCursor("defaultCursor");
+        }
+    }
+
 
     protected void OnTriggerEnter2D(Collider2D col){
-        if(!canInteract) return;
-        canWait = true;
-        interactionBuble.SetActive(true);
+        if(!canInteract  || col.tag != "Player") return;
+        playerInZone = true;
+        RefreshCursor();
     }
 
+
     protected void OnTriggerExit2D(Collider2D col){
-        canWait = false;
-        interactionBuble.SetActive(false);
+        if(col.tag != "Player") return;
+        playerInZone = false;
+        RefreshCursor();
+    }
+
+    protected void OnMouseEnter(){
+        if(!canInteract) return;
+        mouseIn = true;
+        RefreshCursor();
+    }
+
+    protected void OnMouseExit(){
+        mouseIn = false;        
+        RefreshCursor();
     }
 
     protected void Update(){
-        if(!canWait || !canInteract) return;
+        if(!playerInZone || !mouseIn || !canInteract) return;
 
-        if(Input.GetKeyDown(KeyCode.E)){
-            print("Object "+name+" triggered");
+        if(Input.GetMouseButtonDown(0)){
+            InteractionEvent();
         }
     }
 
     protected void DisableObject(){
         canInteract = false;
-        canWait = false;
-        interactionBuble.SetActive(false);
+        mouseIn = false;
+        playerInZone = false;
+        GameCursor.ChangeCursor("defaultCursor");
+    }
+
+
+    protected virtual void InteractionEvent(){
+        print("Object "+name+" triggered");
     }
 
 }
