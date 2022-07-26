@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CraftingSlot : InventoryGUI_ItemSlot
 {
-    [SerializeField] private CraftingUI crafting;
+    [SerializeField] private CraftingBagUI crafting;
     private int nbItemsInSlot = 0;
     public override void OnLeftClick()
     {
@@ -47,7 +47,7 @@ public class CraftingSlot : InventoryGUI_ItemSlot
         return nbItemsInSlot;
     }
 
-    public void RefreshSlot(){
+    public override void RefreshSlot(){
         if(item == null){
             itemSprite.color = new Color(0,0,0,0);
             nbItems.text = "";

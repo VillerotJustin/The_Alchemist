@@ -34,6 +34,7 @@ public class MenuGUI : MonoBehaviour
     }
 
     void OpenMenu(){
+        GameCursor.ChangeCursor("defaultCursor");
         root.SetActive(true);
         PlayerHotBarUI.instance.SetHotBarActive(false);
         tabs[currentTab].OnOpen();

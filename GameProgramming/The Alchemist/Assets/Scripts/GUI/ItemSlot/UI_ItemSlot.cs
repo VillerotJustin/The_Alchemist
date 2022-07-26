@@ -16,7 +16,10 @@ public class UI_ItemSlot : MonoBehaviour
 
     public void Init(int newSlot){
         slot = newSlot;
+        RefreshSlot();
+    }
 
+    public virtual void RefreshSlot(){
         item = GameManager.player.GetItemFromSlot(slot);
         if(item == null){
             itemSprite.color = new Color(0,0,0,0);
@@ -26,6 +29,5 @@ public class UI_ItemSlot : MonoBehaviour
             itemSprite.sprite = item.GetItemSprite();
             nbItems.text = "x"+GameManager.player.GetNbItemsInSlot(slot).ToString();
         }
-
     }
 }

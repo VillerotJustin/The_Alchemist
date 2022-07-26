@@ -17,7 +17,7 @@ public class InventoryGUI_ItemSlot : UI_ItemSlot
 
     protected bool canWaitToShow = false;
 
-    protected InventoryGUI inv;
+    protected PlayerBagGUI inv;
 
     void Update(){
         if(canWaitToShow){
@@ -31,7 +31,7 @@ public class InventoryGUI_ItemSlot : UI_ItemSlot
         }
     }
 
-    public void Init(int newSlot,InventoryGUI inventory){
+    public void Init(int newSlot,PlayerBagGUI inventory){
         inv = inventory;
         currentTimeToWait = maxTimeToWait;
 

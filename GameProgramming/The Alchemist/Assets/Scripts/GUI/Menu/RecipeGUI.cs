@@ -4,23 +4,16 @@ using UnityEngine;
 
 public class RecipeGUI : MenuGUITab
 {
-    [SerializeField] private RectTransform recipesRoot;
-    [SerializeField] private GameObject recipePrefab;
+    [SerializeField] private RecipesBookUI book;
 
     public override void OnClose(){
         base.OnClose();
-        foreach(Transform child in recipesRoot.transform){
-            Destroy(child.gameObject);
-        }
+        book.CloseBook();
     }
 
 
     public override void OnOpen(){
         base.OnOpen();
-        List<Recipe> recipes = GameManager.recipeManager.GetAllRecipeInMachine(Recipe.Machines.ALL);
-        foreach(Recipe recipe in recipes){
-            Instantiate(recipePrefab,recipesRoot).GetComponent<RecipeGUI_Recipe>().RefreshRecipe(recipe);
-        }
-        recipesRoot.sizeDelta = new Vector2(recipesRoot.sizeDelta.x,recipePrefab.GetComponent<RectTransform>().sizeDelta.y * recipes.Count);
+        book.OpenBook();
     }
 }

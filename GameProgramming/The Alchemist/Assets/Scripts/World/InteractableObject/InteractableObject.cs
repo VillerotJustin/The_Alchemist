@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.EventSystems;
 public class InteractableObject : MonoBehaviour
 {
     [SerializeField] protected string cursorName;
@@ -30,7 +30,7 @@ public class InteractableObject : MonoBehaviour
 
 
     protected void OnTriggerEnter2D(Collider2D col){
-        if(!canInteract  || col.tag != "Player") return;
+        if(!canInteract  || col.tag != "Player" ) return;
         playerInZone = true;
         RefreshCursor();
     }
@@ -43,7 +43,7 @@ public class InteractableObject : MonoBehaviour
     }
 
     protected void OnMouseEnter(){
-        if(!canInteract) return;
+        if(!canInteract || EventSystem.current.IsPointerOverGameObject()) return;
         mouseIn = true;
         RefreshCursor();
     }
