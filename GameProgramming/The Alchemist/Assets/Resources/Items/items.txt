@@ -1,0 +1,15 @@
+[HEALING_POTION]
+Type = POTION
+Name = Potion de soins
+Description = Une potion de soin qui rend 30 PV.
+Price = 100
+Attributes = HEALING,30
+
+#-----------------
+
+[WINE]
+Type = POTION
+Name = Vin
+Description = Du pipi de vache en bouteille.
+Price = 150
+Attributes = HEALING,40

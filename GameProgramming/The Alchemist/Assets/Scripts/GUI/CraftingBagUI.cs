@@ -98,12 +98,12 @@ public class CraftingBagUI : PlayerBagGUI
         Item item1;
         Item item2;
         foreach(Recipe recipe in GameManager.recipeManager.GetAllRecipeInMachine(Recipe.Machines.ALL)){
-            item1 = GameManager.instance.GetItemFromName(recipe.item1Name);
-            item2 = GameManager.instance.GetItemFromName(recipe.item2Name);
+            item1 = GameManager.instance.GetItem(recipe.item1Name);
+            item2 = GameManager.instance.GetItem(recipe.item2Name);
             if((Item1CorrespondsTo(item1,recipe.item1Count) && Item2CorrespondsTo(item2,recipe.item2Count)) || 
             (Item2CorrespondsTo(item1,recipe.item1Count) && Item1CorrespondsTo(item2,recipe.item2Count)) ){
                 resultSlot.gameObject.SetActive(true);
-                resultSlot.AddItem(GameManager.instance.GetItemFromName(recipe.resultName),recipe.resultCount);
+                resultSlot.AddItem(GameManager.instance.GetItem(recipe.resultName),recipe.resultCount);
                 slot1.ResetSlot();
                 slot2.ResetSlot();
                 return;

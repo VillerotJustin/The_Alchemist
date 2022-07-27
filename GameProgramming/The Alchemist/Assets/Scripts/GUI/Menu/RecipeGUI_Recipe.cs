@@ -15,18 +15,18 @@ public class RecipeGUI_Recipe : MonoBehaviour
     [SerializeField] private TextMeshProUGUI resultNumber;
 
     public void RefreshRecipe(Recipe recipe){
-        Item item = GameManager.instance.GetItemFromName(recipe.item1Name);
+        Item item = GameManager.instance.GetItem(recipe.item1Name);
         item1Sprite.sprite = item.GetItemSprite();
         item1Number.text = "x"+recipe.item1Count;
 
         item2Root.SetActive(recipe.item2Name != "");
         if(recipe.item2Name != ""){
-            item = GameManager.instance.GetItemFromName(recipe.item2Name);
+            item = GameManager.instance.GetItem(recipe.item2Name);
             item2Sprite.sprite = item.GetItemSprite();
             item2Number.text = "x"+recipe.item2Count;
         }
 
-        item = GameManager.instance.GetItemFromName(recipe.resultName);
+        item = GameManager.instance.GetItem(recipe.resultName);
         resultSprite.sprite = item.GetItemSprite();
         resultNumber.text = "x"+recipe.resultCount;
     }

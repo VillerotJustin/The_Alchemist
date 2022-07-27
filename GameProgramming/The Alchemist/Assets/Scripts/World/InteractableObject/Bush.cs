@@ -24,7 +24,7 @@ public class Bush : InteractableObject
     protected override void InteractionEvent()
     {
             InWorldItem obj = Instantiate(GameManager.prefabInWorldItem,transform.position,new Quaternion()).GetComponent<InWorldItem>();
-            obj.Init(spriteCollider,GameManager.instance.GetItemFromName(itemDropName),1);
+            obj.Init(spriteCollider,GameManager.instance.GetItem(itemDropName),1);
 
             DisableObject();
             bushRenderer.sprite = bushEmpty;

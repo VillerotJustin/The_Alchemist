@@ -8,5 +8,4 @@ public class ItemAttribute
     public string internalName;
     public string attributeName;
     public int attributeValue;
-    public float attributeDuration;
 }

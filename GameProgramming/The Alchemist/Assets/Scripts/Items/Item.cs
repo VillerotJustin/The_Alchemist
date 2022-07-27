@@ -20,12 +20,12 @@ public class Item
     public int sellPrice;
     public Type itemType;
 
-    public ItemAttribute[] itemAttributes;
+    public List<ItemAttribute> itemAttributes;
 
     public Sprite GetItemSprite(){
-        Sprite refSprite = Resources.Load<Sprite>("Items/"+internalName);
+        Sprite refSprite = Resources.Load<Sprite>("Items/Sprites/"+internalName);
         if(refSprite == null){
-            Debug.Log("L'image dans Resources/Items/"+internalName+" n'existe pas");
+            Debug.Log("L'image dans Resources/Items/Sprites/"+internalName+" n'existe pas");
             return null;
         }
 

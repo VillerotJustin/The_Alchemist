@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player\PlayerInventoryController.cs" />
+     <Compile Include="Assets\Scripts\GUI\PlayerBagGUI.cs" />
      <Compile Include="Assets\Scripts\Utils\SortSpriteOrderInScene.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickupManager.cs" />
      <Compile Include="Assets\Scripts\Crafting System\RecipeManager.cs" />
@@ -46,12 +47,14 @@
      <Compile Include="Assets\Scripts\GUI\PlayerInfo.cs" />
      <Compile Include="Assets\Scripts\World\Weather.cs" />
      <Compile Include="Assets\Scripts\GUI\Crafting Menu\CraftingSlot.cs" />
+     <Compile Include="Assets\Scripts\GUI\CraftingBagUI.cs" />
      <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
      <Compile Include="Assets\Scripts\Manager\MovingCharacter.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\QuitGUI.cs" />
      <Compile Include="Assets\Scripts\TitleScreen\TitleScreenManager.cs" />
      <Compile Include="Assets\Scripts\Manager\MovingCharactersManager.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\InventoryGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\RecipesBookUI.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\RecipeGUI.cs" />
      <Compile Include="Assets\Scripts\World\InteractableObject\Bush.cs" />
      <Compile Include="Assets\Scripts\NPC\InWorldMovingNPC.cs" />
@@ -84,9 +87,6 @@
      <Compile Include="Assets\Scripts\GUI\Menu\MenuGUITab.cs" />
      <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\GUI\RecipesBookUI.cs" />
-     <Compile Include="Assets\Scripts\GUI\PlayerBagGUI.cs" />
-     <Compile Include="Assets\Scripts\GUI\CraftingBagUI.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Dialogs\testDialog.txt" />
@@ -107,6 +107,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Resources\CharactersPaths\TESTMAN\0.txt" />
+     <None Include="Assets\Resources\Items\items.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
