@@ -11,17 +11,26 @@ public class RecipesBookUI : MonoBehaviour
 
     public void CloseBook(){
         gameObject.SetActive(false);
-        foreach(Transform child in recipesRoot.transform){
-            Destroy(child.gameObject);
-        }
+        DeleteCurrentRecipes();
+    }
+
+    public void ChangeType(int newIndex){
+        OpenBook((Recipe.Machines)newIndex);
     }
 
     public void OpenBook(){
         OpenBook(lastMachine);
     }
 
+    void DeleteCurrentRecipes(){
+        foreach(Transform child in recipesRoot.transform){
+            Destroy(child.gameObject);
+        }
+    }
+
 
     public void OpenBook(Recipe.Machines machine){
+        DeleteCurrentRecipes();
         gameObject.SetActive(true);
         lastMachine = machine;
         List<Recipe> recipes = GameManager.recipeManager.GetAllRecipeInMachine(machine);
