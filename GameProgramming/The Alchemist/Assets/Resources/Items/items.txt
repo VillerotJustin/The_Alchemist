@@ -5,7 +5,7 @@ Description = Une potion de soin qui rend 30 PV.
 Price = 100
 Attributes = HEALING,30
 
-#-----------------
+#----------------------------------------------------
 
 [WINE]
 Type = POTION

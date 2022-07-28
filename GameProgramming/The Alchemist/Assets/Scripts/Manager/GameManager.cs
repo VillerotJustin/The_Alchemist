@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
         if(instance == null){
             instance = this;
             LoadItems();
+            _recipeManager = new RecipeManager();
+            _recipeManager.LoadRecipes();
 
             _player = new Player();
             player = _player;
@@ -68,28 +70,32 @@ public class GameManager : MonoBehaviour
         dayNightCycle.UpdateTime();
     }
 
-
     void LoadItems(){
         allItems = new Dictionary<string, Item>();
         List<string> fileContent = FileManager.ReadTextAsset(Resources.Load<TextAsset>("Items/items"));
         string line;
         string[] split;
         Item currentItem = null;
-        int howManyThingsSpecified = 0;
+
         for(int i = 0;i < fileContent.Count;i++){
             line = fileContent[i];
-            if(string.IsNullOrWhiteSpace(line) || line.StartsWith("#")) continue;
+            if(line.StartsWith("#")) continue;
 
-            if(line.StartsWith("[") && line.EndsWith("]")){
-                if(howManyThingsSpecified != 6 && currentItem != null){
-                    Debug.Log("Error on Item "+currentItem.internalName+". Informations are missing.");
-                }else{
-                    howManyThingsSpecified = 1;
+            if((line.StartsWith("[") && line.EndsWith("]") ) || string.IsNullOrWhiteSpace(line)){
+                if(currentItem != null){
+                    if(!allItems.TryAdd(currentItem.internalName,currentItem)){
+                        Debug.Log("Error on Item "+currentItem.internalName+". Item name already exists.");
+                    }
+                    currentItem = null;
+                }
+
+                if(!string.IsNullOrWhiteSpace(line)){
                     currentItem = new Item();
                     currentItem.internalName = line.Substring(1,line.Length-2);
                 }
                 continue;
             }
+            
 
             split = line.Split(" = ");
 
@@ -108,22 +114,17 @@ public class GameManager : MonoBehaviour
             switch(split[0]){
                 case "Name":
                     currentItem.itemName = split[1];
-                    howManyThingsSpecified++;
                     break;
                 case "Description":
                     currentItem.itemDescription = split[1];
-                    howManyThingsSpecified++;
                     break;
                 case "Price":
                     currentItem.sellPrice = int.Parse(split[1]);
-                    howManyThingsSpecified++;
                     break;
                 case "Type":
                     currentItem.itemType = Enum.Parse<Item.Type>(split[1]);
-                    howManyThingsSpecified++;
                     break;
                 case "Attributes":
-                    currentItem.itemAttributes = new List<ItemAttribute>();
                     string[] splittedAttributes = split[1].Split(",");
                     int j = 0;
                     ItemAttribute attr;
@@ -138,18 +139,14 @@ public class GameManager : MonoBehaviour
                         currentItem.itemAttributes.Add(attr);
                         j++;
                     } 
-                    howManyThingsSpecified++;
                     break;
             }
-
-            if(howManyThingsSpecified == 6){
-                if(!allItems.TryAdd(currentItem.internalName,currentItem)){
-                    Debug.Log("Error on Item "+currentItem.internalName+". Item name already exists.");
-                }
-                currentItem = null;
-                howManyThingsSpecified = 0;
+        }
+        if(currentItem != null){
+            if(!allItems.TryAdd(currentItem.internalName,currentItem)){
+                Debug.Log("Error on Item "+currentItem.internalName+". Item name already exists.");
             }
-
+            currentItem = null;
         }
     }
     

@@ -40,7 +40,7 @@ public class CraftingBagUI : PlayerBagGUI
                     slot.DecrementSlot();
                     numberItemsMoving++;
                 }
-                if(slot == resultSlot){
+                if(slot == resultSlot  && slot.GetNbItems() == 0){
                     slot.gameObject.SetActive(false);
                 }
             }
@@ -51,7 +51,7 @@ public class CraftingBagUI : PlayerBagGUI
                     slot.DecrementSlot();
                     numberItemsMoving++;
                 }
-                if(slot == resultSlot){
+                if(slot == resultSlot && slot.GetNbItems() == 0){
                     slot.gameObject.SetActive(false);
                 }
             }else{

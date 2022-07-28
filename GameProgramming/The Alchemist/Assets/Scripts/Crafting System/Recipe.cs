@@ -16,10 +16,22 @@ public class Recipe
 
     public bool discovered = false;
     
-    public Machines machine = Machines.TEST;
+    public Machines machine = Machines.CAULDRON;
 
     public enum Machines{
         ALL,
-        TEST
+        CAULDRON
+    }
+
+
+    public Recipe(){
+        item1Name = "";
+        item1Count = 0;
+        item2Count = 0;
+        item2Name = "";
+        resultCount = 0;
+        resultName = "";
+        discovered = false;
+        machine = Machines.CAULDRON;
     }
 }

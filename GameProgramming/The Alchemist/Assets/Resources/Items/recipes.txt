@@ -1,0 +1,17 @@
+[RECIPE]
+Item1 = HEALING_POTION
+Item1Count = 1
+Result = HEALING_POTION
+ResultCount = 1
+Machine = CAULDRON
+
+#--------------------------
+
+[RECIPE]
+Item1 = HEALING_POTION
+Item1Count = 2
+Item2 = WINE
+Item2Count = 1
+Result = WINE
+ResultCount = 2
+Machine = CAULDRON

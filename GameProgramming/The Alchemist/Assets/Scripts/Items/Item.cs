@@ -22,6 +22,15 @@ public class Item
 
     public List<ItemAttribute> itemAttributes;
 
+    public Item(){
+        itemAttributes = new List<ItemAttribute>();
+        sellPrice = 0;
+        internalName = "NO_NAME";
+        itemName = "NO_NAME";
+        itemDescription = "Cet objet n'a pas de description.";
+        itemType = Type.POTION;
+    }
+
     public Sprite GetItemSprite(){
         Sprite refSprite = Resources.Load<Sprite>("Items/Sprites/"+internalName);
         if(refSprite == null){
