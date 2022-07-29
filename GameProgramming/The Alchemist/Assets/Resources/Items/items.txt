@@ -1,15 +1,175 @@
-[HEALING_POTION]
-Type = POTION
-Name = Potion de soins
-Description = Une potion de soin qui rend 30 PV.
-Price = 100
-Attributes = HEALING,30
-
 #----------------------------------------------------
+#====================Quest potions===================
+#----------------------------------------------------
+
+
 
 [WINE]
 Type = POTION
 Name = Vin
-Description = Du pipi de vache en bouteille.
+Description = Une bouteille de vin de mauvaise qualitée, peut aussi servir de bébouche toilette.
+Price = 30
+Attributes = HEALING,-10
+
+#----------------------------------------------------
+
+[COMPETITION_WINE]
+Type = POTION
+Name = Vin
+Description = Un vin de qualité digne des meilleurs cépages.
+Price = 300
+Attributes = HEALING,50
+
+
+
+#====================================================
+#======================Potions=======================
+#====================================================
+
+
+#----------------------Healing-----------------------
+
+[MINOR_HEALING_POTION]
+Type = POTION
+Name = Potion de soins mineure
+Description = Une potion de soin qui rend quelques PV.
+Price = 10
+Attributes = HEALING,25
+
+#----------------------------------------------------
+
+[HEALING_POTION]
+Type = POTION
+Name = Potion de soin
+Description = Une potion de soin qui rend des PV.
+Price = 50
+Attributes = HEALING,50
+
+#----------------------------------------------------
+
+[MAJOR_HEALING_POTION]
+Type = POTION
+Name = Potion de soin majeure
+Description = Une potion de soin qui rend beaucoup de PV.
+Price = 100
+Attributes = HEALING,75
+
+#----------------------------------------------------
+
+[LIFE_ELIXIR]
+Type = POTION
+Name = Elixir de vie
+Description = Un rare elixir qui rend tout les points de vie.
+Price = 500
+Attributes = HEALING,9999
+
+
+#-------------------Pulmon problems------------------
+
+[SORE_THROAT_POTION]
+Type = POTION
+Name = Potion contre les maux de gorge.
+Description = Une potion qui transforme les argh en ah.
+Price = 15
+Attributes = HEALING,0
+
+#----------------------------------------------------
+
+[COUGH_REMEDY]
+Type = POTION
+Name = Remède contre la toux
+Description = Un potion qui soulage votre gorge et fait disparaitre votre toux en un eclair.
+Price = 60
+Attributes = HEALING,0
+
+#----------------------------------------------------
+
+[BRONCHITIS_REMEDY]
+Type = POTION
+Name = Remède contre les bronchite
+Description = Un potion qui fais disparaitre toute ces vilaines maladie de vos poumons.
 Price = 150
-Attributes = HEALING,40
+Attributes = HEALING,0
+
+#----------------------------------------------------
+
+[LUNG_ELIXIR]
+Type = POTION
+Name = Remède contre les problèmes pulmonaire
+Description = Une potion qui peut transformer les poumons d'un vieux fumeur attaind d'un cancer en ceux d'un atlete de haut niveau. En revanche vous allez surement devoir vendre un rein pour l'acheter.
+Price = 650
+Attributes = HEALING,0
+
+
+#-----------------------Narcotic----------------------
+
+[SOOTHING]
+Type = POTION
+Name = Calmant
+Description = Déstresse et détend les muscles.
+Price = 50
+Attributes = NARCOTIC,5
+
+#----------------------------------------------------
+
+[PAINKILLER]
+Type = POTION
+Name = anti-douleur
+Description = Fait diparaitre la douleur, attention risque d'adiction.
+Price = 100
+Attributes = NARCOTIC,25
+
+#----------------------------------------------------
+
+[ANAESTHETIC]
+Type = POTION
+Name = Anesthésiant
+Description = Un anesthésiant de qualité.
+Price = 200
+Attributes = NARCOTIC,50
+
+#----------------------------------------------------
+
+[SUFENTANIL]
+Type = POTION
+Name = Sufentanil
+Description = Un puissant anesthésiant medical.
+Price = 600
+Attributes = NARCOTIC,100
+
+
+#-----------------------Coffee-----------------------
+
+[WAKE_UP_CALL]
+Type = POTION
+Name = Réveil matin
+Description = Rien de mieux de bon matin.
+Price = 15
+Attributes = ENERGY,10
+
+#----------------------------------------------------
+
+[ANTI-FATIGUE_DRINK]
+Type = POTION
+Name = Breuvage contre la fatigue
+Description = Permet de faire quelque heures de travail suplémentaire.
+Price = 60
+Attributes = ENERGY,20
+
+#----------------------------------------------------
+
+[COFFEE]
+Type = POTION
+Name = Café
+Description = Un anesthésiant de qualité.
+Price = 150
+Attributes = ENERGY,50
+
+#----------------------------------------------------
+
+[MAGIC_COFFEE]
+Type = POTION
+Name = Café magique
+Description = Un café tellement puissant que vous pouriez travaillez une semaine sans dormir.
+Price = 650
+Attributes = ENERGY,500
