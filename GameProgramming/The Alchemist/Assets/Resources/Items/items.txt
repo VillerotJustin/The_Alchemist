@@ -47,7 +47,7 @@ Attributes = HEALING,50
 
 #----------------------------------------------------
 
-[MAJOR_HEALING_POTION]
+[SUPERIOR_HEALING_POTION]
 Type = POTION
 Name = Potion de soin majeure
 Description = Une potion de soin qui rend beaucoup de PV.
