@@ -12,6 +12,7 @@ public class PlayerHotBarUI : MonoBehaviour
     private List<UI_ItemSlot> slots;
     [SerializeField] private GameObject slotsRoot;
     [SerializeField] private GameObject slotPrefab;
+
     void Start()
     {
         slots = new List<UI_ItemSlot>();
@@ -45,6 +46,11 @@ public class PlayerHotBarUI : MonoBehaviour
         for(int i = 0;i<GameManager.player.maxInHotBar;i++){
             slots[i].Init(i);
         }
+    }
+
+
+    public int GetCurrentSlot(){
+        return currentSlot;
     }
 
 }

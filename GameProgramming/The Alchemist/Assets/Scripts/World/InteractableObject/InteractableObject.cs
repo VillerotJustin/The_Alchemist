@@ -13,14 +13,14 @@ public class InteractableObject : MonoBehaviour
 
     protected bool playerInZone;
 
-    protected void Start(){
+    protected virtual void Start(){
         canInteract = true;
         playerInZone = false;
         mouseIn = false;
     }
 
 
-    protected void RefreshCursor(){
+    protected virtual void RefreshCursor(){
         if(mouseIn && playerInZone){
             GameCursor.ChangeCursor(cursorName);
         }else{
@@ -29,31 +29,31 @@ public class InteractableObject : MonoBehaviour
     }
 
 
-    protected void OnTriggerEnter2D(Collider2D col){
+    protected virtual void OnTriggerEnter2D(Collider2D col){
         if(!canInteract  || col.tag != "Player" ) return;
         playerInZone = true;
         RefreshCursor();
     }
 
 
-    protected void OnTriggerExit2D(Collider2D col){
+    protected virtual void OnTriggerExit2D(Collider2D col){
         if(col.tag != "Player") return;
         playerInZone = false;
         RefreshCursor();
     }
 
-    protected void OnMouseEnter(){
+    protected virtual void OnMouseEnter(){
         if(!canInteract || EventSystem.current.IsPointerOverGameObject()) return;
         mouseIn = true;
         RefreshCursor();
     }
 
-    protected void OnMouseExit(){
+    protected virtual void OnMouseExit(){
         mouseIn = false;        
         RefreshCursor();
     }
 
-    protected void Update(){
+    protected virtual void Update(){
         if(!playerInZone || !mouseIn || !canInteract) return;
 
         if(Input.GetMouseButtonDown(0)){

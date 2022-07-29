@@ -43,10 +43,12 @@
      <Compile Include="Assets\Scripts\Crafting System\RecipeManager.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemSlot\InventoryGUI_ItemSlot.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\World\InteractableObject\PlayerObject.cs" />
      <Compile Include="Assets\Scripts\GUI\DialogSystem.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerInfo.cs" />
      <Compile Include="Assets\Scripts\World\Weather.cs" />
      <Compile Include="Assets\Scripts\GUI\Crafting Menu\CraftingSlot.cs" />
+     <Compile Include="Assets\Scripts\World\PostProcessingManager.cs" />
      <Compile Include="Assets\Scripts\GUI\CraftingBagUI.cs" />
      <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
      <Compile Include="Assets\Scripts\Manager\MovingCharacter.cs" />
@@ -55,6 +57,7 @@
      <Compile Include="Assets\Scripts\Manager\MovingCharactersManager.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\InventoryGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\RecipesBookUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Crafting Menu\CraftingGfx.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\RecipeGUI.cs" />
      <Compile Include="Assets\Scripts\World\InteractableObject\Bush.cs" />
      <Compile Include="Assets\Scripts\NPC\InWorldMovingNPC.cs" />
@@ -87,7 +90,6 @@
      <Compile Include="Assets\Scripts\GUI\Menu\MenuGUITab.cs" />
      <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\GUI\Crafting Menu\CraftingGfx.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Dialogs\testDialog.txt" />
