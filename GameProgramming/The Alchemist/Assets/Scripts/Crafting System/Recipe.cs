@@ -20,7 +20,8 @@ public class Recipe
 
     public enum Machines{
         ALL,
-        CAULDRON
+        CAULDRON,
+        ALAMBIC
     }
 
 

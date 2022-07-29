@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class CraftingTable : InteractableObject
 {
-
+    [SerializeField] private Recipe.Machines machine;
 
     protected override void InteractionEvent()
     {
-        CraftingUI.instance.OpenHUD();
+        CraftingUI.instance.OpenHUD(machine);
     }
 }

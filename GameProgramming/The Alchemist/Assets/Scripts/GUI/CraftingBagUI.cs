@@ -11,9 +11,21 @@ public class CraftingBagUI : PlayerBagGUI
 
     [SerializeField] private CraftingSlot resultSlot;
 
+    [SerializeField] private CraftingGfx[] machinesGfx;
 
-    [SerializeField] private Image waterSprite;
-    [SerializeField] private Color defaultWaterColor;
+    private Recipe.Machines currentMachine;
+
+    public void OpenBag(Recipe.Machines machine){
+        base.OpenBag();
+        currentMachine = machine;
+        for(int i = 0;i < machinesGfx.Length;i++){
+            if(i == ((int)machine) - 1){
+                machinesGfx[i].ShowMachine();
+            }else{
+                machinesGfx[i].HideMachine();
+            }
+        }
+    }
 
     public bool Item1CorrespondsTo(Item item,int number){
         if(!slot1.IsItemSameAs(item)) return false;
@@ -97,7 +109,7 @@ public class CraftingBagUI : PlayerBagGUI
 
         Item item1;
         Item item2;
-        foreach(Recipe recipe in GameManager.recipeManager.GetAllRecipeInMachine(Recipe.Machines.ALL)){
+        foreach(Recipe recipe in GameManager.recipeManager.GetAllRecipeInMachine(currentMachine)){
             item1 = GameManager.instance.GetItem(recipe.item1Name);
             item2 = GameManager.instance.GetItem(recipe.item2Name);
             if((Item1CorrespondsTo(item1,recipe.item1Count) && Item2CorrespondsTo(item2,recipe.item2Count)) || 
@@ -113,22 +125,23 @@ public class CraftingBagUI : PlayerBagGUI
 
 
     void RefreshWaterColor(){
+        int correctIndex = ((int)currentMachine) - 1 ;
         if(slot1.GetItem() == null && slot2.GetItem() == null){
-            waterSprite.color = defaultWaterColor;
+            machinesGfx[correctIndex].ResetWaterColor();
         }else{
             Color col1 = slot1.GetAverageColorOfItem() * slot1.GetNbItems();
             Color col2 = slot2.GetAverageColorOfItem() * slot2.GetNbItems();
             int total = slot1.GetNbItems() + slot2.GetNbItems();
 
             if(col1.a == 0){
-                waterSprite.color = col2/slot2.GetNbItems();
+                machinesGfx[correctIndex].SetWaterColor(col2/slot2.GetNbItems());
             }else if(col2.a == 0){
-                waterSprite.color = col1/slot1.GetNbItems();
+                machinesGfx[correctIndex].SetWaterColor(col1/slot1.GetNbItems());
             }else{
-                waterSprite.color = new Color((col1.r+col2.r)/total,
+                machinesGfx[correctIndex].SetWaterColor(new Color((col1.r+col2.r)/total,
                 (col1.g+col2.g)/total,
                 (col1.b+col2.b)/total,
-                1);
+                1));
             }
             
 

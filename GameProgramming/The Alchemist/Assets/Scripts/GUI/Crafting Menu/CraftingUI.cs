@@ -17,6 +17,8 @@ public class CraftingUI : MonoBehaviour
 
     [SerializeField] private CraftingBagUI bag;
 
+    private Recipe.Machines currentMachine;
+
     public void Start(){
         recipesOpened = false;
         book.CloseBook();
@@ -25,8 +27,9 @@ public class CraftingUI : MonoBehaviour
         bag.Initialize();
     }
 
-    public void OpenHUD(){
-        bag.OpenBag();
+    public void OpenHUD(Recipe.Machines machine){
+        currentMachine = machine;
+        bag.OpenBag(machine);
         Time.timeScale = 0;
         root.SetActive(true);
     }
@@ -45,7 +48,7 @@ public class CraftingUI : MonoBehaviour
     }
 
     public void OpenRecipes(){
-        book.OpenBook();
+        book.OpenBook(currentMachine);
     }
 
     public void CloseRecipes(){

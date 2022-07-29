@@ -15,3 +15,12 @@ Item2Count = 1
 Result = WINE
 ResultCount = 2
 Machine = CAULDRON
+
+
+#-------------------------
+[RECIPE]
+Item1 = WINE
+Item1Count = 2
+Result = WINE
+ResultCount = 4
+Machine = ALAMBIC

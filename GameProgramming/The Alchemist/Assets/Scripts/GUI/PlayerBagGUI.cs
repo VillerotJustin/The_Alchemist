@@ -15,7 +15,6 @@ public class PlayerBagGUI : MonoBehaviour
 
     [SerializeField] protected InventorySelection_Helper helper;
 
-
     public virtual void CloseBag(){
         foreach(Transform child in root.transform){
             Destroy(child.gameObject);
