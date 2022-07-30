@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\GUI\Menu\RecipeGUI.cs" />
      <Compile Include="Assets\Scripts\World\InteractableObject\Bush.cs" />
      <Compile Include="Assets\Scripts\NPC\InWorldMovingNPC.cs" />
+     <Compile Include="Assets\Scripts\DEBUG\DebugBagUI.cs" />
      <Compile Include="Assets\Scripts\World\InWorldItem.cs" />
      <Compile Include="Assets\Scripts\GUI\InfoUI.cs" />
      <Compile Include="Assets\Scripts\Manager\Player.cs" />

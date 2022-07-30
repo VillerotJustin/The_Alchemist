@@ -67,6 +67,15 @@ public class UI_ItemSlot : MonoBehaviour
         itemCount = GameManager.player.GetNbItemsInSlot(slot); 
     }
 
+    public void SetSlot(int newSlot){
+        slot = newSlot;
+        if(slot == -1) {
+            item = null;
+            itemCount = 0;
+        }
+        RefreshSlot();
+    }
+
     public virtual void RefreshSlot(){
         if(slot != -1) CopySlot(slot);
         if(item == null){

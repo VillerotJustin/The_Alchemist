@@ -42,32 +42,32 @@ public class PlayerBagGUI : MonoBehaviour
 
 
 
-    public void TakeItem(int slot){
+    public void TakeItem(InventoryGUI_ItemSlot slot){
         bool takeAll = Input.GetKey(KeyCode.LeftShift);
-        Player player = GameManager.player;
+
         if(itemMoving == null){
-            itemMoving = player.GetItemFromSlot(slot);
+            itemMoving = slot.GetItem();
             if(itemMoving != null){
                 numberItemsMoving = 0;
-                int maxLoop = player.GetNbItemsInSlot(slot);
+                int maxLoop = slot.GetNbItems();
                 for(int i = 0;i< (takeAll ? maxLoop : 1 ) ;i++){
-                    player.DecrementSlot(slot);
+                    slot.DecrementSlot();
                     numberItemsMoving++;
                 }
             }
         }else{
-            if(player.IsItemInSlotSameAs(slot,itemMoving)){
-                int maxLoop = player.GetNbItemsInSlot(slot);
+            if(slot.IsItemSameAs(itemMoving)){
+                int maxLoop = slot.GetNbItems();
                 for(int i = 0;i< (takeAll ? maxLoop : 1 ) ;i++){
-                    player.DecrementSlot(slot);
+                    slot.DecrementSlot();
                     numberItemsMoving++;
                 }
             }else{
-                Item inSlot = player.GetItemFromSlot(slot);
-                int nbInSlot = player.GetNbItemsInSlot(slot);
+                Item inSlot = slot.GetItem();
+                int nbInSlot = slot.GetNbItems();
 
-                player.DeleteSlot(slot);
-                player.AddItemToSlot(itemMoving,numberItemsMoving,slot);
+                slot.ResetSlot();
+                slot.AddItem(itemMoving,numberItemsMoving);
 
                 itemMoving = inSlot;
                 numberItemsMoving = nbInSlot;
@@ -78,16 +78,14 @@ public class PlayerBagGUI : MonoBehaviour
         PlayerHotBarUI.instance.RefreshHotBar();
     }
 
-    public virtual void PlaceItem(int slot){
+    public virtual void PlaceItem(InventoryGUI_ItemSlot slot){
         if(itemMoving == null) return;
         bool takeAll = Input.GetKey(KeyCode.LeftShift);
 
-        Player player = GameManager.player;
+        if(slot.IsItemSameAs(itemMoving) ||
+            slot.GetItem() == null){
 
-        if(player.IsItemInSlotSameAs(slot,itemMoving) ||
-            player.GetItemFromSlot(slot) == null){
-
-            player.AddItemToSlot(itemMoving,takeAll ? numberItemsMoving : 1,slot);
+            slot.AddItem(itemMoving,takeAll ? numberItemsMoving : 1);
             numberItemsMoving-= takeAll ? numberItemsMoving : 1;
             if(numberItemsMoving == 0){
                 itemMoving = null;
