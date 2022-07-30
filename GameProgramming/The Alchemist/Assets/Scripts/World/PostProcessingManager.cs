@@ -25,13 +25,26 @@ public class PostProcessingManager : MonoBehaviour
 
 
     void ChangeProfile(VolumeProfile newProfile,int time){
+        if(newProfile == volume.profile) return;
+
         if(routine != null){
             StopCoroutine(routine);
+            routine = StartCoroutine(StopProfile(newProfile,time));
+        }else{
+            routine = StartCoroutine(ChangingProfile(newProfile,time));
         }
-
-        routine = StartCoroutine(ChangingProfile(newProfile,time));
     }
 
+    IEnumerator StopProfile(VolumeProfile newOne,int newTime){
+        while(volume.weight > 0f){
+            volume.weight -= Time.deltaTime;
+            if(volume.weight < 0f){
+                volume.weight = 0f;
+            }
+            yield return new WaitForEndOfFrame();
+        }
+        routine = StartCoroutine(ChangingProfile(newOne,newTime));
+    }
 
     IEnumerator ChangingProfile(VolumeProfile profile,int time){
         volume.weight = 0;
