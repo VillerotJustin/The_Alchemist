@@ -173,3 +173,151 @@ Name = Café magique
 Description = Un café tellement puissant que vous pouriez travaillez une semaine sans dormir.
 Price = 650
 Attributes = ENERGY,500
+
+
+#-----------------------SEDUCTION----------------------
+
+[DOES_EYES_BEVERAGES]
+Type = POTION
+Name = Breuvages yeux de biche
+Description = Cette potion transformeras vos yeux en de séduisants yeux de biche.
+Price = 50
+Attributes = SEDUCTION,5
+
+#----------------------------------------------------
+
+[SEDUCTION_POTION]
+Type = POTION
+Name = Potion de séduction
+Description = Une fois avoir bu cette potion, vous paraîtrez beaucoup plus séduisant.
+Price = 100
+Attributes = SEDUCTION,20
+
+#----------------------------------------------------
+
+[DECOCTION_OF_LUST]
+Type = POTION
+Name = Décoction de luxure
+Description = Après avoir bu cette potion, toutes les personnes qui vous voient seront prises d'une puissante attirance envers vous.
+Price = 200
+Attributes = SEDUCTION,75
+
+#----------------------------------------------------
+
+[ELIXIR_OF_THE_FEMME_FATALE]
+Type = POTION
+Name = Élixir de la femme fatale
+Description = La potion parfaite pour avoir homme, femme, et enfant à vos pieds.
+Price = 800
+Attributes = SEDUCTION,300
+
+
+#----------------------NICTALOPY---------------------
+
+[MINOR_CAT_POTION]
+Type = POTION
+Name = Potion de chat mineure
+Description = Permet de voir dans le noir pour quelques heures.
+Price = 20
+Attributes = NICTALOPY,25
+
+#----------------------------------------------------
+
+[CAT_POTION]
+Type = POTION
+Name = Potion de chat
+Description = Permet de voir dans le noir.
+Price = 60
+Attributes = NICTALOPY,50
+
+#----------------------------------------------------
+
+[SUPERIOR_CAT_POTION]
+Type = POTION
+Name = Potion de chat supérieur
+Description = Permet de voir dans le noir pour une longue durée.
+Price = 120
+Attributes = NICTALOPY,75
+
+#----------------------------------------------------
+
+[NYCTALOPE_DECOCTION]
+Type = POTION
+Name = Décoction du nyctalope
+Description = Une fois cette potion consommée, vous pourrez voir de nuit comme de jour.
+Price = 600
+Attributes = NICTALOPY,9999
+
+
+#----------------------TIREDNESS---------------------
+
+[EXHAUSTION_POTION]
+Type = POTION
+Name = Potion de fatigue
+Description = Donne une petit envie de dormir.
+Price = 50
+Attributes = TIREDNESS,25
+
+#----------------------------------------------------
+
+[NARCOTIC]
+Type = POTION
+Name = Narcotique
+Description = Vous videz de toute votre énergie sur le coup, vous plongeant dans un sommeil profond.
+Price = 100
+Attributes = TIREDNESS,100
+
+#----------------------------------------------------
+
+[ETERNAL_SLEEP_POTION]
+Type = POTION
+Name = Potion du sommeil éternel
+Description = Vous plonge dans un sommeil profond pour plusieurs jours voir semaines.
+Price = 200
+Attributes = TIREDNESS,700
+
+#----------------------------------------------------
+
+[MORPHEE_ELIXIR]
+Type = POTION
+Name = Élixir de morphée
+Description = Cette potion vous envoyer droit ver dans les bras de Morphée ou vous dormirez pour l'éternité.
+Price = 700
+Attributes = TIREDNESS,9999
+
+
+#----------------------VOMITING---------------------
+
+[STRANGE_MIXTURE]
+Type = POTION
+Name = Mixture étrange
+Description = Donne une forte envie de vomir.
+Price = 5
+Attributes = VOMITING,10
+
+#----------------------------------------------------
+
+[VOMITING_POTION]
+Type = POTION
+Name = Potion de vomissement
+Description = Vous faites vomir votre dernier repas.
+Price = 20
+Attributes = VOMITING,25
+
+#----------------------------------------------------
+
+[LAXATIVE]
+Type = POTION
+Name = Laxatif
+Description = Un puissant laxatif qui donne envie de vomir.
+Price = 30
+Attributes = VOMITING,50
+
+#----------------------------------------------------
+
+[ZIGU_ELIXIR]
+Type = POTION
+Name = Élixir de Zigu
+Description = Avec un élixir de Zigu, tout ce qui est dedans sera bientôt dehors.
+Price = 200
+Attributes = VOMITING,100

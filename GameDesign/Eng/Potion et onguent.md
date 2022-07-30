@@ -1,6 +1,6 @@
 # Liste des potion et des onguent:
 - Potion contre les maux de gorge > Remède contre la toux > Remède contre les bronchite > Remède contre les problèmes pulmonaire 	   (Tier1 Miel  ; Tier2 Échinacée "chemin pour allée à la montagne")   
-- Calmant > anti-douleur > Aesthésiant > sufentanil																(Tier1 Mélilot des champs ; Tier2 Hellébore noir)
+- Calmant > antit-douleur > Aesthésiant > sufentanil																(Tier1 Mélilot des champs ; Tier2 Hellébore noir)
 - Pommade contre les démangeaisons > Onguent contre les piqûres > Anti-inflamatoir > Beaume du golem			(Tier1 Potentille ansérine "bords de la riviere" ; tiers2 Le champignon du soleil)
 - Creme solaire > Pommade contre les brulures légere > Onguent contre les brulures sévères > Embrocation d'Agounia					   (Tier1 Millepertuis perforé ; Tier2 Fleurs de lave)
 - Potion de soin mineure > Potion de soin > Potion de soin majeure > Élixir de vie 					    		(Tier1 Herbes médicinal ; Tier2 Champignion luminescent)
