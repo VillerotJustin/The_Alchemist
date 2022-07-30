@@ -7,18 +7,18 @@
 [WINE]
 Type = POTION
 Name = Vin
-Description = Une bouteille de vin de mauvaise qualitée, peut aussi servir de bébouche toilette.
+Description = Une bouteille de vin de mauvaise qualité, peut aussi servir de débouche toilette.
 Price = 30
-Attributes = HEALING,-10
+Attributes = HEALING,-10,DRUNK,20
 
 #----------------------------------------------------
 
 [COMPETITION_WINE]
 Type = POTION
-Name = Vin
+Name = Vin de compétition
 Description = Un vin de qualité digne des meilleurs cépages.
 Price = 300
-Attributes = HEALING,50
+Attributes = HEALING,50,DRUNK,5
 
 
 
@@ -59,7 +59,7 @@ Attributes = HEALING,75
 [LIFE_ELIXIR]
 Type = POTION
 Name = Elixir de vie
-Description = Un rare elixir qui rend tout les points de vie.
+Description = Un rare élixir qui rend tout les points de vie.
 Price = 500
 Attributes = HEALING,9999
 
@@ -78,7 +78,7 @@ Attributes = HEALING,0
 [COUGH_REMEDY]
 Type = POTION
 Name = Remède contre la toux
-Description = Un potion qui soulage votre gorge et fait disparaitre votre toux en un eclair.
+Description = Un potion qui soulage votre gorge et fait disparaître votre toux en un éclair.
 Price = 60
 Attributes = HEALING,0
 
@@ -87,7 +87,7 @@ Attributes = HEALING,0
 [BRONCHITIS_REMEDY]
 Type = POTION
 Name = Remède contre les bronchite
-Description = Un potion qui fais disparaitre toute ces vilaines maladie de vos poumons.
+Description = Un potion qui fais disparaître toute ces vilaines maladie de vos poumons.
 Price = 150
 Attributes = HEALING,0
 
@@ -96,7 +96,7 @@ Attributes = HEALING,0
 [LUNG_ELIXIR]
 Type = POTION
 Name = Remède contre les problèmes pulmonaire
-Description = Une potion qui peut transformer les poumons d'un vieux fumeur attaind d'un cancer en ceux d'un atlete de haut niveau. En revanche vous allez surement devoir vendre un rein pour l'acheter.
+Description = Une potion qui peut transformer les poumons d'un vieux fumeur atteindre d'un cancer en ceux d'un athlète de haut niveau.
 Price = 650
 Attributes = HEALING,0
 
@@ -115,7 +115,7 @@ Attributes = NARCOTIC,5
 [PAINKILLER]
 Type = POTION
 Name = anti-douleur
-Description = Fait diparaitre la douleur, attention risque d'adiction.
+Description = Fait disparaître la douleur, attention risque d’addiction.
 Price = 100
 Attributes = NARCOTIC,25
 
@@ -133,7 +133,7 @@ Attributes = NARCOTIC,50
 [SUFENTANIL]
 Type = POTION
 Name = Sufentanil
-Description = Un puissant anesthésiant medical.
+Description = Un puissant anesthésiant médical.
 Price = 600
 Attributes = NARCOTIC,100
 
@@ -152,7 +152,7 @@ Attributes = ENERGY,10
 [ANTI-FATIGUE_DRINK]
 Type = POTION
 Name = Breuvage contre la fatigue
-Description = Permet de faire quelque heures de travail suplémentaire.
+Description = Permet de faire quelque heures de travail supplémentaire.
 Price = 60
 Attributes = ENERGY,20
 
@@ -170,7 +170,7 @@ Attributes = ENERGY,50
 [MAGIC_COFFEE]
 Type = POTION
 Name = Café magique
-Description = Un café tellement puissant que vous pouriez travaillez une semaine sans dormir.
+Description = Un café tellement puissant que vous pourriez travaillez une semaine sans dormir.
 Price = 650
 Attributes = ENERGY,500
 

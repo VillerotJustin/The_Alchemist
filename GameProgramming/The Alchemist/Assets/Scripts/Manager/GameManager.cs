@@ -59,6 +59,8 @@ public class GameManager : MonoBehaviour
     private string _map;
     public static string map {get{return GameManager.instance._map;}}
 
+    public Dictionary<string,Item>.KeyCollection allItemsKeys {get{return allItems.Keys;}}
+
 
     public Item GetItem(string name){
         if(!allItems.ContainsKey(name)) return null;

@@ -17,6 +17,9 @@ public class CraftingBagUI : PlayerBagGUI
 
     public void OpenBag(Recipe.Machines machine){
         base.OpenBag();
+        slot1.SetSlot(-1);
+        slot2.SetSlot(-1);
+        resultSlot.SetSlot(-1);
         currentMachine = machine;
         for(int i = 0;i < machinesGfx.Length;i++){
             if(i == ((int)machine) - 1){
