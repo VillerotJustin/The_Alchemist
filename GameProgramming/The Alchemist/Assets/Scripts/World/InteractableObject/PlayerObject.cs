@@ -39,9 +39,21 @@ public class PlayerObject : InteractableObject
 
     protected override void InteractionEvent(){
         currentSlot = PlayerHotBarUI.instance.GetCurrentSlot();
-        if(GameManager.player.GetItemFromSlot(currentSlot).internalName.Equals("WINE")){
+        Item item = GameManager.player.GetItemFromSlot(currentSlot);
+        if(item == null) return;
+        
+        if(item.itemAttributes.Count != 0){
+            foreach(ItemAttribute attribute in item.itemAttributes){
+                switch(attribute.attributeName){
+                    case "DRUNK":
+                        PostProcessingManager.ApplyDrunkFOV(attribute.attributeValue);
+                        break;
+                    case "HEALTH":
+                        print("Vous allez mieux. Enfin, je crois...");
+                        break;
+                }
+            }
             GameManager.player.DecrementSlot(currentSlot);
-            PostProcessingManager.ApplyDrunkFOV();
             PlayerHotBarUI.instance.RefreshHotBar();
         }
     }

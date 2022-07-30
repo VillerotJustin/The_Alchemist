@@ -9,7 +9,7 @@ Type = POTION
 Name = Vin
 Description = Une bouteille de vin de mauvaise qualitée, peut aussi servir de bébouche toilette.
 Price = 30
-Attributes = HEALING,-10
+Attributes = HEALING,-10,DRUNK,20
 
 #----------------------------------------------------
 
@@ -18,7 +18,7 @@ Type = POTION
 Name = Vin
 Description = Un vin de qualité digne des meilleurs cépages.
 Price = 300
-Attributes = HEALING,50
+Attributes = HEALING,50,DRUNK,5
 
 
 

@@ -19,21 +19,21 @@ public class PostProcessingManager : MonoBehaviour
     }
 
 
-    public static void ApplyDrunkFOV(){
-        ppm.ChangeProfile(ppm.drunkProfile);
+    public static void ApplyDrunkFOV(int time){
+        ppm.ChangeProfile(ppm.drunkProfile,time);
     } 
 
 
-    void ChangeProfile(VolumeProfile newProfile){
+    void ChangeProfile(VolumeProfile newProfile,int time){
         if(routine != null){
             StopCoroutine(routine);
         }
 
-        routine = StartCoroutine(ChangingProfile(newProfile));
+        routine = StartCoroutine(ChangingProfile(newProfile,time));
     }
 
 
-    IEnumerator ChangingProfile(VolumeProfile profile){
+    IEnumerator ChangingProfile(VolumeProfile profile,int time){
         volume.weight = 0;
         volume.profile = profile;
 
@@ -45,7 +45,7 @@ public class PostProcessingManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(time);
 
         while(volume.weight > 0f){
             volume.weight -= Time.deltaTime;

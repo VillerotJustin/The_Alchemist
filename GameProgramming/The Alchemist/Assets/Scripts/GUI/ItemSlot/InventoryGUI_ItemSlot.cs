@@ -11,42 +11,14 @@ public class InventoryGUI_ItemSlot : UI_ItemSlot
 
     [SerializeField] protected EventTrigger eventTrigger;
 
-    [SerializeField] protected float maxTimeToWait = 1;
-
-    protected float currentTimeToWait;
-
-    protected bool canWaitToShow = false;
 
     protected PlayerBagGUI inv;
 
-    void Update(){
-        if(canWaitToShow){
-            if(currentTimeToWait>0){
-                currentTimeToWait-=Time.unscaledDeltaTime;
-            }else{
-                currentTimeToWait = maxTimeToWait;
-                canWaitToShow = false;
-                InfoUI.instance.ShowInfo(item);
-            }
-        }
-    }
 
     public void Init(int newSlot,PlayerBagGUI inventory){
         inv = inventory;
-        currentTimeToWait = maxTimeToWait;
 
         base.Init(newSlot);
-    }
-
-    public void OnEnter(BaseEventData eventData){
-        if(item == null) return;
-        canWaitToShow = true;
-        currentTimeToWait = maxTimeToWait;
-    }
-
-    public void OnExit(BaseEventData eventData){
-        canWaitToShow = false;
-        InfoUI.instance.HideInfo();
     }
 
     public virtual void OnLeftClick(){
