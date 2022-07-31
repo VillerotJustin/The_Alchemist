@@ -11,7 +11,8 @@ public class Item
         BODY,
         FEET,
         GLOVE,
-        POTION
+        POTION,
+        OINTMENT
     };
 
     public string internalName;

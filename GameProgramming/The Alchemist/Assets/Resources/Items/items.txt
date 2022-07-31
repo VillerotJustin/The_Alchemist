@@ -607,7 +607,7 @@ Type = POTION
 Name = Adrenaline
 Description = Permet de courir un peux plus vite.
 Price = 100
-Attributes = SPEED,2
+Attributes = SPEED,120
 
 #----------------------------------------------------
 
@@ -616,7 +616,7 @@ Type = POTION
 Name = Potion boost
 Description = Permet de courir plus vite tout en diminuant un peu la fatique.
 Price = 150
-Attributes = SPEED,2,ENERGY,50
+Attributes = SPEED,250,ENERGY,50
 
 #----------------------------------------------------
 
@@ -625,7 +625,7 @@ Type = POTION
 Name = Élixir de transandance
 Description = Renforce votre corps tout en restaurants votre énergie.
 Price = 500
-Attributes = SPEED,3,ENERGY,100
+Attributes = SPEED,360,ENERGY,100
 
 
 #----------------------ANTIDOTE----------------------
@@ -676,7 +676,7 @@ Attributes = DIGESTION,25
 
 #----------------------------------------------------
 
-[INDIGESTION_REMEDY]
+[DIGESTIVE]
 Type = POTION
 Name = Digestif
 Description = Aide à la digestion.
@@ -685,7 +685,7 @@ Attributes = DIGESTION,50
 
 #----------------------------------------------------
 
-[SUPERIOR_ANTIDOTE]
+[INDIGESTION_REMEDY]
 Type = POTION
 Name = Remède contre les indigestions
 Description = Soigne les indigestions.
