@@ -27,6 +27,7 @@ Attributes = HEALING,50,DRUNK,5
 #====================================================
 
 
+
 #----------------------Healing-----------------------
 
 [MINOR_HEALING_POTION]
@@ -580,3 +581,158 @@ Name =  Élixir de cécité
 Description = Rend aveugle.
 Price = 850
 Attributes = BLINDNESS,100
+
+
+
+#====================================================
+#=====================OINTMENTS======================
+#====================================================
+
+
+
+#----------------------HEALING-----------------------
+
+[HEALING_OINTMENT]
+Type = OINTMENT
+Name = Pommade cicatrisante
+Description = Une pommade qui aide à soigner les petits bobos.
+Price = 10
+Attributes = HEALING,25
+
+#----------------------------------------------------
+
+[REPAIRING_BALM]
+Type = OINTMENT
+Name = Baume réparateur
+Description = Un baume qui soigne les bleus et les égratignures.
+Price = 50
+Attributes = HEALING,50
+
+#----------------------------------------------------
+
+[WOUND_HEALING_OINTMENT]
+Type = OINTMENT
+Name = Onguant contre les plaies
+Description = Un onguent de première qualité qui referme les plaies.
+Price = 100
+Attributes = HEALING,75
+
+#----------------------------------------------------
+
+[IASO_EMBROCATION]
+Type = OINTMENT
+Name = Embrocation d'Iaso
+Description = Une pomade qui peut même faire repouser les membres.
+Price = 500
+Attributes = HEALING,9999
+
+
+#---------------------RESISTANCE---------------------
+
+[OINTMENT_AGAINST_ITCHING]
+Type = OINTMENT
+Name = Pommade contre les démangeaisons
+Description = Une pommade qui soigne les démangeaisons.
+Price = 30
+Attributes = RESISTANCE,25
+
+#----------------------------------------------------
+
+[OINTMENT_AGAINST_STINGS]
+Type = OINTMENT
+Name = Onguent contre les piqûres
+Description = Un onguent qui protege des piqures.
+Price = 80
+Attributes = RESISTANCE,50
+
+#----------------------------------------------------
+
+[ANTI_INFLAMMATORY]
+Type = OINTMENT
+Name = Anti-inflammatoire
+Description = Un anti-inflammatoire à appliquer sur la peau.
+Price = 150
+Attributes = RESISTANCE,75
+
+#----------------------------------------------------
+
+[GOLEM_BALM]
+Type = OINTMENT
+Name = Beaume du golem
+Description = Un onguent qui transforme la couche supérieur de la peau en une couche de pierre protectrice.
+Price = 700
+Attributes = RESISTANCE,100
+
+
+#---------------------ANTI_BURN----------------------
+
+[SUNSCREEN_CREAM]
+Type = OINTMENT
+Name = Crème solaire
+Description = Une crème solaire particulièrement efficace.
+Price = 20
+Attributes = ANTI_BURN,25
+
+#----------------------------------------------------
+
+[OINTMENT_AGAINST_BURNS]
+Type = OINTMENT
+Name = Pommade contre les brulures
+Description = Une pommade qui aide à soigner les brûlures.
+Price = 90
+Attributes = ANTI_BURN,50
+
+#----------------------------------------------------
+
+[OINTMENT_AGAINST_SEVERE_BURNS]
+Type = OINTMENT
+Name = Onguent contre les brulures sévères
+Description = Un onguent qui soigne les brûlures sévères.
+Price = 200
+Attributes = ANTI_BURN,75
+
+#----------------------------------------------------
+
+[AGOUNIA_EMBROCATION]
+Type = OINTMENT
+Name = Embrocation d'Agounia
+Description = Cette embrocation peut soigner les brûlures les plus sévères et offre une protection contre le feu.
+Price = 750
+Attributes = ANTI_BURN,100
+
+
+#---------------------ANTI_COLD----------------------
+
+[CREAM_AGAINST_COLD]
+Type = OINTMENT
+Name = Creme contre le froid
+Description = Une crème contre le froid particulièrement efficace.
+Price = 20
+Attributes = ANTI_BURN,25
+
+#----------------------------------------------------
+
+[WARMING_OINTMENT]
+Type = OINTMENT
+Name = Pommade chaleureuse
+Description = Une pommade qui aide qui protège du froid tout en réchauffant le corps.
+Price = 90
+Attributes = ANTI_BURN,50
+
+#----------------------------------------------------
+
+[OINTMENT_AGAINST_CHILBLAINS]
+Type = OINTMENT
+Name = Onguent contre les engelures
+Description = Un onguent qui soigne les engelures.
+Price = 200
+Attributes = ANTI_BURN,75
+
+#----------------------------------------------------
+
+[UII_EMBROCATION]
+Type = OINTMENT
+Name = Embrocation bénie par UII
+Description = Cette embrocation peut soigner les engelures les plus sévères et offre une protection contre les froids les plus glacials.
+Price = 750
+Attributes = ANTI_BURN,100
