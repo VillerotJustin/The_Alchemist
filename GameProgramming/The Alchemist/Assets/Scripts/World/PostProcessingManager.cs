@@ -7,10 +7,15 @@ public class PostProcessingManager : MonoBehaviour
 {
     [SerializeField] private Volume volume;
     [SerializeField] private VolumeProfile drunkProfile;
+    [SerializeField] private VolumeProfile nightVisionProfile;
+    [SerializeField] private VolumeProfile tiredVisionProfile;
 
     private static PostProcessingManager ppm;
 
     private Coroutine routine;
+
+
+    public static bool isApplyingEffect {get{return ppm.routine != null;}}
 
     void Awake(){
         ppm = this;
@@ -23,6 +28,13 @@ public class PostProcessingManager : MonoBehaviour
         ppm.ChangeProfile(ppm.drunkProfile,time);
     } 
 
+    public static void ApplyNightVision(int time){
+        ppm.ChangeProfile(ppm.nightVisionProfile,time);
+    } 
+
+    public static void ApplyTiredVision(int time){
+        ppm.ChangeProfile(ppm.tiredVisionProfile,time);
+    } 
 
     void ChangeProfile(VolumeProfile newProfile,int time){
         if(newProfile == volume.profile) return;
@@ -68,6 +80,7 @@ public class PostProcessingManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
+        volume.profile = null;
         routine = null;
     }
 }

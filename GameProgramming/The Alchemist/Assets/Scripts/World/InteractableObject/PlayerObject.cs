@@ -42,19 +42,11 @@ public class PlayerObject : InteractableObject
         Item item = GameManager.player.GetItemFromSlot(currentSlot);
         if(item == null) return;
         
-        if(item.itemAttributes.Count != 0){
-            foreach(ItemAttribute attribute in item.itemAttributes){
-                switch(attribute.attributeName){
-                    case "DRUNK":
-                        PostProcessingManager.ApplyDrunkFOV(attribute.attributeValue);
-                        break;
-                    case "HEALTH":
-                        print("Vous allez mieux. Enfin, je crois...");
-                        break;
-                }
-            }
+        if(item.itemType == Item.Type.POTION && item.itemAttributes.Count != 0){
+            GameManager.instance.AddEffectsToPlayer(item.itemAttributes);
             GameManager.player.DecrementSlot(currentSlot);
             PlayerHotBarUI.instance.RefreshHotBar();
         }
     }
+
 }

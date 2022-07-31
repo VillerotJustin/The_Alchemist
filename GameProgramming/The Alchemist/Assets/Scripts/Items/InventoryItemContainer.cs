@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class InventoryItemContainer
 {
-    public Item itemRef;
+    public string itemRef;
     public int itemCount;
 
+    public Item actualItem {get{return GameManager.instance.GetItem(itemRef);}}
+
     public InventoryItemContainer(Item item,int count){
+        itemCount = count;
+        itemRef = item.internalName;
+    }
+
+    public InventoryItemContainer(string item,int count){
         itemCount = count;
         itemRef = item;
     }
@@ -17,6 +24,6 @@ public class InventoryItemContainer
     }
 
     public bool IsItemSameAs(Item item){
-        return item.internalName.Equals(itemRef.internalName);
+        return item.internalName.Equals(itemRef);
     }
 }

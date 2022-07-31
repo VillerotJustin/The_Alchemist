@@ -161,9 +161,9 @@ Attributes = ENERGY,20
 [COFFEE]
 Type = POTION
 Name = Café
-Description = Un anesthésiant de qualité.
+Description = Du bon café qui va vous 
 Price = 150
-Attributes = ENERGY,50
+Attributes = ENERGY,50,SPEED,60
 
 #----------------------------------------------------
 
@@ -172,7 +172,7 @@ Type = POTION
 Name = Café magique
 Description = Un café tellement puissant que vous pourriez travaillez une semaine sans dormir.
 Price = 650
-Attributes = ENERGY,500
+Attributes = ENERGY,500,SPEED,300
 
 
 #-----------------------SEDUCTION----------------------
@@ -219,7 +219,7 @@ Type = POTION
 Name = Potion de chat mineure
 Description = Permet de voir dans le noir pour quelques heures.
 Price = 20
-Attributes = NICTALOPY,25
+Attributes = NICTALOPY,90
 
 #----------------------------------------------------
 
@@ -228,7 +228,7 @@ Type = POTION
 Name = Potion de chat
 Description = Permet de voir dans le noir.
 Price = 60
-Attributes = NICTALOPY,50
+Attributes = NICTALOPY,200
 
 #----------------------------------------------------
 
@@ -237,7 +237,7 @@ Type = POTION
 Name = Potion de chat supérieur
 Description = Permet de voir dans le noir pour une longue durée.
 Price = 120
-Attributes = NICTALOPY,75
+Attributes = NICTALOPY,500
 
 #----------------------------------------------------
 
@@ -246,7 +246,7 @@ Type = POTION
 Name = Décoction du nyctalope
 Description = Une fois cette potion consommée, vous pourrez voir de nuit comme de jour.
 Price = 600
-Attributes = NICTALOPY,9999
+Attributes = NICTALOPY,800
 
 
 #----------------------TIREDNESS---------------------
@@ -281,7 +281,7 @@ Attributes = TIREDNESS,700
 [MORPHEE_ELIXIR]
 Type = POTION
 Name = Élixir de morphée
-Description = Cette potion vous envoyer droit ver dans les bras de Morphée ou vous dormirez pour l'éternité.
+Description = Cette potion va vous envoyer droit dans les bras de Morphée ou vous dormirez pour l'éternité.
 Price = 700
 Attributes = TIREDNESS,9999
 
