@@ -1,6 +1,6 @@
-#----------------------------------------------------
+#====================================================
 #====================Quest potions===================
-#----------------------------------------------------
+#====================================================
 
 
 
@@ -321,3 +321,262 @@ Name = Élixir de Zigu
 Description = Avec un élixir de Zigu, tout ce qui est dedans sera bientôt dehors.
 Price = 200
 Attributes = VOMITING,100
+
+
+#---------------------INVISIBILITY-------------------
+
+[POTION_OF_DISGUISE]
+Type = POTION
+Name = Potion de déguisement
+Description = Une foi, cette potion consommée, les gens aurons du mal à se souvenir de votre apparence.
+Price = 100
+Attributes = INVISIBILITY,10
+
+#----------------------------------------------------
+
+[POTION_OF_DISIMULATION]
+Type = POTION
+Name = Potion de disimulation
+Description = Avec ces potions la majeur partie des personnes ne se souviendrons même plus de vous.
+Price = 200
+Attributes = INVISIBILITY,25
+
+#----------------------------------------------------
+
+[POTION_OF_TRANSPARENCY]
+Type = POTION
+Name = Potion de transparance
+Description = Avec cette potion, vous paraîtrez comme nuage transparent, mais quelqu'un, d'attentif pourra toujours vous retrouver.
+Price = 300
+Attributes = INVISIBILITY,75
+
+#----------------------------------------------------
+
+[ELIXIR_OF_INVISIBILITY]
+Type = POTION
+Name = Élixir d'invisibilité
+Description = Ne pas enlever l'étiquete sous risque de perdre la bouteille.
+Price = 900
+Attributes = INVISIBILITY,100
+
+
+#----------------------CONFUSION---------------------
+
+[BEVERAGE_OF_DRUNKENNESS]
+Type = POTION
+Name = Breuvage d'ivresse
+Description = Provoque un léger mal de tête.
+Price = 50
+Attributes = CONFUSION,10
+
+#----------------------------------------------------
+
+[POTION_OF_CONFUSION]
+Type = POTION
+Name = Potion de confusion
+Description = Empêche le consommateur de réfléchir.
+Price = 100
+Attributes = CONFUSION,25
+
+#----------------------------------------------------
+
+[POTION_OF_MADNESS]
+Type = POTION
+Name = Potion de folie
+Description = Provoque une folie sévère avec effet à longue durée.
+Price = 300
+Attributes = CONFUSION,75
+
+#----------------------------------------------------
+
+[ELIXIR_OF_LYPEMANIA]
+Type = POTION
+Name = Élixir de lypémanie
+Description = miseuqjefbcw;,cn  f$qoj  joqk ^poqi jidf
+Price = 800
+Attributes = CONFUSION,100
+
+
+#-----------------------SPEED-----------------------
+
+[ENERGIZER]
+Type = POTION
+Name = Énergisant
+Description = Redonne un petit peut d'énergie.
+Price = 30
+Attributes = ENERGY,10
+
+#----------------------------------------------------
+
+[ADRENALINE]
+Type = POTION
+Name = Adrenaline
+Description = Permet de courir un peux plus vite.
+Price = 100
+Attributes = SPEED,2
+
+#----------------------------------------------------
+
+[BOOST_POTION]
+Type = POTION
+Name = Potion boost
+Description = Permet de courir plus vite tout en diminuant un peu la fatique.
+Price = 150
+Attributes = SPEED,2 ENERGY,50
+
+#----------------------------------------------------
+
+[ELIXIR_OF_TRANSANDANCE]
+Type = POTION
+Name = Élixir de transandance
+Description = Renforce votre corps tout en restaurants votre énergie.
+Price = 500
+Attributes = SPEED,3 ENERGY,100
+
+
+#----------------------ANTIDOTE----------------------
+
+[MINOR_ANTIDOTE]
+Type = POTION
+Name = Antidote mineure
+Description = Soigne des petits poisons.
+Price = 50
+Attributes = ANTIDOTE,25
+
+#----------------------------------------------------
+
+[ANTIDOTE]
+Type = POTION
+Name = Antidote
+Description = Soigne des poisons.
+Price = 100
+Attributes = ANTIDOTE,50
+
+#----------------------------------------------------
+
+[SUPERIOR_ANTIDOTE]
+Type = POTION
+Name = Antidote Majeure
+Description = Soigne des poisons les plus dangereux.
+Price = 200
+Attributes = ANTIDOTE,75
+
+#----------------------------------------------------
+
+[BLESSING_OF_PANACEA]
+Type = POTION
+Name = Bénédiction de Panacée
+Description = Soigne de tout les poison et maladie.
+Price = 600
+Attributes = ANTIDOTE,100
+
+
+#----------------------DIGESTION----------------------
+
+[STOMACH_POTION]
+Type = POTION
+Name = Potion contre les maux de ventre
+Description = Soigne des maux de ventre.
+Price = 50
+Attributes = DIGESTION,25
+
+#----------------------------------------------------
+
+[INDIGESTION_REMEDY]
+Type = POTION
+Name = Digestif
+Description = Aide à la digestion.
+Price = 100
+Attributes = DIGESTION,50
+
+#----------------------------------------------------
+
+[SUPERIOR_ANTIDOTE]
+Type = POTION
+Name = Remède contre les indigestions
+Description = Soigne les indigestions.
+Price = 200
+Attributes = DIGESTION,75
+
+#----------------------------------------------------
+
+[STOMACH_ULCER_REMEDY]
+Type = POTION
+Name = Remède contre les ulcères à l'estomac
+Description = Soigne les ulcères de l'estomac.
+Price = 600
+Attributes = DIGESTION,100
+
+
+#---------------------REPULSIVE----------------------
+
+[INSECT_SPRAY]
+Type = POTION
+Name = Spray contre les insectes
+Description = Spray qui éloigne les insectes.
+Price = 100
+Attributes = REPULSIVE,25
+
+#----------------------------------------------------
+
+[SNAKE_SPRAY]
+Type = POTION
+Name = Spray contre les serpents
+Description = Spray qui éloigne les serpents.
+Price = 200
+Attributes = REPULSIVE,50
+
+#----------------------------------------------------
+
+[MIRIAPOD_SPRAY]
+Type = POTION
+Name = Spray contre les miriapodes
+Description = Spray qui éloigne les miriapodes.
+Price = 300
+Attributes = REPULSIVE,75
+
+#----------------------------------------------------
+
+[UNIVERSAL_ANTI-MONSTER_SPRAY]
+Type = POTION
+Name =  Anti-monstre Universelle
+Description = Spray qui éloigne tout les monstres.
+Price = 700
+Attributes = REPULSIVE,100
+
+
+#---------------------REPULSIVE----------------------
+
+[HALLUCINOGENIC_POTION]
+Type = POTION
+Name = Potion hallucinogène
+Description = Brouille la vue et l'esprit.
+Price = 100
+Attributes = BLINDNESS,25
+
+#----------------------------------------------------
+
+[FOG_POTION]
+Type = POTION
+Name = Potion de brouillard
+Description = Embrume la vue a telle point que l'on se croirait dans un brouillard.
+Price = 200
+Attributes = BLINDNESS,50
+
+#----------------------------------------------------
+
+[BLINDING_POTION]
+Type = POTION
+Name = Potion d'aveuglement
+Description = Rend aveugle pour une courte durée.
+Price = 300
+Attributes = BLINDNESS,75
+
+#----------------------------------------------------
+
+[ELIXIR_OF_BLINDNESS]
+Type = POTION
+Name =  Élixir de cécité
+Description = Rend aveugle.
+Price = 850
+Attributes = BLINDNESS,100
