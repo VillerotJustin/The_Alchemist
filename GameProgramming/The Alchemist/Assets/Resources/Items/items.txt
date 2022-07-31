@@ -1,11 +1,35 @@
 #====================================================
-#====================Quest potions===================
+#======================QUEST_ITEM====================
+#====================================================
+
+
+
+[TALISMAN_AGAINST_WILD_BEASTS]
+Type = Talisman
+Name = Talisman contre les bêtes sauvages
+Description = Un talisfant en épiaire droite sencer proteger les guerrier partant au combat.
+Price = 20
+Attributes = TALISMAN,1
+
+#----------------------------------------------------
+
+[OLD_TALISMAN]
+Type = Talisman
+Name = Ancien talisman
+Description = Un talisman ancien fabriqué à partir de fragment cacher dans chaque zone.
+Price = 20
+Attributes = TALISMAN,10
+
+
+
+#====================================================
+#======================QUEST_ITEM====================
 #====================================================
 
 
 
 [WINE]
-Type = POTION
+Type = QUEST_ITEM
 Name = Vin
 Description = Une bouteille de vin de mauvaise qualité, peut aussi servir de débouche toilette.
 Price = 30
@@ -14,13 +38,182 @@ Attributes = HEALING,-10,DRUNK,20
 #----------------------------------------------------
 
 [COMPETITION_WINE]
-Type = POTION
+Type = QUEST_ITEM
 Name = Vin de compétition
 Description = Un vin de qualité digne des meilleurs cépages.
 Price = 300
-Attributes = HEALING,50,DRUNK,5
+Attributes = HEALING,50,DRUNK,10
 
+#----------------------------------------------------
 
+[REFRESHING_DRINK]
+Type = QUEST_ITEM
+Name = Boisson rafraichissante
+Description = Une bouteille d'eau bien fraîche avec des glaçons et tout.
+Price = 300
+Attributes = HEALING,5
+
+#----------------------------------------------------
+
+[BEER]
+Type = QUEST_ITEM
+Name = Bière
+Description = Une bière au bon goût de houblon.
+Price = 20
+Attributes = HEALING,5,DRUNK,4
+
+#----------------------------------------------------
+
+[COMPETITION_BEER]
+Type = QUEST_ITEM
+Name = Bière de competition
+Description = Un bière de grande qualité.
+Price = 150
+Attributes = HEALING,25,DRUNK,8
+
+#----------------------------------------------------
+
+[GENEPI_BRANDY]
+Type = QUEST_ITEM
+Name = Eau de vie au génépi
+Description = Une eau de vie au gout de génépi.
+Price = 75
+Attributes = DRUNK,40
+
+#----------------------------------------------------
+
+[PEAR_BRANDY]
+Type = QUEST_ITEM
+Name = Eau de vie à la poire
+Description = Une eau de vie au gout de poire.
+Price = 75
+Attributes = DRUNK,40
+
+#----------------------------------------------------
+
+[MOONWALKER_BEVERAGE]
+Type = QUEST_ITEM
+Name = Breuvage du marcheur de la nuit
+Description = Une potion légendaire qui donne à son consommateur une partie des pouvoirs des marche-lune.
+Price = 1000
+Attributes = MOONWALKER,1
+
+#----------------------------------------------------
+
+[LOVE_POTION]
+Type = QUEST_ITEM
+Name = Philtre d'amour
+Description = Une philtre d'amour tout droit sortie d'un compte de fée.
+Price = 10000
+Attributes = LOVE,666
+
+#----------------------------------------------------
+
+[CALMING_TEA]
+Type = QUEST_ITEM
+Name = Thé calmant
+Description = Rien de mieux qu'une tasse de thé en fin de journée.
+Price = 10
+Attributes = CALMING,10
+
+#----------------------------------------------------
+
+[MINT_TEA]
+Type = QUEST_ITEM
+Name = Thé à la menthe
+Description = Une sachet de thé à la menthe.
+Price = 10
+Attributes = CALMING,10
+
+#----------------------------------------------------
+
+[RED_BERRY_INFUSION]
+Type = QUEST_ITEM
+Name = Tissane aux fruits rouges
+Description = Une bonne infusion aux fruits rouges.
+Price = 10
+Attributes = CALMING,10
+
+#----------------------------------------------------
+
+[ROSE_PARFUM]
+Type = QUEST_ITEM
+Name = Parfum à la rose
+Description = Un parfum qui sent la rose, sauras ravir les romantiques.
+Price = 200
+Attributes = ROSE,1
+
+#----------------------------------------------------
+
+[OSMANTHE_PARFUM]
+Type = QUEST_ITEM
+Name = Parfum à l'osmanthe
+Description = Un parfum qui sent l'osmanthe.
+Price = 200
+Attributes = OSMANTHE,1
+
+#----------------------------------------------------
+
+[JASMIN_PARFUM]
+Type = QUEST_ITEM
+Name = Parfum au jasmin
+Description = Un parfum qui sent le jasmin.
+Price = 200
+Attributes = JASMIN,1
+
+#----------------------------------------------------
+
+[LEATHER_PREPARATION]
+Type = QUEST_ITEM
+Name = Préparation pour le cuir
+Description = Une préparation pour tanner le cuir.
+Price = 50
+Attributes = TANNING,1
+
+#----------------------------------------------------
+
+[BLUE_DYE]
+Type = QUEST_ITEM
+Name = Colorant bleu
+Description = Un colorant bleu naturel.
+Price = 30
+Attributes = DYE,1
+
+#----------------------------------------------------
+
+[GREEN_DYE]
+Type = QUEST_ITEM
+Name = Colorant vert
+Description = Un colorant vert naturel.
+Price = 30
+Attributes = DYE,2
+
+#----------------------------------------------------
+
+[RED_DYE]
+Type = QUEST_ITEM
+Name = Colorant rouge
+Description = Un colorant rouge naturel.
+Price = 30
+Attributes = DYE,3
+
+#----------------------------------------------------
+
+[YELLOW_DYE]
+Type = QUEST_ITEM
+Name = Colorant jaune
+Description = Un colorant jaune naturel.
+Price = 30
+Attributes = DYE,4
+
+#----------------------------------------------------
+
+[BLACK_DYE]
+Type = QUEST_ITEM
+Name = Colorant noir
+Description = Un colorant noir naturel.
+Price = 30
+Attributes = DYE,5
 
 #====================================================
 #======================Potions=======================
@@ -423,7 +616,7 @@ Type = POTION
 Name = Potion boost
 Description = Permet de courir plus vite tout en diminuant un peu la fatique.
 Price = 150
-Attributes = SPEED,2 ENERGY,50
+Attributes = SPEED,2,ENERGY,50
 
 #----------------------------------------------------
 
@@ -432,7 +625,7 @@ Type = POTION
 Name = Élixir de transandance
 Description = Renforce votre corps tout en restaurants votre énergie.
 Price = 500
-Attributes = SPEED,3 ENERGY,100
+Attributes = SPEED,3,ENERGY,100
 
 
 #----------------------ANTIDOTE----------------------

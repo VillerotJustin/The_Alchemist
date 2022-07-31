@@ -31,7 +31,7 @@
 - Bière et Bière de competition		( houblons ) 
 - Eau de vie ( Poire ; Génépi ) 
 - Potion de réssurection (héro plume de phénix )
-- Breuvage du marcheur de la nuit (Assasin Décoction du nyctalope et Élixir de la femme fatale )
+- Breuvage du marche-lune (Assasin Décoction du nyctalope et Élixir de la femme fatale et Élixir d'invisibilité)
 - Philtre d'amour
 - Thé calmant 		( Tilleul )
 - Thé à la menthe
