@@ -15,7 +15,10 @@ public class Player
 
     public int currentSlot;
 
+    public float speed;
+
     public Player(){
+        speed = 5;
         maxInHotBar = 8;
         currentSlot = 0;
         bagSize = 24; 
@@ -43,7 +46,7 @@ public class Player
 
     public Item GetItemFromSlot(int slot){
         if(items[slot] == null) return null;
-        return items[slot].itemRef;
+        return items[slot].actualItem;
     }
 
     public int GetNbItemsInSlot(int slot){

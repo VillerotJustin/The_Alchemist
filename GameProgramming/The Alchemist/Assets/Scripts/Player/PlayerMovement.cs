@@ -6,7 +6,6 @@ using UnityEngine.Tilemaps;
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] private float speed;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] Animator animator;
@@ -15,6 +14,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Awake(){
         Player.body = gameObject;
+    }
+
+    public void ForceMove(float x,float y){
+        movement.x = x;
+        movement.y = y;
     }
 
     void Update()
@@ -38,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate(){
         if(!GameManager.instance.playerCanMove) return;
 
-        rb.MovePosition(rb.position+movement*speed*Time.fixedDeltaTime);
+        rb.MovePosition(rb.position+movement*GameManager.player.speed*Time.fixedDeltaTime);
 
         Camera.main.transform.position = new Vector3(transform.position.x,transform.position.y,-10);
     }
