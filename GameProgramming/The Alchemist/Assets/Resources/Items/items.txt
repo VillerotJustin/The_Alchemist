@@ -1,5 +1,148 @@
 #====================================================
-#======================QUEST_ITEM====================
+#========================FEET========================
+#====================================================
+
+
+
+[BOOTS]
+Type = BACKPACK
+Name = Bottes
+Description = Des bottes en caoutchouc jaune.
+Price = 50
+Attributes = FEET,1
+
+#----------------------------------------------------
+
+[MAGIC_BOOTS]
+Type = BACKPACK
+Name = Bottes magique
+Description = Des bottes en caoutchouc jaune enchanter pour résister aux plus fortes chaleurs.
+Price = 1000
+Attributes = FEET,2
+
+
+
+#====================================================
+#========================BODY========================
+#====================================================
+
+
+
+[CITIZENS_CLOTHING]
+Type = BACKPACK
+Name = Tenue de citoyen
+Description = Une tenue classique de manant.
+Price = 50
+Attributes = BODY,1
+
+#----------------------------------------------------
+
+[BEGINNER_ALCHEMIST_CLOTHING]
+Type = BACKPACK
+Name = Tenue d'alchimiste débutant
+Description = Une tenue d'alchimiste débutant avec des poches et des porte-bouteilles.
+Price = 200
+Attributes = BODY,2
+
+#----------------------------------------------------
+
+[ALCHEMIST_CLOTHING]
+Type = BACKPACK
+Name = Tenue d'alchimiste confirmé
+Description = Une tenue d'alchimiste avec toutes les nécessités
+Price = 500
+Attributes = BODY,3
+
+#----------------------------------------------------
+
+[MASTER_ALCHEMIST_CLOTHING]
+Type = BACKPACK
+Name = Tenue de maitre alchimiste
+Description = Une tenue de maître alchimiste de très grande qualité.
+Price = 1000
+Attributes = BODY,4
+
+
+
+#====================================================
+#======================BACKPACK======================
+#====================================================
+
+
+
+[BALUCHON]
+Type = BACKPACK
+Name = Baluchon
+Description = Un vieux baluchon.
+Price = 50
+Attributes = BACKPACK,1
+
+#----------------------------------------------------
+
+[BACKPACK]
+Type = BACKPACK
+Name = Sac a dos
+Description = Un sac à dos banal.
+Price = 200
+Attributes = BACKPACK,2
+
+#----------------------------------------------------
+
+[TREKINC_BACKPACK]
+Type = BACKPACK
+Name = Gants magique
+Description = Un sac à dos de randonnée.
+Price = 500
+Attributes = BACKPACK,3
+
+#----------------------------------------------------
+
+[ALCHEMIST_BACKPACK]
+Type = BACKPACK
+Name = Sac d'alchimiste
+Description = Un grand sac à dos d'alchimiste avec toutes les fonctions don, vous aurez besoin.
+Price = 1000
+Attributes = BACKPACK,4
+
+
+
+#====================================================
+#========================GLOVE=======================
+#====================================================
+
+
+
+[GLOVE]
+Type = GLOVE
+Name = Gants
+Description = Un vieux gant.
+Price = 50
+Attributes = GLOVE,1
+
+#----------------------------------------------------
+
+[HERBORIST_GLOVE]
+Type = GLOVE
+Name = Gants d'herboriste
+Description = Un gant de jardinage.
+Price = 100
+Attributes = GLOVE,2
+
+#----------------------------------------------------
+
+[MAGIC_GLOVE]
+Type = GLOVE
+Name = Gants magique
+Description = Un gant de jardinage enchanté avec les 6 cristaux.
+Price = 500
+Attributes = GLOVE,3
+
+# yes we will need to make 2^6 version du gant car il faut mettre les pierres une a une.
+
+
+
+#====================================================
+#=======================TALISMAN=====================
 #====================================================
 
 
@@ -19,6 +162,66 @@ Name = Ancien talisman
 Description = Un talisman ancien fabriqué à partir de fragment cacher dans chaque zone.
 Price = 20
 Attributes = TALISMAN,10
+
+
+
+#====================================================
+#=======================CRYSTAL======================
+#====================================================
+
+
+
+[SACRED_CRYSTAL]
+Type = CRYSTAL
+Name = Crystal Sacré
+Description = Un Crystal qui a longtemps absorbé de l'énergie sacrée.
+Price = 500
+Attributes = SACRED,1
+
+#----------------------------------------------------
+
+[CURSED_CRYSTAL]
+Type = CRYSTAL
+Name = Crystal Maudit
+Description = Un Crystal qui a longtemps absorbé l'énergie des marais.
+Price = 500
+Attributes = CURSED,1
+
+#----------------------------------------------------
+
+[VULCAIN_CRYSTAL]
+Type = CRYSTAL
+Name = Crystal du Volcan
+Description = Un Crystal qui a longtemps absorbé l'énergie d'un volcan.
+Price = 500
+Attributes = FIRE,1
+
+#----------------------------------------------------
+
+[FROST_CRYSTAL]
+Type = CRYSTAL
+Name = Crystal de givre
+Description = Un Crystal qui a longtemps fermenter dans une mixture glaciale.
+Price = 500
+Attributes = ICE,1
+
+#----------------------------------------------------
+
+[NIGHT_CRYSTAL]
+Type = CRYSTAL
+Name = Crystal de la nuit
+Description = Un Crystal aussi noir que la nuit.
+Price = 500
+Attributes = NIGHT,1
+
+#----------------------------------------------------
+
+[DAY_CRYSTAL]
+Type = CRYSTAL
+Name = Crystal solaire
+Description = Un Crystal qui émet une douce lumière comme celle du soleil.
+Price = 500
+Attributes = DAY,1
 
 
 
