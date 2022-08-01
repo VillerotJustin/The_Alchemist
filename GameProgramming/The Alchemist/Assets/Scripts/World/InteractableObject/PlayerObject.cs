@@ -42,7 +42,7 @@ public class PlayerObject : InteractableObject
         Item item = GameManager.player.GetItemFromSlot(currentSlot);
         if(item == null) return;
         
-        if(item.itemType == Item.Type.POTION && item.itemAttributes.Count != 0){
+        if(item.itemType == Item.Type.USEABLE && item.itemAttributes.Count != 0){
             GameManager.instance.AddEffectsToPlayer(item.itemAttributes);
             GameManager.player.DecrementSlot(currentSlot);
             PlayerHotBarUI.instance.RefreshHotBar();

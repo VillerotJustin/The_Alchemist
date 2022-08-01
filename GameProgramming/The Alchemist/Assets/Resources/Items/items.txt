@@ -5,16 +5,16 @@
 
 
 [TALISMAN_AGAINST_WILD_BEASTS]
-Type = Talisman
+Type = TALISMAN
 Name = Talisman contre les bêtes sauvages
-Description = Un talisfant en épiaire droite sencer proteger les guerrier partant au combat.
+Description = Un talisman en épiaire droite sensé protéger les guerrier partant au combat.
 Price = 20
 Attributes = TALISMAN,1
 
 #----------------------------------------------------
 
 [OLD_TALISMAN]
-Type = Talisman
+Type = TALISMAN
 Name = Ancien talisman
 Description = Un talisman ancien fabriqué à partir de fragment cacher dans chaque zone.
 Price = 20
@@ -29,7 +29,7 @@ Attributes = TALISMAN,10
 
 
 [WINE]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Vin
 Description = Une bouteille de vin de mauvaise qualité, peut aussi servir de débouche toilette.
 Price = 30
@@ -38,7 +38,7 @@ Attributes = HEALING,-10,DRUNK,20
 #----------------------------------------------------
 
 [COMPETITION_WINE]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Vin de compétition
 Description = Un vin de qualité digne des meilleurs cépages.
 Price = 300
@@ -47,7 +47,7 @@ Attributes = HEALING,50,DRUNK,10
 #----------------------------------------------------
 
 [REFRESHING_DRINK]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Boisson rafraichissante
 Description = Une bouteille d'eau bien fraîche avec des glaçons et tout.
 Price = 300
@@ -56,7 +56,7 @@ Attributes = HEALING,5
 #----------------------------------------------------
 
 [BEER]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Bière
 Description = Une bière au bon goût de houblon.
 Price = 20
@@ -65,7 +65,7 @@ Attributes = HEALING,5,DRUNK,4
 #----------------------------------------------------
 
 [COMPETITION_BEER]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Bière de competition
 Description = Un bière de grande qualité.
 Price = 150
@@ -74,25 +74,25 @@ Attributes = HEALING,25,DRUNK,8
 #----------------------------------------------------
 
 [GENEPI_BRANDY]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Eau de vie au génépi
-Description = Une eau de vie au gout de génépi.
+Description = Une eau de vie au goût de génépi.
 Price = 75
 Attributes = DRUNK,40
 
 #----------------------------------------------------
 
 [PEAR_BRANDY]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Eau de vie à la poire
-Description = Une eau de vie au gout de poire.
+Description = Une eau de vie au goût de poire.
 Price = 75
 Attributes = DRUNK,40
 
 #----------------------------------------------------
 
 [MOONWALKER_BEVERAGE]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Breuvage du marcheur de la nuit
 Description = Une potion légendaire qui donne à son consommateur une partie des pouvoirs des marche-lune.
 Price = 1000
@@ -101,7 +101,7 @@ Attributes = MOONWALKER,1
 #----------------------------------------------------
 
 [LOVE_POTION]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Philtre d'amour
 Description = Une philtre d'amour tout droit sortie d'un compte de fée.
 Price = 10000
@@ -110,7 +110,7 @@ Attributes = LOVE,666
 #----------------------------------------------------
 
 [CALMING_TEA]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Thé calmant
 Description = Rien de mieux qu'une tasse de thé en fin de journée.
 Price = 10
@@ -119,7 +119,7 @@ Attributes = CALMING,10
 #----------------------------------------------------
 
 [MINT_TEA]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Thé à la menthe
 Description = Une sachet de thé à la menthe.
 Price = 10
@@ -128,7 +128,7 @@ Attributes = CALMING,10
 #----------------------------------------------------
 
 [RED_BERRY_INFUSION]
-Type = QUEST_ITEM
+Type = USEABLE
 Name = Tissane aux fruits rouges
 Description = Une bonne infusion aux fruits rouges.
 Price = 10
@@ -137,7 +137,7 @@ Attributes = CALMING,10
 #----------------------------------------------------
 
 [ROSE_PARFUM]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Parfum à la rose
 Description = Un parfum qui sent la rose, sauras ravir les romantiques.
 Price = 200
@@ -146,7 +146,7 @@ Attributes = ROSE,1
 #----------------------------------------------------
 
 [OSMANTHE_PARFUM]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Parfum à l'osmanthe
 Description = Un parfum qui sent l'osmanthe.
 Price = 200
@@ -155,7 +155,7 @@ Attributes = OSMANTHE,1
 #----------------------------------------------------
 
 [JASMIN_PARFUM]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Parfum au jasmin
 Description = Un parfum qui sent le jasmin.
 Price = 200
@@ -164,7 +164,7 @@ Attributes = JASMIN,1
 #----------------------------------------------------
 
 [LEATHER_PREPARATION]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Préparation pour le cuir
 Description = Une préparation pour tanner le cuir.
 Price = 50
@@ -173,7 +173,7 @@ Attributes = TANNING,1
 #----------------------------------------------------
 
 [BLUE_DYE]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Colorant bleu
 Description = Un colorant bleu naturel.
 Price = 30
@@ -182,7 +182,7 @@ Attributes = DYE,1
 #----------------------------------------------------
 
 [GREEN_DYE]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Colorant vert
 Description = Un colorant vert naturel.
 Price = 30
@@ -191,7 +191,7 @@ Attributes = DYE,2
 #----------------------------------------------------
 
 [RED_DYE]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Colorant rouge
 Description = Un colorant rouge naturel.
 Price = 30
@@ -200,7 +200,7 @@ Attributes = DYE,3
 #----------------------------------------------------
 
 [YELLOW_DYE]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Colorant jaune
 Description = Un colorant jaune naturel.
 Price = 30
@@ -209,7 +209,7 @@ Attributes = DYE,4
 #----------------------------------------------------
 
 [BLACK_DYE]
-Type = QUEST_ITEM
+Type = OTHER
 Name = Colorant noir
 Description = Un colorant noir naturel.
 Price = 30
@@ -224,7 +224,7 @@ Attributes = DYE,5
 #----------------------Healing-----------------------
 
 [MINOR_HEALING_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de soins mineure
 Description = Une potion de soin qui rend quelques PV.
 Price = 10
@@ -233,7 +233,7 @@ Attributes = HEALING,25
 #----------------------------------------------------
 
 [HEALING_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de soin
 Description = Une potion de soin qui rend des PV.
 Price = 50
@@ -242,7 +242,7 @@ Attributes = HEALING,50
 #----------------------------------------------------
 
 [SUPERIOR_HEALING_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de soin majeure
 Description = Une potion de soin qui rend beaucoup de PV.
 Price = 100
@@ -251,7 +251,7 @@ Attributes = HEALING,75
 #----------------------------------------------------
 
 [LIFE_ELIXIR]
-Type = POTION
+Type = USEABLE
 Name = Elixir de vie
 Description = Un rare élixir qui rend tout les points de vie.
 Price = 500
@@ -261,7 +261,7 @@ Attributes = HEALING,9999
 #-------------------Pulmon problems------------------
 
 [SORE_THROAT_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion contre les maux de gorge.
 Description = Une potion qui transforme les argh en ah.
 Price = 15
@@ -270,7 +270,7 @@ Attributes = HEALING,0
 #----------------------------------------------------
 
 [COUGH_REMEDY]
-Type = POTION
+Type = USEABLE
 Name = Remède contre la toux
 Description = Un potion qui soulage votre gorge et fait disparaître votre toux en un éclair.
 Price = 60
@@ -279,7 +279,7 @@ Attributes = HEALING,0
 #----------------------------------------------------
 
 [BRONCHITIS_REMEDY]
-Type = POTION
+Type = USEABLE
 Name = Remède contre les bronchite
 Description = Un potion qui fais disparaître toute ces vilaines maladie de vos poumons.
 Price = 150
@@ -288,7 +288,7 @@ Attributes = HEALING,0
 #----------------------------------------------------
 
 [LUNG_ELIXIR]
-Type = POTION
+Type = USEABLE
 Name = Remède contre les problèmes pulmonaire
 Description = Une potion qui peut transformer les poumons d'un vieux fumeur atteindre d'un cancer en ceux d'un athlète de haut niveau.
 Price = 650
@@ -298,7 +298,7 @@ Attributes = HEALING,0
 #-----------------------Narcotic----------------------
 
 [SOOTHING]
-Type = POTION
+Type = USEABLE
 Name = Calmant
 Description = Déstresse et détend les muscles.
 Price = 50
@@ -307,7 +307,7 @@ Attributes = NARCOTIC,5
 #----------------------------------------------------
 
 [PAINKILLER]
-Type = POTION
+Type = USEABLE
 Name = anti-douleur
 Description = Fait disparaître la douleur, attention risque d’addiction.
 Price = 100
@@ -316,7 +316,7 @@ Attributes = NARCOTIC,25
 #----------------------------------------------------
 
 [ANAESTHETIC]
-Type = POTION
+Type = USEABLE
 Name = Anesthésiant
 Description = Un anesthésiant de qualité.
 Price = 200
@@ -325,7 +325,7 @@ Attributes = NARCOTIC,50
 #----------------------------------------------------
 
 [SUFENTANIL]
-Type = POTION
+Type = USEABLE
 Name = Sufentanil
 Description = Un puissant anesthésiant médical.
 Price = 600
@@ -335,7 +335,7 @@ Attributes = NARCOTIC,100
 #-----------------------Coffee-----------------------
 
 [WAKE_UP_CALL]
-Type = POTION
+Type = USEABLE
 Name = Réveil matin
 Description = Rien de mieux de bon matin.
 Price = 15
@@ -344,7 +344,7 @@ Attributes = ENERGY,10
 #----------------------------------------------------
 
 [ANTI-FATIGUE_DRINK]
-Type = POTION
+Type = USEABLE
 Name = Breuvage contre la fatigue
 Description = Permet de faire quelque heures de travail supplémentaire.
 Price = 60
@@ -353,7 +353,7 @@ Attributes = ENERGY,20
 #----------------------------------------------------
 
 [COFFEE]
-Type = POTION
+Type = USEABLE
 Name = Café
 Description = Du bon café qui va vous 
 Price = 150
@@ -362,7 +362,7 @@ Attributes = ENERGY,50,SPEED,60
 #----------------------------------------------------
 
 [MAGIC_COFFEE]
-Type = POTION
+Type = USEABLE
 Name = Café magique
 Description = Un café tellement puissant que vous pourriez travaillez une semaine sans dormir.
 Price = 650
@@ -372,7 +372,7 @@ Attributes = ENERGY,500,SPEED,300
 #-----------------------SEDUCTION----------------------
 
 [DOES_EYES_BEVERAGES]
-Type = POTION
+Type = USEABLE
 Name = Breuvages yeux de biche
 Description = Cette potion transformeras vos yeux en de séduisants yeux de biche.
 Price = 50
@@ -381,7 +381,7 @@ Attributes = SEDUCTION,5
 #----------------------------------------------------
 
 [SEDUCTION_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de séduction
 Description = Une fois avoir bu cette potion, vous paraîtrez beaucoup plus séduisant.
 Price = 100
@@ -390,7 +390,7 @@ Attributes = SEDUCTION,20
 #----------------------------------------------------
 
 [DECOCTION_OF_LUST]
-Type = POTION
+Type = USEABLE
 Name = Décoction de luxure
 Description = Après avoir bu cette potion, toutes les personnes qui vous voient seront prises d'une puissante attirance envers vous.
 Price = 200
@@ -399,7 +399,7 @@ Attributes = SEDUCTION,75
 #----------------------------------------------------
 
 [ELIXIR_OF_THE_FEMME_FATALE]
-Type = POTION
+Type = USEABLE
 Name = Élixir de la femme fatale
 Description = La potion parfaite pour avoir homme, femme, et enfant à vos pieds.
 Price = 800
@@ -409,7 +409,7 @@ Attributes = SEDUCTION,300
 #----------------------NICTALOPY---------------------
 
 [MINOR_CAT_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de chat mineure
 Description = Permet de voir dans le noir pour quelques heures.
 Price = 20
@@ -418,7 +418,7 @@ Attributes = NICTALOPY,90
 #----------------------------------------------------
 
 [CAT_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de chat
 Description = Permet de voir dans le noir.
 Price = 60
@@ -427,7 +427,7 @@ Attributes = NICTALOPY,200
 #----------------------------------------------------
 
 [SUPERIOR_CAT_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de chat supérieur
 Description = Permet de voir dans le noir pour une longue durée.
 Price = 120
@@ -436,7 +436,7 @@ Attributes = NICTALOPY,500
 #----------------------------------------------------
 
 [NYCTALOPE_DECOCTION]
-Type = POTION
+Type = USEABLE
 Name = Décoction du nyctalope
 Description = Une fois cette potion consommée, vous pourrez voir de nuit comme de jour.
 Price = 600
@@ -446,7 +446,7 @@ Attributes = NICTALOPY,800
 #----------------------TIREDNESS---------------------
 
 [EXHAUSTION_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de fatigue
 Description = Donne une petit envie de dormir.
 Price = 50
@@ -455,7 +455,7 @@ Attributes = TIREDNESS,25
 #----------------------------------------------------
 
 [NARCOTIC]
-Type = POTION
+Type = USEABLE
 Name = Narcotique
 Description = Vous videz de toute votre énergie sur le coup, vous plongeant dans un sommeil profond.
 Price = 100
@@ -464,7 +464,7 @@ Attributes = TIREDNESS,100
 #----------------------------------------------------
 
 [ETERNAL_SLEEP_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion du sommeil éternel
 Description = Vous plonge dans un sommeil profond pour plusieurs jours voir semaines.
 Price = 200
@@ -473,7 +473,7 @@ Attributes = TIREDNESS,700
 #----------------------------------------------------
 
 [MORPHEE_ELIXIR]
-Type = POTION
+Type = USEABLE
 Name = Élixir de morphée
 Description = Cette potion va vous envoyer droit dans les bras de Morphée ou vous dormirez pour l'éternité.
 Price = 700
@@ -483,7 +483,7 @@ Attributes = TIREDNESS,9999
 #----------------------VOMITING---------------------
 
 [STRANGE_MIXTURE]
-Type = POTION
+Type = USEABLE
 Name = Mixture étrange
 Description = Donne une forte envie de vomir.
 Price = 5
@@ -492,7 +492,7 @@ Attributes = VOMITING,10
 #----------------------------------------------------
 
 [VOMITING_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de vomissement
 Description = Vous faites vomir votre dernier repas.
 Price = 20
@@ -501,7 +501,7 @@ Attributes = VOMITING,25
 #----------------------------------------------------
 
 [LAXATIVE]
-Type = POTION
+Type = USEABLE
 Name = Laxatif
 Description = Un puissant laxatif qui donne envie de vomir.
 Price = 30
@@ -510,7 +510,7 @@ Attributes = VOMITING,50
 #----------------------------------------------------
 
 [ZIGU_ELIXIR]
-Type = POTION
+Type = USEABLE
 Name = Élixir de Zigu
 Description = Avec un élixir de Zigu, tout ce qui est dedans sera bientôt dehors.
 Price = 200
@@ -520,7 +520,7 @@ Attributes = VOMITING,100
 #---------------------INVISIBILITY-------------------
 
 [POTION_OF_DISGUISE]
-Type = POTION
+Type = USEABLE
 Name = Potion de déguisement
 Description = Une foi, cette potion consommée, les gens aurons du mal à se souvenir de votre apparence.
 Price = 100
@@ -529,7 +529,7 @@ Attributes = INVISIBILITY,10
 #----------------------------------------------------
 
 [POTION_OF_DISIMULATION]
-Type = POTION
+Type = USEABLE
 Name = Potion de disimulation
 Description = Avec ces potions la majeur partie des personnes ne se souviendrons même plus de vous.
 Price = 200
@@ -538,7 +538,7 @@ Attributes = INVISIBILITY,25
 #----------------------------------------------------
 
 [POTION_OF_TRANSPARENCY]
-Type = POTION
+Type = USEABLE
 Name = Potion de transparance
 Description = Avec cette potion, vous paraîtrez comme nuage transparent, mais quelqu'un, d'attentif pourra toujours vous retrouver.
 Price = 300
@@ -547,7 +547,7 @@ Attributes = INVISIBILITY,75
 #----------------------------------------------------
 
 [ELIXIR_OF_INVISIBILITY]
-Type = POTION
+Type = USEABLE
 Name = Élixir d'invisibilité
 Description = Ne pas enlever l'étiquete sous risque de perdre la bouteille.
 Price = 900
@@ -557,7 +557,7 @@ Attributes = INVISIBILITY,100
 #----------------------CONFUSION---------------------
 
 [BEVERAGE_OF_DRUNKENNESS]
-Type = POTION
+Type = USEABLE
 Name = Breuvage d'ivresse
 Description = Provoque un léger mal de tête.
 Price = 50
@@ -566,7 +566,7 @@ Attributes = CONFUSION,10
 #----------------------------------------------------
 
 [POTION_OF_CONFUSION]
-Type = POTION
+Type = USEABLE
 Name = Potion de confusion
 Description = Empêche le consommateur de réfléchir.
 Price = 100
@@ -575,7 +575,7 @@ Attributes = CONFUSION,25
 #----------------------------------------------------
 
 [POTION_OF_MADNESS]
-Type = POTION
+Type = USEABLE
 Name = Potion de folie
 Description = Provoque une folie sévère avec effet à longue durée.
 Price = 300
@@ -584,7 +584,7 @@ Attributes = CONFUSION,75
 #----------------------------------------------------
 
 [ELIXIR_OF_LYPEMANIA]
-Type = POTION
+Type = USEABLE
 Name = Élixir de lypémanie
 Description = miseuqjefbcw;,cn  f$qoj  joqk ^poqi jidf
 Price = 800
@@ -594,7 +594,7 @@ Attributes = CONFUSION,100
 #-----------------------SPEED-----------------------
 
 [ENERGIZER]
-Type = POTION
+Type = USEABLE
 Name = Énergisant
 Description = Redonne un petit peut d'énergie.
 Price = 30
@@ -603,7 +603,7 @@ Attributes = ENERGY,10
 #----------------------------------------------------
 
 [ADRENALINE]
-Type = POTION
+Type = USEABLE
 Name = Adrenaline
 Description = Permet de courir un peux plus vite.
 Price = 100
@@ -612,16 +612,16 @@ Attributes = SPEED,120
 #----------------------------------------------------
 
 [BOOST_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion boost
-Description = Permet de courir plus vite tout en diminuant un peu la fatique.
+Description = Permet de courir plus vite tout en diminuant un peu la fatigue.
 Price = 150
 Attributes = SPEED,250,ENERGY,50
 
 #----------------------------------------------------
 
 [ELIXIR_OF_TRANSANDANCE]
-Type = POTION
+Type = USEABLE
 Name = Élixir de transandance
 Description = Renforce votre corps tout en restaurants votre énergie.
 Price = 500
@@ -631,7 +631,7 @@ Attributes = SPEED,360,ENERGY,100
 #----------------------ANTIDOTE----------------------
 
 [MINOR_ANTIDOTE]
-Type = POTION
+Type = USEABLE
 Name = Antidote mineure
 Description = Soigne des petits poisons.
 Price = 50
@@ -640,7 +640,7 @@ Attributes = ANTIDOTE,25
 #----------------------------------------------------
 
 [ANTIDOTE]
-Type = POTION
+Type = USEABLE
 Name = Antidote
 Description = Soigne des poisons.
 Price = 100
@@ -649,7 +649,7 @@ Attributes = ANTIDOTE,50
 #----------------------------------------------------
 
 [SUPERIOR_ANTIDOTE]
-Type = POTION
+Type = USEABLE
 Name = Antidote Majeure
 Description = Soigne des poisons les plus dangereux.
 Price = 200
@@ -658,7 +658,7 @@ Attributes = ANTIDOTE,75
 #----------------------------------------------------
 
 [BLESSING_OF_PANACEA]
-Type = POTION
+Type = USEABLE
 Name = Bénédiction de Panacée
 Description = Soigne de tout les poison et maladie.
 Price = 600
@@ -668,7 +668,7 @@ Attributes = ANTIDOTE,100
 #----------------------DIGESTION----------------------
 
 [STOMACH_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion contre les maux de ventre
 Description = Soigne des maux de ventre.
 Price = 50
@@ -677,7 +677,7 @@ Attributes = DIGESTION,25
 #----------------------------------------------------
 
 [DIGESTIVE]
-Type = POTION
+Type = USEABLE
 Name = Digestif
 Description = Aide à la digestion.
 Price = 100
@@ -686,7 +686,7 @@ Attributes = DIGESTION,50
 #----------------------------------------------------
 
 [INDIGESTION_REMEDY]
-Type = POTION
+Type = USEABLE
 Name = Remède contre les indigestions
 Description = Soigne les indigestions.
 Price = 200
@@ -695,7 +695,7 @@ Attributes = DIGESTION,75
 #----------------------------------------------------
 
 [STOMACH_ULCER_REMEDY]
-Type = POTION
+Type = USEABLE
 Name = Remède contre les ulcères à l'estomac
 Description = Soigne les ulcères de l'estomac.
 Price = 600
@@ -705,7 +705,7 @@ Attributes = DIGESTION,100
 #---------------------REPULSIVE----------------------
 
 [INSECT_SPRAY]
-Type = POTION
+Type = USEABLE
 Name = Spray contre les insectes
 Description = Spray qui éloigne les insectes.
 Price = 100
@@ -714,7 +714,7 @@ Attributes = REPULSIVE,25
 #----------------------------------------------------
 
 [SNAKE_SPRAY]
-Type = POTION
+Type = USEABLE
 Name = Spray contre les serpents
 Description = Spray qui éloigne les serpents.
 Price = 200
@@ -723,16 +723,16 @@ Attributes = REPULSIVE,50
 #----------------------------------------------------
 
 [MIRIAPOD_SPRAY]
-Type = POTION
-Name = Spray contre les miriapodes
-Description = Spray qui éloigne les miriapodes.
+Type = USEABLE
+Name = Spray contre les myriapodes
+Description = Spray qui éloigne les myriapodes.
 Price = 300
 Attributes = REPULSIVE,75
 
 #----------------------------------------------------
 
 [UNIVERSAL_ANTI-MONSTER_SPRAY]
-Type = POTION
+Type = USEABLE
 Name =  Anti-monstre Universelle
 Description = Spray qui éloigne tout les monstres.
 Price = 700
@@ -742,7 +742,7 @@ Attributes = REPULSIVE,100
 #---------------------REPULSIVE----------------------
 
 [HALLUCINOGENIC_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion hallucinogène
 Description = Brouille la vue et l'esprit.
 Price = 100
@@ -751,7 +751,7 @@ Attributes = BLINDNESS,25
 #----------------------------------------------------
 
 [FOG_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion de brouillard
 Description = Embrume la vue a telle point que l'on se croirait dans un brouillard.
 Price = 200
@@ -760,7 +760,7 @@ Attributes = BLINDNESS,50
 #----------------------------------------------------
 
 [BLINDING_POTION]
-Type = POTION
+Type = USEABLE
 Name = Potion d'aveuglement
 Description = Rend aveugle pour une courte durée.
 Price = 300
@@ -769,7 +769,7 @@ Attributes = BLINDNESS,75
 #----------------------------------------------------
 
 [ELIXIR_OF_BLINDNESS]
-Type = POTION
+Type = USEABLE
 Name =  Élixir de cécité
 Description = Rend aveugle.
 Price = 850
@@ -786,7 +786,7 @@ Attributes = BLINDNESS,100
 #----------------------HEALING-----------------------
 
 [HEALING_OINTMENT]
-Type = OINTMENT
+Type = USEABLE
 Name = Pommade cicatrisante
 Description = Une pommade qui aide à soigner les petits bobos.
 Price = 10
@@ -795,7 +795,7 @@ Attributes = HEALING,25
 #----------------------------------------------------
 
 [REPAIRING_BALM]
-Type = OINTMENT
+Type = USEABLE
 Name = Baume réparateur
 Description = Un baume qui soigne les bleus et les égratignures.
 Price = 50
@@ -804,7 +804,7 @@ Attributes = HEALING,50
 #----------------------------------------------------
 
 [WOUND_HEALING_OINTMENT]
-Type = OINTMENT
+Type = USEABLE
 Name = Onguant contre les plaies
 Description = Un onguent de première qualité qui referme les plaies.
 Price = 100
@@ -813,9 +813,9 @@ Attributes = HEALING,75
 #----------------------------------------------------
 
 [IASO_EMBROCATION]
-Type = OINTMENT
+Type = USEABLE
 Name = Embrocation d'Iaso
-Description = Une pomade qui peut même faire repouser les membres.
+Description = Une pommade qui peut même faire repousser les membres.
 Price = 500
 Attributes = HEALING,9999
 
@@ -823,7 +823,7 @@ Attributes = HEALING,9999
 #---------------------RESISTANCE---------------------
 
 [OINTMENT_AGAINST_ITCHING]
-Type = OINTMENT
+Type = USEABLE
 Name = Pommade contre les démangeaisons
 Description = Une pommade qui soigne les démangeaisons.
 Price = 30
@@ -832,16 +832,16 @@ Attributes = RESISTANCE,25
 #----------------------------------------------------
 
 [OINTMENT_AGAINST_STINGS]
-Type = OINTMENT
+Type = USEABLE
 Name = Onguent contre les piqûres
-Description = Un onguent qui protege des piqures.
+Description = Un onguent qui protège des piqûres.
 Price = 80
 Attributes = RESISTANCE,50
 
 #----------------------------------------------------
 
 [ANTI_INFLAMMATORY]
-Type = OINTMENT
+Type = USEABLE
 Name = Anti-inflammatoire
 Description = Un anti-inflammatoire à appliquer sur la peau.
 Price = 150
@@ -850,7 +850,7 @@ Attributes = RESISTANCE,75
 #----------------------------------------------------
 
 [GOLEM_BALM]
-Type = OINTMENT
+Type = USEABLE
 Name = Beaume du golem
 Description = Un onguent qui transforme la couche supérieur de la peau en une couche de pierre protectrice.
 Price = 700
@@ -860,7 +860,7 @@ Attributes = RESISTANCE,100
 #---------------------ANTI_BURN----------------------
 
 [SUNSCREEN_CREAM]
-Type = OINTMENT
+Type = USEABLE
 Name = Crème solaire
 Description = Une crème solaire particulièrement efficace.
 Price = 20
@@ -869,8 +869,8 @@ Attributes = ANTI_BURN,25
 #----------------------------------------------------
 
 [OINTMENT_AGAINST_BURNS]
-Type = OINTMENT
-Name = Pommade contre les brulures
+Type = USEABLE
+Name = Pommade contre les brûlures
 Description = Une pommade qui aide à soigner les brûlures.
 Price = 90
 Attributes = ANTI_BURN,50
@@ -878,8 +878,8 @@ Attributes = ANTI_BURN,50
 #----------------------------------------------------
 
 [OINTMENT_AGAINST_SEVERE_BURNS]
-Type = OINTMENT
-Name = Onguent contre les brulures sévères
+Type = USEABLE
+Name = Onguent contre les brûlures sévères
 Description = Un onguent qui soigne les brûlures sévères.
 Price = 200
 Attributes = ANTI_BURN,75
@@ -887,7 +887,7 @@ Attributes = ANTI_BURN,75
 #----------------------------------------------------
 
 [AGOUNIA_EMBROCATION]
-Type = OINTMENT
+Type = USEABLE
 Name = Embrocation d'Agounia
 Description = Cette embrocation peut soigner les brûlures les plus sévères et offre une protection contre le feu.
 Price = 750
@@ -897,7 +897,7 @@ Attributes = ANTI_BURN,100
 #---------------------ANTI_COLD----------------------
 
 [CREAM_AGAINST_COLD]
-Type = OINTMENT
+Type = USEABLE
 Name = Creme contre le froid
 Description = Une crème contre le froid particulièrement efficace.
 Price = 20
@@ -906,7 +906,7 @@ Attributes = ANTI_BURN,25
 #----------------------------------------------------
 
 [WARMING_OINTMENT]
-Type = OINTMENT
+Type = USEABLE
 Name = Pommade chaleureuse
 Description = Une pommade qui aide qui protège du froid tout en réchauffant le corps.
 Price = 90
@@ -915,7 +915,7 @@ Attributes = ANTI_BURN,50
 #----------------------------------------------------
 
 [OINTMENT_AGAINST_CHILBLAINS]
-Type = OINTMENT
+Type = USEABLE
 Name = Onguent contre les engelures
 Description = Un onguent qui soigne les engelures.
 Price = 200
@@ -924,7 +924,7 @@ Attributes = ANTI_BURN,75
 #----------------------------------------------------
 
 [UII_EMBROCATION]
-Type = OINTMENT
+Type = USEABLE
 Name = Embrocation bénie par UII
 Description = Cette embrocation peut soigner les engelures les plus sévères et offre une protection contre les froids les plus glacials.
 Price = 750

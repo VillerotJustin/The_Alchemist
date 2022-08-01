@@ -11,8 +11,10 @@ public class Item
         BODY,
         FEET,
         GLOVE,
-        POTION,
-        OINTMENT
+        TALISMAN,
+        USEABLE,
+        PLACEABLE,
+        OTHER
     };
 
     public string internalName;
@@ -29,14 +31,14 @@ public class Item
         internalName = "NO_NAME";
         itemName = "NO_NAME";
         itemDescription = "Cet objet n'a pas de description.";
-        itemType = Type.POTION;
+        itemType = Type.OTHER;
     }
 
     public Sprite GetItemSprite(){
         Sprite refSprite = Resources.Load<Sprite>("Items/Sprites/"+internalName);
         if(refSprite == null){
             Debug.Log("L'image dans Resources/Items/Sprites/"+internalName+" n'existe pas");
-            return null;
+            return Resources.Load<Sprite>("Items/Sprites/PLACEHOLDER");
         }
 
         return refSprite;
