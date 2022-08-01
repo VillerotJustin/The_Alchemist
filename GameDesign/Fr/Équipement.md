@@ -5,7 +5,7 @@
 - Tenue de citoyen > Tenue d'alchimiste débutant > Tenue d'alchimiste confirmé > Tenue de maitre alchimiste (influence sur le niveau des potion fabricable )
 - Baluchon > Sac a dos > Sac de marche > Sac d'alchimiste
 
-## Équipement unique :
+## Talisman :
 - Lanterne
 - Talisman contre les bêtes (forest quest)
 - Talisman ancient (quetes finale)

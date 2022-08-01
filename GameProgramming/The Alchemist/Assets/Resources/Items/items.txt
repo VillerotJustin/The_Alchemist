@@ -1,4 +1,178 @@
 #====================================================
+#=========================TOOL=======================
+#====================================================
+
+
+
+[RUSTED_AXE]
+Type = TOOL
+Name = Hache rouillé
+Description = Une vielle hache qui permet de couper les petits arbres.
+Price = 100
+Attributes = AXE,1
+
+#----------------------------------------------------
+
+[MAGIC_MANTLE]
+Type = TOOL
+Name = Hache en fer
+Description = La hache du gardien de la forêt, permet de couper les plus gros arbres.
+Price = 0
+Attributes = AXE,2
+
+#----------------------------------------------------
+
+[WOODEN_BUCKET]
+Type = TOOL
+Name = Seau en bois
+Description = Un seau en bois pas très solide.
+Price = 20
+Attributes = BUCKET,1
+
+#----------------------------------------------------
+
+[IRON_BUCKET]
+Type = TOOL
+Name = Seau en fer
+Description = Un seau en fer qui permet de récolter différents liquides.
+Price = 100
+Attributes = BUCKET,2
+
+#----------------------------------------------------
+
+[GOLD_BUCKET]
+Type = TOOL
+Name = Seau en or
+Description = Un seau en identique au seau en fer mais en plus cool.
+Price = 500
+Attributes = BUCKET,2
+
+#----------------------------------------------------
+
+[MAGIC_BUCKET]
+Type = TOOL
+Name = Seau magique
+Description = Un seau magique permettant de récolter tous les liquides et de les conserver.
+Price = 1000
+Attributes = BUCKET,3
+
+#----------------------------------------------------
+
+[WATERING_CAN]
+Type = TOOL
+Name = Arrosoir
+Description = Un arrosoir avec une petite contenance.
+Price = 50
+Attributes = WATERING,5
+
+#----------------------------------------------------
+
+[GOLDEN_WATERING_CAN]
+Type = TOOL
+Name = Arrosoir dorée
+Description = Un arrosoir dorée avec une grande contenance.
+Price = 500
+Attributes = WATERING,50
+
+#----------------------------------------------------
+
+[ENCHANTED_WATERING_CAN]
+Type = TOOL
+Name = Arrosoir enchanté
+Description = Un arrosoir magique avec une contenance faramineuse.
+Price = 1000
+Attributes = WATERING,9999
+
+#----------------------------------------------------
+
+[SHEARS]
+Type = TOOL
+Name = Cisaille
+Description = Une cisaille qui coupe mal mais c'est toujours mieux que rien.
+Price = 100
+Attributes = GATHERING,1
+
+#----------------------------------------------------
+
+[SICKLE]
+Type = TOOL
+Name = Faucille
+Description = Une faucille qui coupe bien.
+Price = 200
+Attributes = GATHERING,2
+
+#----------------------------------------------------
+
+[GOLDEN_SICKLE]
+Type = TOOL
+Name = Faucille en or
+Description = Une faucille en or, avec Panoramix gravé sur le manche.
+Price = 500
+Attributes = GATHERING,3
+
+#----------------------------------------------------
+
+[MAGIC_SICKLE]
+Type = TOOL
+Name = Faucille magique
+Description = Une faucille en or enchanté qui permet de tout recolter.
+Price = 1000
+Attributes = GATHERING,4
+
+#----------------------------------------------------
+
+[HOE]
+Type = TOOL
+Name = Houe
+Description = Une houe pour couper les herbes hautes.
+Price = 100
+Attributes = HOE,1
+
+#----------------------------------------------------
+
+[PICKAXE]
+Type = TOOL
+Name = Pioche
+Description = Une pioche pour casser les pierres génantes.
+Price = 100
+Attributes = PICKAXE,1
+
+#----------------------------------------------------
+
+[SHOVEL]
+Type = TOOL
+Name = Pelle
+Description = Une pelle pour retourner la terre.
+Price = 100
+Attributes = SHOVEL,1
+
+
+
+#====================================================
+#=======================MANTLE=======================
+#====================================================
+
+
+
+[MANTLE]
+Type = MANTLE
+Name = Vieux manteau
+Description = Le vieux manteau du garde de la montagne.
+Price = 0
+Attributes = MANTLE,1
+
+#----------------------------------------------------
+
+[MAGIC_MANTLE]
+Type = MANTLE
+Name = Bottes magique
+Description = Le vieux manteau du garde de la montagne, qui a été enchanter pour resister à la chaleur du volcan.
+Price = 0
+Attributes = MANTLE,2
+
+
+
+#====================================================
 #========================FEET========================
 #====================================================
 
@@ -137,7 +311,7 @@ Description = Un gant de jardinage enchanté avec les 6 cristaux.
 Price = 500
 Attributes = GLOVE,3
 
-# yes we will need to make 2^6 version du gant car il faut mettre les pierres une a une.
+# yes we will need to make 2^6 version du gant car il faut mettre les pierres une a une. ou on fait juste le gant enchante avec le cristal de givre
 
 
 
@@ -146,6 +320,15 @@ Attributes = GLOVE,3
 #====================================================
 
 
+
+[LANTERN]
+Type = TALISMAN
+Name = Lanterne
+Description = Une lanterne en épiaire droite sensé protéger les guerrier partant au combat.
+Price = 100
+Attributes = LANTERN,1
+
+#----------------------------------------------------
 
 [TALISMAN_AGAINST_WILD_BEASTS]
 Type = TALISMAN
@@ -160,7 +343,7 @@ Attributes = TALISMAN,1
 Type = TALISMAN
 Name = Ancien talisman
 Description = Un talisman ancien fabriqué à partir de fragment cacher dans chaque zone.
-Price = 20
+Price = 9999
 Attributes = TALISMAN,10
 
 
@@ -170,6 +353,15 @@ Attributes = TALISMAN,10
 #====================================================
 
 
+
+[CLEAR_CRYSTAL]
+Type = CRYSTAL
+Name = Crystal transparent
+Description = Un Crystal transparent trouvé à l'intérieur du volcan.
+Price = 400
+Attributes = CRYSTAL,1
+
+#----------------------------------------------------
 
 [SACRED_CRYSTAL]
 Type = CRYSTAL
