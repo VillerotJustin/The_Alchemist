@@ -46,6 +46,7 @@ public class PlayerObject : InteractableObject
             GameManager.instance.AddEffectsToPlayer(item.itemAttributes);
             GameManager.player.DecrementSlot(currentSlot);
             PlayerHotBarUI.instance.RefreshHotBar();
+            UIEffectManager.instance.RefreshAllEffects();
         }
     }
 

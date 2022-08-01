@@ -24,30 +24,37 @@ public class PostProcessingManager : MonoBehaviour
     }
 
 
-    public static void ApplyDrunkFOV(int time){
-        ppm.ChangeProfile(ppm.drunkProfile,time);
+    public static void ApplyDrunkFOV(){
+        ppm.ChangeProfile(ppm.drunkProfile);
     } 
 
-    public static void ApplyNightVision(int time){
-        ppm.ChangeProfile(ppm.nightVisionProfile,time);
+    public static void ApplyNightVision(){
+        ppm.ChangeProfile(ppm.nightVisionProfile);
     } 
 
-    public static void ApplyTiredVision(int time){
-        ppm.ChangeProfile(ppm.tiredVisionProfile,time);
+    public static void ApplyTiredVision(){
+        ppm.ChangeProfile(ppm.tiredVisionProfile);
     } 
 
-    void ChangeProfile(VolumeProfile newProfile,int time){
+    public static void ApplyNoEffect(){
+        ppm.ChangeProfile(null);
+    }
+
+    void ChangeProfile(VolumeProfile newProfile){
         if(newProfile == volume.profile) return;
 
-        if(routine != null){
-            StopCoroutine(routine);
-            routine = StartCoroutine(StopProfile(newProfile,time));
+        if(routine == null && volume.profile == null){
+            routine = StartCoroutine(StartingProfile(newProfile));
         }else{
-            routine = StartCoroutine(ChangingProfile(newProfile,time));
+            if(routine != null){
+                StopCoroutine(routine);
+            }
+
+            routine = StartCoroutine(StopProfile(newProfile));
         }
     }
 
-    IEnumerator StopProfile(VolumeProfile newOne,int newTime){
+    IEnumerator StopProfile(VolumeProfile newOne){
         while(volume.weight > 0f){
             volume.weight -= Time.deltaTime;
             if(volume.weight < 0f){
@@ -55,10 +62,10 @@ public class PostProcessingManager : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
-        routine = StartCoroutine(ChangingProfile(newOne,newTime));
+        routine = StartCoroutine(StartingProfile(newOne));
     }
 
-    IEnumerator ChangingProfile(VolumeProfile profile,int time){
+    IEnumerator StartingProfile(VolumeProfile profile){
         volume.weight = 0;
         volume.profile = profile;
 
@@ -70,17 +77,6 @@ public class PostProcessingManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
-        yield return new WaitForSeconds(time);
-
-        while(volume.weight > 0f){
-            volume.weight -= Time.deltaTime;
-            if(volume.weight < 0f){
-                volume.weight = 0f;
-            }
-            yield return new WaitForEndOfFrame();
-        }
-
-        volume.profile = null;
         routine = null;
     }
 }

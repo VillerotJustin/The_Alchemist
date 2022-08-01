@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
             _player = new Player();
             player = _player;
 
-            timeBasedAttributes = new Dictionary<string, Coroutine>();
+            timeBasedAttributes = new Dictionary<string, ItemAttributeWorker>();
 
             playerCanMove = true;
             _map = SceneManager.GetActiveScene().name;
@@ -64,7 +64,9 @@ public class GameManager : MonoBehaviour
     public Dictionary<string,Item>.KeyCollection allItemsKeys {get{return allItems.Keys;}}
 
 
-    private Dictionary<string,Coroutine> timeBasedAttributes;
+    private Dictionary<string,ItemAttributeWorker> timeBasedAttributes;
+
+    public Dictionary<string,ItemAttributeWorker>.KeyCollection effectsName {get{return timeBasedAttributes.Keys;}}
 
 
     public Item GetItem(string name){
@@ -78,37 +80,32 @@ public class GameManager : MonoBehaviour
     }
 
 
-    
+    public void RemoveEffect(string effectName){
+        if(EffectExists(effectName)){
+            timeBasedAttributes[effectName].StopCoroutine();
+            timeBasedAttributes.Remove(effectName);
+        }
+    }
+
+    public bool EffectExists(string effect){
+        return timeBasedAttributes.ContainsKey(effect);
+    }
+
+    public float GetTotalTimeOfEffect(string effect){
+        return timeBasedAttributes[effect].GetTotalTime();
+    }
+
+    public float GetCurrentTimeOfEffect(string effect){
+        return timeBasedAttributes[effect].GetCurrentTime();
+    }
     
     public void AddEffectsToPlayer(List<ItemAttribute> attributes){
             foreach(ItemAttribute attribute in attributes){
 
-                if(timeBasedAttributes.ContainsKey(attribute.attributeName)){
-                    StopCoroutine(timeBasedAttributes[attribute.attributeName]);
-                    timeBasedAttributes.Remove(attribute.attributeName);
-                }
+                RemoveEffect(attribute.attributeName);
 
-                switch(attribute.attributeName){
-                    case "DRUNK":
-                        timeBasedAttributes[attribute.attributeName] = StartCoroutine(DrunkEffect(attribute.attributeValue));
-                        PostProcessingManager.ApplyDrunkFOV(attribute.attributeValue);
-                        break;
-                    case "HEALTH":
-                        print("Vous allez mieux. Enfin, je crois...");
-                        break;
-                    case "ENERGY":
-                        print("Vous êtes SPEED maintenant !");
-                        break;
-                    case "SPEED":
-                        timeBasedAttributes[attribute.attributeName] = StartCoroutine(SpeedEffect(attribute.attributeValue));
-                        break;
-                    case "NICTALOPY":
-                        PostProcessingManager.ApplyNightVision(attribute.attributeValue);
-                        break;
-                    case "TIREDNESS":
-                        timeBasedAttributes[attribute.attributeName] = StartCoroutine(TiredEffect(attribute.attributeValue));
-                        break;
-                }
+                timeBasedAttributes.Add(attribute.attributeName,new ItemAttributeWorker(attribute.attributeName,attribute.attributeValue));
+                timeBasedAttributes[attribute.attributeName].Init();
             }
     }
 
@@ -118,48 +115,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    IEnumerator DrunkEffect(int time){
-       PostProcessingManager.ApplyDrunkFOV(time);
 
-        float correctTime = (float)time;
-
-        PlayerMovement p = FindObjectsOfType<PlayerMovement>()[0];
-
-        while(correctTime > 0){
-            correctTime-=Time.deltaTime;
-            if(UnityEngine.Random.Range(0,100) <= 5){
-                p.ForceMove(UnityEngine.Random.Range(-1f,1f),UnityEngine.Random.Range(-1f,1f));
-            }
-
-
-            yield return new WaitForEndOfFrame();
-        }
-        timeBasedAttributes.Remove("DRUNK");
-    }
-
-
-    IEnumerator TiredEffect(int time){
-        PostProcessingManager.ApplyTiredVision(time);
-
-        float correctSpeed = player.speed; 
-        player.speed = correctSpeed/2;
-        
-        yield return new WaitForSeconds(time);
-
-        player.speed = correctSpeed;
-        timeBasedAttributes.Remove("TIREDNESS");
-    }
-
-    IEnumerator SpeedEffect(int time){
-
-        float correctSpeed = player.speed; 
-        player.speed = correctSpeed*2;
-        
-        yield return new WaitForSeconds(time);
-
-        player.speed = correctSpeed;
-        timeBasedAttributes.Remove("SPEED");
-    }
 
 
 
