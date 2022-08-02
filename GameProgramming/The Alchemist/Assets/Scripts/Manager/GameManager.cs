@@ -109,6 +109,13 @@ public class GameManager : MonoBehaviour
             }
     }
 
+    public void SetEffectToEnd(string effect){
+        if(EffectExists(effect)){
+            timeBasedAttributes[effect].End();
+        }
+    }
+
+
     public void DEBUG_GIVEITEMS(){
         player.AddItemToSlot(allItems["HEALING_POTION"],4,0);
         player.AddItemToSlot(allItems["WINE"],4,5);

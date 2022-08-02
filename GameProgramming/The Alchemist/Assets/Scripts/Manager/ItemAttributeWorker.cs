@@ -9,21 +9,26 @@ public class ItemAttributeWorker
     private float currentTime;
     private string attributeName;
 
+    private bool skip;
 
     public float GetCurrentTime(){return currentTime;}
     public float GetTotalTime(){return totalTime;}
+
+
+    public void End(){
+        currentTime = 0;
+        skip = true;
+    }
 
     public ItemAttributeWorker(string attribute, int time){
         totalTime = time;
         currentTime = time;
         attributeName = attribute;
+        skip = false;
     }
 
     public void Init(){
         switch(attributeName){
-            case "DRUNK":
-                routine = GameManager.instance.StartCoroutine(DrunkEffect());
-                break;
             case "HEALING":
                 Debug.Log("Vous allez mieux. Enfin, je crois...");
                 GameManager.instance.RemoveEffect(attributeName);
@@ -32,13 +37,23 @@ public class ItemAttributeWorker
                 Debug.Log("Vous êtes SPEED maintenant !");
                 GameManager.instance.RemoveEffect(attributeName);
                 break;
+
+            case "DRUNK":
+                GameManager.instance.SetEffectToEnd("NICTALOPY");
+                GameManager.instance.SetEffectToEnd("TIREDNESS");
+                routine = GameManager.instance.StartCoroutine(DrunkEffect());
+                break;
             case "SPEED":
                 routine = GameManager.instance.StartCoroutine(SpeedEffect());
                 break;
             case "NICTALOPY":
+                GameManager.instance.SetEffectToEnd("DRUNK");
+                GameManager.instance.SetEffectToEnd("TIREDNESS");
                 routine = GameManager.instance.StartCoroutine(NightVisionEffect());
                 break;
             case "TIREDNESS":
+                GameManager.instance.SetEffectToEnd("NICTALOPY");
+                GameManager.instance.SetEffectToEnd("DRUNK");
                 routine = GameManager.instance.StartCoroutine(TiredEffect());
                 break;
         }
@@ -60,7 +75,8 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        PostProcessingManager.ApplyNoEffect();
+        if(!skip)
+            PostProcessingManager.ApplyNoEffect();
 
         GameManager.instance.RemoveEffect(attributeName);
     }
@@ -78,7 +94,8 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        PostProcessingManager.ApplyNoEffect();
+        if(!skip)
+            PostProcessingManager.ApplyNoEffect();
 
         GameManager.player.speed = correctSpeed;
         GameManager.instance.RemoveEffect(attributeName);
@@ -95,7 +112,8 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        PostProcessingManager.ApplyNoEffect();
+        if(!skip)
+            PostProcessingManager.ApplyNoEffect();
 
         GameManager.player.speed = correctSpeed;
         GameManager.instance.RemoveEffect(attributeName);
@@ -111,7 +129,8 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        PostProcessingManager.ApplyNoEffect();
+        if(!skip)
+            PostProcessingManager.ApplyNoEffect();
 
         GameManager.instance.RemoveEffect(attributeName);
     }

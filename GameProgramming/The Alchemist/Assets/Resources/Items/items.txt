@@ -172,7 +172,7 @@ Attributes = AXE,1
 
 #----------------------------------------------------
 
-[MAGIC_MANTLE]
+[IRON_AXE]
 Type = TOOL
 Name = Hache en fer
 Description = La hache du gardien de la forêt, permet de couper les plus gros arbres.
@@ -274,7 +274,7 @@ Attributes = GATHERING,3
 [MAGIC_SICKLE]
 Type = TOOL
 Name = Faucille magique
-Description = Une faucille en or enchanté qui permet de tout recolter.
+Description = Une faucille en or enchanté qui permet de tout récolter.
 Price = 1000
 Attributes = GATHERING,4
 
@@ -292,7 +292,7 @@ Attributes = HOE,1
 [PICKAXE]
 Type = TOOL
 Name = Pioche
-Description = Une pioche pour casser les pierres génantes.
+Description = Une pioche pour casser les pierres gênantes.
 Price = 100
 Attributes = PICKAXE,1
 
@@ -314,7 +314,7 @@ Attributes = SHOVEL,1
 
 
 [MANTLE]
-Type = MANTLE
+Type = OTHER
 Name = Vieux manteau
 Description = Le vieux manteau du garde de la montagne.
 Price = 0
@@ -323,9 +323,9 @@ Attributes = MANTLE,1
 #----------------------------------------------------
 
 [MAGIC_MANTLE]
-Type = MANTLE
+Type = OTHER
 Name = Bottes magique
-Description = Le vieux manteau du garde de la montagne, qui a été enchanter pour resister à la chaleur du volcan.
+Description = Le vieux manteau du garde de la montagne, qui a été enchanté pour résister à la chaleur du volcan.
 Price = 0
 Attributes = MANTLE,2
 
@@ -338,7 +338,7 @@ Attributes = MANTLE,2
 
 
 [BOOTS]
-Type = BACKPACK
+Type = FEET
 Name = Bottes
 Description = Des bottes en caoutchouc jaune.
 Price = 50
@@ -347,7 +347,7 @@ Attributes = FEET,1
 #----------------------------------------------------
 
 [MAGIC_BOOTS]
-Type = BACKPACK
+Type = FEET
 Name = Bottes magique
 Description = Des bottes en caoutchouc jaune enchanter pour résister aux plus fortes chaleurs.
 Price = 1000
@@ -404,7 +404,7 @@ Attributes = BODY,4
 
 
 [BALUCHON]
-Type = BACKPACK
+Type = USEABLE
 Name = Baluchon
 Description = Un vieux baluchon.
 Price = 50
@@ -413,7 +413,7 @@ Attributes = BACKPACK,1
 #----------------------------------------------------
 
 [BACKPACK]
-Type = BACKPACK
+Type = USEABLE
 Name = Sac a dos
 Description = Un sac à dos banal.
 Price = 200
@@ -422,7 +422,7 @@ Attributes = BACKPACK,2
 #----------------------------------------------------
 
 [TREKINC_BACKPACK]
-Type = BACKPACK
+Type = USEABLE
 Name = Gants magique
 Description = Un sac à dos de randonnée.
 Price = 500
@@ -431,7 +431,7 @@ Attributes = BACKPACK,3
 #----------------------------------------------------
 
 [ALCHEMIST_BACKPACK]
-Type = BACKPACK
+Type = USEABLE
 Name = Sac d'alchimiste
 Description = Un grand sac à dos d'alchimiste avec toutes les fonctions don, vous aurez besoin.
 Price = 1000
@@ -471,7 +471,7 @@ Price = 500
 Attributes = GLOVE,3
 
 # yes we will need to make 2^6 version du gant car il faut mettre les pierres une a une. ou on fait juste le gant enchante avec le cristal de givre
-
+# alors non, et puis non
 
 
 #====================================================
@@ -514,63 +514,63 @@ Attributes = TALISMAN,10
 
 
 [CLEAR_CRYSTAL]
-Type = CRYSTAL
-Name = Crystal transparent
-Description = Un Crystal transparent trouvé à l'intérieur du volcan.
+Type = OTHER
+Name = Cristal transparent
+Description = Un Cristal transparent trouvé à l'intérieur du volcan.
 Price = 400
 Attributes = CRYSTAL,1
 
 #----------------------------------------------------
 
 [SACRED_CRYSTAL]
-Type = CRYSTAL
-Name = Crystal Sacré
-Description = Un Crystal qui a longtemps absorbé de l'énergie sacrée.
+Type = OTHER
+Name = Cristal Sacré
+Description = Un Cristal qui a longtemps absorbé de l'énergie sacrée.
 Price = 500
 Attributes = SACRED,1
 
 #----------------------------------------------------
 
 [CURSED_CRYSTAL]
-Type = CRYSTAL
-Name = Crystal Maudit
-Description = Un Crystal qui a longtemps absorbé l'énergie des marais.
+Type = OTHER
+Name = Cristal Maudit
+Description = Un Cristal qui a longtemps absorbé l'énergie des marais.
 Price = 500
 Attributes = CURSED,1
 
 #----------------------------------------------------
 
 [VULCAIN_CRYSTAL]
-Type = CRYSTAL
-Name = Crystal du Volcan
-Description = Un Crystal qui a longtemps absorbé l'énergie d'un volcan.
+Type = OTHER
+Name = Cristal du Volcan
+Description = Un Cristal qui a longtemps absorbé l'énergie d'un volcan.
 Price = 500
 Attributes = FIRE,1
 
 #----------------------------------------------------
 
 [FROST_CRYSTAL]
-Type = CRYSTAL
-Name = Crystal de givre
-Description = Un Crystal qui a longtemps fermenter dans une mixture glaciale.
+Type = OTHER
+Name = Cristal de givre
+Description = Un Cristal qui a longtemps fermenter dans une mixture glaciale.
 Price = 500
 Attributes = ICE,1
 
 #----------------------------------------------------
 
 [NIGHT_CRYSTAL]
-Type = CRYSTAL
-Name = Crystal de la nuit
-Description = Un Crystal aussi noir que la nuit.
+Type = OTHER
+Name = Cristal de la nuit
+Description = Un Cristal aussi noir que la nuit.
 Price = 500
 Attributes = NIGHT,1
 
 #----------------------------------------------------
 
 [DAY_CRYSTAL]
-Type = CRYSTAL
-Name = Crystal solaire
-Description = Un Crystal qui émet une douce lumière comme celle du soleil.
+Type = OTHER
+Name = Cristal solaire
+Description = Un Cristal qui émet une douce lumière comme celle du soleil.
 Price = 500
 Attributes = DAY,1
 
