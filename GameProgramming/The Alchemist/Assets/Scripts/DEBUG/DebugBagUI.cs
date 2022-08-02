@@ -44,7 +44,7 @@ public class DebugBagUI : PlayerBagGUI
         }
         allItemsRoot.GetComponent<RectTransform>().sizeDelta = new Vector2(
             allItemsRoot.GetComponent<RectTransform>().sizeDelta.x,
-            allItemsRoot.GetComponent<RectTransform>().sizeDelta.y * GameManager.instance.allItemsKeys.Count/5);
+            60 * GameManager.instance.allItemsKeys.Count/8);
     }
 
     public override void CloseBag()

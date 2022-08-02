@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\Manager\Player.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\InventorySelection_Helper.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\RecipeGUI_Recipe.cs" />
+     <Compile Include="Assets\Scripts\GUI\EffectGUI\UIEffectManager.cs" />
      <Compile Include="Assets\Scripts\Crafting System\Recipe.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\MenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemSlot\UI_ItemSlot.cs" />
@@ -83,6 +84,7 @@
      <Compile Include="Assets\Scripts\GUI\Menu\SettingsGUI.cs" />
      <Compile Include="Assets\Scripts\World\InteractableObject\DialogObject.cs" />
      <Compile Include="Assets\Scripts\World\NightLight.cs" />
+     <Compile Include="Assets\Scripts\Manager\ItemAttributeWorker.cs" />
      <Compile Include="Assets\Scripts\World\Timehandler.cs" />
      <Compile Include="Assets\Scripts\Items\InventoryItemContainer.cs" />
      <Compile Include="Assets\Scripts\DEBUG\WeatherTesting.cs" />
@@ -90,10 +92,8 @@
      <Compile Include="Assets\Scripts\Items\ItemAttribute.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\MenuGUITab.cs" />
      <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
-     <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\Manager\ItemAttributeWorker.cs" />
      <Compile Include="Assets\Scripts\GUI\EffectGUI\UI_ItemEffect.cs" />
-     <Compile Include="Assets\Scripts\GUI\EffectGUI\UIEffectManager.cs" />
+     <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Dialogs\testDialog.txt" />

@@ -18,6 +18,7 @@ public class PostProcessingManager : MonoBehaviour
     public static bool isApplyingEffect {get{return ppm.routine != null;}}
 
     void Awake(){
+        DontDestroyOnLoad(gameObject);
         ppm = this;
         volume.profile = null;
         volume.weight = 0;

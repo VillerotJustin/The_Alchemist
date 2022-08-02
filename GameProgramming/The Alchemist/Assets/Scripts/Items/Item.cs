@@ -14,6 +14,7 @@ public class Item
         TALISMAN,
         USEABLE,
         PLACEABLE,
+        TOOL,
         OTHER
     };
 
@@ -37,7 +38,6 @@ public class Item
     public Sprite GetItemSprite(){
         Sprite refSprite = Resources.Load<Sprite>("Items/Sprites/"+internalName);
         if(refSprite == null){
-            Debug.Log("L'image dans Resources/Items/Sprites/"+internalName+" n'existe pas");
             return Resources.Load<Sprite>("Items/Sprites/PLACEHOLDER");
         }
 
