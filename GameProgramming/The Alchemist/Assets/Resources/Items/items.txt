@@ -1,4 +1,163 @@
 #====================================================
+#=====================PLACEABLE======================
+#====================================================
+
+
+
+[MORTAR_AND_PESTLE]
+Type = PLACEABLE
+Name = Mortier et Pilon
+Description = Un vieux mortier et Pilon.
+Price = 200
+Attributes = MILL,1
+
+#----------------------------------------------------
+
+[SUPER_MORTAR_AND_PESTLE]
+Type = PLACEABLE
+Name = Mortier pillon amélioré
+Description = Un mortier et Pilon plus agréable à la prise en main.
+Price = 500
+Attributes = MILL,2
+
+#----------------------------------------------------
+
+[MECHANICAL_MILL]
+Type = PLACEABLE
+Name = Broyeur mechanique
+Description = Un broyeur mécanique à manivelle.
+Price = 1000
+Attributes = MILL,3
+
+#----------------------------------------------------
+
+[MAGIC_MILL]
+Type = PLACEABLE
+Name = Broyeur Magique
+Description = Un broyeur mécanique enchanté qui fonctionne tout seul.
+Price = 1500
+Attributes = MILL,4
+
+#----------------------------------------------------
+
+[CAULDRON]
+Type = PLACEABLE
+Name = Chaudron
+Description = Un vieux chaudron.
+Price = 200
+Attributes = CAULDRON,1
+
+#----------------------------------------------------
+
+[WITCH_CAULDRON]
+Type = PLACEABLE
+Name = Chaudron de la sorcière
+Description = Un chaudron volé aux sorcières.
+Price = 500
+Attributes = CAULDRON,2
+
+#----------------------------------------------------
+
+[GOLDEN_CAULDRON]
+Type = PLACEABLE
+Name = Chaudron en or
+Description = Un chaudron en or, on dirais qu'il manque quelque chose sur la face avant du chaudron.
+Price = 1000
+Attributes = CAULDRON,3
+
+#----------------------------------------------------
+
+[MAGIC_CAULDRON]
+Type = PLACEABLE
+Name = Chaudron magique
+Description = Chaudron en or enchanter pour resister aux plus fortes chaleurs.
+Price = 1500
+Attributes = CAULDRON,4
+
+#----------------------------------------------------
+
+[ALEMBIC]
+Type = PLACEABLE
+Name = Alambic
+Description = Un vielle alambic.
+Price = 200
+Attributes = ALEMBIC,1
+
+#----------------------------------------------------
+
+[ALEMBIC_WITH_CONTAINER]
+Type = PLACEABLE
+Name = Alambic avec réservoir
+Description = Un alambic avec un réservoir.
+Price = 500
+Attributes = ALEMBIC,2
+
+#----------------------------------------------------
+
+[GOLDEN_ALEMBIC]
+Type = PLACEABLE
+Name = Alambic en or
+Description = Un alambic en or avec un reservoir, on dirais qu'il manque quelque chose sur le réservoir.
+Price = 1000
+Attributes = ALEMBIC,3
+
+#----------------------------------------------------
+
+[MAGIC_ALEMBIC]
+Type = PLACEABLE
+Name = Alambic magique
+Description = Un alambic en or enchanté avec un crystal de givre.
+Price = 1500
+Attributes = ALEMBIC,4
+
+#----------------------------------------------------
+
+[SINK]
+Type = PLACEABLE
+Name = Évier
+Description = Un évier.
+Price = 100
+Attributes = SINK,1
+
+#----------------------------------------------------
+
+[ENCHANTER]
+Type = PLACEABLE
+Name = Enchanteur
+Description = Une machine pour enchanter avec le pouvoir des crystaux.
+Price = 1500
+Attributes = ENCHANTER,1
+
+#----------------------------------------------------
+
+[BARREL]
+Type = PLACEABLE
+Name = Baril
+Description = Un baril pour la fermentation.
+Price = 500
+Attributes = BARREL,1
+
+#----------------------------------------------------
+
+[MAGIC_BARREL]
+Type = PLACEABLE
+Name = Baril enchanter
+Description = Un baril enchanté permettant de fermenter avec tous les liquides.
+Price = 1000
+Attributes = BARREL,2
+
+#----------------------------------------------------
+
+[DRYER]
+Type = PLACEABLE
+Name = Séchoir
+Description = Un séchoir, pour faire sécher les feuilles.
+Price = 300
+Attributes = DRYER,1
+
+
+ 
+#====================================================
 #=========================TOOL=======================
 #====================================================
 
@@ -203,7 +362,7 @@ Attributes = FEET,2
 
 
 [CITIZENS_CLOTHING]
-Type = BACKPACK
+Type = BODY
 Name = Tenue de citoyen
 Description = Une tenue classique de manant.
 Price = 50
@@ -212,7 +371,7 @@ Attributes = BODY,1
 #----------------------------------------------------
 
 [BEGINNER_ALCHEMIST_CLOTHING]
-Type = BACKPACK
+Type = BODY
 Name = Tenue d'alchimiste débutant
 Description = Une tenue d'alchimiste débutant avec des poches et des porte-bouteilles.
 Price = 200
@@ -221,7 +380,7 @@ Attributes = BODY,2
 #----------------------------------------------------
 
 [ALCHEMIST_CLOTHING]
-Type = BACKPACK
+Type = BODY
 Name = Tenue d'alchimiste confirmé
 Description = Une tenue d'alchimiste avec toutes les nécessités
 Price = 500
@@ -230,7 +389,7 @@ Attributes = BODY,3
 #----------------------------------------------------
 
 [MASTER_ALCHEMIST_CLOTHING]
-Type = BACKPACK
+Type = BODY
 Name = Tenue de maitre alchimiste
 Description = Une tenue de maître alchimiste de très grande qualité.
 Price = 1000
