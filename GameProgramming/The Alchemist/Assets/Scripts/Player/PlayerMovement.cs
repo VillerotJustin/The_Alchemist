@@ -28,8 +28,8 @@ public class PlayerMovement : MonoBehaviour
             return;
         };
         
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
+        movement.x = Input.GetAxis("Horizontal") * GameManager.invertedControls;
+        movement.y = Input.GetAxis("Vertical") * GameManager.invertedControls;
 
         if(! (movement.x == 0) || !(movement.y == 0)){
             animator.SetFloat("Horizontal",movement.x);

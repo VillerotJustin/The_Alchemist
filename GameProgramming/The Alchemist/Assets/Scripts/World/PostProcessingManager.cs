@@ -9,6 +9,7 @@ public class PostProcessingManager : MonoBehaviour
     [SerializeField] private VolumeProfile drunkProfile;
     [SerializeField] private VolumeProfile nightVisionProfile;
     [SerializeField] private VolumeProfile tiredVisionProfile;
+    [SerializeField] private VolumeProfile blindProfile;
 
     private static PostProcessingManager ppm;
 
@@ -35,6 +36,10 @@ public class PostProcessingManager : MonoBehaviour
 
     public static void ApplyTiredVision(){
         ppm.ChangeProfile(ppm.tiredVisionProfile);
+    } 
+
+    public static void ApplyBlindVision(){
+        ppm.ChangeProfile(ppm.blindProfile);
     } 
 
     public static void ApplyNoEffect(){

@@ -8431,7 +8431,7 @@ MonoBehaviour:
   m_IsGlobal: 1
   priority: 0
   blendDistance: 0
-  weight: 0
+  weight: 1
   sharedProfile: {fileID: 0}
 --- !u!114 &792175925
 MonoBehaviour:
@@ -8449,6 +8449,7 @@ MonoBehaviour:
   drunkProfile: {fileID: 11400000, guid: 902cedacbb46cb44780f834b5e9bee07, type: 2}
   nightVisionProfile: {fileID: 11400000, guid: 56927e82ed5c2d0418929a883239a2be, type: 2}
   tiredVisionProfile: {fileID: 11400000, guid: 87500041a2f491c4696ea1e223f1ee4c, type: 2}
+  blindProfile: {fileID: 11400000, guid: 4b7217545d5826546a22396b155e4fa8, type: 2}
 --- !u!4 &792175926
 Transform:
   m_ObjectHideFlags: 0

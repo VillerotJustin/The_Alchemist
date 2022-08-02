@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     void Awake(){
         if(instance == null){
             instance = this;
+
+            _invertedControls = 1;
             LoadItems();
             _recipeManager = new RecipeManager();
             _recipeManager.LoadRecipes();
@@ -68,6 +70,13 @@ public class GameManager : MonoBehaviour
 
     public Dictionary<string,ItemAttributeWorker>.KeyCollection effectsName {get{return timeBasedAttributes.Keys;}}
 
+
+    private int _invertedControls;
+
+    public static int invertedControls {
+        get{return GameManager.instance._invertedControls;}
+        set{GameManager.instance._invertedControls = value;}
+    }
 
     public Item GetItem(string name){
         if(!allItems.ContainsKey(name)) return null;

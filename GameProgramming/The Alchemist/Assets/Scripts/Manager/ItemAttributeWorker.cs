@@ -37,26 +37,56 @@ public class ItemAttributeWorker
                 Debug.Log("Vous êtes SPEED maintenant !");
                 GameManager.instance.RemoveEffect(attributeName);
                 break;
+            case "ANTIDOTE":
+                Debug.Log("Vous allez mieux !");
+                GameManager.instance.RemoveEffect(attributeName);
+                break;
+
+            case "SPEED":
+                routine = GameManager.instance.StartCoroutine(SpeedEffect());
+                break;
+            case "RESISTANCE":
+                routine = GameManager.instance.StartCoroutine(ResistanceEffect());
+                break;
+            case "REPULSIVE":
+                routine = GameManager.instance.StartCoroutine(RepulsiveEffect());
+                break;
+            case "CONFUSION":
+                routine = GameManager.instance.StartCoroutine(ConfusionEffect());
+                break;
 
             case "DRUNK":
                 GameManager.instance.SetEffectToEnd("NICTALOPY");
                 GameManager.instance.SetEffectToEnd("TIREDNESS");
+                GameManager.instance.SetEffectToEnd("BLIND");
                 routine = GameManager.instance.StartCoroutine(DrunkEffect());
-                break;
-            case "SPEED":
-                routine = GameManager.instance.StartCoroutine(SpeedEffect());
                 break;
             case "NICTALOPY":
                 GameManager.instance.SetEffectToEnd("DRUNK");
                 GameManager.instance.SetEffectToEnd("TIREDNESS");
+                GameManager.instance.SetEffectToEnd("BLIND");
                 routine = GameManager.instance.StartCoroutine(NightVisionEffect());
                 break;
             case "TIREDNESS":
                 GameManager.instance.SetEffectToEnd("NICTALOPY");
                 GameManager.instance.SetEffectToEnd("DRUNK");
+                GameManager.instance.SetEffectToEnd("BLIND");
                 routine = GameManager.instance.StartCoroutine(TiredEffect());
                 break;
+            case "BLINDNESS":
+                GameManager.instance.SetEffectToEnd("NICTALOPY");
+                GameManager.instance.SetEffectToEnd("DRUNK");
+                GameManager.instance.SetEffectToEnd("TIREDNESS");
+                routine = GameManager.instance.StartCoroutine(BlindEffect());
+                break;
         }
+    }
+
+    void EndRoutine(){
+        if(!skip)
+            PostProcessingManager.ApplyNoEffect();
+
+        GameManager.instance.RemoveEffect(attributeName);
     }
 
 
@@ -65,6 +95,51 @@ public class ItemAttributeWorker
         GameManager.instance.StopCoroutine(routine);
     }
 
+    IEnumerator RepulsiveEffect(){
+
+        while(currentTime > 0){
+            currentTime-=Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        EndRoutine();
+    }
+
+    IEnumerator ConfusionEffect(){
+
+        GameManager.invertedControls = -1;
+
+        while(currentTime > 0){
+            currentTime-=Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        GameManager.invertedControls = 1;
+        EndRoutine();
+    }
+
+    IEnumerator ResistanceEffect(){
+
+        while(currentTime > 0){
+            currentTime-=Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        EndRoutine();
+    }
+
+
+    IEnumerator BlindEffect(){
+       PostProcessingManager.ApplyBlindVision();
+
+
+        while(currentTime > 0){
+            currentTime-=Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        EndRoutine();
+    }
 
     IEnumerator DrunkEffect(){
        PostProcessingManager.ApplyDrunkFOV();
@@ -75,10 +150,7 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        if(!skip)
-            PostProcessingManager.ApplyNoEffect();
-
-        GameManager.instance.RemoveEffect(attributeName);
+        EndRoutine();
     }
 
 
@@ -94,11 +166,8 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        if(!skip)
-            PostProcessingManager.ApplyNoEffect();
-
         GameManager.player.speed = correctSpeed;
-        GameManager.instance.RemoveEffect(attributeName);
+        EndRoutine();
     }
 
     IEnumerator SpeedEffect(){
@@ -112,11 +181,8 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        if(!skip)
-            PostProcessingManager.ApplyNoEffect();
-
         GameManager.player.speed = correctSpeed;
-        GameManager.instance.RemoveEffect(attributeName);
+        EndRoutine();
     }
 
 
@@ -129,9 +195,6 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        if(!skip)
-            PostProcessingManager.ApplyNoEffect();
-
-        GameManager.instance.RemoveEffect(attributeName);
+        EndRoutine();
     }
 }

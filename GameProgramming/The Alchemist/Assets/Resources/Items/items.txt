@@ -231,7 +231,7 @@ Attributes = BODY,3
 
 [MASTER_ALCHEMIST_CLOTHING]
 Type = BODY
-Name = Tenue de maitre alchimiste
+Name = Tenue de maître alchimiste
 Description = Une tenue de maître alchimiste de très grande qualité.
 Price = 1000
 Attributes = BODY,4
@@ -241,8 +241,6 @@ Attributes = BODY,4
 #====================================================
 #======================BACKPACK======================
 #====================================================
-
-
 
 [BALUCHON]
 Type = USEABLE
@@ -443,7 +441,7 @@ Attributes = HEALING,50,DRUNK,10
 
 [REFRESHING_DRINK]
 Type = USEABLE
-Name = Boisson rafraichissante
+Name = Boisson rafraîchissante
 Description = Une bouteille d'eau bien fraîche avec des glaçons et tout.
 Price = 300
 Attributes = HEALING,5
@@ -461,7 +459,7 @@ Attributes = HEALING,5,DRUNK,4
 
 [COMPETITION_BEER]
 Type = USEABLE
-Name = Bière de competition
+Name = Bière de compétition
 Description = Un bière de grande qualité.
 Price = 150
 Attributes = HEALING,25,DRUNK,8
@@ -925,7 +923,7 @@ Attributes = INVISIBILITY,10
 
 [POTION_OF_DISIMULATION]
 Type = USEABLE
-Name = Potion de disimulation
+Name = Potion de dissimulation
 Description = Avec ces potions la majeur partie des personnes ne se souviendrons même plus de vous.
 Price = 200
 Attributes = INVISIBILITY,25
@@ -934,7 +932,7 @@ Attributes = INVISIBILITY,25
 
 [POTION_OF_TRANSPARENCY]
 Type = USEABLE
-Name = Potion de transparance
+Name = Potion de transparence
 Description = Avec cette potion, vous paraîtrez comme nuage transparent, mais quelqu'un, d'attentif pourra toujours vous retrouver.
 Price = 300
 Attributes = INVISIBILITY,75
@@ -944,7 +942,7 @@ Attributes = INVISIBILITY,75
 [ELIXIR_OF_INVISIBILITY]
 Type = USEABLE
 Name = Élixir d'invisibilité
-Description = Ne pas enlever l'étiquete sous risque de perdre la bouteille.
+Description = Ne pas enlever l’étiquette sous risque de perdre la bouteille.
 Price = 900
 Attributes = INVISIBILITY,100
 
@@ -999,7 +997,7 @@ Attributes = ENERGY,10
 
 [ADRENALINE]
 Type = USEABLE
-Name = Adrenaline
+Name = Adrénaline
 Description = Permet de courir un peux plus vite.
 Price = 100
 Attributes = SPEED,120
@@ -1017,7 +1015,7 @@ Attributes = SPEED,250,ENERGY,50
 
 [ELIXIR_OF_TRANSANDANCE]
 Type = USEABLE
-Name = Élixir de transandance
+Name = Élixir de transcendance
 Description = Renforce votre corps tout en restaurants votre énergie.
 Price = 500
 Attributes = SPEED,360,ENERGY,100
@@ -1063,38 +1061,34 @@ Attributes = ANTIDOTE,100
 #----------------------DIGESTION----------------------
 
 [STOMACH_POTION]
-Type = USEABLE
+Type = OTHER
 Name = Potion contre les maux de ventre
 Description = Soigne des maux de ventre.
 Price = 50
-Attributes = DIGESTION,25
 
 #----------------------------------------------------
 
 [DIGESTIVE]
-Type = USEABLE
+Type = OTHER
 Name = Digestif
 Description = Aide à la digestion.
 Price = 100
-Attributes = DIGESTION,50
 
 #----------------------------------------------------
 
 [INDIGESTION_REMEDY]
-Type = USEABLE
+Type = OTHER
 Name = Remède contre les indigestions
 Description = Soigne les indigestions.
 Price = 200
-Attributes = DIGESTION,75
 
 #----------------------------------------------------
 
 [STOMACH_ULCER_REMEDY]
-Type = USEABLE
+Type = OTHER
 Name = Remède contre les ulcères à l'estomac
 Description = Soigne les ulcères de l'estomac.
 Price = 600
-Attributes = DIGESTION,100
 
 
 #---------------------REPULSIVE----------------------
@@ -1150,7 +1144,7 @@ Type = USEABLE
 Name = Potion de brouillard
 Description = Embrume la vue a telle point que l'on se croirait dans un brouillard.
 Price = 200
-Attributes = BLINDNESS,50
+Attributes = BLINDNESS,60
 
 #----------------------------------------------------
 
@@ -1159,7 +1153,7 @@ Type = USEABLE
 Name = Potion d'aveuglement
 Description = Rend aveugle pour une courte durée.
 Price = 300
-Attributes = BLINDNESS,75
+Attributes = BLINDNESS,120
 
 #----------------------------------------------------
 
@@ -1168,7 +1162,7 @@ Type = USEABLE
 Name =  Élixir de cécité
 Description = Rend aveugle.
 Price = 850
-Attributes = BLINDNESS,100
+Attributes = BLINDNESS,600
 
 
 
@@ -1200,7 +1194,7 @@ Attributes = HEALING,50
 
 [WOUND_HEALING_OINTMENT]
 Type = USEABLE
-Name = Onguant contre les plaies
+Name = Onguent contre les plaies
 Description = Un onguent de première qualité qui referme les plaies.
 Price = 100
 Attributes = HEALING,75
@@ -1246,7 +1240,7 @@ Attributes = RESISTANCE,75
 
 [GOLEM_BALM]
 Type = USEABLE
-Name = Beaume du golem
+Name = Baume du golem
 Description = Un onguent qui transforme la couche supérieur de la peau en une couche de pierre protectrice.
 Price = 700
 Attributes = RESISTANCE,100
