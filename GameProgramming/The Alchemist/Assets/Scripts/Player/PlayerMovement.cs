@@ -8,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
 
 
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] Animator animator;
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer spriteRenderer;
 
     private Vector2 movement;
 
@@ -23,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        spriteRenderer.color = GameManager.playerColor;
+
         if(!GameManager.instance.playerCanMove){
             animator.SetFloat("Speed",0);
             return;

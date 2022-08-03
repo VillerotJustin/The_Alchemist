@@ -854,7 +854,7 @@ Type = USEABLE
 Name = Calmant
 Description = Déstresse et détend les muscles.
 Price = 50
-Attributes = NARCOTIC,5
+Attributes = DRUG,5
 
 #----------------------------------------------------
 
@@ -863,7 +863,7 @@ Type = USEABLE
 Name = anti-douleur
 Description = Fait disparaître la douleur, attention risque d’addiction.
 Price = 100
-Attributes = NARCOTIC,25
+Attributes = DRUG,25
 
 #----------------------------------------------------
 
@@ -872,7 +872,7 @@ Type = USEABLE
 Name = Anesthésiant
 Description = Un anesthésiant de qualité.
 Price = 200
-Attributes = NARCOTIC,50
+Attributes = DRUG,50
 
 #----------------------------------------------------
 
@@ -881,7 +881,7 @@ Type = USEABLE
 Name = Sufentanil
 Description = Un puissant anesthésiant médical.
 Price = 600
-Attributes = NARCOTIC,100
+Attributes = DRUG,100
 
 
 #-----------------------Coffee-----------------------
@@ -1074,9 +1074,9 @@ Attributes = VOMITING,100
 [POTION_OF_DISGUISE]
 Type = USEABLE
 Name = Potion de déguisement
-Description = Une foi, cette potion consommée, les gens aurons du mal à se souvenir de votre apparence.
+Description = Une fois cette potion consommée, les gens aurons du mal à se souvenir de votre apparence.
 Price = 100
-Attributes = INVISIBILITY,10
+Attributes = INVISIBILITY,30
 
 #----------------------------------------------------
 
@@ -1085,7 +1085,7 @@ Type = USEABLE
 Name = Potion de dissimulation
 Description = Avec ces potions la majeur partie des personnes ne se souviendrons même plus de vous.
 Price = 200
-Attributes = INVISIBILITY,25
+Attributes = INVISIBILITY,90
 
 #----------------------------------------------------
 
@@ -1094,7 +1094,7 @@ Type = USEABLE
 Name = Potion de transparence
 Description = Avec cette potion, vous paraîtrez comme nuage transparent, mais quelqu'un, d'attentif pourra toujours vous retrouver.
 Price = 300
-Attributes = INVISIBILITY,75
+Attributes = INVISIBILITY,250
 
 #----------------------------------------------------
 
@@ -1103,7 +1103,7 @@ Type = USEABLE
 Name = Élixir d'invisibilité
 Description = Ne pas enlever l’étiquette sous risque de perdre la bouteille.
 Price = 900
-Attributes = INVISIBILITY,100
+Attributes = INVISIBILITY,400
 
 
 #----------------------CONFUSION---------------------

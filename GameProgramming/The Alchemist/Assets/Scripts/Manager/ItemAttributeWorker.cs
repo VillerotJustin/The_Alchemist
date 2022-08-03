@@ -41,6 +41,10 @@ public class ItemAttributeWorker
                 Debug.Log("Vous allez mieux !");
                 GameManager.instance.RemoveEffect(attributeName);
                 break;
+            case "VOMITING":
+                Debug.Log("ARGH !");
+                GameManager.instance.RemoveEffect(attributeName);
+                break;
 
             case "SPEED":
                 routine = GameManager.instance.StartCoroutine(SpeedEffect());
@@ -54,36 +58,44 @@ public class ItemAttributeWorker
             case "CONFUSION":
                 routine = GameManager.instance.StartCoroutine(ConfusionEffect());
                 break;
+            case "INVISIBILITY":
+                EndAllPostProcessingEffects(attributeName);
+                routine = GameManager.instance.StartCoroutine(InvisibilityEffect());
+                break;
 
             case "DRUNK":
-                GameManager.instance.SetEffectToEnd("NICTALOPY");
-                GameManager.instance.SetEffectToEnd("TIREDNESS");
-                GameManager.instance.SetEffectToEnd("BLIND");
+                EndAllPostProcessingEffects(attributeName);
                 routine = GameManager.instance.StartCoroutine(DrunkEffect());
                 break;
             case "NICTALOPY":
-                GameManager.instance.SetEffectToEnd("DRUNK");
-                GameManager.instance.SetEffectToEnd("TIREDNESS");
-                GameManager.instance.SetEffectToEnd("BLIND");
+                EndAllPostProcessingEffects(attributeName);
                 routine = GameManager.instance.StartCoroutine(NightVisionEffect());
                 break;
             case "TIREDNESS":
-                GameManager.instance.SetEffectToEnd("NICTALOPY");
-                GameManager.instance.SetEffectToEnd("DRUNK");
-                GameManager.instance.SetEffectToEnd("BLIND");
+                EndAllPostProcessingEffects(attributeName);
                 routine = GameManager.instance.StartCoroutine(TiredEffect());
                 break;
             case "BLINDNESS":
-                GameManager.instance.SetEffectToEnd("NICTALOPY");
-                GameManager.instance.SetEffectToEnd("DRUNK");
-                GameManager.instance.SetEffectToEnd("TIREDNESS");
+                EndAllPostProcessingEffects(attributeName);
                 routine = GameManager.instance.StartCoroutine(BlindEffect());
+                break;
+            case "DRUG":
+                EndAllPostProcessingEffects(attributeName);
+                routine = GameManager.instance.StartCoroutine(DrugEffect());
                 break;
         }
     }
 
-    void EndRoutine(){
-        if(!skip)
+    void EndAllPostProcessingEffects(string expect){
+        string[] postProcess = {"DRUNK","NICTALOPY","TIREDNESS","BLINDNESS","DRUG"};
+        foreach(string post in postProcess){
+            if(post.Equals(expect)) continue;
+            GameManager.instance.SetEffectToEnd(post);
+        }
+    }
+
+    void EndRoutine(bool hasPostProcess){
+        if(hasPostProcess && !skip)
             PostProcessingManager.ApplyNoEffect();
 
         GameManager.instance.RemoveEffect(attributeName);
@@ -95,6 +107,19 @@ public class ItemAttributeWorker
         GameManager.instance.StopCoroutine(routine);
     }
 
+
+    IEnumerator InvisibilityEffect(){
+        GameManager.playerColor = new Color(1,1,1,0.5f);
+
+        while(currentTime > 0){
+            currentTime-=Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        GameManager.playerColor = new Color(1,1,1,1);
+        EndRoutine(false);
+    }
+
     IEnumerator RepulsiveEffect(){
 
         while(currentTime > 0){
@@ -102,7 +127,7 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        EndRoutine();
+        EndRoutine(false);
     }
 
     IEnumerator ConfusionEffect(){
@@ -115,7 +140,7 @@ public class ItemAttributeWorker
         }
 
         GameManager.invertedControls = 1;
-        EndRoutine();
+        EndRoutine(false);
     }
 
     IEnumerator ResistanceEffect(){
@@ -125,9 +150,21 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        EndRoutine();
+        EndRoutine(false);
     }
 
+
+    IEnumerator DrugEffect(){
+       PostProcessingManager.ApplyDrugVision();
+
+
+        while(currentTime > 0){
+            currentTime-=Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        EndRoutine(true);
+    }
 
     IEnumerator BlindEffect(){
        PostProcessingManager.ApplyBlindVision();
@@ -138,7 +175,7 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        EndRoutine();
+        EndRoutine(true);
     }
 
     IEnumerator DrunkEffect(){
@@ -150,7 +187,7 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        EndRoutine();
+        EndRoutine(true);
     }
 
 
@@ -167,7 +204,7 @@ public class ItemAttributeWorker
         }
 
         GameManager.player.speed = correctSpeed;
-        EndRoutine();
+        EndRoutine(true);
     }
 
     IEnumerator SpeedEffect(){
@@ -182,7 +219,7 @@ public class ItemAttributeWorker
         }
 
         GameManager.player.speed = correctSpeed;
-        EndRoutine();
+        EndRoutine(false);
     }
 
 
@@ -195,6 +232,6 @@ public class ItemAttributeWorker
             yield return new WaitForEndOfFrame();
         }
 
-        EndRoutine();
+        EndRoutine(true);
     }
 }

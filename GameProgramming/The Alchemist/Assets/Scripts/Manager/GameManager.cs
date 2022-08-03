@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
             instance = this;
 
             _invertedControls = 1;
+            _playerColor = new Color(1,1,1,1);
+            
             LoadItems();
             _recipeManager = new RecipeManager();
             _recipeManager.LoadRecipes();
@@ -70,6 +72,12 @@ public class GameManager : MonoBehaviour
 
     public Dictionary<string,ItemAttributeWorker>.KeyCollection effectsName {get{return timeBasedAttributes.Keys;}}
 
+    private Color _playerColor;
+
+    public static Color playerColor {
+        get{return GameManager.instance._playerColor;}
+        set{GameManager.instance._playerColor = value;}
+        }
 
     private int _invertedControls;
 
