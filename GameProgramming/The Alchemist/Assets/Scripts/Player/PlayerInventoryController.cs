@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerInventoryController : MonoBehaviour
 {
-    //TO DO
-    //Make items useful :)
 
     private Player player;
     private int startingKeycode = 49;
@@ -20,6 +18,7 @@ public class PlayerInventoryController : MonoBehaviour
             if(Input.GetKeyDown((KeyCode)i)){
                 player.currentSlot = i-startingKeycode;
                 PlayerHotBarUI.instance.RefreshSelection();
+                PlayerItemPlacer.instance.enabled = player.GetItemFromSlot(player.currentSlot).itemType == Item.Type.PLACEABLE;
                 break;
             }
         }

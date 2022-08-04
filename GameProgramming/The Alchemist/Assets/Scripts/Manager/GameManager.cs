@@ -96,6 +96,9 @@ public class GameManager : MonoBehaviour
         dayNightCycle.UpdateTime();
     }
 
+    public static GameObject GetPrefabOfPlaceableObject(string obj){
+        return Resources.Load<GameObject>("Items/Placeable/"+obj);
+    }
 
     public void RemoveEffect(string effectName){
         if(EffectExists(effectName)){
