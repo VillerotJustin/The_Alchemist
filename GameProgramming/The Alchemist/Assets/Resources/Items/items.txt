@@ -555,14 +555,21 @@ Attributes = DRUNK,40
 
 [MOONWALKER_BEVERAGE]
 Type = USEABLE
-Price = 1000
+Price = 1500
 Attributes = MOONWALKER,1
+
+#----------------------------------------------------
+
+[PHENIX_ELIXIR]
+Type = USEABLE
+Price = 9999
+Attributes = RESURECTION,1
 
 #----------------------------------------------------
 
 [LOVE_POTION]
 Type = USEABLE
-Price = 10000
+Price = 1000
 Attributes = LOVE,666
 
 #----------------------------------------------------
@@ -1176,7 +1183,7 @@ Attributes = ANTI_BURN,75
 
 [AGOUNIA_EMBROCATION]
 Type = USEABLE
-Price = 750
+Price = 500
 Attributes = ANTI_BURN,100
 
 
@@ -1205,5 +1212,1037 @@ Attributes = ANTI_BURN,75
 
 [UII_EMBROCATION]
 Type = USEABLE
-Price = 750
+Price = 500
 Attributes = ANTI_BURN,100
+
+
+
+#====================================================
+#=======================PLANTS=======================
+#====================================================
+
+
+
+#----------------------------------------------------
+
+[POTENTILLA_ANSERINA]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[SUN_MUSHROOM]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[ST_JOHNS_WORT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[LAVA_FLOWER]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[MEDIUM_PLANTIAN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[EUROPEAN_SANICLE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[NAPLES_CYCLAMEN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[SHIVERTHORN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[SWEET_CLOVER]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[BLACK_HELLEBORE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[MEDICINAL_HERBS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[GLOWING_MUSHROOM]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[GINGER]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[STRAWBERRY_BEDSTRAW]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[BELADONE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[ELDERBERRY_BAY]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[HEMLOCK]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[WHITE_CELANDINE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------Rumex crépu
+
+[CREEPING_DOCK_ROOT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[LINEN_PUGATIVE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[NIRNROOT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[GHOST_MUSHROOM]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[BLACK_HENBANE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[SYMPHORINE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[ERECT_EUPHRASIA]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[GOLDEN_CARROT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[MATRICARIA_CAMOMILLE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CORTINARY]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[RYE_ERGOT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[IF]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[DROPMORE_SCARLET_HONEYSUCKLE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[BEOZAR]
+Type = OTHER
+Price = 50
+Attributes = HERO,1
+
+#----------------------------------------------------
+
+[HONEY]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[ECHINACEA]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[AIGREMOINE_EUPATORIUM]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[COPRIN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[GRAPES]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[HOPS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[PEAR]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[GENEPI]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[LINDEN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[MINT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[FOREST_FRUITS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[ROSES]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[JASMINE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[OSMANTHE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[FIELD_GREMIL_ROOT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[PASTEL_OF_THE_DYERS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[DYERS_SERRATULE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[HERBS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[WHITHE_WATER_LILY_ROOTS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+
+#====================================================
+#========================SEEDS=======================
+#====================================================
+
+
+
+#----------------------------------------------------
+
+[POTENTILLA_ANSERINA_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[SUN_MUSHROOM_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[ST_JOHNS_WORT_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[LAVA_FLOWER_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[MEDIUM_PLANTIAN_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[EUROPEAN_SANICLE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[NAPLES_CYCLAMEN_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[SHIVERTHORN_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[SWEET_CLOVER_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[BLACK_HELLEBORE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[MEDICINAL_HERBS_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[GLOWING_MUSHROOM_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[GINGER_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[STRAWBERRY_BEDSTRAW_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[BELADONE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[ELDERBERRY_BAY_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[HEMLOCK_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[WHITE_CELANDINE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------Rumex crépu
+
+[CREEPING_DOCK_ROOT_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[LINEN_PUGATIVE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[NIRNROOT_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[GHOST_MUSHROOM_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[BLACK_HENBANE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[SYMPHORINE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[ERECT_EUPHRASIA_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[GOLDEN_CARROT_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[MATRICARIA_CAMOMILLE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[CORTINARY_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[RYE_ERGOT_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[IF_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[DROPMORE_SCARLET_HONEYSUCKLE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[ECHINACEA_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[AIGREMOINE_EUPATORIUM_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[COPRIN_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[GRAPES_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[HOPS_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[MINT_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[ROSES_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[JASMINE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[OSMANTHE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[FIELD_GREMIL_ROOT_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[PASTEL_OF_THE_DYERS_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[DYERS_SERRATULE_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+#----------------------------------------------------
+
+[HERBS_SEEDS]
+Type = OTHER
+Price = 50
+Attributes = SEED,1
+
+
+
+#====================================================
+#===================CRUSHED_PLANTS===================
+#====================================================
+
+
+
+#----------------------------------------------------
+
+[CRUSHED_POTENTILLA_ANSERINA]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_SUN_MUSHROOM]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_ST_JOHNS_WORT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_LAVA_FLOWER]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_MEDIUM_PLANTIAN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_EUROPEAN_SANICLE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_NAPLES_CYCLAMEN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_SHIVERTHORN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_SWEET_CLOVER]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_BLACK_HELLEBORE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_MEDICINAL_HERBS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_GLOWING_MUSHROOM]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_GINGER]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_STRAWBERRY_BEDSTRAW]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_BELADONE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_ELDERBERRY_BAY]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_HEMLOCK]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_WHITE_CELANDINE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------Rumex crépu
+
+[CRUSHED_CREEPING_DOCK_ROOT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_LINEN_PUGATIVE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_NIRNROOT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_GHOST_MUSHROOM]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_BLACK_HENBANE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_SYMPHORINE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_ERECT_EUPHRASIA]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_GOLDEN_CARROT]
+TCRUSHED_ype = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_MATRICARIA_CAMOMILLE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_CORTINARY]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_RYE_ERGOT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_IF]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_DROPMORE_SCARLET_HONEYSUCKLE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_BEOZAR]
+Type = OTHER
+Price = 50
+Attributes = HERO,1
+
+#----------------------------------------------------
+
+[CRUSHED_HONEY]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_ECHINACEA]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_AIGREMOINE_EUPATORIUM]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_COPRIN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_GRAPES]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_HOPS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[DRYED_LINDEN]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[DRYED_MINT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[DRYED_FOREST_FRUITS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[DRYED_ROSES]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[DRYED_JASMINE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[DRYED_OSMANTHE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_FIELD_GREMIL_ROOT]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_PASTEL_OF_THE_DYERS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_DYERS_SERRATULE]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_HERBS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+
+#----------------------------------------------------
+
+[CRUSHED_WHITHE_WATER_LILY_ROOTS]
+Type = OTHER
+Price = 50
+Attributes = PLANT,1
+

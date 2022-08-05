@@ -18,7 +18,7 @@
 - Potion de chat mineure > Potion de chat > Potion de chat supérieur > Décoction du nyctalope								(Tier1 Euphraise dressée ; Tier2 carotte dorée) Couleur : Vert
 - Énergisant > Adrenaline > Potion boost > Élixir de transandance															(Tier1 Matricaire Camomille ; Tier2 Cortinaire) Couleur : Jaune
 - Potion hallucinogène > Potion de brouillard > Potion d'aveuglement > Élixir de cécité										(Tier1 Ergot de seigle; Tier2 If ) Couleur : Gris
-- Antidote mineure > Antidote > Antidote Majeure > Bénédiction de Panacée													(Tier1 Le chèvrefeuille Dropmore Scarlet ; Tier2 Béozar ) Couleur : Rouge/Vert
+- Antidote mineure > Antidote > Antidote Majeure > Bénédiction de Panacée													(Tier1 Le chèvrefeuille Dropmore Scarlet ; Tier2 Beozar ) Couleur : Rouge/Vert
 - Potion contre les maux de gorge > Remède contre la toux > Remède contre les bronchite > Remède contre les problèmes pulmonaire 	(Tier1 Miel  ; Tier2 Échinacée "chemin pour allée à la montagne") Couleur : Bleu clair / Turquoize
 - Potion contre les maux de ventre > Digestif > Remède contre les indigestions > Remède contre les ulcères à l'estomac		(Tier1 Aigremoine Eupatoire ; Tier2 les polypores/ le Coprin) Couleur : Violet
 - Potion contre les insectes > Potion contre les serpents > Potion contre les miriapodes > Anti-monstre Universelle (héro)	(craft spéciaux) (Bézoar) Bouteille spray
