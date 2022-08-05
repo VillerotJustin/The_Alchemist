@@ -10,11 +10,11 @@ public class InfoUI : MonoBehaviour
 
     [SerializeField] private GameObject infoRoot;
 
-    [SerializeField] private TextMeshProUGUI itemName;
+    [SerializeField] private LocalizedText itemName;
 
     [SerializeField] private Image itemSprite;
 
-    [SerializeField] private TextMeshProUGUI itemDescription;
+    [SerializeField] private LocalizedText itemDescription;
 
     [SerializeField] private Canvas canvas;
 
@@ -35,8 +35,8 @@ public class InfoUI : MonoBehaviour
     public void ShowInfo(Item item){
         if(item == null) return;
         infoRoot.SetActive(true);
-        itemName.text = item.itemName;
-        itemDescription.text = item.itemDescription;
+        itemName.SetNewKey (item.internalName+"_Name");
+        itemDescription.SetNewKey(item.internalName+"_Description");
         itemSprite.sprite = item.GetItemSprite();
     }
 

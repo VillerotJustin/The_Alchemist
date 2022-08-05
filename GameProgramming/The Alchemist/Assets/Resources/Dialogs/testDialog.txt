@@ -1,8 +1,8 @@
 MUGSHOT(oof)
-DIALOG(OOF, OOOOOOOOOOOOOOOOOOOOOOFFFFFFFFFFFFFFFFFFFFF !!!)
-DIALOG(OOF, LOL MDR XD !!!!)
-DIALOG(OOF, Tu préfère quelle console ???)
+DIALOG(OOF,OOF_dlg1_1)
+DIALOG(OOF,OOF_dlg1_2)
+DIALOG(OOF,OOF_dlg1_3)
 {
-	CHOICE(La PS4,testDialog_1)	
-	CHOICE(La XBOX One,testDialog_2)	
+	CHOICE(OOF_dlg1_choice1,testDialog_1)	
+	CHOICE(OOF_dlg1_choice2,testDialog_2)	
 }

@@ -10,10 +10,12 @@ public class DialogSystem : MonoBehaviour
 
     [SerializeField] private GameObject root;
     [SerializeField] private Image characterSprite;
-    [SerializeField] private TextMeshProUGUI textName;
-    [SerializeField] private TextMeshProUGUI textDialog;
+    [SerializeField] private LocalizedText textName;
+    [SerializeField] private LocalizedText textDialog;
 
     [SerializeField] private GameObject[] buttons;
+
+    private TextMeshProUGUI textDialogReal;
 
     private Coroutine coroutine;
 
@@ -28,6 +30,7 @@ public class DialogSystem : MonoBehaviour
 
     void Start()
     {
+        textDialogReal = textDialog.GetText();
         choiceNext = new string[3];
         choice = -1;
         skipDialog = false;
@@ -72,20 +75,21 @@ public class DialogSystem : MonoBehaviour
             switch(splited[0]){
                 case "DIALOG":
                     string[] infos = splited[1].Split(",");
-                    textName.text = infos[0];
-                    textDialog.text = infos[1];
-                    textDialog.maxVisibleCharacters = 0;
+                    textName.SetNewKey(infos[0]);
+
+                    textDialog.SetNewKey(infos[1]);
+                    textDialogReal.maxVisibleCharacters = 0;
                     root.SetActive(true);
                     textDialog.gameObject.SetActive(true);
                     foreach(GameObject button in buttons){
                         button.SetActive(false);
                     }
 
-                    while(textDialog.maxVisibleCharacters < infos[1].Length){
-                        textDialog.maxVisibleCharacters++;
+                    while(textDialogReal.maxVisibleCharacters < textDialogReal.text.Length){
+                        textDialogReal.maxVisibleCharacters++;
 
                         if(skipDialog){
-                            textDialog.maxVisibleCharacters = infos[1].Length;
+                            textDialogReal.maxVisibleCharacters = textDialogReal.text.Length;
                         }
                         yield return new WaitForEndOfFrame();
                     }
@@ -123,7 +127,7 @@ public class DialogSystem : MonoBehaviour
                             string[] splitedLine = choice[1].Split(",");
                             choiceNext[currentBox] = splitedLine[1];
                             buttons[currentBox].SetActive(true);
-                            buttons[currentBox].GetComponentInChildren<TextMeshProUGUI>().text = splitedLine[0];
+                            buttons[currentBox].GetComponentInChildren<LocalizedText>().SetNewKey(splitedLine[0]);
                             currentBox++;
                         }
                         i++;

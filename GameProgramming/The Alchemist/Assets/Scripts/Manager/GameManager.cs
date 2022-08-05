@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     void Awake(){
         if(instance == null){
             instance = this;
+            Locals.Init();
 
             _invertedControls = 1;
             _playerColor = new Color(1,1,1,1);
@@ -95,6 +96,16 @@ public class GameManager : MonoBehaviour
     public void UpdateTime(){
         dayNightCycle.UpdateTime();
     }
+
+
+    public static void ChangeLocalization(string newOne){
+        Locals.ChangeLanguage(newOne);
+        LocalizedText[] toChange = FindObjectsOfType<LocalizedText>();
+        foreach(LocalizedText text in toChange){
+            text.ReloadText();
+        }
+    }
+
 
     public static GameObject GetPrefabOfPlaceableObject(string obj){
         return Resources.Load<GameObject>("Items/Placeable/"+obj);
@@ -188,12 +199,6 @@ public class GameManager : MonoBehaviour
             }
 
             switch(split[0]){
-                case "Name":
-                    currentItem.itemName = split[1];
-                    break;
-                case "Description":
-                    currentItem.itemDescription = split[1];
-                    break;
                 case "Price":
                     currentItem.sellPrice = int.Parse(split[1]);
                     break;

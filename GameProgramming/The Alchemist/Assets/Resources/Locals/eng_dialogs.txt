@@ -1,0 +1,8 @@
+OOF = OOF
+OOF_dlg1_1 = OOOOOOOOOOOOOOOOOOOOOOFFFFFFFFFFFFFFFFFFFFF !!!
+OOF_dlg1_2 = LOL XD !!!!
+OOF_dlg1_3 = Do you prefer Windows or Linux ???
+OOF_dlg1_choice1 = Windows
+OOF_dlg1_choice2 = Linux
+OOF_dlg1_4 = Yay ! Good awnser !
+OOF_dlg1_5 = LOL ! You are hopeless !

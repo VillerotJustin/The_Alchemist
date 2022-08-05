@@ -1,0 +1,9 @@
+Settings_Quality = Quality
+Quit_Desktop = To Desktop
+Quit_Title = To Title Screen
+
+Machine_All = All
+Machine_Cauldron = Cauldron
+Machine_Alembic = Alembic
+
+Craft_Label = Combine

@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickupManager.cs" />
      <Compile Include="Assets\Scripts\Crafting System\RecipeManager.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemSlot\InventoryGUI_ItemSlot.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerItemPlacer.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\World\InteractableObject\PlayerObject.cs" />
      <Compile Include="Assets\Scripts\GUI\DialogSystem.cs" />
@@ -94,15 +95,19 @@
      <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
      <Compile Include="Assets\Scripts\GUI\EffectGUI\UI_ItemEffect.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerItemPlacer.cs" />
+     <Compile Include="Assets\Scripts\Manager\Locals.cs" />
+     <Compile Include="Assets\Scripts\Utils\LocalizedText.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Resources\Locals\eng_items.txt" />
      <None Include="Assets\Resources\Dialogs\testDialog.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Resources\Dialogs\testDialog_2.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Resources\Locals\fra_system.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Resources\Locals\fra_items.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -114,6 +119,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Resources\Items\recipes.txt" />
+     <None Include="Assets\Resources\Locals\eng_system.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Resources\CharactersPaths\TESTMAN\0.txt" />
      <None Include="Assets\Resources\Items\items.txt" />
@@ -121,6 +127,8 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Resources\Locals\fra_dialogs.txt" />
+     <None Include="Assets\Resources\Locals\eng_dialogs.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

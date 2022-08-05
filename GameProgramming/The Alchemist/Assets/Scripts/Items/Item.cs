@@ -19,8 +19,8 @@ public class Item
     };
 
     public string internalName;
-    public string itemName;
-    public string itemDescription;
+    //public string itemName;
+    //public string itemDescription;
     public int sellPrice;
     public Type itemType;
 
@@ -30,8 +30,6 @@ public class Item
         itemAttributes = new List<ItemAttribute>();
         sellPrice = 0;
         internalName = "NO_NAME";
-        itemName = "NO_NAME";
-        itemDescription = "Cet objet n'a pas de description.";
         itemType = Type.OTHER;
     }
 

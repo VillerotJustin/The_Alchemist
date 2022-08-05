@@ -22,4 +22,8 @@ public class SettingsGUI : MenuGUITab
         Settings.SaveQualityLevel(qualityDropdown.value);
     }
 
+    public void ChangeLanguage(string newOne){
+        GameManager.ChangeLocalization(newOne);
+    }
+
 }

@@ -11,14 +11,14 @@ public class ItemPickUpSlot : MonoBehaviour
 
     [SerializeField] private Image sprite;
     [SerializeField] private TextMeshProUGUI textNumber;
-    [SerializeField] private TextMeshProUGUI textName;
+    [SerializeField] private LocalizedText textName;
     
 
     public void Reload(Item item,int number){
         itemInSlot = item;
         numberInSlot = number;
         sprite.sprite = item.GetItemSprite();
-        textName.text = item.itemName;
+        textName.SetNewKey(item.internalName+"_Name");
         textNumber.text = "x"+number.ToString();
     }
 

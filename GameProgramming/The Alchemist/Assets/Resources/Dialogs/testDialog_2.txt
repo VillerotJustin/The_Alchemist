@@ -1,2 +1,2 @@
 MUGSHOT(oof)
-DIALOG(OOF, XD ! Je préfère le PC de toute façon !!!!!!)
+DIALOG(OOF,OOF_dlg1_5)

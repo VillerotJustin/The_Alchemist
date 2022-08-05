@@ -1,0 +1,9 @@
+Settings_Quality = Qualité
+Quit_Desktop = Retour au bureau
+Quit_Title = Retour à l'écran titre
+
+Machine_All = Tout
+Machine_Cauldron = Chaudron
+Machine_Alembic = Alambic
+
+Craft_Label = Combiner

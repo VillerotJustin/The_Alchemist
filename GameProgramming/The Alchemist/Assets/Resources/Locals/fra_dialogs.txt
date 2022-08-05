@@ -1,0 +1,8 @@
+OOF = OOF
+OOF_dlg1_1 = OOOOOOOOOOOOOOOOOOOOOOFFFFFFFFFFFFFFFFFFFFF !!!
+OOF_dlg1_2 = LOL MDR XD !!!!
+OOF_dlg1_3 = Tu préfère quelle console ???
+OOF_dlg1_choice1 = La PS4
+OOF_dlg1_choice2 = La XBOX One
+OOF_dlg1_4 = XD ! La PS4 c de la merde en plastique !!!!!!!!
+OOF_dlg1_5 = XD ! Je préfère le PC de toute façon !!!!!!

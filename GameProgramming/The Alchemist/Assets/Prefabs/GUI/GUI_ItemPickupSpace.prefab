@@ -250,7 +250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 5887262064816808928}
   textNumber: {fileID: 5887262063097817501}
-  textName: {fileID: 5887262063964973090}
+  textName: {fileID: 6357689757598795699}
 --- !u!1 &5887262063964973088
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 5887262063964973091}
   - component: {fileID: 5887262063964973101}
   - component: {fileID: 5887262063964973090}
+  - component: {fileID: 6357689757598795699}
   m_Layer: 5
   m_Name: Name
   m_TagString: Untagged
@@ -388,6 +389,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6357689757598795699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5887262063964973088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b8c50a20370354da73292b3df0c7a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 5887262063964973090}
+  localKey: 
 --- !u!1 &5887262064816808934
 GameObject:
   m_ObjectHideFlags: 0
