@@ -6,8 +6,6 @@
 
 [MORTAR_AND_PESTLE]
 Type = PLACEABLE
-Name = Mortier et Pilon
-Description = Un vieux mortier et Pilon.
 Price = 200
 Attributes = MILL,1
 
@@ -15,8 +13,6 @@ Attributes = MILL,1
 
 [SUPER_MORTAR_AND_PESTLE]
 Type = PLACEABLE
-Name = Mortier pillon amélioré
-Description = Un mortier et Pilon plus agréable à la prise en main.
 Price = 500
 Attributes = MILL,2
 
@@ -24,8 +20,6 @@ Attributes = MILL,2
 
 [MECHANICAL_MILL]
 Type = PLACEABLE
-Name = Broyeur mechanique
-Description = Un broyeur mécanique à manivelle.
 Price = 1000
 Attributes = MILL,3
 
@@ -33,8 +27,6 @@ Attributes = MILL,3
 
 [MAGIC_MILL]
 Type = PLACEABLE
-Name = Broyeur Magique
-Description = Un broyeur mécanique enchanté qui fonctionne tout seul.
 Price = 1500
 Attributes = MILL,4
 
@@ -42,8 +34,6 @@ Attributes = MILL,4
 
 [CAULDRON]
 Type = PLACEABLE
-Name = Chaudron
-Description = Un vieux chaudron.
 Price = 200
 Attributes = CAULDRON,1
 
@@ -51,8 +41,6 @@ Attributes = CAULDRON,1
 
 [WITCH_CAULDRON]
 Type = PLACEABLE
-Name = Chaudron de la sorcière
-Description = Un chaudron volé aux sorcières.
 Price = 500
 Attributes = CAULDRON,2
 
@@ -60,8 +48,6 @@ Attributes = CAULDRON,2
 
 [GOLDEN_CAULDRON]
 Type = PLACEABLE
-Name = Chaudron en or
-Description = Un chaudron en or, on dirais qu'il manque quelque chose sur la face avant du chaudron.
 Price = 1000
 Attributes = CAULDRON,3
 
@@ -69,8 +55,6 @@ Attributes = CAULDRON,3
 
 [MAGIC_CAULDRON]
 Type = PLACEABLE
-Name = Chaudron magique
-Description = Chaudron en or enchanter pour resister aux plus fortes chaleurs.
 Price = 1500
 Attributes = CAULDRON,4
 
@@ -78,8 +62,6 @@ Attributes = CAULDRON,4
 
 [ALEMBIC]
 Type = PLACEABLE
-Name = Alambic
-Description = Un vielle alambic.
 Price = 200
 Attributes = ALEMBIC,1
 
@@ -87,8 +69,6 @@ Attributes = ALEMBIC,1
 
 [ALEMBIC_WITH_CONTAINER]
 Type = PLACEABLE
-Name = Alambic avec réservoir
-Description = Un alambic avec un réservoir.
 Price = 500
 Attributes = ALEMBIC,2
 
@@ -96,8 +76,6 @@ Attributes = ALEMBIC,2
 
 [GOLDEN_ALEMBIC]
 Type = PLACEABLE
-Name = Alambic en or
-Description = Un alambic en or avec un reservoir, on dirais qu'il manque quelque chose sur le réservoir.
 Price = 1000
 Attributes = ALEMBIC,3
 
@@ -105,8 +83,6 @@ Attributes = ALEMBIC,3
 
 [MAGIC_ALEMBIC]
 Type = PLACEABLE
-Name = Alambic magique
-Description = Un alambic en or enchanté avec un crystal de givre.
 Price = 1500
 Attributes = ALEMBIC,4
 
@@ -114,8 +90,6 @@ Attributes = ALEMBIC,4
 
 [SINK]
 Type = PLACEABLE
-Name = Évier
-Description = Un évier.
 Price = 100
 Attributes = SINK,1
 
@@ -123,8 +97,6 @@ Attributes = SINK,1
 
 [ENCHANTER]
 Type = PLACEABLE
-Name = Enchanteur
-Description = Une machine pour enchanter avec le pouvoir des crystaux.
 Price = 1500
 Attributes = ENCHANTER,1
 
@@ -132,8 +104,6 @@ Attributes = ENCHANTER,1
 
 [BARREL]
 Type = PLACEABLE
-Name = Baril
-Description = Un baril pour la fermentation.
 Price = 500
 Attributes = BARREL,1
 
@@ -141,8 +111,6 @@ Attributes = BARREL,1
 
 [MAGIC_BARREL]
 Type = PLACEABLE
-Name = Baril enchanter
-Description = Un baril enchanté permettant de fermenter avec tous les liquides.
 Price = 1000
 Attributes = BARREL,2
 
@@ -150,8 +118,6 @@ Attributes = BARREL,2
 
 [DRYER]
 Type = PLACEABLE
-Name = Séchoir
-Description = Un séchoir, pour faire sécher les feuilles.
 Price = 300
 Attributes = DRYER,1
 
@@ -165,8 +131,6 @@ Attributes = DRYER,1
 
 [RUSTED_AXE]
 Type = TOOL
-Name = Hache rouillé
-Description = Une vielle hache qui permet de couper les petits arbres.
 Price = 100
 Attributes = AXE,1
 
@@ -174,8 +138,6 @@ Attributes = AXE,1
 
 [IRON_AXE]
 Type = TOOL
-Name = Hache en fer
-Description = La hache du gardien de la forêt, permet de couper les plus gros arbres.
 Price = 0
 Attributes = AXE,2
 
@@ -183,8 +145,6 @@ Attributes = AXE,2
 
 [WOODEN_BUCKET]
 Type = TOOL
-Name = Seau en bois
-Description = Un seau en bois pas très solide.
 Price = 20
 Attributes = BUCKET,1
 
@@ -192,8 +152,6 @@ Attributes = BUCKET,1
 
 [IRON_BUCKET]
 Type = TOOL
-Name = Seau en fer
-Description = Un seau en fer qui permet de récolter différents liquides.
 Price = 100
 Attributes = BUCKET,2
 
@@ -201,8 +159,6 @@ Attributes = BUCKET,2
 
 [GOLD_BUCKET]
 Type = TOOL
-Name = Seau en or
-Description = Un seau en identique au seau en fer mais en plus cool.
 Price = 500
 Attributes = BUCKET,2
 
@@ -210,8 +166,6 @@ Attributes = BUCKET,2
 
 [MAGIC_BUCKET]
 Type = TOOL
-Name = Seau magique
-Description = Un seau magique permettant de récolter tous les liquides et de les conserver.
 Price = 1000
 Attributes = BUCKET,3
 
@@ -219,8 +173,6 @@ Attributes = BUCKET,3
 
 [WATERING_CAN]
 Type = TOOL
-Name = Arrosoir
-Description = Un arrosoir avec une petite contenance.
 Price = 50
 Attributes = WATERING,5
 
@@ -228,8 +180,6 @@ Attributes = WATERING,5
 
 [GOLDEN_WATERING_CAN]
 Type = TOOL
-Name = Arrosoir dorée
-Description = Un arrosoir dorée avec une grande contenance.
 Price = 500
 Attributes = WATERING,50
 
@@ -237,8 +187,6 @@ Attributes = WATERING,50
 
 [ENCHANTED_WATERING_CAN]
 Type = TOOL
-Name = Arrosoir enchanté
-Description = Un arrosoir magique avec une contenance faramineuse.
 Price = 1000
 Attributes = WATERING,9999
 
@@ -246,8 +194,6 @@ Attributes = WATERING,9999
 
 [SHEARS]
 Type = TOOL
-Name = Cisaille
-Description = Une cisaille qui coupe mal mais c'est toujours mieux que rien.
 Price = 100
 Attributes = GATHERING,1
 
@@ -255,8 +201,6 @@ Attributes = GATHERING,1
 
 [SICKLE]
 Type = TOOL
-Name = Faucille
-Description = Une faucille qui coupe bien.
 Price = 200
 Attributes = GATHERING,2
 
@@ -264,8 +208,6 @@ Attributes = GATHERING,2
 
 [GOLDEN_SICKLE]
 Type = TOOL
-Name = Faucille en or
-Description = Une faucille en or, avec Panoramix gravé sur le manche.
 Price = 500
 Attributes = GATHERING,3
 
@@ -273,8 +215,6 @@ Attributes = GATHERING,3
 
 [MAGIC_SICKLE]
 Type = TOOL
-Name = Faucille magique
-Description = Une faucille en or enchanté qui permet de tout récolter.
 Price = 1000
 Attributes = GATHERING,4
 
@@ -282,8 +222,6 @@ Attributes = GATHERING,4
 
 [HOE]
 Type = TOOL
-Name = Houe
-Description = Une houe pour couper les herbes hautes.
 Price = 100
 Attributes = HOE,1
 
@@ -291,8 +229,6 @@ Attributes = HOE,1
 
 [PICKAXE]
 Type = TOOL
-Name = Pioche
-Description = Une pioche pour casser les pierres gênantes.
 Price = 100
 Attributes = PICKAXE,1
 
@@ -300,8 +236,6 @@ Attributes = PICKAXE,1
 
 [SHOVEL]
 Type = TOOL
-Name = Pelle
-Description = Une pelle pour retourner la terre.
 Price = 100
 Attributes = SHOVEL,1
 
@@ -315,8 +249,6 @@ Attributes = SHOVEL,1
 
 [MANTLE]
 Type = OTHER
-Name = Vieux manteau
-Description = Le vieux manteau du garde de la montagne.
 Price = 0
 Attributes = MANTLE,1
 
@@ -324,8 +256,6 @@ Attributes = MANTLE,1
 
 [MAGIC_MANTLE]
 Type = OTHER
-Name = Bottes magique
-Description = Le vieux manteau du garde de la montagne, qui a été enchanté pour résister à la chaleur du volcan.
 Price = 0
 Attributes = MANTLE,2
 
@@ -339,8 +269,6 @@ Attributes = MANTLE,2
 
 [BOOTS]
 Type = FEET
-Name = Bottes
-Description = Des bottes en caoutchouc jaune.
 Price = 50
 Attributes = FEET,1
 
@@ -348,8 +276,6 @@ Attributes = FEET,1
 
 [MAGIC_BOOTS]
 Type = FEET
-Name = Bottes magique
-Description = Des bottes en caoutchouc jaune enchanter pour résister aux plus fortes chaleurs.
 Price = 1000
 Attributes = FEET,2
 
@@ -363,8 +289,6 @@ Attributes = FEET,2
 
 [CITIZENS_CLOTHING]
 Type = BODY
-Name = Tenue de citoyen
-Description = Une tenue classique de manant.
 Price = 50
 Attributes = BODY,1
 
@@ -372,8 +296,6 @@ Attributes = BODY,1
 
 [BEGINNER_ALCHEMIST_CLOTHING]
 Type = BODY
-Name = Tenue d'alchimiste débutant
-Description = Une tenue d'alchimiste débutant avec des poches et des porte-bouteilles.
 Price = 200
 Attributes = BODY,2
 
@@ -381,8 +303,6 @@ Attributes = BODY,2
 
 [ALCHEMIST_CLOTHING]
 Type = BODY
-Name = Tenue d'alchimiste confirmé
-Description = Une tenue d'alchimiste avec toutes les nécessités
 Price = 500
 Attributes = BODY,3
 
@@ -390,8 +310,6 @@ Attributes = BODY,3
 
 [MASTER_ALCHEMIST_CLOTHING]
 Type = BODY
-Name = Tenue de maître alchimiste
-Description = Une tenue de maître alchimiste de très grande qualité.
 Price = 1000
 Attributes = BODY,4
 
@@ -403,8 +321,6 @@ Attributes = BODY,4
 
 [BALUCHON]
 Type = USEABLE
-Name = Baluchon
-Description = Un vieux baluchon.
 Price = 50
 Attributes = BACKPACK,1
 
@@ -412,8 +328,6 @@ Attributes = BACKPACK,1
 
 [BACKPACK]
 Type = USEABLE
-Name = Sac a dos
-Description = Un sac à dos banal.
 Price = 200
 Attributes = BACKPACK,2
 
@@ -421,8 +335,6 @@ Attributes = BACKPACK,2
 
 [TREKINC_BACKPACK]
 Type = USEABLE
-Name = Gants magique
-Description = Un sac à dos de randonnée.
 Price = 500
 Attributes = BACKPACK,3
 
@@ -430,8 +342,6 @@ Attributes = BACKPACK,3
 
 [ALCHEMIST_BACKPACK]
 Type = USEABLE
-Name = Sac d'alchimiste
-Description = Un grand sac à dos d'alchimiste avec toutes les fonctions don, vous aurez besoin.
 Price = 1000
 Attributes = BACKPACK,4
 
@@ -445,8 +355,6 @@ Attributes = BACKPACK,4
 
 [GLOVE]
 Type = GLOVE
-Name = Gants
-Description = Un vieux gant.
 Price = 50
 Attributes = GLOVE,1
 
@@ -454,8 +362,6 @@ Attributes = GLOVE,1
 
 [HERBORIST_GLOVE]
 Type = GLOVE
-Name = Gants d'herboriste
-Description = Un gant de jardinage.
 Price = 100
 Attributes = GLOVE,2
 
@@ -463,13 +369,51 @@ Attributes = GLOVE,2
 
 [MAGIC_GLOVE]
 Type = GLOVE
-Name = Gants magique
-Description = Un gant de jardinage enchanté avec les 6 cristaux.
+Price = 0
+Attributes = GLOVE,2
+
+#----------------------------------------------------
+
+[MAGIC_GLOVE_0]
+Type = GLOVE
 Price = 500
 Attributes = GLOVE,3
 
-# yes we will need to make 2^6 version du gant car il faut mettre les pierres une a une. ou on fait juste le gant enchante avec le cristal de givre
-# alors non, et puis non
+#----------------------------------------------------
+
+[MAGIC_GLOVE_1]
+Type = GLOVE
+Price = 1000
+Attributes = GLOVE,4
+
+#----------------------------------------------------
+
+[MAGIC_GLOVE_2]
+Type = GLOVE
+Price = 1500
+Attributes = GLOVE,5
+
+#----------------------------------------------------
+
+[MAGIC_GLOVE_3]
+Type = GLOVE
+Price = 2000
+Attributes = GLOVE,6
+
+#----------------------------------------------------
+
+[MAGIC_GLOVE_4]
+Type = GLOVE
+Price = 2500
+Attributes = GLOVE,7
+
+#----------------------------------------------------
+
+[MAGIC_GLOVE_5]
+Type = GLOVE
+Price = 3000
+Attributes = GLOVE,8
+
 
 
 #====================================================
@@ -480,8 +424,6 @@ Attributes = GLOVE,3
 
 [LANTERN]
 Type = TALISMAN
-Name = Lanterne
-Description = Une lanterne en épiaire droite sensé protéger les guerrier partant au combat.
 Price = 100
 Attributes = LANTERN,1
 
@@ -489,8 +431,6 @@ Attributes = LANTERN,1
 
 [TALISMAN_AGAINST_WILD_BEASTS]
 Type = TALISMAN
-Name = Talisman contre les bêtes sauvages
-Description = Un talisman en épiaire droite sensé protéger les guerrier partant au combat.
 Price = 20
 Attributes = TALISMAN,1
 
@@ -498,8 +438,6 @@ Attributes = TALISMAN,1
 
 [OLD_TALISMAN]
 Type = TALISMAN
-Name = Ancien talisman
-Description = Un talisman ancien fabriqué à partir de fragment cacher dans chaque zone.
 Price = 9999
 Attributes = TALISMAN,10
 
@@ -513,8 +451,6 @@ Attributes = TALISMAN,10
 
 [CLEAR_CRYSTAL]
 Type = OTHER
-Name = Cristal transparent
-Description = Un Cristal transparent trouvé à l'intérieur du volcan.
 Price = 400
 Attributes = CRYSTAL,1
 
@@ -522,8 +458,6 @@ Attributes = CRYSTAL,1
 
 [SACRED_CRYSTAL]
 Type = OTHER
-Name = Cristal Sacré
-Description = Un Cristal qui a longtemps absorbé de l'énergie sacrée.
 Price = 500
 Attributes = SACRED,1
 
@@ -531,8 +465,6 @@ Attributes = SACRED,1
 
 [CURSED_CRYSTAL]
 Type = OTHER
-Name = Cristal Maudit
-Description = Un Cristal qui a longtemps absorbé l'énergie des marais.
 Price = 500
 Attributes = CURSED,1
 
@@ -540,8 +472,6 @@ Attributes = CURSED,1
 
 [VULCAIN_CRYSTAL]
 Type = OTHER
-Name = Cristal du Volcan
-Description = Un Cristal qui a longtemps absorbé l'énergie d'un volcan.
 Price = 500
 Attributes = FIRE,1
 
@@ -549,8 +479,6 @@ Attributes = FIRE,1
 
 [FROST_CRYSTAL]
 Type = OTHER
-Name = Cristal de givre
-Description = Un Cristal qui a longtemps fermenter dans une mixture glaciale.
 Price = 500
 Attributes = ICE,1
 
@@ -558,8 +486,6 @@ Attributes = ICE,1
 
 [NIGHT_CRYSTAL]
 Type = OTHER
-Name = Cristal de la nuit
-Description = Un Cristal aussi noir que la nuit.
 Price = 500
 Attributes = NIGHT,1
 
@@ -567,8 +493,6 @@ Attributes = NIGHT,1
 
 [DAY_CRYSTAL]
 Type = OTHER
-Name = Cristal solaire
-Description = Un Cristal qui émet une douce lumière comme celle du soleil.
 Price = 500
 Attributes = DAY,1
 
@@ -582,8 +506,6 @@ Attributes = DAY,1
 
 [WINE]
 Type = USEABLE
-Name = Vin
-Description = Une bouteille de vin de mauvaise qualité, peut aussi servir de débouche toilette.
 Price = 30
 Attributes = HEALING,-10,DRUNK,20
 
@@ -591,8 +513,6 @@ Attributes = HEALING,-10,DRUNK,20
 
 [COMPETITION_WINE]
 Type = USEABLE
-Name = Vin de compétition
-Description = Un vin de qualité digne des meilleurs cépages.
 Price = 300
 Attributes = HEALING,50,DRUNK,10
 
@@ -600,8 +520,6 @@ Attributes = HEALING,50,DRUNK,10
 
 [REFRESHING_DRINK]
 Type = USEABLE
-Name = Boisson rafraîchissante
-Description = Une bouteille d'eau bien fraîche avec des glaçons et tout.
 Price = 300
 Attributes = HEALING,5
 
@@ -609,8 +527,6 @@ Attributes = HEALING,5
 
 [BEER]
 Type = USEABLE
-Name = Bière
-Description = Une bière au bon goût de houblon.
 Price = 20
 Attributes = HEALING,5,DRUNK,4
 
@@ -618,8 +534,6 @@ Attributes = HEALING,5,DRUNK,4
 
 [COMPETITION_BEER]
 Type = USEABLE
-Name = Bière de compétition
-Description = Un bière de grande qualité.
 Price = 150
 Attributes = HEALING,25,DRUNK,8
 
@@ -627,8 +541,6 @@ Attributes = HEALING,25,DRUNK,8
 
 [GENEPI_BRANDY]
 Type = USEABLE
-Name = Eau de vie au génépi
-Description = Une eau de vie au goût de génépi.
 Price = 75
 Attributes = DRUNK,40
 
@@ -636,8 +548,6 @@ Attributes = DRUNK,40
 
 [PEAR_BRANDY]
 Type = USEABLE
-Name = Eau de vie à la poire
-Description = Une eau de vie au goût de poire.
 Price = 75
 Attributes = DRUNK,40
 
@@ -645,8 +555,6 @@ Attributes = DRUNK,40
 
 [MOONWALKER_BEVERAGE]
 Type = USEABLE
-Name = Breuvage du marcheur de la nuit
-Description = Une potion légendaire qui donne à son consommateur une partie des pouvoirs des marche-lune.
 Price = 1000
 Attributes = MOONWALKER,1
 
@@ -654,8 +562,6 @@ Attributes = MOONWALKER,1
 
 [LOVE_POTION]
 Type = USEABLE
-Name = Philtre d'amour
-Description = Une philtre d'amour tout droit sortie d'un compte de fée.
 Price = 10000
 Attributes = LOVE,666
 
@@ -663,8 +569,6 @@ Attributes = LOVE,666
 
 [CALMING_TEA]
 Type = USEABLE
-Name = Thé calmant
-Description = Rien de mieux qu'une tasse de thé en fin de journée.
 Price = 10
 Attributes = CALMING,10
 
@@ -672,8 +576,6 @@ Attributes = CALMING,10
 
 [MINT_TEA]
 Type = USEABLE
-Name = Thé à la menthe
-Description = Une sachet de thé à la menthe.
 Price = 10
 Attributes = CALMING,10
 
@@ -681,8 +583,6 @@ Attributes = CALMING,10
 
 [RED_BERRY_INFUSION]
 Type = USEABLE
-Name = Tissane aux fruits rouges
-Description = Une bonne infusion aux fruits rouges.
 Price = 10
 Attributes = CALMING,10
 
@@ -690,8 +590,6 @@ Attributes = CALMING,10
 
 [ROSE_PARFUM]
 Type = OTHER
-Name = Parfum à la rose
-Description = Un parfum qui sent la rose, sauras ravir les romantiques.
 Price = 200
 Attributes = ROSE,1
 
@@ -699,8 +597,6 @@ Attributes = ROSE,1
 
 [OSMANTHE_PARFUM]
 Type = OTHER
-Name = Parfum à l'osmanthe
-Description = Un parfum qui sent l'osmanthe.
 Price = 200
 Attributes = OSMANTHE,1
 
@@ -708,8 +604,6 @@ Attributes = OSMANTHE,1
 
 [JASMIN_PARFUM]
 Type = OTHER
-Name = Parfum au jasmin
-Description = Un parfum qui sent le jasmin.
 Price = 200
 Attributes = JASMIN,1
 
@@ -717,8 +611,6 @@ Attributes = JASMIN,1
 
 [LEATHER_PREPARATION]
 Type = OTHER
-Name = Préparation pour le cuir
-Description = Une préparation pour tanner le cuir.
 Price = 50
 Attributes = TANNING,1
 
@@ -726,8 +618,6 @@ Attributes = TANNING,1
 
 [BLUE_DYE]
 Type = OTHER
-Name = Colorant bleu
-Description = Un colorant bleu naturel.
 Price = 30
 Attributes = DYE,1
 
@@ -735,8 +625,6 @@ Attributes = DYE,1
 
 [GREEN_DYE]
 Type = OTHER
-Name = Colorant vert
-Description = Un colorant vert naturel.
 Price = 30
 Attributes = DYE,2
 
@@ -744,8 +632,6 @@ Attributes = DYE,2
 
 [RED_DYE]
 Type = OTHER
-Name = Colorant rouge
-Description = Un colorant rouge naturel.
 Price = 30
 Attributes = DYE,3
 
@@ -753,8 +639,6 @@ Attributes = DYE,3
 
 [YELLOW_DYE]
 Type = OTHER
-Name = Colorant jaune
-Description = Un colorant jaune naturel.
 Price = 30
 Attributes = DYE,4
 
@@ -762,8 +646,6 @@ Attributes = DYE,4
 
 [BLACK_DYE]
 Type = OTHER
-Name = Colorant noir
-Description = Un colorant noir naturel.
 Price = 30
 Attributes = DYE,5
 
@@ -777,8 +659,6 @@ Attributes = DYE,5
 
 [MINOR_HEALING_POTION]
 Type = USEABLE
-Name = Potion de soins mineure
-Description = Une potion de soin qui rend quelques PV.
 Price = 10
 Attributes = HEALING,25
 
@@ -786,8 +666,6 @@ Attributes = HEALING,25
 
 [HEALING_POTION]
 Type = USEABLE
-Name = Potion de soin
-Description = Une potion de soin qui rend des PV.
 Price = 50
 Attributes = HEALING,50
 
@@ -795,8 +673,6 @@ Attributes = HEALING,50
 
 [SUPERIOR_HEALING_POTION]
 Type = USEABLE
-Name = Potion de soin majeure
-Description = Une potion de soin qui rend beaucoup de PV.
 Price = 100
 Attributes = HEALING,75
 
@@ -804,8 +680,6 @@ Attributes = HEALING,75
 
 [LIFE_ELIXIR]
 Type = USEABLE
-Name = Elixir de vie
-Description = Un rare élixir qui rend tout les points de vie.
 Price = 500
 Attributes = HEALING,9999
 
@@ -814,8 +688,6 @@ Attributes = HEALING,9999
 
 [SORE_THROAT_POTION]
 Type = USEABLE
-Name = Potion contre les maux de gorge.
-Description = Une potion qui transforme les argh en ah.
 Price = 15
 Attributes = HEALING,0
 
@@ -823,8 +695,6 @@ Attributes = HEALING,0
 
 [COUGH_REMEDY]
 Type = USEABLE
-Name = Remède contre la toux
-Description = Un potion qui soulage votre gorge et fait disparaître votre toux en un éclair.
 Price = 60
 Attributes = HEALING,0
 
@@ -832,8 +702,6 @@ Attributes = HEALING,0
 
 [BRONCHITIS_REMEDY]
 Type = USEABLE
-Name = Remède contre les bronchite
-Description = Un potion qui fais disparaître toute ces vilaines maladie de vos poumons.
 Price = 150
 Attributes = HEALING,0
 
@@ -841,8 +709,6 @@ Attributes = HEALING,0
 
 [LUNG_ELIXIR]
 Type = USEABLE
-Name = Remède contre les problèmes pulmonaire
-Description = Une potion qui peut transformer les poumons d'un vieux fumeur atteindre d'un cancer en ceux d'un athlète de haut niveau.
 Price = 650
 Attributes = HEALING,0
 
@@ -851,8 +717,6 @@ Attributes = HEALING,0
 
 [SOOTHING]
 Type = USEABLE
-Name = Calmant
-Description = Déstresse et détend les muscles.
 Price = 50
 Attributes = DRUG,5
 
@@ -860,8 +724,6 @@ Attributes = DRUG,5
 
 [PAINKILLER]
 Type = USEABLE
-Name = anti-douleur
-Description = Fait disparaître la douleur, attention risque d’addiction.
 Price = 100
 Attributes = DRUG,25
 
@@ -869,8 +731,6 @@ Attributes = DRUG,25
 
 [ANAESTHETIC]
 Type = USEABLE
-Name = Anesthésiant
-Description = Un anesthésiant de qualité.
 Price = 200
 Attributes = DRUG,50
 
@@ -878,8 +738,6 @@ Attributes = DRUG,50
 
 [SUFENTANIL]
 Type = USEABLE
-Name = Sufentanil
-Description = Un puissant anesthésiant médical.
 Price = 600
 Attributes = DRUG,100
 
@@ -888,8 +746,6 @@ Attributes = DRUG,100
 
 [WAKE_UP_CALL]
 Type = USEABLE
-Name = Réveil matin
-Description = Rien de mieux de bon matin.
 Price = 15
 Attributes = ENERGY,10
 
@@ -897,8 +753,6 @@ Attributes = ENERGY,10
 
 [ANTI-FATIGUE_DRINK]
 Type = USEABLE
-Name = Breuvage contre la fatigue
-Description = Permet de faire quelque heures de travail supplémentaire.
 Price = 60
 Attributes = ENERGY,20
 
@@ -906,8 +760,6 @@ Attributes = ENERGY,20
 
 [COFFEE]
 Type = USEABLE
-Name = Café
-Description = Du bon café qui va vous 
 Price = 150
 Attributes = ENERGY,50,SPEED,60
 
@@ -915,8 +767,6 @@ Attributes = ENERGY,50,SPEED,60
 
 [MAGIC_COFFEE]
 Type = USEABLE
-Name = Café magique
-Description = Un café tellement puissant que vous pourriez travaillez une semaine sans dormir.
 Price = 650
 Attributes = ENERGY,500,SPEED,300
 
@@ -925,8 +775,6 @@ Attributes = ENERGY,500,SPEED,300
 
 [DOES_EYES_BEVERAGES]
 Type = USEABLE
-Name = Breuvages yeux de biche
-Description = Cette potion transformeras vos yeux en de séduisants yeux de biche.
 Price = 50
 Attributes = SEDUCTION,5
 
@@ -934,8 +782,6 @@ Attributes = SEDUCTION,5
 
 [SEDUCTION_POTION]
 Type = USEABLE
-Name = Potion de séduction
-Description = Une fois avoir bu cette potion, vous paraîtrez beaucoup plus séduisant.
 Price = 100
 Attributes = SEDUCTION,20
 
@@ -943,8 +789,6 @@ Attributes = SEDUCTION,20
 
 [DECOCTION_OF_LUST]
 Type = USEABLE
-Name = Décoction de luxure
-Description = Après avoir bu cette potion, toutes les personnes qui vous voient seront prises d'une puissante attirance envers vous.
 Price = 200
 Attributes = SEDUCTION,75
 
@@ -952,8 +796,6 @@ Attributes = SEDUCTION,75
 
 [ELIXIR_OF_THE_FEMME_FATALE]
 Type = USEABLE
-Name = Élixir de la femme fatale
-Description = La potion parfaite pour avoir homme, femme, et enfant à vos pieds.
 Price = 800
 Attributes = SEDUCTION,300
 
@@ -962,8 +804,6 @@ Attributes = SEDUCTION,300
 
 [MINOR_CAT_POTION]
 Type = USEABLE
-Name = Potion de chat mineure
-Description = Permet de voir dans le noir pour quelques heures.
 Price = 20
 Attributes = NICTALOPY,90
 
@@ -971,8 +811,6 @@ Attributes = NICTALOPY,90
 
 [CAT_POTION]
 Type = USEABLE
-Name = Potion de chat
-Description = Permet de voir dans le noir.
 Price = 60
 Attributes = NICTALOPY,200
 
@@ -980,8 +818,6 @@ Attributes = NICTALOPY,200
 
 [SUPERIOR_CAT_POTION]
 Type = USEABLE
-Name = Potion de chat supérieur
-Description = Permet de voir dans le noir pour une longue durée.
 Price = 120
 Attributes = NICTALOPY,500
 
@@ -989,8 +825,6 @@ Attributes = NICTALOPY,500
 
 [NYCTALOPE_DECOCTION]
 Type = USEABLE
-Name = Décoction du nyctalope
-Description = Une fois cette potion consommée, vous pourrez voir de nuit comme de jour.
 Price = 600
 Attributes = NICTALOPY,800
 
@@ -999,8 +833,6 @@ Attributes = NICTALOPY,800
 
 [EXHAUSTION_POTION]
 Type = USEABLE
-Name = Potion de fatigue
-Description = Donne une petit envie de dormir.
 Price = 50
 Attributes = TIREDNESS,25
 
@@ -1008,8 +840,6 @@ Attributes = TIREDNESS,25
 
 [NARCOTIC]
 Type = USEABLE
-Name = Narcotique
-Description = Vous videz de toute votre énergie sur le coup, vous plongeant dans un sommeil profond.
 Price = 100
 Attributes = TIREDNESS,100
 
@@ -1017,8 +847,6 @@ Attributes = TIREDNESS,100
 
 [ETERNAL_SLEEP_POTION]
 Type = USEABLE
-Name = Potion du sommeil éternel
-Description = Vous plonge dans un sommeil profond pour plusieurs jours voir semaines.
 Price = 200
 Attributes = TIREDNESS,700
 
@@ -1026,8 +854,6 @@ Attributes = TIREDNESS,700
 
 [MORPHEE_ELIXIR]
 Type = USEABLE
-Name = Élixir de morphée
-Description = Cette potion va vous envoyer droit dans les bras de Morphée ou vous dormirez pour l'éternité.
 Price = 700
 Attributes = TIREDNESS,9999
 
@@ -1036,8 +862,6 @@ Attributes = TIREDNESS,9999
 
 [STRANGE_MIXTURE]
 Type = USEABLE
-Name = Mixture étrange
-Description = Donne une forte envie de vomir.
 Price = 5
 Attributes = VOMITING,10
 
@@ -1045,8 +869,6 @@ Attributes = VOMITING,10
 
 [VOMITING_POTION]
 Type = USEABLE
-Name = Potion de vomissement
-Description = Vous faites vomir votre dernier repas.
 Price = 20
 Attributes = VOMITING,25
 
@@ -1054,8 +876,6 @@ Attributes = VOMITING,25
 
 [LAXATIVE]
 Type = USEABLE
-Name = Laxatif
-Description = Un puissant laxatif qui donne envie de vomir.
 Price = 30
 Attributes = VOMITING,50
 
@@ -1063,8 +883,6 @@ Attributes = VOMITING,50
 
 [ZIGU_ELIXIR]
 Type = USEABLE
-Name = Élixir de Zigu
-Description = Avec un élixir de Zigu, tout ce qui est dedans sera bientôt dehors.
 Price = 200
 Attributes = VOMITING,100
 
@@ -1073,8 +891,6 @@ Attributes = VOMITING,100
 
 [POTION_OF_DISGUISE]
 Type = USEABLE
-Name = Potion de déguisement
-Description = Une fois cette potion consommée, les gens aurons du mal à se souvenir de votre apparence.
 Price = 100
 Attributes = INVISIBILITY,30
 
@@ -1082,8 +898,6 @@ Attributes = INVISIBILITY,30
 
 [POTION_OF_DISIMULATION]
 Type = USEABLE
-Name = Potion de dissimulation
-Description = Avec ces potions la majeur partie des personnes ne se souviendrons même plus de vous.
 Price = 200
 Attributes = INVISIBILITY,90
 
@@ -1091,8 +905,6 @@ Attributes = INVISIBILITY,90
 
 [POTION_OF_TRANSPARENCY]
 Type = USEABLE
-Name = Potion de transparence
-Description = Avec cette potion, vous paraîtrez comme nuage transparent, mais quelqu'un, d'attentif pourra toujours vous retrouver.
 Price = 300
 Attributes = INVISIBILITY,250
 
@@ -1100,8 +912,6 @@ Attributes = INVISIBILITY,250
 
 [ELIXIR_OF_INVISIBILITY]
 Type = USEABLE
-Name = Élixir d'invisibilité
-Description = Ne pas enlever l’étiquette sous risque de perdre la bouteille.
 Price = 900
 Attributes = INVISIBILITY,400
 
@@ -1110,8 +920,6 @@ Attributes = INVISIBILITY,400
 
 [BEVERAGE_OF_DRUNKENNESS]
 Type = USEABLE
-Name = Breuvage d'ivresse
-Description = Provoque un léger mal de tête.
 Price = 50
 Attributes = CONFUSION,10
 
@@ -1119,8 +927,6 @@ Attributes = CONFUSION,10
 
 [POTION_OF_CONFUSION]
 Type = USEABLE
-Name = Potion de confusion
-Description = Empêche le consommateur de réfléchir.
 Price = 100
 Attributes = CONFUSION,25
 
@@ -1128,8 +934,6 @@ Attributes = CONFUSION,25
 
 [POTION_OF_MADNESS]
 Type = USEABLE
-Name = Potion de folie
-Description = Provoque une folie sévère avec effet à longue durée.
 Price = 300
 Attributes = CONFUSION,75
 
@@ -1137,8 +941,6 @@ Attributes = CONFUSION,75
 
 [ELIXIR_OF_LYPEMANIA]
 Type = USEABLE
-Name = Élixir de lypémanie
-Description = miseuqjefbcw;,cn  f$qoj  joqk ^poqi jidf
 Price = 800
 Attributes = CONFUSION,100
 
@@ -1147,8 +949,6 @@ Attributes = CONFUSION,100
 
 [ENERGIZER]
 Type = USEABLE
-Name = Énergisant
-Description = Redonne un petit peut d'énergie.
 Price = 30
 Attributes = ENERGY,10
 
@@ -1156,8 +956,6 @@ Attributes = ENERGY,10
 
 [ADRENALINE]
 Type = USEABLE
-Name = Adrénaline
-Description = Permet de courir un peux plus vite.
 Price = 100
 Attributes = SPEED,120
 
@@ -1165,8 +963,6 @@ Attributes = SPEED,120
 
 [BOOST_POTION]
 Type = USEABLE
-Name = Potion boost
-Description = Permet de courir plus vite tout en diminuant un peu la fatigue.
 Price = 150
 Attributes = SPEED,250,ENERGY,50
 
@@ -1174,8 +970,6 @@ Attributes = SPEED,250,ENERGY,50
 
 [ELIXIR_OF_TRANSANDANCE]
 Type = USEABLE
-Name = Élixir de transcendance
-Description = Renforce votre corps tout en restaurants votre énergie.
 Price = 500
 Attributes = SPEED,360,ENERGY,100
 
@@ -1184,8 +978,6 @@ Attributes = SPEED,360,ENERGY,100
 
 [MINOR_ANTIDOTE]
 Type = USEABLE
-Name = Antidote mineure
-Description = Soigne des petits poisons.
 Price = 50
 Attributes = ANTIDOTE,25
 
@@ -1193,8 +985,6 @@ Attributes = ANTIDOTE,25
 
 [ANTIDOTE]
 Type = USEABLE
-Name = Antidote
-Description = Soigne des poisons.
 Price = 100
 Attributes = ANTIDOTE,50
 
@@ -1202,8 +992,6 @@ Attributes = ANTIDOTE,50
 
 [SUPERIOR_ANTIDOTE]
 Type = USEABLE
-Name = Antidote Majeure
-Description = Soigne des poisons les plus dangereux.
 Price = 200
 Attributes = ANTIDOTE,75
 
@@ -1211,8 +999,6 @@ Attributes = ANTIDOTE,75
 
 [BLESSING_OF_PANACEA]
 Type = USEABLE
-Name = Bénédiction de Panacée
-Description = Soigne de tout les poison et maladie.
 Price = 600
 Attributes = ANTIDOTE,100
 
@@ -1221,32 +1007,24 @@ Attributes = ANTIDOTE,100
 
 [STOMACH_POTION]
 Type = OTHER
-Name = Potion contre les maux de ventre
-Description = Soigne des maux de ventre.
 Price = 50
 
 #----------------------------------------------------
 
 [DIGESTIVE]
 Type = OTHER
-Name = Digestif
-Description = Aide à la digestion.
 Price = 100
 
 #----------------------------------------------------
 
 [INDIGESTION_REMEDY]
 Type = OTHER
-Name = Remède contre les indigestions
-Description = Soigne les indigestions.
 Price = 200
 
 #----------------------------------------------------
 
 [STOMACH_ULCER_REMEDY]
 Type = OTHER
-Name = Remède contre les ulcères à l'estomac
-Description = Soigne les ulcères de l'estomac.
 Price = 600
 
 
@@ -1254,8 +1032,6 @@ Price = 600
 
 [INSECT_SPRAY]
 Type = USEABLE
-Name = Spray contre les insectes
-Description = Spray qui éloigne les insectes.
 Price = 100
 Attributes = REPULSIVE,25
 
@@ -1263,8 +1039,6 @@ Attributes = REPULSIVE,25
 
 [SNAKE_SPRAY]
 Type = USEABLE
-Name = Spray contre les serpents
-Description = Spray qui éloigne les serpents.
 Price = 200
 Attributes = REPULSIVE,50
 
@@ -1272,8 +1046,6 @@ Attributes = REPULSIVE,50
 
 [MIRIAPOD_SPRAY]
 Type = USEABLE
-Name = Spray contre les myriapodes
-Description = Spray qui éloigne les myriapodes.
 Price = 300
 Attributes = REPULSIVE,75
 
@@ -1281,8 +1053,6 @@ Attributes = REPULSIVE,75
 
 [UNIVERSAL_ANTI-MONSTER_SPRAY]
 Type = USEABLE
-Name =  Anti-monstre Universelle
-Description = Spray qui éloigne tout les monstres.
 Price = 700
 Attributes = REPULSIVE,100
 
@@ -1291,8 +1061,6 @@ Attributes = REPULSIVE,100
 
 [HALLUCINOGENIC_POTION]
 Type = USEABLE
-Name = Potion hallucinogène
-Description = Brouille la vue et l'esprit.
 Price = 100
 Attributes = BLINDNESS,25
 
@@ -1300,8 +1068,6 @@ Attributes = BLINDNESS,25
 
 [FOG_POTION]
 Type = USEABLE
-Name = Potion de brouillard
-Description = Embrume la vue a telle point que l'on se croirait dans un brouillard.
 Price = 200
 Attributes = BLINDNESS,60
 
@@ -1309,8 +1075,6 @@ Attributes = BLINDNESS,60
 
 [BLINDING_POTION]
 Type = USEABLE
-Name = Potion d'aveuglement
-Description = Rend aveugle pour une courte durée.
 Price = 300
 Attributes = BLINDNESS,120
 
@@ -1318,8 +1082,6 @@ Attributes = BLINDNESS,120
 
 [ELIXIR_OF_BLINDNESS]
 Type = USEABLE
-Name =  Élixir de cécité
-Description = Rend aveugle.
 Price = 850
 Attributes = BLINDNESS,600
 
@@ -1335,8 +1097,6 @@ Attributes = BLINDNESS,600
 
 [HEALING_OINTMENT]
 Type = USEABLE
-Name = Pommade cicatrisante
-Description = Une pommade qui aide à soigner les petits bobos.
 Price = 10
 Attributes = HEALING,25
 
@@ -1344,8 +1104,6 @@ Attributes = HEALING,25
 
 [REPAIRING_BALM]
 Type = USEABLE
-Name = Baume réparateur
-Description = Un baume qui soigne les bleus et les égratignures.
 Price = 50
 Attributes = HEALING,50
 
@@ -1353,8 +1111,6 @@ Attributes = HEALING,50
 
 [WOUND_HEALING_OINTMENT]
 Type = USEABLE
-Name = Onguent contre les plaies
-Description = Un onguent de première qualité qui referme les plaies.
 Price = 100
 Attributes = HEALING,75
 
@@ -1362,8 +1118,6 @@ Attributes = HEALING,75
 
 [IASO_EMBROCATION]
 Type = USEABLE
-Name = Embrocation d'Iaso
-Description = Une pommade qui peut même faire repousser les membres.
 Price = 500
 Attributes = HEALING,9999
 
@@ -1372,8 +1126,6 @@ Attributes = HEALING,9999
 
 [OINTMENT_AGAINST_ITCHING]
 Type = USEABLE
-Name = Pommade contre les démangeaisons
-Description = Une pommade qui soigne les démangeaisons.
 Price = 30
 Attributes = RESISTANCE,25
 
@@ -1381,8 +1133,6 @@ Attributes = RESISTANCE,25
 
 [OINTMENT_AGAINST_STINGS]
 Type = USEABLE
-Name = Onguent contre les piqûres
-Description = Un onguent qui protège des piqûres.
 Price = 80
 Attributes = RESISTANCE,50
 
@@ -1390,8 +1140,6 @@ Attributes = RESISTANCE,50
 
 [ANTI_INFLAMMATORY]
 Type = USEABLE
-Name = Anti-inflammatoire
-Description = Un anti-inflammatoire à appliquer sur la peau.
 Price = 150
 Attributes = RESISTANCE,75
 
@@ -1399,8 +1147,6 @@ Attributes = RESISTANCE,75
 
 [GOLEM_BALM]
 Type = USEABLE
-Name = Baume du golem
-Description = Un onguent qui transforme la couche supérieur de la peau en une couche de pierre protectrice.
 Price = 700
 Attributes = RESISTANCE,100
 
@@ -1409,8 +1155,6 @@ Attributes = RESISTANCE,100
 
 [SUNSCREEN_CREAM]
 Type = USEABLE
-Name = Crème solaire
-Description = Une crème solaire particulièrement efficace.
 Price = 20
 Attributes = ANTI_BURN,25
 
@@ -1418,8 +1162,6 @@ Attributes = ANTI_BURN,25
 
 [OINTMENT_AGAINST_BURNS]
 Type = USEABLE
-Name = Pommade contre les brûlures
-Description = Une pommade qui aide à soigner les brûlures.
 Price = 90
 Attributes = ANTI_BURN,50
 
@@ -1427,8 +1169,6 @@ Attributes = ANTI_BURN,50
 
 [OINTMENT_AGAINST_SEVERE_BURNS]
 Type = USEABLE
-Name = Onguent contre les brûlures sévères
-Description = Un onguent qui soigne les brûlures sévères.
 Price = 200
 Attributes = ANTI_BURN,75
 
@@ -1436,8 +1176,6 @@ Attributes = ANTI_BURN,75
 
 [AGOUNIA_EMBROCATION]
 Type = USEABLE
-Name = Embrocation d'Agounia
-Description = Cette embrocation peut soigner les brûlures les plus sévères et offre une protection contre le feu.
 Price = 750
 Attributes = ANTI_BURN,100
 
@@ -1446,8 +1184,6 @@ Attributes = ANTI_BURN,100
 
 [CREAM_AGAINST_COLD]
 Type = USEABLE
-Name = Creme contre le froid
-Description = Une crème contre le froid particulièrement efficace.
 Price = 20
 Attributes = ANTI_BURN,25
 
@@ -1455,8 +1191,6 @@ Attributes = ANTI_BURN,25
 
 [WARMING_OINTMENT]
 Type = USEABLE
-Name = Pommade chaleureuse
-Description = Une pommade qui aide qui protège du froid tout en réchauffant le corps.
 Price = 90
 Attributes = ANTI_BURN,50
 
@@ -1464,8 +1198,6 @@ Attributes = ANTI_BURN,50
 
 [OINTMENT_AGAINST_CHILBLAINS]
 Type = USEABLE
-Name = Onguent contre les engelures
-Description = Un onguent qui soigne les engelures.
 Price = 200
 Attributes = ANTI_BURN,75
 
@@ -1473,7 +1205,5 @@ Attributes = ANTI_BURN,75
 
 [UII_EMBROCATION]
 Type = USEABLE
-Name = Embrocation bénie par UII
-Description = Cette embrocation peut soigner les engelures les plus sévères et offre une protection contre les froids les plus glacials.
 Price = 750
 Attributes = ANTI_BURN,100

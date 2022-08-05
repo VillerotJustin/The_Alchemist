@@ -104,7 +104,7 @@ MAGIC_MANTLE_Name = Bottes magique
 MAGIC_MANTLE_Description = Le vieux manteau du garde de la montagne, qui a été enchanté pour résister à la chaleur du volcan.
 
 BOOTS_Name = Bottes
-BOOTS_Description = Des bottes en caoutchouc jaune.
+BOOTS_Description = Une paire de bottes en caoutchouc jaune.
 
 MAGIC_BOOTS_Name = Bottes magique
 MAGIC_BOOTS_Description = Des bottes en caoutchouc jaune enchanter pour résister aux plus fortes chaleurs.
@@ -127,7 +127,7 @@ BALUCHON_Description = Un vieux baluchon.
 BACKPACK_Name = Sac a dos
 BACKPACK_Description = Un sac à dos banal.
 
-TREKINC_BACKPACK_Name = Gants magique
+TREKINC_BACKPACK_Name = Sac à dos de randonnée
 TREKINC_BACKPACK_Description = Un sac à dos de randonnée.
 
 ALCHEMIST_BACKPACK_Name = Sac d'alchimiste
@@ -140,10 +140,28 @@ HERBORIST_GLOVE_Name = Gants d'herboriste
 HERBORIST_GLOVE_Description = Un gant de jardinage.
 
 MAGIC_GLOVE_Name = Gants magique
-MAGIC_GLOVE_Description = Un gant de jardinage enchanté avec les 6 cristaux.
+MAGIC_GLOVE_Description = Un vieux gant en metal avec six fentes vide.
+
+MAGIC_GLOVE_1_Name = Gants magique
+MAGIC_GLOVE_1_Description = Un vieux gant en metal avec cinq fentes vide, une fente et remplis avec un crystal blanc.
+
+MAGIC_GLOVE_2_Name = Gants magique
+MAGIC_GLOVE_2_Description = Un vieux gant en metal avec quatre fentes vide, deux fentes sont remplis avec des crystaux.
+
+MAGIC_GLOVE_3_Name = Gants magique
+MAGIC_GLOVE_3_Description = Un vieux gant en metal avec trois fentes vide, trois fentes sont remplis avec des crystaux.
+
+MAGIC_GLOVE_4_Name = Gants magique
+MAGIC_GLOVE_4_Description = Un vieux gant en métal avec deux fentes vides, quatre fentes sont remplies de cristaux.
+
+MAGIC_GLOVE_5_Name = Gants magique
+MAGIC_GLOVE_5_Description = Un vieux gant en métal avec une fente vide, cinq fentes sont remplies de cristaux.
+
+MAGIC_GLOVE_6_Name = Gants magique
+MAGIC_GLOVE_6_Description = Un vieux gant en métal enchanté de six cristaux, vous avez essayé de claquer des doigts mais rien ne s'est produit.
 
 LANTERN_Name = Lanterne
-LANTERN_Description = Une lanterne en épiaire droite sensé protéger les guerrier partant au combat.
+LANTERN_Description = Une lanterne qui permet d'éclaire la nuit.
 
 TALISMAN_AGAINST_WILD_BEASTS_Name = Talisman contre les bêtes sauvages
 TALISMAN_AGAINST_WILD_BEASTS_Description = Un talisman en épiaire droite sensé protéger les guerrier partant au combat.

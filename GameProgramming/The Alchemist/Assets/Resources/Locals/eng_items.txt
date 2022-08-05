@@ -1,465 +1,482 @@
-MORTAR_AND_PESTLE_Name = it works !!!
-MORTAR_AND_PESTLE_Description = An old thing :)
+MORTAR_AND_PESTLE_Name = Mortar and Pestle
+MORTAR_AND_PESTLE_Description = An old mortar and pestle.
 
-SUPER_MORTAR_AND_PESTLE_Name = Mortier pillon amélioré
-SUPER_MORTAR_AND_PESTLE_Description = Un mortier et Pilon plus agréable à la prise en main.
+SUPER_MORTAR_AND_PESTLE_Name = Improved Mortar and Pestle
+SUPER_MORTAR_AND_PESTLE_Description = A mortar and pestle that is more comfortable to hold.
 
-MECHANICAL_MILL_Name = Broyeur mechanique
-MECHANICAL_MILL_Description = Un broyeur mécanique à manivelle.
+MECHANICAL_MILL_Name = Mechanical crank mill
+MECHANICAL_MILL_Description = A mechanical crank mill.
 
-MAGIC_MILL_Name = Broyeur Magique
-MAGIC_MILL_Description = Un broyeur mécanique enchanté qui fonctionne tout seul.
+MAGIC_MILL_Name = Magic crank mill
+MAGIC_MILL_Description = An enchanted crank mill that works by itself.
 
-CAULDRON_Name = Chaudron
-CAULDRON_Description = Un vieux chaudron.
+CAULDRON_Name = Cauldron
+CAULDRON_Description = An old cauldron.
 
-WITCH_CAULDRON_Name = Chaudron de la sorcière
-WITCH_CAULDRON_Description = Un chaudron volé aux sorcières.
+WITCH_CAULDRON_Name = Witch cauldron
+WITCH_CAULDRON_Description = An old cauldron stolen from the witches of the marsh.
 
-GOLDEN_CAULDRON_Name = Chaudron en or
-GOLDEN_CAULDRON_Description = Un chaudron en or, on dirais qu'il manque quelque chose sur la face avant du chaudron.
+GOLDEN_CAULDRON_Name = Golden cauldron
+GOLDEN_CAULDRON_Description = A golden cauldron, it seems that something is missing on the front of the cauldron.
 
-MAGIC_CAULDRON_Name = Chaudron magique
-MAGIC_CAULDRON_Description = Chaudron en or enchanter pour resister aux plus fortes chaleurs.
+MAGIC_CAULDRON_Name = Magic cauldron
+MAGIC_CAULDRON_Description = Golden cauldron enchanted to withstand the strongest heat.
 
-ALEMBIC_Name = Alambic
-ALEMBIC_Description = Un vielle alambic.
+ALEMBIC_Name = Alembic
+ALEMBIC_Description = An old alembic.
 
-ALEMBIC_WITH_CONTAINER_Name = Alambic avec réservoir
-ALEMBIC_WITH_CONTAINER_Description = Un alambic avec un réservoir.
+ALEMBIC_WITH_CONTAINER_Name = Alembic with tank
+ALEMBIC_WITH_CONTAINER_Description = An alembic with a tank.
 
-GOLDEN_ALEMBIC_Name = Alambic en or
-GOLDEN_ALEMBIC_Description = Un alambic en or avec un reservoir, on dirais qu'il manque quelque chose sur le réservoir.
+GOLDEN_ALEMBIC_Name = Golden alembic
+GOLDEN_ALEMBIC_Description = A golden alembic with a tank, it looks like something is missing on the tank.
 
-MAGIC_ALEMBIC_Name = Alambic magique
-MAGIC_ALEMBIC_Description = Un alambic en or enchanté avec un crystal de givre.
+MAGIC_ALEMBIC_Name = Magic alembic
+MAGIC_ALEMBIC_Description = A golden still enchanted with a crystal of frost.
 
-SINK_Name = Évier
-SINK_Description = Un évier.
+SINK_Name = Sink
+SINK_Description = A sink, it provide tap water.
 
-ENCHANTER_Name = Enchanteur
-ENCHANTER_Description = Une machine pour enchanter avec le pouvoir des crystaux.
+ENCHANTER_Name = Enchanter
+ENCHANTER_Description = A machine to enchant with the power of crystals.
 
-BARREL_Name = Baril
-BARREL_Description = Un baril pour la fermentation.
+BARREL_Name = Barrel
+BARREL_Description = A barrel for fermentation.
 
-MAGIC_BARREL_Name = Baril enchanter
-MAGIC_BARREL_Description = Un baril enchanté permettant de fermenter avec tous les liquides.
+MAGIC_BARREL_Name = Enchanted barrel
+MAGIC_BARREL_Description = An enchanted barrel to ferment with any liquid.
 
-DRYER_Name = Séchoir
-DRYER_Description = Un séchoir, pour faire sécher les feuilles.
+DRYER_Name = Dryer
+DRYER_Description = A dryer, to dry the leaves.
 
-RUSTED_AXE_Name = Hache rouillé
-RUSTED_AXE_Description = Une vielle hache qui permet de couper les petits arbres.
+RUSTED_AXE_Name = Rusted axe
+RUSTED_AXE_Description = An old axe for cutting small trees.
 
-IRON_AXE_Name = Hache en fer
-IRON_AXE_Description = La hache du gardien de la forêt, permet de couper les plus gros arbres.
+IRON_AXE_Name = Iron axe
+IRON_AXE_Description = The forest guardian's axe is used to cut down the biggest trees.
 
-WOODEN_BUCKET_Name = Seau en bois
-WOODEN_BUCKET_Description = Un seau en bois pas très solide.
+WOODEN_BUCKET_Name = Wooden bucket
+WOODEN_BUCKET_Description = A wooden bucket that is not very strong.
 
-IRON_BUCKET_Name = Seau en fer
-IRON_BUCKET_Description = Un seau en fer qui permet de récolter différents liquides.
+IRON_BUCKET_Name = Iron bucket
+IRON_BUCKET_Description = An iron bucket for collecting different liquids.
 
-GOLD_BUCKET_Name = Seau en or
-GOLD_BUCKET_Description = Un seau en identique au seau en fer mais en plus cool.
+GOLD_BUCKET_Name = Golden bucket
+GOLD_BUCKET_Description = A bucket identical to the iron bucket but cooler, something seems to be missing at the bottom.
 
-MAGIC_BUCKET_Name = Seau magique
-MAGIC_BUCKET_Description = Un seau magique permettant de récolter tous les liquides et de les conserver.
+MAGIC_BUCKET_Name = Magic bucket
+MAGIC_BUCKET_Description = A magic bucket to collect all liquids and store them.
 
-WATERING_CAN_Name = Arrosoir
-WATERING_CAN_Description = Un arrosoir avec une petite contenance.
+WATERING_CAN_Name = Watering can
+WATERING_CAN_Description = A watering can with a small capacity.
 
-GOLDEN_WATERING_CAN_Name = Arrosoir dorée
-GOLDEN_WATERING_CAN_Description = Un arrosoir dorée avec une grande contenance.
+GOLDEN_WATERING_CAN_Name = Golden watering can
+GOLDEN_WATERING_CAN_Description = A golden watering can with a large capacity, something seems to be missing inside.
 
-ENCHANTED_WATERING_CAN_Name = Arrosoir enchanté
-ENCHANTED_WATERING_CAN_Description = Un arrosoir magique avec une contenance faramineuse.
+ENCHANTED_WATERING_CAN_Name = Enchanted watering can
+ENCHANTED_WATERING_CAN_Description = A magic watering can that produces water by itself.
 
-SHEARS_Name = Cisaille
-SHEARS_Description = Une cisaille qui coupe mal mais c'est toujours mieux que rien.
+SHEARS_Name = Shears
+SHEARS_Description = A shear that cuts badly but it's better than nothing.
 
-SICKLE_Name = Faucille
-SICKLE_Description = Une faucille qui coupe bien.
+SICKLE_Name = Sickle
+SICKLE_Description = A sickle that cuts well.
 
-GOLDEN_SICKLE_Name = Faucille en or
-GOLDEN_SICKLE_Description = Une faucille en or, avec Panoramix gravé sur le manche.
+GOLDEN_SICKLE_Name = Golden Sickle
+GOLDEN_SICKLE_Description = A golden enchanted sickle, with Panoramix engraved on the handle, something seems to fit in the letter O.
 
-MAGIC_SICKLE_Name = Faucille magique
-MAGIC_SICKLE_Description = Une faucille en or enchanté qui permet de tout récolter.
+MAGIC_SICKLE_Name = Magic Sickle
+MAGIC_SICKLE_Description = A golden enchanted sickle, with Panoramix engraved on the handle, a purple crystal is embedded in the O.
 
-HOE_Name = Houe
-HOE_Description = Une houe pour couper les herbes hautes.
+HOE_Name = Hoe
+HOE_Description = A hoe to cut tall grass.
 
-PICKAXE_Name = Pioche
-PICKAXE_Description = Une pioche pour casser les pierres gênantes.
+PICKAXE_Name = Pickaxe
+PICKAXE_Description = A pickaxe to break up troublesome stones.
 
-SHOVEL_Name = Pelle
-SHOVEL_Description = Une pelle pour retourner la terre.
+SHOVEL_Name = Shovel
+SHOVEL_Description = A shovel to turn the soil.
 
-MANTLE_Name = Vieux manteau
-MANTLE_Description = Le vieux manteau du garde de la montagne.
+MANTLE_Name = Old mantle
+MANTLE_Description = The old coat of the mountain guard.
 
-MAGIC_MANTLE_Name = Bottes magique
-MAGIC_MANTLE_Description = Le vieux manteau du garde de la montagne, qui a été enchanté pour résister à la chaleur du volcan.
+MAGIC_MANTLE_Name = Magic mantle
+MAGIC_MANTLE_Description = The mountain guard's old coat, which has been enchanted to withstand the heat of the volcano.
 
-BOOTS_Name = Bottes
-BOOTS_Description = Des bottes en caoutchouc jaune.
+BOOTS_Name = Boots
+BOOTS_Description = A pair of yellow rubber boots.
 
-MAGIC_BOOTS_Name = Bottes magique
-MAGIC_BOOTS_Description = Des bottes en caoutchouc jaune enchanter pour résister aux plus fortes chaleurs.
+MAGIC_BOOTS_Name = Magic boots
+MAGIC_BOOTS_Description = Enchanting yellow rubber boots to withstand even the hottest weather.
 
-CITIZENS_CLOTHING_Name = Tenue de citoyen
-CITIZENS_CLOTHING_Description = Une tenue classique de manant.
+CITIZENS_CLOTHING_Name = Citizen's clothing 
+CITIZENS_CLOTHING_Description = A classic manant's outfit.
 
-BEGINNER_ALCHEMIST_CLOTHING_Name = Tenue d'alchimiste débutant
-BEGINNER_ALCHEMIST_CLOTHING_Description = Une tenue d'alchimiste débutant avec des poches et des porte-bouteilles.
+BEGINNER_ALCHEMIST_CLOTHING_Name = Beginner's alchemist outfit
+BEGINNER_ALCHEMIST_CLOTHING_Description = A beginner's alchemist outfit with pockets and bottle holders.
 
-ALCHEMIST_CLOTHING_Name = Tenue d'alchimiste confirmé
-ALCHEMIST_CLOTHING_Description = Une tenue d'alchimiste avec toutes les nécessités
+ALCHEMIST_CLOTHING_Name = Confirmed alchemist's outfit
+ALCHEMIST_CLOTHING_Description = An alchemist's outfit with all the necessities
 
 MASTER_ALCHEMIST_CLOTHING_Name = Tenue de maître alchimiste
-MASTER_ALCHEMIST_CLOTHING_Description = Une tenue de maître alchimiste de très grande qualité.
+MASTER_ALCHEMIST_CLOTHING_Description = A very high quality master alchemist's outfit.
 
-BALUCHON_Name = Baluchon
-BALUCHON_Description = Un vieux baluchon.
+BALUCHON_Name = Bunch
+BALUCHON_Description = An old bundle.
 
-BACKPACK_Name = Sac a dos
-BACKPACK_Description = Un sac à dos banal.
+BACKPACK_Name = Backpack
+BACKPACK_Description = An ordinary backpack.
 
-TREKINC_BACKPACK_Name = Gants magique
+TREKINC_BACKPACK_Name = Hiking backpack
 TREKINC_BACKPACK_Description = Un sac à dos de randonnée.
 
-ALCHEMIST_BACKPACK_Name = Sac d'alchimiste
-ALCHEMIST_BACKPACK_Description = Un grand sac à dos d'alchimiste avec toutes les fonctions don, vous aurez besoin.
+ALCHEMIST_BACKPACK_Name = Alchemist's backpack
+ALCHEMIST_BACKPACK_Description = A large alchemist's backpack with all the features you will need.
 
-GLOVE_Name = Gants
-GLOVE_Description = Un vieux gant.
+GLOVE_Name = Gloves
+GLOVE_Description = An old glove.
 
-HERBORIST_GLOVE_Name = Gants d'herboriste
-HERBORIST_GLOVE_Description = Un gant de jardinage.
+HERBORIST_GLOVE_Name = Herbalist's gloves
+HERBORIST_GLOVE_Description = A gardening glove.
 
-MAGIC_GLOVE_Name = Gants magique
-MAGIC_GLOVE_Description = Un gant de jardinage enchanté avec les 6 cristaux.
+MAGIC_GLOVE_Name = Magic gloves
+MAGIC_GLOVE_Description = An old metal glove with six empty slots.
+
+MAGIC_GLOVE_1_Name = Magic Gloves
+MAGIC_GLOVE_1_Description = An old metal glove with five empty slots, one slot and filled with a white crystal.
+
+MAGIC_GLOVE_2_Name = Magic gloves
+MAGIC_GLOVE_2_Description = An old metal glove with four empty slots, two slots are filled with crystals.
+
+MAGIC_GLOVE_3_Name = Magic gloves
+MAGIC_GLOVE_3_Description = An old metal glove with three empty slots, three slots are filled with crystals.
+
+MAGIC_GLOVE_4_Name = Magic gloves
+MAGIC_GLOVE_4_Description = An old metal glove with two empty slots, four slots are filled with crystals.
+
+MAGIC_GLOVE_5_Name = Magic Gloves
+MAGIC_GLOVE_5_Description = An old metal glove with one empty slot, five slots are filled with crystals.
+
+MAGIC_GLOVE_6_Name = Magic Gloves
+MAGIC_GLOVE_6_Description = An old metal glove enchanted with six crystals, you tried to snap your fingers but nothing happened.
 
 LANTERN_Name = Lanterne
-LANTERN_Description = Une lanterne en épiaire droite sensé protéger les guerrier partant au combat.
+LANTERN_Description = A lantern that provides light at night.
 
-TALISMAN_AGAINST_WILD_BEASTS_Name = Talisman contre les bêtes sauvages
-TALISMAN_AGAINST_WILD_BEASTS_Description = Un talisman en épiaire droite sensé protéger les guerrier partant au combat.
+TALISMAN_AGAINST_WILD_BEASTS_Name = Talisman against wild beasts
+TALISMAN_AGAINST_WILD_BEASTS_Description = A talisman made of right epiary is supposed to protect warriors going into battle.
 
-OLD_TALISMAN_Name = Ancien talisman
-OLD_TALISMAN_Description = Un talisman ancien fabriqué à partir de fragment cacher dans chaque zone.
+OLD_TALISMAN_Name = Ancient talisman
+OLD_TALISMAN_Description = An ancient talisman made from fragments hidden in each area.
 
-CLEAR_CRYSTAL_Name = Cristal transparent
-CLEAR_CRYSTAL_Description = Un Cristal transparent trouvé à l'intérieur du volcan.
+CLEAR_CRYSTAL_Name = Transparent crystal
+CLEAR_CRYSTAL_Description = A transparent crystal found inside the volcano.
 
-SACRED_CRYSTAL_Name = Cristal Sacré
-SACRED_CRYSTAL_Description = Un Cristal qui a longtemps absorbé de l'énergie sacrée.
+SACRED_CRYSTAL_Name = Sacred Crystal
+SACRED_CRYSTAL_Description = A crystal that has long absorbed sacred energy.
 
-CURSED_CRYSTAL_Name = Cristal Maudit
-CURSED_CRYSTAL_Description = Un Cristal qui a longtemps absorbé l'énergie des marais.
+CURSED_CRYSTAL_Name = Cursed Crystal
+CURSED_CRYSTAL_Description = A Crystal that has long absorbed swamp energy.
 
-VULCAIN_CRYSTAL_Name = Cristal du Volcan
-VULCAIN_CRYSTAL_Description = Un Cristal qui a longtemps absorbé l'énergie d'un volcan.
+VULCAIN_CRYSTAL_Name = Volcano Crystal
+VULCAIN_CRYSTAL_Description = A Crystal that has long absorbed the energy of a volcano.
 
-FROST_CRYSTAL_Name = Cristal de givre
-FROST_CRYSTAL_Description = Un Cristal qui a longtemps fermenter dans une mixture glaciale.
+FROST_CRYSTAL_Name = Frost Crystal
+FROST_CRYSTAL_Description = A Crystal that has been fermenting in a freezing mixture for a long time.
 
-NIGHT_CRYSTAL_Name = Cristal de la nuit
-NIGHT_CRYSTAL_Description = Un Cristal aussi noir que la nuit.
+NIGHT_CRYSTAL_Name = Night Crystal
+NIGHT_CRYSTAL_Description = A crystal as black as the night.
 
-DAY_CRYSTAL_Name = Cristal solaire
-DAY_CRYSTAL_Description = Un Cristal qui émet une douce lumière comme celle du soleil.
+DAY_CRYSTAL_Name = Solar Crystal
+DAY_CRYSTAL_Description = A crystal which gives off a soft light like the sun.
 
-WINE_Name = Vin
-WINE_Description = Une bouteille de vin de mauvaise qualité, peut aussi servir de débouche toilette.
+WINE_Name = Wine
+WINE_Description = A bottle of wine of bad quality, can also be used as a toilet opener.
 
-COMPETITION_WINE_Name = Vin de compétition
-COMPETITION_WINE_Description = Un vin de qualité digne des meilleurs cépages.
+COMPETITION_WINE_Name = Competition wine
+COMPETITION_WINE_Description = A quality wine worthy of the best grape varieties.
 
-REFRESHING_DRINK_Name = Boisson rafraîchissante
-REFRESHING_DRINK_Description = Une bouteille d'eau bien fraîche avec des glaçons et tout.
+REFRESHING_DRINK_Name = Refreshing drink
+REFRESHING_DRINK_Description = A cool bottle of water with ice and everything.
 
-BEER_Name = Bière
-BEER_Description = Une bière au bon goût de houblon.
+BEER_Name = Beer
+BEER_Description = A beer with a good hop taste.
 
-COMPETITION_BEER_Name = Bière de compétition
-COMPETITION_BEER_Description = Un bière de grande qualité.
+COMPETITION_BEER_Name = Competition beer
+COMPETITION_BEER_Description = A high quality beer.
 
-GENEPI_BRANDY_Name = Eau de vie au génépi
-GENEPI_BRANDY_Description = Une eau de vie au goût de génépi.
+GENEPI_BRANDY_Name = Genepy brandy
+GENEPI_BRANDY_Description = A brandy with the taste of genepi.
 
-PEAR_BRANDY_Name = Eau de vie à la poire
-PEAR_BRANDY_Description = Une eau de vie au goût de poire.
+PEAR_BRANDY_Name = Pear brandy
+PEAR_BRANDY_Description = A brandy with pear taste.
 
-MOONWALKER_BEVERAGE_Name = Breuvage du marcheur de la nuit
-MOONWALKER_BEVERAGE_Description = Une potion légendaire qui donne à son consommateur une partie des pouvoirs des marche-lune.
+MOONWALKER_BEVERAGE_Name = Night walker's drink
+MOONWALKER_BEVERAGE_Description = A legendary potion that gives its consumer a part of the powers of the moonwalkers.
 
-LOVE_POTION_Name = Philtre d'amour
-LOVE_POTION_Description = Une philtre d'amour tout droit sortie d'un compte de fée.
+LOVE_POTION_Name = Love potion
+LOVE_POTION_Description = A love potion straight from a fairy tale.
 
-CALMING_TEA_Name = Thé calmant
-CALMING_TEA_Description = Rien de mieux qu'une tasse de thé en fin de journée.
+CALMING_TEA_Name = Calming tea
+CALMING_TEA_Description = Nothing better than a cup of tea at the end of the day.
 
-MINT_TEA_Name = Thé à la menthe
-MINT_TEA_Description = Une sachet de thé à la menthe.
+MINT_TEA_Name = Mint tea
+MINT_TEA_Description = A bag of mint tea.
 
-RED_BERRY_INFUSION_Name = Tissane aux fruits rouges
-RED_BERRY_INFUSION_Description = Une bonne infusion aux fruits rouges.
+RED_BERRY_INFUSION_Name = Red fruit tea
+RED_BERRY_INFUSION_Description = A good red fruit tea.
 
-ROSE_PARFUM_Name = Parfum à la rose
-ROSE_PARFUM_Description = Un parfum qui sent la rose, sauras ravir les romantiques.
+ROSE_PARFUM_Name = Rose perfume
+ROSE_PARFUM_Description = A rose perfume, which will delight the romantics.
 
-OSMANTHE_PARFUM_Name = Parfum à l'osmanthe
-OSMANTHE_PARFUM_Description = Un parfum qui sent l'osmanthe.
+OSMANTHE_PARFUM_Name = Osmanthus perfume
+OSMANTHE_PARFUM_Description = A perfume that smells like osmanthus.
 
-JASMIN_PARFUM_Name = Parfum au jasmin
-JASMIN_PARFUM_Description = Un parfum qui sent le jasmin.
+JASMIN_PARFUM_Name = Jasmine perfume
+JASMIN_PARFUM_Description = Jasmine scent.
 
-LEATHER_PREPARATION_Name = Préparation pour le cuir
-LEATHER_PREPARATION_Description = Une préparation pour tanner le cuir.
+LEATHER_PREPARATION_Name = Leather preparation
+LEATHER_PREPARATION_Description = A preparation for tanning leather.
 
-BLUE_DYE_Name = Colorant bleu
-BLUE_DYE_Description = Un colorant bleu naturel.
+BLUE_DYE_Name = Blue dye
+BLUE_DYE_Description = A natural blue dye.
 
-GREEN_DYE_Name = Colorant vert
-GREEN_DYE_Description = Un colorant vert naturel.
+GREEN_DYE_Name = Green dye
+GREEN_DYE_Description = A natural green dye.
 
-RED_DYE_Name = Colorant rouge
-RED_DYE_Description = Un colorant rouge naturel.
+RED_DYE_Name = A red dye
+RED_DYE_Description = A natural red dye.
 
-YELLOW_DYE_Name = Colorant jaune
-YELLOW_DYE_Description = Un colorant jaune naturel.
+YELLOW_DYE_Name = Yellow dye
+YELLOW_DYE_Description = A natural yellow dye.
 
-BLACK_DYE_Name = Colorant noir
-BLACK_DYE_Description = Un colorant noir naturel.
+BLACK_DYE_Name = Black dye
+BLACK_DYE_Description = A natural black dye.
 
-MINOR_HEALING_POTION_Name = Potion de soins mineure
-MINOR_HEALING_POTION_Description = Une potion de soin qui rend quelques PV.
+MINOR_HEALING_POTION_Name = Minor healing potion
+MINOR_HEALING_POTION_Description = A healing potion that gives back some health.
 
-HEALING_POTION_Name = Potion de soin
-HEALING_POTION_Description = Une potion de soin qui rend des PV.
+HEALING_POTION_Name = Healing Potion
+HEALING_POTION_Description = A healing potion that gives back some health.
 
-SUPERIOR_HEALING_POTION_Name = Potion de soin majeure
-SUPERIOR_HEALING_POTION_Description = Une potion de soin qui rend beaucoup de PV.
+SUPERIOR_HEALING_POTION_Name = Major Healing Potion
+SUPERIOR_HEALING_POTION_Description = A Healing Potion that restores a lot of HP.
 
-LIFE_ELIXIR_Name = Elixir de vie
-LIFE_ELIXIR_Description = Un rare élixir qui rend tout les points de vie.
+LIFE_ELIXIR_Name = Elixir of Life
+LIFE_ELIXIR_Description = A rare elixir which give back all life points.
 
-SORE_THROAT_POTION_Name = Potion contre les maux de gorge.
-SORE_THROAT_POTION_Description = Une potion qui transforme les argh en ah.
+SORE_THROAT_POTION_Name = Potion against sore throat.
+SORE_THROAT_POTION_Description = A potion that turns argh into ah.
 
-COUGH_REMEDY_Name = Remède contre la toux
-COUGH_REMEDY_Description = Un potion qui soulage votre gorge et fait disparaître votre toux en un éclair.
+COUGH_REMEDY_Name = Cough remedy
+COUGH_REMEDY_Description = A potion that soothes your throat and makes your cough disappear in a flash.
 
-BRONCHITIS_REMEDY_Name = Remède contre les bronchite
-BRONCHITIS_REMEDY_Description = Un potion qui fais disparaître toute ces vilaines maladie de vos poumons.
+BRONCHITIS_REMEDY_Name = Remedy for bronchitis
+BRONCHITIS_REMEDY_Description = A potion that makes all those nasty diseases of your lungs disappear.
 
-LUNG_ELIXIR_Name = Remède contre les problèmes pulmonaire
-LUNG_ELIXIR_Description = Une potion qui peut transformer les poumons d'un vieux fumeur atteindre d'un cancer en ceux d'un athlète de haut niveau.
+LUNG_ELIXIR_Name = Remedy against lung problems
+LUNG_ELIXIR_Description = A potion that can turn the lungs of an old smoker with cancer into those of a top athlete.
 
-SOOTHING_Name = Calmant
-SOOTHING_Description = Déstresse et détend les muscles.
+SOOTHING_Name = Calming
+SOOTHING_Description = Relaxes the muscles.
 
-PAINKILLER_Name = anti-douleur
-PAINKILLER_Description = Fait disparaître la douleur, attention risque d’addiction.
+PAINKILLER_Name = Painkiller
+PAINKILLER_Description = Take away the pain, beware of addiction risk.
 
-ANAESTHETIC_Name = Anesthésiant
-ANAESTHETIC_Description = Un anesthésiant de qualité.
+ANAESTHETIC_Name = Anaesthetic
+ANAESTHETIC_Description = A quality anaesthetic.
 
 SUFENTANIL_Name = Sufentanil
-SUFENTANIL_Description = Un puissant anesthésiant médical.
+SUFENTANIL_Description = A powerful medical anaesthetic.
 
-WAKE_UP_CALL_Name = Réveil matin
-WAKE_UP_CALL_Description = Rien de mieux de bon matin.
+WAKE_UP_CALL_Name = Wake up morning
+WAKE_UP_CALL_Description = Nothing better in the morning.
 
-ANTI-FATIGUE_DRINK_Name = Breuvage contre la fatigue
-ANTI-FATIGUE_DRINK_Description = Permet de faire quelque heures de travail supplémentaire.
+ANTI-FATIGUE_DRINK_Name = Drink against fatigue
+ANTI-FATIGUE_DRINK_Description = Allows to do some extra work.
 
-COFFEE_Name = Café
-COFFEE_Description = Du bon café qui va vous 
+COFFEE_Name = Coffee
+COFFEE_Description = Good coffee that will make you feel good 
 
-MAGIC_COFFEE_Name = Café magique
-MAGIC_COFFEE_Description = Un café tellement puissant que vous pourriez travaillez une semaine sans dormir.
+MAGIC_COFFEE_Name = Magic coffee
+MAGIC_COFFEE_Description = A coffee so strong that you can work for a week without sleeping.
 
-DOES_EYES_BEVERAGES_Name = Breuvages yeux de biche
-DOES_EYES_BEVERAGES_Description = Cette potion transformeras vos yeux en de séduisants yeux de biche.
+DOES_EYES_BEVERAGES_Name = Doe Eyes Drink
+DOES_EYES_BEVERAGES_Description = This potion will turn your eyes into seductive doe eyes.
 
-SEDUCTION_POTION_Name = Potion de séduction
-SEDUCTION_POTION_Description = Une fois avoir bu cette potion, vous paraîtrez beaucoup plus séduisant.
+SEDUCTION_POTION_Name = Seduction potion
+SEDUCTION_POTION_Description = Once you drink this potion, you will look much more attractive.
 
-DECOCTION_OF_LUST_Name = Décoction de luxure
-DECOCTION_OF_LUST_Description = Après avoir bu cette potion, toutes les personnes qui vous voient seront prises d'une puissante attirance envers vous.
+DECOCTION_OF_LUST_Name = Decoction of lust
+DECOCTION_OF_LUST_Description = After drinking this potion, all the people who see you will have a powerful attraction towards you.
 
-ELIXIR_OF_THE_FEMME_FATALE_Name = Élixir de la femme fatale
-ELIXIR_OF_THE_FEMME_FATALE_Description = La potion parfaite pour avoir homme, femme, et enfant à vos pieds.
+ELIXIR_OF_THE_FEMME_FATALE_Name = Elixir of the femme fatale
+ELIXIR_OF_THE_FEMME_FATALE_Description = The perfect potion to have man, woman, and child at your feet.
 
-MINOR_CAT_POTION_Name = Potion de chat mineure
-MINOR_CAT_POTION_Description = Permet de voir dans le noir pour quelques heures.
+MINOR_CAT_POTION_Name = Minor cat potion
+MINOR_CAT_POTION_Description = Allows you to see in the dark for a few hours.
 
-CAT_POTION_Name = Potion de chat
-CAT_POTION_Description = Permet de voir dans le noir.
+CAT_POTION_Name = Cat Potion
+CAT_POTION_Description = Allows you to see in the dark.
 
-SUPERIOR_CAT_POTION_Name = Potion de chat supérieur
-SUPERIOR_CAT_POTION_Description = Permet de voir dans le noir pour une longue durée.
+SUPERIOR_CAT_POTION_Name = Superior Cat Potion
+SUPERIOR_CAT_POTION_Description = Allows you to see in the dark for a long time.
 
-NYCTALOPE_DECOCTION_Name = Décoction du nyctalope
-NYCTALOPE_DECOCTION_Description = Une fois cette potion consommée, vous pourrez voir de nuit comme de jour.
+NYCTALOPE_DECOCTION_Name = Decoction of the Nyctalope
+NYCTALOPE_DECOCTION_Description = Once this potion is consumed, you will be able to see by night as well as by day.
 
-EXHAUSTION_POTION_Name = Potion de fatigue
-EXHAUSTION_POTION_Description = Donne une petit envie de dormir.
+EXHAUSTION_POTION_Name = Fatigue Potion
+EXHAUSTION_POTION_Description = Gives you a little bit of sleep.
 
-NARCOTIC_Name = Narcotique
-NARCOTIC_Description = Vous videz de toute votre énergie sur le coup, vous plongeant dans un sommeil profond.
+NARCOTIC_Name = Narcotic
+NARCOTIC_Description = Drain all your energy on the spot, putting you in a deep sleep.
 
-ETERNAL_SLEEP_POTION_Name = Potion du sommeil éternel
-ETERNAL_SLEEP_POTION_Description = Vous plonge dans un sommeil profond pour plusieurs jours voir semaines.
+ETERNAL_SLEEP_POTION_Name = Eternal Sleep Potion
+ETERNAL_SLEEP_POTION_Description = Plunges you into a deep sleep for several days or weeks.
 
-MORPHEE_ELIXIR_Name = Élixir de morphée
-MORPHEE_ELIXIR_Description = Cette potion va vous envoyer droit dans les bras de Morphée ou vous dormirez pour l'éternité.
+MORPHEE_ELIXIR_Name = Elixir of Morpheus
+MORPHEE_ELIXIR_Description = This potion will send you straight into the arms of Morpheus where you will sleep for eternity.
 
-STRANGE_MIXTURE_Name = Mixture étrange
-STRANGE_MIXTURE_Description = Donne une forte envie de vomir.
+STRANGE_MIXTURE_Name = Strange Mixture
+STRANGE_MIXTURE_Description = Makes you feel like throwing up.
 
-VOMITING_POTION_Name = Potion de vomissement
-VOMITING_POTION_Description = Vous faites vomir votre dernier repas.
+VOMITING_POTION_Name = Vomiting Potion
+VOMITING_POTION_Description = Make you vomit your last meal.
 
-LAXATIVE_Name = Laxatif
-LAXATIVE_Description = Un puissant laxatif qui donne envie de vomir.
+LAXATIVE_Name = Laxative
+LAXATIVE_Description = A powerful laxative that makes you want to vomit.
 
-ZIGU_ELIXIR_Name = Élixir de Zigu
-ZIGU_ELIXIR_Description = Avec un élixir de Zigu, tout ce qui est dedans sera bientôt dehors.
+ZIGU_ELIXIR_Name = Elixir of Zigu
+ZIGU_ELIXIR_Description = With a Zigu elixir, everything inside will soon be outside.
 
-POTION_OF_DISGUISE_Name = Potion de déguisement
-POTION_OF_DISGUISE_Description = Une fois cette potion consommée, les gens aurons du mal à se souvenir de votre apparence.
+POTION_OF_DISGUISE_Name = Disguise Potion
+POTION_OF_DISGUISE_Description = Once you drink this potion, people will have trouble remembering your appearance.
 
-POTION_OF_DISIMULATION_Name = Potion de dissimulation
-POTION_OF_DISIMULATION_Description = Avec ces potions la majeur partie des personnes ne se souviendrons même plus de vous.
+POTION_OF_DISIMULATION_Name = Disguise potion
+POTION_OF_DISIMULATION_Description = With this potion most of the people won't even remember you.
 
-POTION_OF_TRANSPARENCY_Name = Potion de transparence
-POTION_OF_TRANSPARENCY_Description = Avec cette potion, vous paraîtrez comme nuage transparent, mais quelqu'un, d'attentif pourra toujours vous retrouver.
+POTION_OF_TRANSPARENCY_Name = Potion of transparency
+POTION_OF_TRANSPARENCY_Description = With this potion, you will appear as a transparent cloud, but someone who is paying attention will always be able to find you.
 
-ELIXIR_OF_INVISIBILITY_Name = Élixir d'invisibilité
-ELIXIR_OF_INVISIBILITY_Description = Ne pas enlever l’étiquette sous risque de perdre la bouteille.
+ELIXIR_OF_INVISIBILITY_Name = Elixir of invisibility
+ELIXIR_OF_INVISIBILITY_Description = Do not remove the label, otherwise you will lose the bottle.
 
-BEVERAGE_OF_DRUNKENNESS_Name = Breuvage d'ivresse
-BEVERAGE_OF_DRUNKENNESS_Description = Provoque un léger mal de tête.
+BEVERAGE_OF_DRUNKENNESS_Name = Drink of intoxication
+BEVERAGE_OF_DRUNKENNESS_Description = Causes a slight headache.
 
-POTION_OF_CONFUSION_Name = Potion de confusion
-POTION_OF_CONFUSION_Description = Empêche le consommateur de réfléchir.
+POTION_OF_CONFUSION_Name = Potion of confusion
+POTION_OF_CONFUSION_Description = Prevents the consumer from thinking.
 
-POTION_OF_MADNESS_Name = Potion de folie
-POTION_OF_MADNESS_Description = Provoque une folie sévère avec effet à longue durée.
+POTION_OF_MADNESS_Name = Madness potion
+POTION_OF_MADNESS_Description = Causes severe insanity with long-lasting effect.
 
-ELIXIR_OF_LYPEMANIA_Name = Élixir de lypémanie
-ELIXIR_OF_LYPEMANIA_Description = miseuqjefbcw;,cn  f$qoj  joqk ^poqi jidf
+ELIXIR_OF_LYPEMANIA_Name = Elixir of Lypemania
+ELIXIR_OF_LYPEMANIA_Description = miseuqjefbcw;,cn f$qoj joqk ^poqi jidf
 
-ENERGIZER_Name = Énergisant
-ENERGIZER_Description = Redonne un petit peut d'énergie.
+ENERGIZER_Name = Energizing
+ENERGIZER_Description = Gives a little bit of energy.
 
-ADRENALINE_Name = Adrénaline
-ADRENALINE_Description = Permet de courir un peux plus vite.
+ADRENALINE_Name = Adrenalin
+ADRENALINE_Description = Make you run a bit faster.
 
 BOOST_POTION_Name = Potion boost
-BOOST_POTION_Description = Permet de courir plus vite tout en diminuant un peu la fatigue.
+BOOST_POTION_Description = Allows you to run faster and less tired.
 
-ELIXIR_OF_TRANSANDANCE_Name = Élixir de transcendance
-ELIXIR_OF_TRANSANDANCE_Description = Renforce votre corps tout en restaurants votre énergie.
+ELIXIR_OF_TRANSANDANCE_Name = Elixir of transcendence
+ELIXIR_OF_TRANSANDANCE_Description = Strengthen your body and restore your energy.
 
-MINOR_ANTIDOTE_Name = Antidote mineure
-MINOR_ANTIDOTE_Description = Soigne des petits poisons.
+MINOR_ANTIDOTE_Name = Minor antidote
+MINOR_ANTIDOTE_Description = Cures small poisons.
 
 ANTIDOTE_Name = Antidote
-ANTIDOTE_Description = Soigne des poisons.
+ANTIDOTE_Description = Cures poisons.
 
-SUPERIOR_ANTIDOTE_Name = Antidote Majeure
-SUPERIOR_ANTIDOTE_Description = Soigne des poisons les plus dangereux.
+SUPERIOR_ANTIDOTE_Name = Major Antidote
+SUPERIOR_ANTIDOTE_Description = Cure the most dangerous poisons.
 
-BLESSING_OF_PANACEA_Name = Bénédiction de Panacée
-BLESSING_OF_PANACEA_Description = Soigne de tout les poison et maladie.
+BLESSING_OF_PANACEA_Name = Blessing of Panacea
+BLESSING_OF_PANACEA_Description = Cure all poison and disease.
 
-STOMACH_POTION_Name = Potion contre les maux de ventre
-STOMACH_POTION_Description = Soigne des maux de ventre.
+STOMACH_POTION_Name = Potion against stomach ache
+STOMACH_POTION_Description = Cure stomach ache.
 
-DIGESTIVE_Name = Digestif
-DIGESTIVE_Description = Aide à la digestion.
+DIGESTIVE_Name = Digestive
+DIGESTIVE_Description = Help digestion.
 
-INDIGESTION_REMEDY_Name = Remède contre les indigestions
-INDIGESTION_REMEDY_Description = Soigne les indigestions.
+INDIGESTION_REMEDY_Name = Remedy for indigestion
+INDIGESTION_REMEDY_Description = Indigestion remedy.
 
-STOMACH_ULCER_REMEDY_Name = Remède contre les ulcères à l'estomac
-STOMACH_ULCER_REMEDY_Description = Soigne les ulcères de l'estomac.
+STOMACH_ULCER_REMEDY_Name = Remedy for stomach ulcer
+STOMACH_ULCER_REMEDY_Description = Remedy for stomach ulcer.
 
-INSECT_SPRAY_Name = Spray contre les insectes
-INSECT_SPRAY_Description = Spray qui éloigne les insectes.
+INSECT_SPRAY_Name = Spray against insects
+INSECT_SPRAY_Description = Spray to keep insects away.
 
-SNAKE_SPRAY_Name = Spray contre les serpents
-SNAKE_SPRAY_Description = Spray qui éloigne les serpents.
+SNAKE_SPRAY_Name = Spray against snakes
+SNAKE_SPRAY_Description = Spray to keep snakes away.
 
-MIRIAPOD_SPRAY_Name = Spray contre les myriapodes
-MIRIAPOD_SPRAY_Description = Spray qui éloigne les myriapodes.
+MIRIAPOD_SPRAY_Name = Spraying against roundworms
+MIRIAPOD_SPRAY_Description = Spray that keeps the myriapods away.
 
-UNIVERSAL_ANTI-MONSTER_SPRAY_Name =  Anti-monstre Universelle
-UNIVERSAL_ANTI-MONSTER_SPRAY_Description = Spray qui éloigne tout les monstres.
+UNIVERSAL_ANTI-MONSTER_SPRAY_Name = Universal Monk Repellent
+UNIVERSAL_ANTI-MONSTER_SPRAY_Description = Spray to keep all monsters away.
 
-HALLUCINOGENIC_POTION_Name = Potion hallucinogène
-HALLUCINOGENIC_POTION_Description = Brouille la vue et l'esprit.
+HALLUCINOGENIC_POTION_Name = Hallucinogenic Potion
+HALLUCINOGENIC_POTION_Description = Blur your sight and mind.
 
-FOG_POTION_Name = Potion de brouillard
-FOG_POTION_Description = Embrume la vue a telle point que l'on se croirait dans un brouillard.
+FOG_POTION_Name = Fog Potion
+FOG_POTION_Description = Fogs up your eyesight so much that you think you're in a fog.
 
-BLINDING_POTION_Name = Potion d'aveuglement
-BLINDING_POTION_Description = Rend aveugle pour une courte durée.
+BLINDING_POTION_Name = Blinding Potion
+BLINDING_POTION_Description = Blinds you for a short time.
 
-ELIXIR_OF_BLINDNESS_Name =  Élixir de cécité
-ELIXIR_OF_BLINDNESS_Description = Rend aveugle.
+ELIXIR_OF_BLINDNESS_Name = Elixir of blindness
+ELIXIR_OF_BLINDNESS_Description = Blindness.
 
-HEALING_OINTMENT_Name = Pommade cicatrisante
-HEALING_OINTMENT_Description = Une pommade qui aide à soigner les petits bobos.
+HEALING_OINTMENT_Name = Healing ointment
+HEALING_OINTMENT_Description = An ointment that helps to heal small injuries.
 
-REPAIRING_BALM_Name = Baume réparateur
-REPAIRING_BALM_Description = Un baume qui soigne les bleus et les égratignures.
+REPAIRING_BALM_Name = Repairing Balm
+REPAIRING_BALM_Description = A balm that heals bruises and scratches.
 
-WOUND_HEALING_OINTMENT_Name = Onguent contre les plaies
-WOUND_HEALING_OINTMENT_Description = Un onguent de première qualité qui referme les plaies.
+WOUND_HEALING_OINTMENT_Name = Wound healing ointment
+WOUND_HEALING_OINTMENT_Description = A premium ointment that closes wounds.
 
-IASO_EMBROCATION_Name = Embrocation d'Iaso
-IASO_EMBROCATION_Description = Une pommade qui peut même faire repousser les membres.
+IASO_EMBROCATION_Name = Iaso embrocation
+IASO_EMBROCATION_Description = An ointment that can even regrow limbs.
 
-OINTMENT_AGAINST_ITCHING_Name = Pommade contre les démangeaisons
-OINTMENT_AGAINST_ITCHING_Description = Une pommade qui soigne les démangeaisons.
+OINTMENT_AGAINST_ITCHING_Name = Ointment against itching
+OINTMENT_AGAINST_ITCHING_Description = An ointment that cures itching.
 
-OINTMENT_AGAINST_STINGS_Name = Onguent contre les piqûres
-OINTMENT_AGAINST_STINGS_Description = Un onguent qui protège des piqûres.
+OINTMENT_AGAINST_STINGS_Name = Ointment against stings
+OINTMENT_AGAINST_STINGS_Description = An ointment that protects against bites.
 
-ANTI_INFLAMMATORY_Name = Anti-inflammatoire
-ANTI_INFLAMMATORY_Description = Un anti-inflammatoire à appliquer sur la peau.
+ANTI_INFLAMMATORY_Name = Anti-inflammatory
+ANTI_INFLAMMATORY_Description = An anti-inflammatory to apply on the skin.
 
-GOLEM_BALM_Name = Baume du golem
-GOLEM_BALM_Description = Un onguent qui transforme la couche supérieur de la peau en une couche de pierre protectrice.
+GOLEM_BALM_Name = Golem Balm
+GOLEM_BALM_Description = An ointment that transforms the upper layer of the skin into a protective stone layer.
 
-SUNSCREEN_CREAM_Name = Crème solaire
-SUNSCREEN_CREAM_Description = Une crème solaire particulièrement efficace.
+SUNSCREEN_CREAM_Name = Sunscreen
+SUNSCREEN_CREAM_Description = A particularly effective sun cream.
 
-OINTMENT_AGAINST_BURNS_Name = Pommade contre les brûlures
-OINTMENT_AGAINST_BURNS_Description = Une pommade qui aide à soigner les brûlures.
+OINTMENT_AGAINST_BURNS_Name = Ointment against burns
+OINTMENT_AGAINST_BURNS_Description = An ointment that helps to heal burns.
 
-OINTMENT_AGAINST_SEVERE_BURNS_Name = Onguent contre les brûlures sévères
-OINTMENT_AGAINST_SEVERE_BURNS_Description = Un onguent qui soigne les brûlures sévères.
+OINTMENT_AGAINST_SEVERE_BURNS_Name = Ointment for severe burns
+OINTMENT_AGAINST_SEVERE_BURNS_Description = An ointment that helps to cure severe burns.
 
-AGOUNIA_EMBROCATION_Name = Embrocation d'Agounia
-AGOUNIA_EMBROCATION_Description = Cette embrocation peut soigner les brûlures les plus sévères et offre une protection contre le feu.
+AGOUNIA_EMBROCATION_Name = Agounia Embrocation
+AGOUNIA_EMBROCATION_Description = This embrocation can heal the most severe burns and offers protection against fire.
 
-CREAM_AGAINST_COLD_Name = Creme contre le froid
-CREAM_AGAINST_COLD_Description = Une crème contre le froid particulièrement efficace.
+CREAM_AGAINST_COLD_Name = Cream against cold
+CREAM_AGAINST_COLD_Description = A particularly effective cold cream.
 
-WARMING_OINTMENT_Name = Pommade chaleureuse
-WARMING_OINTMENT_Description = Une pommade qui aide qui protège du froid tout en réchauffant le corps.
+WARMING_OINTMENT_Name = Warming Ointment
+WARMING_OINTMENT_Description = An ointment that helps to protect against the cold while warming the body.
 
-OINTMENT_AGAINST_CHILBLAINS_Name = Onguent contre les engelures
-OINTMENT_AGAINST_CHILBLAINS_Description = Un onguent qui soigne les engelures.
+OINTMENT_AGAINST_CHILBLAINS_Name = Ointment against chilblains
+OINTMENT_AGAINST_CHILBLAINS_Description = An ointment that treats chilblains.
 
-UII_EMBROCATION_Name = Embrocation bénie par UII
-UII_EMBROCATION_Description = Cette embrocation peut soigner les engelures les plus sévères et offre une protection contre les froids les plus glacials.
-
+UII_EMBROCATION_Name = Embrocation blessed by UII
+UII_EMBROCATION_Description = This embrocation can heal the most severe frostbite and offers protection against the coldest weather.
