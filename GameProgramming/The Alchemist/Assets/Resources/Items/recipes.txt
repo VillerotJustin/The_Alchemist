@@ -23,4 +23,4 @@ Item1 = WINE
 Item1Count = 2
 Result = WINE
 ResultCount = 4
-Machine = ALAMBIC
+Machine = ALEMBIC

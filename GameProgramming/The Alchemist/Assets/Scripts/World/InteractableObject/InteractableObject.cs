@@ -58,6 +58,8 @@ public class InteractableObject : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0)){
             InteractionEvent();
+        }else if(Input.GetMouseButtonDown(1)){
+            InteractionEventRightClick();
         }
     }
 
@@ -71,6 +73,10 @@ public class InteractableObject : MonoBehaviour
 
     protected virtual void InteractionEvent(){
         print("Object "+name+" triggered");
+    }
+
+
+    protected virtual void InteractionEventRightClick(){
     }
 
 }
