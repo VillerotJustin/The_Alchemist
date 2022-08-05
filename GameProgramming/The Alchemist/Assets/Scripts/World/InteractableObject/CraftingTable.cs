@@ -10,4 +10,13 @@ public class CraftingTable : InteractableObject
     {
         CraftingUI.instance.OpenHUD(machine);
     }
+
+    protected override void InteractionEventRightClick()
+    {
+        Item item = GameManager.instance.GetItem(machine.ToString());
+        if(item != null && GameManager.player.AddItem(item,1)){
+            Destroy(gameObject);
+            PlayerHotBarUI.instance.RefreshHotBar();
+        }
+    }
 }

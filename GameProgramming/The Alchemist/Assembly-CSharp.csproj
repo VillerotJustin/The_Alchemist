@@ -40,6 +40,7 @@
      <Compile Include="Assets\Scripts\GUI\PlayerBagGUI.cs" />
      <Compile Include="Assets\Scripts\Utils\SortSpriteOrderInScene.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickupManager.cs" />
+     <Compile Include="Assets\Scripts\Utils\LocalizedText.cs" />
      <Compile Include="Assets\Scripts\Crafting System\RecipeManager.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemSlot\InventoryGUI_ItemSlot.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerItemPlacer.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\Scripts\NPC\InWorldMovingNPC.cs" />
      <Compile Include="Assets\Scripts\DEBUG\DebugBagUI.cs" />
      <Compile Include="Assets\Scripts\World\InWorldItem.cs" />
+     <Compile Include="Assets\Scripts\Manager\Locals.cs" />
      <Compile Include="Assets\Scripts\GUI\InfoUI.cs" />
      <Compile Include="Assets\Scripts\Manager\Player.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\InventorySelection_Helper.cs" />
@@ -95,8 +97,6 @@
      <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
      <Compile Include="Assets\Scripts\GUI\EffectGUI\UI_ItemEffect.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\Manager\Locals.cs" />
-     <Compile Include="Assets\Scripts\Utils\LocalizedText.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Locals\eng_items.txt" />
