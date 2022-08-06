@@ -482,119 +482,104 @@ UII_EMBROCATION_Name = Embrocation blessed by UII
 UII_EMBROCATION_Description = This embrocation can heal the most severe frostbite and offers protection against the coldest weather.
 
 
-POTENTILLA_ANSERINA_Name = a
-POTENTILLA_ANSERINA_Description = a
+POTENTILLA_ANSERINA_Name = Potentilla anserina
+POTENTILLA_ANSERINA_Description = Potentilla anserina lives at the edge of roads, paths, ponds or ditches, it relieves stings.
 
-SUN_MUSHROOM_Name = a
-SUN_MUSHROOM_Description = a
+SUN_MUSHROOM_Name = Royal Sun Agaricus
+SUN_MUSHROOM_Description = A mushroom that strengthens the body, it grows in the shade of the house.
 
-ST_JOHNS_WORT_Name = a
-ST_JOHNS_WORT_Description = a
+ST_JOHNS_WORT_Name = Perforated St. John's wort
+ST_JOHNS_WORT_Description = It is a wild plant heliophile and calcicole. The edges of the ways, the edges of forest, meadows and dry slopes. One can look after the sunstrokes with this plant.
 
-LAVA_FLOWER_Name = a
-LAVA_FLOWER_Description = a
+LAVA_FLOWER_Name = Lava flower
+LAVA_FLOWER_Description = A flower that grows in the heart of the volcano, this flower seems to absorb the heat.
 
-MEDIUM_PLANTIAN_Name = a
-MEDIUM_PLANTIAN_Description = a
+MEDIUM_PLANTAIN_Name = Medium Plantain
+MEDIUM_PLANTAIN_Description = The crushed fresh leaves are used as a healing agent.
 
-EUROPEAN_SANICLE_Name = a
-EUROPEAN_SANICLE_Description = a
+EUROPEAN_SANICLE_Name = European sanicle
+EUROPEAN_SANICLE_Description = An undergrowth plant with healing properties.
 
-NAPLES_CYCLAMEN_Name = a
-NAPLES_CYCLAMEN_Description = a
+NAPLES_CYCLAMEN_Name = Naples Cyclamen
+NAPLES_CYCLAMEN_Description = A plant that grows deep in the forest near the mountain, it resists the cold.
 
-SHIVERTHORN_Name = a
-SHIVERTHORN_Description = a
+SHIVERTHORN_Name = Shiverthorn
+SHIVERTHORN_Description = A plant that grows in the heart of the mountain, it absorbs the cold and produces a gentle heat.
 
-SWEET_CLOVER_Name = a
-SWEET_CLOVER_Description = a
+SWEET_CLOVER_Name = Sweet Clover
+SWEET_CLOVER_Description = A field plant that helps to stay calm.
 
-BLACK_HELLEBORE_Name = a
-BLACK_HELLEBORE_Description = a
+BLACK_HELLEBORE_Name = Black hellebore
+BLACK_HELLEBORE_Description = A plant of the mountain which makes effect of narcotic.
 
-MEDICINAL_HERBS_Name = a
-MEDICINAL_HERBS_Description = a
+MEDICINAL_HERBS_Name = Medicinal herbs
+MEDICINAL_HERBS_Description = Herbs with medicinal properties.
 
-GLOWING_MUSHROOM]_Name = a
-GLOWING_MUSHROOM]_Description = a
+GLOWING_MUSHROOM_Name = Glowing mushroom
+GLOWING_MUSHROOM_Description = Mushrooms that emit a soft blue light, they grow in the swamp.
 
-GINGER_Name = a
-GINGER_Description = a
+GINGER_Name = Ginger
+GINGER_Description = Rhizomes that grow around the marsh, they help to stay awake.
 
-STRAWBERRY_BEDSTRAW_Name = a
-STRAWBERRY_BEDSTRAW_Description = a
+STRAWBERRY_BEDSTRAW_Name = Strawberry bedstraw
+STRAWBERRY_BEDSTRAW_Description = An autumn plant that allows you to fill up on energy.
 
-BELADONE_Name = a
-BELADONE_Description = a
+BELADONE_Name = Beladone
+BELADONE_Description = Black berries that give a certain charm to your eyes.
 
-ELDERBERRY_BAY_Name = a
-ELDERBERRY_BAY_Description = a
+ELDERBERRY_BERRY_Name = Elderberry Berry
+ELDERBERRY_BERRY_Description = Elderberries, they look irresistible.
 
-HEMLOCK_Name = a
-HEMLOCK_Description = a
+HEMLOCK_Name = Hemlock
+HEMLOCK_Description = A poisonous plant that was used for executions in ancient times.
 
-WHITE_CELANDINE_Name = a
-WHITE_CELANDINE_Description = a
+WHITE_CELANDINE_Name = Veratrum album
+WHITE_CELANDINE_Description = A very poisonous plant that grows in pastures.
 
-CREEPING_DOCK_ROOT_Name = a
-CREEPING_DOCK_ROOT_Description = a
+CURLY_DOCK_ROOT_Name = Curly dock root
+CURLY_DOCK_ROOT_Description = Unappetizing roots.
 
-LINEN_PUGATIVE_Name = a
-LINEN_PUGATIVE_Description = a
+LINEN_PUGATIVE_Name = Linen Pugative
+LINEN_PUGATIVE_Description = Flowers of the pastures that the animals eat to purge themselves.
 
-NIRNROOT_Name = a
-NIRNROOT_Description = a
+NIRNROOT_Name = Nirnroot
+NIRNROOT_Description = Do not make the animals eat marsh roots or you will lose them.
 
-GHOST_MUSHROOM_Name = a
-GHOST_MUSHROOM_Description = a
+GHOST_MUSHROOM_Name = Champignon fantôme
+GHOST_MUSHROOM_Description = A transparent mushroom, it tends to disappear when you don't look at it.
 
-BLACK_HENBANE_Name = a
-BLACK_HENBANE_Description = a
+BLACK_HENBANE_Name = Black Henbane
+BLACK_HENBANE_Description = A plant that grows in frequently plowed land, it has a bad smell that makes your head spin.
 
-SYMPHORINE_Name = a
-SYMPHORINE_Description = a
+SYMPHORINE_Name = Symphorine
+SYMPHORINE_Description = Small fruits of snowberry that grows on the slopes of the mountain, they are very fun it seems.
 
-ERECT_EUPHRASIA_Name = a
-ERECT_EUPHRASIA_Description = a
+ERECT_EUPHRASIA_Name = Erect euphrasia
+ERECT_EUPHRASIA_Description = Pretty fall flowers that grow in rocky lawns, some say it improves eyesight.
 
-GOLDEN_CARROT_Name = a
-GOLDEN_CARROT_Description = a
+GOLDEN_CARROT_Name = Golden carrot
+GOLDEN_CARROT_Description = Carrots that grow in the magma feeding on molten gold.
 
-MATRICARIA_CAMOMILLE_Name = a
-MATRICARIA_CAMOMILLE_Description = a
+MATRICARIA_CAMOMILLE_Name = Matricaria Chamomile
+MATRICARIA_CAMOMILLE_Description = Pretty prairie flowers, nothing better to wake up in the morning.
 
-CORTINARY_Name = a
-CORTINARY_Description = a
+CORTINARY_Name = Remarkable Cortinary
+CORTINARY_Description = A delicious mushroom of the undergrowth, which fills with energy.
 
-RYE_ERGOT_Name = a
-RYE_ERGOT_Description = a
+RYE_ERGOT_Name = Rye Ergot
+RYE_ERGOT_Description = A mushroom that grows on the rye, it has inspired the greatest singers.
 
-IF_Name = a
-IF_Description = a
+IF_Name = Yew
+IF_Description = Yew fruits that give strong headaches, they also confuse the view, you can find them in the borders of the cemetery.
 
-DROPMORE_SCARLET_HONEYSUCKLE_Name = a
-DROPMORE_SCARLET_HONEYSUCKLE_Description = a
+DROPMORE_SCARLET_HONEYSUCKLE_Name = Dropmore scarlet honeysuckle
+DROPMORE_SCARLET_HONEYSUCKLE_Description = Pretty red flowers that climb on the walls of houses, it would serve as an antidote to certain poisons.
 
-BEOZAR_Name = a
-BEOZAR_Description = a
+BEOZAR_Name = Beozar
+BEOZAR_Description = A fragrant green Boulle that comes from the belly of reptiles.
 
-HONEY_Name = a
-HONEY_Description = a
-
-CRUSHED_HONEY_Name = a
-CRUSHED_HONEY_Description = a
-
-CRUSHED_BEOZAR_Name = a
-CRUSHED_BEOZAR_Description = a
-
-AIGREMOINE_EUPATORIUM_SEEDS_Name = a
-AIGREMOINE_EUPATORIUM_SEEDS_Description = a
-
-GLOWING_MUSHROOM_Name = a
-GLOWING_MUSHROOM_Description = a
-
-PHENIX_ELIXIR_Name = a
-PHENIX_ELIXIR_Description = a
+HONEY_Name = Honey
+HONEY_Description = Good organic bee's honey.
 
 ECHINACEA_Name = a
 ECHINACEA_Description = a
@@ -695,8 +680,8 @@ CRUSHED_STRAWBERRY_BEDSTRAW_Description = a
 CRUSHED_BELADONE_Name = a
 CRUSHED_BELADONE_Description = a
 
-CRUSHED_ELDERBERRY_BAY_Name = a
-CRUSHED_ELDERBERRY_BAY_Description = a
+CRUSHED_ELDERBERRY_BERRY_Name = a
+CRUSHED_ELDERBERRY_BERRY_Description = a
 
 CRUSHED_HEMLOCK_Name = a
 CRUSHED_HEMLOCK_Description = a
@@ -704,8 +689,8 @@ CRUSHED_HEMLOCK_Description = a
 CRUSHED_WHITE_CELANDINE_Name = a
 CRUSHED_WHITE_CELANDINE_Description = a
 
-CRUSHED_CREEPING_DOCK_ROOT_Name = a
-CRUSHED_CREEPING_DOCK_ROOT_Description = a
+CRUSHED_CURLY_DOCK_ROOT_Name = a
+CRUSHED_CURLY_DOCK_ROOT_Description = a
 
 CRUSHED_LINEN_PUGATIVE_Name = a
 CRUSHED_LINEN_PUGATIVE_Description = a
@@ -836,17 +821,14 @@ STRAWBERRY_BEDSTRAW_SEEDS_Description = a
 BELADONE_SEEDS_Name = a
 BELADONE_SEEDS_Description = a
 
-ELDERBERRY_BAY_SEEDS_Name = a
-ELDERBERRY_BAY_SEEDS_Description = a
-
 HEMLOCK_SEEDS_Name = a
 HEMLOCK_SEEDS_Description = a
 
 WHITE_CELANDINE_SEEDS_Name = a
 WHITE_CELANDINE_SEEDS_Description = a
 
-CREEPING_DOCK_ROOT_SEEDS_Name = a
-CREEPING_DOCK_ROOT_SEEDS_Description = a
+CURLY_DOCK_ROOT_SEEDS_Name = a
+CURLY_DOCK_ROOT_SEEDS_Description = a
 
 LINEN_PUGATIVE_SEEDS_Name = a
 LINEN_PUGATIVE_SEEDS_Description = a
@@ -877,9 +859,6 @@ CORTINARY_SEEDS_Description = a
 
 RYE_ERGOT_SEEDS_Name = a
 RYE_ERGOT_SEEDS_Description = a
-
-IF_SEEDS_Name = a
-IF_SEEDS_Description = a
 
 DROPMORE_SCARLET_HONEYSUCKLE_SEEDS_Name = a
 DROPMORE_SCARLET_HONEYSUCKLE_SEEDS_Description = a

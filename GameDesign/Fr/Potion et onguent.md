@@ -11,7 +11,7 @@
 - Potion de soin mineure > Potion de soin > Potion de soin majeure > Élixir de vie 					    					(Tier1 Herbes médicinal ; Tier2 Champignion luminescent) couleur : rouge
 - Réveil matin > Breuvage contre la fatigue > Café > Café magique															(Tier1 Gingembre ; Tier2 Gaillet gratteron)  Couleur : marron
 - Breuvages yeux de biche > Potion de séduction > Décoction de luxure > Élixir de la femme fatale 							(Tier1 beladone ; Tier2 baie de Sureau )  couleur : rose
-- Potion de fatigue > Narcotique > Potion du sommeil éternel > Élixir de morphée (poison)									(Tier1 Grande/Petite Ciguée; Tier2 Véraire blanc) couleur bleu/violet
+- Potion de fatigue > Narcotique > Potion du sommeil éternel > Élixir de morphée (poison)									(Tier1 Grande/Petite Ciguée; Tier2 Vératre blanc) couleur bleu/violet
 - Mixture étrange > Potion de vomissement > Laxatif > Élixir de Zigu														(Tier1 Racine de Rumex crépu ; Tier2 Lin Pugatif) couleur : vert/orange
 - Potion de déguisement > Potion de disimulation > Potion de transparance > Élixir d'invisibilité							(Tier1 Nirnroot "marais" ; Tier2 Champignon fantôme) Couleur : transparent
 - Breuvage d'ivresse > Potion de confusion > Potion de folie > Élixir de lypémanie											(Tier1 Jusquiame noire ; Tier2 Symphorine) Couleur : Multicolor

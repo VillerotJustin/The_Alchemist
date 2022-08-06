@@ -481,104 +481,104 @@ OINTMENT_AGAINST_CHILBLAINS_Description = Un onguent qui soigne les engelures.
 UII_EMBROCATION_Name = Embrocation bénie par UII
 UII_EMBROCATION_Description = Cette embrocation peut soigner les engelures les plus sévères et offre une protection contre les froids les plus glacials.
 
-POTENTILLA_ANSERINA_Name = a
-POTENTILLA_ANSERINA_Description = a
+POTENTILLA_ANSERINA_Name = Potentille ansérine
+POTENTILLA_ANSERINA_Description = La potentille ansérine vit au bord des routes, chemins, étangs ou fossés, elle soulage les piqûres.
 
-SUN_MUSHROOM_Name = a
-SUN_MUSHROOM_Description = a
+SUN_MUSHROOM_Name = Agaric Royal
+SUN_MUSHROOM_Description = Un champigion qui renforce le corp, il pouse à l'ombre des maison.
 
-ST_JOHNS_WORT_Name = a
-ST_JOHNS_WORT_Description = a
+ST_JOHNS_WORT_Name = Millepertuis perforé
+ST_JOHNS_WORT_Description = Il s'agit d'une plante sauvage héliophile et calcicole. Les bords des chemins, les lisières de forêt, prairies et talus secs. On peut soigner les coups de soleil avec cette plante.
 
-LAVA_FLOWER_Name = a
-LAVA_FLOWER_Description = a
+LAVA_FLOWER_Name = Fleur de lave
+LAVA_FLOWER_Description = Une fleur qui pousse au cœur du volcan, cette fleur semble absorbé la chaleur.
 
-MEDIUM_PLANTIAN_Name = a
-MEDIUM_PLANTIAN_Description = a
+MEDIUM_PLANTAIN_Name = Plantain moyen
+MEDIUM_PLANTAIN_Description = Les feuilles fraiches écrasées sont utilisées comme cicatrisant.
 
-EUROPEAN_SANICLE_Name = a
-EUROPEAN_SANICLE_Description = a
+EUROPEAN_SANICLE_Name = Sanicle d'europe
+EUROPEAN_SANICLE_Description = Une plante des sous-bois avec des propriétés cicatrisantes.
 
-NAPLES_CYCLAMEN_Name = a
-NAPLES_CYCLAMEN_Description = a
+NAPLES_CYCLAMEN_Name = Cyclamen de Naples
+NAPLES_CYCLAMEN_Description = Une plante qui pousse au fond de la forêt proche de la montagne, elle résiste au froid.
 
-SHIVERTHORN_Name = a
-SHIVERTHORN_Description = a
+SHIVERTHORN_Name = Tremblépine
+SHIVERTHORN_Description = Une plante qui pousse au cœur de la montagne, elle absorbe le froid et produit une douce chaleur.
 
-SWEET_CLOVER_Name = a
-SWEET_CLOVER_Description = a
+SWEET_CLOVER_Name = Mélilot des champs
+SWEET_CLOVER_Description = Une plante des champs qui aide à rester calme.
 
-BLACK_HELLEBORE_Name = a
-BLACK_HELLEBORE_Description = a
+BLACK_HELLEBORE_Name = Hellébore noir
+BLACK_HELLEBORE_Description = Une plante de la montagne qui fait effet de narcotique.
 
-MEDICINAL_HERBS_Name = a
-MEDICINAL_HERBS_Description = a
+MEDICINAL_HERBS_Name = Herbes médicinales
+MEDICINAL_HERBS_Description = Des herbes au propriété médicinales.
 
-GLOWING_MUSHROOM]_Name = a
-GLOWING_MUSHROOM]_Description = a
+GLOWING_MUSHROOM_Name = Champignon luminaisant
+GLOWING_MUSHROOM_Description = Des champignons qui émettent une douce lumière bleue, ils poussent dans le marais.
 
-GINGER_Name = a
-GINGER_Description = a
+GINGER_Name = Gimgembre
+GINGER_Description = Des rhizomes qui poussent aux alentours du marais, ils aident a bien rester éveiller.
 
-STRAWBERRY_BEDSTRAW_Name = a
-STRAWBERRY_BEDSTRAW_Description = a
+STRAWBERRY_BEDSTRAW_Name = Gaillet gratteron
+STRAWBERRY_BEDSTRAW_Description = Une plante d'automne qui permet de faire le plein d'énergie.
 
-BELADONE_Name = a
-BELADONE_Description = a
+BELADONE_Name = Beladone
+BELADONE_Description = Des baies noires qui donnent un certain charme à vos yeux.
 
-ELDERBERRY_BAY_Name = a
-ELDERBERRY_BAY_Description = a
+ELDERBERRY_BERRY_Name = Baies de sureau
+ELDERBERRY_BERRY_Description = Des baies de sureau, elles ont l'air irrésistibles.
 
-HEMLOCK_Name = a
-HEMLOCK_Description = a
+HEMLOCK_Name = Ciguë
+HEMLOCK_Description = Une plante toxique qui servait aux exécutions dans les temps anciens.
 
-WHITE_CELANDINE_Name = a
-WHITE_CELANDINE_Description = a
+WHITE_CELANDINE_Name = Vératre blanc
+WHITE_CELANDINE_Description = Une plante très toxique qui pousse dans les pâturages.
 
-CREEPING_DOCK_ROOT_Name = a
-CREEPING_DOCK_ROOT_Description = a
+CURLY_DOCK_ROOT_Name = Racine de rumex crépu
+CURLY_DOCK_ROOT_Description = Des racines peu ragoûtantes.
 
-LINEN_PUGATIVE_Name = a
-LINEN_PUGATIVE_Description = a
+LINEN_PUGATIVE_Name = Lin Pugatif
+LINEN_PUGATIVE_Description = Des fleurs des pâturages que les animaux mange pour se purger.
 
-NIRNROOT_Name = a
-NIRNROOT_Description = a
+NIRNROOT_Name = Nirnroot
+NIRNROOT_Description = Des racines des marais n'en faite pas manger aux animaux au risque de les perdre.
 
-GHOST_MUSHROOM_Name = a
-GHOST_MUSHROOM_Description = a
+GHOST_MUSHROOM_Name = Ghost Mushroom
+GHOST_MUSHROOM_Description = Un champignon transparent, il a tendance à disparaître quand on ne le regarde pas.
 
-BLACK_HENBANE_Name = a
-BLACK_HENBANE_Description = a
+BLACK_HENBANE_Name = Jusquiame noire
+BLACK_HENBANE_Description = Une plante qui pousse dans les terrains fréquemment labourés, elle a une mauvaise odeur qui fait tourner la tête.
 
-SYMPHORINE_Name = a
-SYMPHORINE_Description = a
+SYMPHORINE_Name = Symphorine
+SYMPHORINE_Description = Petits fruits de la symphorine qui pousse sur les pentes de la montagne, ils sont très amusants paraît-il.
 
-ERECT_EUPHRASIA_Name = a
-ERECT_EUPHRASIA_Description = a
+ERECT_EUPHRASIA_Name = Euphraise dressée
+ERECT_EUPHRASIA_Description = Des jolie fleurs automnales qui pousse dans les pelouses rocailleuse, certains disent qu'elle améliore la vue.
 
-GOLDEN_CARROT_Name = a
-GOLDEN_CARROT_Description = a
+GOLDEN_CARROT_Name = Carrot dorée
+GOLDEN_CARROT_Description = Des carottes qui pousse dans le magma en ce nourrissant d'or en fusion.
 
-MATRICARIA_CAMOMILLE_Name = a
-MATRICARIA_CAMOMILLE_Description = a
+MATRICARIA_CAMOMILLE_Name = Matricaire Camomille
+MATRICARIA_CAMOMILLE_Description = Des jolie fleur des prairies, rien de mieux pour être réveillé le matin.
 
-CORTINARY_Name = a
-CORTINARY_Description = a
+CORTINARY_Name = Cortinaire remarquable
+CORTINARY_Description = Un délicieux champignon des sous-bois, qui remplit d'énergie.
 
-RYE_ERGOT_Name = a
-RYE_ERGOT_Description = a
+RYE_ERGOT_Name = Ergot de seigle
+RYE_ERGOT_Description = Un champignon qui pousse sur le seigle, il a inspiré les plus grands chanteurs.
 
-IF_Name = a
-IF_Description = a
+IF_Name = If
+IF_Description = Des fruits d'if qui donne de forts maux de têtes, ils embrouillent aussi la vue, on peut en trouver dans les bordures du cimetière.
 
-DROPMORE_SCARLET_HONEYSUCKLE_Name = a
-DROPMORE_SCARLET_HONEYSUCKLE_Description = a
+DROPMORE_SCARLET_HONEYSUCKLE_Name = Chèvrefeuille écarlate de dropmore
+DROPMORE_SCARLET_HONEYSUCKLE_Description = De jolies fleurs rouges qui grimpent sur les murs des maisons, elle servirait d'antidote à certains poisons.
 
-BEOZAR_Name = a
-BEOZAR_Description = a
+BEOZAR_Name = Beozar
+BEOZAR_Description = Une Boulle verte odorante qui provient du ventre des reptiles.
 
-HONEY_Name = a
-HONEY_Description = a
+HONEY_Name = Miel
+HONEY_Description = Du bon miel d'abeille bio.
 
 ECHINACEA_Name = a
 ECHINACEA_Description = a
@@ -646,8 +646,8 @@ CRUSHED_ST_JOHNS_WORT_Description = a
 CRUSHED_LAVA_FLOWER_Name = a
 CRUSHED_LAVA_FLOWER_Description = a
 
-CRUSHED_MEDIUM_PLANTIAN_Name = a
-CRUSHED_MEDIUM_PLANTIAN_Description = a
+CRUSHED_MEDIUM_PLANTAIN_Name = a
+CRUSHED_MEDIUM_PLANTAIN_Description = a
 
 CRUSHED_EUROPEAN_SANICLE_Name = a
 CRUSHED_EUROPEAN_SANICLE_Description = a
@@ -679,8 +679,8 @@ CRUSHED_STRAWBERRY_BEDSTRAW_Description = a
 CRUSHED_BELADONE_Name = a
 CRUSHED_BELADONE_Description = a
 
-CRUSHED_ELDERBERRY_BAY_Name = a
-CRUSHED_ELDERBERRY_BAY_Description = a
+CRUSHED_ELDERBERRY_BERRY_Name = a
+CRUSHED_ELDERBERRY_BERRY_Description = a
 
 CRUSHED_HEMLOCK_Name = a
 CRUSHED_HEMLOCK_Description = a
@@ -688,8 +688,8 @@ CRUSHED_HEMLOCK_Description = a
 CRUSHED_WHITE_CELANDINE_Name = a
 CRUSHED_WHITE_CELANDINE_Description = a
 
-CRUSHED_CREEPING_DOCK_ROOT_Name = a
-CRUSHED_CREEPING_DOCK_ROOT_Description = a
+CRUSHED_CURLY_DOCK_ROOT_Name = a
+CRUSHED_CURLY_DOCK_ROOT_Description = a
 
 CRUSHED_LINEN_PUGATIVE_Name = a
 CRUSHED_LINEN_PUGATIVE_Description = a
@@ -787,8 +787,8 @@ ST_JOHNS_WORT_SEEDS_Description = a
 LAVA_FLOWER_SEEDS_Name = a
 LAVA_FLOWER_SEEDS_Description = a
 
-MEDIUM_PLANTIAN_SEEDS_Name = a
-MEDIUM_PLANTIAN_SEEDS_Description = a
+MEDIUM_PLANTAIN_SEEDS_Name = a
+MEDIUM_PLANTAIN_SEEDS_Description = a
 
 EUROPEAN_SANICLE_SEEDS_Name = a
 EUROPEAN_SANICLE_SEEDS_Description = a
@@ -820,17 +820,14 @@ STRAWBERRY_BEDSTRAW_SEEDS_Description = a
 BELADONE_SEEDS_Name = a
 BELADONE_SEEDS_Description = a
 
-ELDERBERRY_BAY_SEEDS_Name = a
-ELDERBERRY_BAY_SEEDS_Description = a
-
 HEMLOCK_SEEDS_Name = a
 HEMLOCK_SEEDS_Description = a
 
 WHITE_CELANDINE_SEEDS_Name = a
 WHITE_CELANDINE_SEEDS_Description = a
 
-CREEPING_DOCK_ROOT_SEEDS_Name = a
-CREEPING_DOCK_ROOT_SEEDS_Description = a
+CURLY_DOCK_ROOT_SEEDS_Name = a
+CURLY_DOCK_ROOT_SEEDS_Description = a
 
 LINEN_PUGATIVE_SEEDS_Name = a
 LINEN_PUGATIVE_SEEDS_Description = a
@@ -861,9 +858,6 @@ CORTINARY_SEEDS_Description = a
 
 RYE_ERGOT_SEEDS_Name = a
 RYE_ERGOT_SEEDS_Description = a
-
-IF_SEEDS_Name = a
-IF_SEEDS_Description = a
 
 DROPMORE_SCARLET_HONEYSUCKLE_SEEDS_Name = a
 DROPMORE_SCARLET_HONEYSUCKLE_SEEDS_Description = a
@@ -912,12 +906,6 @@ HERBS_SEEDS_Description = a
 
 WHITHE_WATER_LILY_ROOTS_SEEDS_Name = a
 WHITHE_WATER_LILY_ROOTS_SEEDS_Description = a
-
-CRUSHED_HONEY_Name = a
-CRUSHED_HONEY_Description = a
-
-CRUSHED_BEOZAR_Name = a
-CRUSHED_BEOZAR_Description = a
 
 AIGREMOINE_EUPATORIUM_SEEDS_Name = a
 AIGREMOINE_EUPATORIUM_SEEDS_Description = a

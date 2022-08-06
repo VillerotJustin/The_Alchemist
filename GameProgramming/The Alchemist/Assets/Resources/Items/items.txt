@@ -1246,7 +1246,7 @@ Attributes = PLANT,1
 
 #----------------------------------------------------
 
-[MEDIUM_PLANTIAN]
+[MEDIUM_PLANTAIN]
 Type = OTHER
 Price = 50
 Attributes = PLANT,1
@@ -1323,7 +1323,7 @@ Attributes = PLANT,1
 
 #----------------------------------------------------
 
-[ELDERBERRY_BAY]
+[ELDERBERRY_BERRY]
 Type = OTHER
 Price = 50
 Attributes = PLANT,1
@@ -1344,7 +1344,7 @@ Attributes = PLANT,1
 
 #----------------------------------------------------Rumex crépu
 
-[CREEPING_DOCK_ROOT]
+[CURLY_DOCK_ROOT]
 Type = OTHER
 Price = 50
 Attributes = PLANT,1
@@ -1610,7 +1610,7 @@ Attributes = SEED,1
 
 #----------------------------------------------------
 
-[MEDIUM_PLANTIAN_SEEDS]
+[MEDIUM_PLANTAIN_SEEDS]
 Type = OTHER
 Price = 50
 Attributes = SEED,1
@@ -1687,13 +1687,6 @@ Attributes = SEED,1
 
 #----------------------------------------------------
 
-[ELDERBERRY_BAY_SEEDS]
-Type = OTHER
-Price = 50
-Attributes = SEED,1
-
-#----------------------------------------------------
-
 [HEMLOCK_SEEDS]
 Type = OTHER
 Price = 50
@@ -1708,7 +1701,7 @@ Attributes = SEED,1
 
 #----------------------------------------------------Rumex crépu
 
-[CREEPING_DOCK_ROOT_SEEDS]
+[CURLY_DOCK_ROOT_SEEDS]
 Type = OTHER
 Price = 50
 Attributes = SEED,1
@@ -1779,13 +1772,6 @@ Attributes = SEED,1
 #----------------------------------------------------
 
 [RYE_ERGOT_SEEDS]
-Type = OTHER
-Price = 50
-Attributes = SEED,1
-
-#----------------------------------------------------
-
-[IF_SEEDS]
 Type = OTHER
 Price = 50
 Attributes = SEED,1
@@ -1926,7 +1912,7 @@ Attributes = PLANT,1
 
 #----------------------------------------------------
 
-[CRUSHED_MEDIUM_PLANTIAN]
+[CRUSHED_MEDIUM_PLANTAIN]
 Type = OTHER
 Price = 50
 Attributes = PLANT,1
@@ -2003,7 +1989,7 @@ Attributes = PLANT,1
 
 #----------------------------------------------------
 
-[CRUSHED_ELDERBERRY_BAY]
+[CRUSHED_ELDERBERRY_BERRY]
 Type = OTHER
 Price = 50
 Attributes = PLANT,1
@@ -2024,7 +2010,7 @@ Attributes = PLANT,1
 
 #----------------------------------------------------Rumex crépu
 
-[CRUSHED_CREEPING_DOCK_ROOT]
+[CURLYCREEPING_DOCK_ROOT]
 Type = OTHER
 Price = 50
 Attributes = PLANT,1
@@ -2109,20 +2095,6 @@ Attributes = PLANT,1
 #----------------------------------------------------
 
 [CRUSHED_DROPMORE_SCARLET_HONEYSUCKLE]
-Type = OTHER
-Price = 50
-Attributes = PLANT,1
-
-#----------------------------------------------------
-
-[CRUSHED_BEOZAR]
-Type = OTHER
-Price = 50
-Attributes = HERO,1
-
-#----------------------------------------------------
-
-[CRUSHED_HONEY]
 Type = OTHER
 Price = 50
 Attributes = PLANT,1
