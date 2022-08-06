@@ -367,13 +367,6 @@ Attributes = GLOVE,2
 
 #----------------------------------------------------
 
-[MAGIC_GLOVE]
-Type = GLOVE
-Price = 0
-Attributes = GLOVE,2
-
-#----------------------------------------------------
-
 [MAGIC_GLOVE_0]
 Type = GLOVE
 Price = 500

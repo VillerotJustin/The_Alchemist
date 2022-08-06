@@ -10,6 +10,11 @@ public class TitleScreenManager : MonoBehaviour
     }
 
     public void LaunchGame(){
-        SceneManager.LoadScene("TEST_AREA");
+        GameManager.instance.NewGame();
+    }
+
+
+    public void ChangeLocalization(string newLoc){
+        GameManager.ChangeLocalization(newLoc);
     }
 }

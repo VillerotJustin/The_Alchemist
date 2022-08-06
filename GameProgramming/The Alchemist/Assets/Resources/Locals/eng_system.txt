@@ -1,3 +1,22 @@
+# ---------- Game -------------
+
+Game_Currency = Gold
+
+Day_0 = Mon.
+Day_1 = Tue.
+Day_2 = Wed.
+Day_3 = Thu.
+Day_4 = Fri.
+Day_5 = Sat.
+Day_6 = Sun.
+
+# ------------- Title Screen ---------------
+
+TitleScreen_Quit = Quit
+TitleScreen_Play = Play
+
+# ------------ Menus --------------
+
 Settings_Quality = Quality
 Quit_Desktop = To Desktop
 Quit_Title = To Title Screen

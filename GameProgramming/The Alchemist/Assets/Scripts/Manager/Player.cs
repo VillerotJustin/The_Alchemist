@@ -17,11 +17,23 @@ public class Player
 
     public float speed;
 
+    public int gold;
+
+    public int day;
+
+    public int month;
+
+    public int year;
+
     public Player(){
         speed = 5;
         maxInHotBar = 8;
         currentSlot = 0;
         bagSize = 24; 
+        gold = 0;
+        day = 0;
+        month = 0;
+        year = 1;
         items = new InventoryItemContainer[bagSize];
     }
 

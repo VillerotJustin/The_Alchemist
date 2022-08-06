@@ -9,6 +9,15 @@ public class MovingCharactersManager
 
     [SerializeField] private float charactersSpeed;
 
+    public void StopAllRoutines(){
+        for(int i = 0;i<movingCharacters.Length;i++){
+
+            if(movingCharacters[i].coroutine != null){
+                GameManager.instance.StopCoroutine(movingCharacters[i].coroutine);
+            }
+        }
+    }
+
     public void InitializeAllMovingCharacters(){
         for(int i = 0;i<movingCharacters.Length;i++){
 

@@ -5,20 +5,15 @@ using UnityEngine;
 public class PlayerInventoryController : MonoBehaviour
 {
 
-    private Player player;
     private int startingKeycode = 49;
-    void Start()
-    {
-        player = GameManager.player;
-    }
 
 
     void Update(){
-        for(int i = startingKeycode;i<startingKeycode+player.maxInHotBar;i++){
+        for(int i = startingKeycode;i<startingKeycode+GameManager.player.maxInHotBar;i++){
             if(Input.GetKeyDown((KeyCode)i)){
-                player.currentSlot = i-startingKeycode;
+                GameManager.player.currentSlot = i-startingKeycode;
                 PlayerHotBarUI.instance.RefreshSelection();
-                PlayerItemPlacer.instance.enabled = player.GetItemFromSlot(player.currentSlot).itemType == Item.Type.PLACEABLE;
+                PlayerItemPlacer.instance.enabled = GameManager.player.GetItemFromSlot(GameManager.player.currentSlot).itemType == Item.Type.PLACEABLE;
                 break;
             }
         }

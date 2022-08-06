@@ -20236,6 +20236,7 @@ GameObject:
   - component: {fileID: 1779828210}
   - component: {fileID: 1779828212}
   - component: {fileID: 1779828211}
+  - component: {fileID: 1779828213}
   m_Layer: 5
   m_Name: Day
   m_TagString: Untagged
@@ -20360,6 +20361,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779828209}
   m_CullTransparentMesh: 1
+--- !u!114 &1779828213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779828209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a36d466607f184983e40cc297fb049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1779828211}
+  localKey: 
 --- !u!1 &1781717805
 GameObject:
   m_ObjectHideFlags: 0
@@ -21540,6 +21555,7 @@ GameObject:
   - component: {fileID: 1867184268}
   - component: {fileID: 1867184270}
   - component: {fileID: 1867184269}
+  - component: {fileID: 1867184271}
   m_Layer: 5
   m_Name: Gold
   m_TagString: Untagged
@@ -21664,6 +21680,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867184267}
   m_CullTransparentMesh: 1
+--- !u!114 &1867184271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867184267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389894875eb3d394baf39efac6819be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1867184269}
+  localKey: Game_Currency
 --- !u!1 &1894592890
 GameObject:
   m_ObjectHideFlags: 0
@@ -36171,6 +36201,10 @@ PrefabInstance:
     - target: {fileID: 870615337694483710, guid: f91aeb0d22cd1be44b15e25d025096c4, type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 870615337694483711, guid: f91aeb0d22cd1be44b15e25d025096c4, type: 3}
+      propertyPath: fastBoot
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 870615337694483711, guid: f91aeb0d22cd1be44b15e25d025096c4, type: 3}
       propertyPath: dayNightCycle.currentHour

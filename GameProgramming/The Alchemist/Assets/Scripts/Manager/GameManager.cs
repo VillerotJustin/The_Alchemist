@@ -11,11 +11,19 @@ public class GameManager : MonoBehaviour
 
     public static Player player;
 
+
+    [SerializeField] private bool fastBoot;
+    private bool firstAsk;
+
     void Awake(){
         if(instance == null){
+
+            DontDestroyOnLoad(gameObject);
+
             instance = this;
             Locals.Init();
 
+            firstAsk = true;
             _invertedControls = 1;
             _playerColor = new Color(1,1,1,1);
             
@@ -23,19 +31,17 @@ public class GameManager : MonoBehaviour
             _recipeManager = new RecipeManager();
             _recipeManager.LoadRecipes();
 
-            _player = new Player();
-            player = _player;
-
             timeBasedAttributes = new Dictionary<string, ItemAttributeWorker>();
-
             playerCanMove = true;
-            _map = SceneManager.GetActiveScene().name;
             
-            movingCharacters.InitializeAllMovingCharacters();
 
-            recipeManager.DEBUG_SHOWALLRECIPES();
-            DEBUG_GIVEITEMS();
-            DontDestroyOnLoad(gameObject);
+            if(fastBoot){
+                NewGame();
+                recipeManager.DEBUG_SHOWALLRECIPES();
+                DEBUG_GIVEITEMS();
+            }
+
+            
         }else{
             Destroy(gameObject);
         }
@@ -75,6 +81,11 @@ public class GameManager : MonoBehaviour
 
     private Color _playerColor;
 
+
+    public static int currentDay {get{return GameManager.player.day;}}
+    public static int currentDayInWeek {get{return GameManager.player.day % 7;}}
+    public static int currentMonth {get{return GameManager.player.month;}}
+
     public static Color playerColor {
         get{return GameManager.instance._playerColor;}
         set{GameManager.instance._playerColor = value;}
@@ -85,6 +96,56 @@ public class GameManager : MonoBehaviour
     public static int invertedControls {
         get{return GameManager.instance._invertedControls;}
         set{GameManager.instance._invertedControls = value;}
+    }
+
+    public static void ChangeLevel(string newLevel){
+        instance._map = newLevel;
+        SceneManager.LoadScene(newLevel);
+    }
+
+    public void NewGame(){
+        _player = new Player();
+        player = _player;
+        InitializeNewDay(false);
+    }
+
+    public void ToMainMenu(){
+        Time.timeScale = 1;
+        playerCanMove = true;
+        _invertedControls = 1;
+        playerColor = new Color(1,1,1,1);
+        _movingCharacters.StopAllRoutines();
+        StopAllCoroutines();
+        PostProcessingManager.ApplyNoEffect();
+        timeBasedAttributes.Clear();
+
+        ChangeLevel("TitleScreen");
+    }
+
+
+    public void InitializeNewDay(bool incrementDay){
+        if(incrementDay) IncrementDay();
+
+        movingCharacters.InitializeAllMovingCharacters();
+        
+        if(!fastBoot || !firstAsk){
+            ChangeLevel("TEST_AREA");
+        }
+        firstAsk = false;
+
+
+    }
+
+    void IncrementDay(){
+        player.day++;
+        if(player.day == 28){
+            player.day = 0;
+            player.month++;
+            if(player.month == 4){
+                player.month = 0;
+                player.year++;
+            }
+        }
     }
 
     public Item GetItem(string name){
@@ -229,5 +290,11 @@ public class GameManager : MonoBehaviour
             }
             currentItem = null;
         }
+
+
+        foreach(Item item in allItems.Values){
+            if(Locals.GetLocal(item.internalName+"_Name").Equals("LOCAL_ERROR") || Locals.GetLocal(item.internalName+"_Description").Equals("LOCAL_ERROR"))
+                print("Error with item : "+item.internalName);
+        }       
     }
 }

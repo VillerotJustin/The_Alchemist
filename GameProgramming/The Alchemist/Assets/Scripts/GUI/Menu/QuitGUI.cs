@@ -10,6 +10,6 @@ public class QuitGUI : MenuGUITab
     }
 
     public void QuitToTitleScreen(){
-        SceneManager.LoadScene("TitleScreen");
+        GameManager.instance.ToMainMenu();
     }
 }
