@@ -126,6 +126,8 @@ public class GameManager : MonoBehaviour
     public void InitializeNewDay(bool incrementDay){
         if(incrementDay) IncrementDay();
 
+        dayNightCycle.ResetTime();
+
         movingCharacters.InitializeAllMovingCharacters();
         
         if(!fastBoot || !firstAsk){

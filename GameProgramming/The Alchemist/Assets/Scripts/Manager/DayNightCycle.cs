@@ -19,6 +19,10 @@ public class DayNightCycle
         currentHourDepletion = hourTimeInSeconds;
     }
 
+    public void ResetTime(){
+        Start();
+    }
+
     public void UpdateTime(){
         if(!canUpdateCycle) return;
 
@@ -31,14 +35,5 @@ public class DayNightCycle
             }
         }
     }
-
-    IEnumerator CycleFunction(){
-        while(currentHour <= 24){
-            yield return new WaitForSeconds(hourTimeInSeconds);
-            currentHour++;
-        }
-
-    }
-
 
 }
