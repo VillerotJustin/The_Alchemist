@@ -40,6 +40,7 @@
      <Compile Include="Assets\Scripts\GUI\PlayerBagGUI.cs" />
      <Compile Include="Assets\Scripts\Utils\SortSpriteOrderInScene.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemPickup\ItemPickupManager.cs" />
+     <Compile Include="Assets\Scripts\World\InteractableObject\Bed.cs" />
      <Compile Include="Assets\Scripts\Localization\LocalizedText.cs" />
      <Compile Include="Assets\Scripts\Crafting System\RecipeManager.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemSlot\InventoryGUI_ItemSlot.cs" />
@@ -92,6 +93,7 @@
      <Compile Include="Assets\Scripts\World\Timehandler.cs" />
      <Compile Include="Assets\Scripts\Items\InventoryItemContainer.cs" />
      <Compile Include="Assets\Scripts\DEBUG\WeatherTesting.cs" />
+     <Compile Include="Assets\Scripts\World\TileMapSeasonModifier.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\ItemAttribute.cs" />
      <Compile Include="Assets\Scripts\Localization\GoldLocalizedText.cs" />
@@ -99,8 +101,6 @@
      <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
      <Compile Include="Assets\Scripts\GUI\EffectGUI\UI_ItemEffect.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\World\TileMapSeasonModifier.cs" />
-     <Compile Include="Assets\Scripts\World\InteractableObject\Bed.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Locals\eng_items.txt" />
