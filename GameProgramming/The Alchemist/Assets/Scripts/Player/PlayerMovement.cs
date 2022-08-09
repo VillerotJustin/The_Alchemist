@@ -61,7 +61,10 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate(){
         if(!GameManager.instance.playerCanMove) return;
 
-        rb.MovePosition(rb.position+movement*GameManager.player.speed*Time.fixedDeltaTime);
+        Vector3 newPos = rb.position+movement*GameManager.player.speed*Time.fixedDeltaTime;
+        if(bounds.GetTile(new Vector3Int(Mathf.FloorToInt(newPos.x),Mathf.FloorToInt(newPos.y))) == null) return;
+
+        rb.MovePosition(newPos);
 
         Camera.main.transform.position = new Vector3(transform.position.x,transform.position.y,-10);
 

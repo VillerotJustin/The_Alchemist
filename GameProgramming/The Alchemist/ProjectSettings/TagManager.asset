@@ -41,8 +41,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: InteractionIcons
-    uniqueID: 249256675
+  - name: TilemapForeground
+    uniqueID: 1532059759
     locked: 0
   - name: Weather
     uniqueID: 3103766351
