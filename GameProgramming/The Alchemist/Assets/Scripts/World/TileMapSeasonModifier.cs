@@ -23,7 +23,7 @@ public class TileMapSeasonModifier : MonoBehaviour
                 for (int y = bounds.yMin; y < bounds.yMax; y++) {
                     tile = map.GetTile(new Vector3Int(x,y,0));
                     if (tile != null) {
-                        map.SetTile(new Vector3Int(x,y,0),Resources.Load<TileBase>("Tilesets/"+season+"/"+tile.name.Replace("spring",season)));
+                        map.SetTile(new Vector3Int(x,y,0),Resources.Load<TileBase>("Tilesets/"+season+"/"+tile.name));
                     }
                 }
             }
