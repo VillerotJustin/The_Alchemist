@@ -98,9 +98,24 @@ public class GameManager : MonoBehaviour
         set{GameManager.instance._invertedControls = value;}
     }
 
+
+    public float lastPlayerOrientationX = 0;
+
+    public float lastPlayerOrientationY = 0;
+
     public static void ChangeLevel(string newLevel){
         instance._map = newLevel;
         SceneManager.LoadScene(newLevel);
+    }
+
+    public static void ChangeLevel(string newLevel,Vector2 coordinates){
+        player.startPos = coordinates;
+        
+        Animator animator = Player.body.GetComponentInChildren<Animator>();
+        instance.lastPlayerOrientationX = animator.GetFloat("Horizontal");
+        instance.lastPlayerOrientationY = animator.GetFloat("Vertical");
+
+        ChangeLevel(newLevel);
     }
 
     public void NewGame(){

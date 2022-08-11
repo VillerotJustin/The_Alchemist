@@ -25,6 +25,8 @@ public class Player
 
     public int year;
 
+    public Vector2 startPos;
+
     public Player(){
         speed = 5;
         maxInHotBar = 8;
@@ -34,6 +36,7 @@ public class Player
         day = 0;
         month = 0;
         year = 1;
+        startPos = Vector2.positiveInfinity;
         items = new InventoryItemContainer[bagSize];
     }
 

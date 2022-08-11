@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DEBUG AREAS/TEST_AREA.unity
     guid: 8d3d0aa9fdad7e2409576bb5b1b217aa
+  - enabled: 1
+    path: Assets/Scenes/Levels/Village.unity
+    guid: b04f1d2aa2816554cb7c48143ad85c68
+  - enabled: 1
+    path: Assets/Scenes/Levels/PlayerHome.unity
+    guid: 4427d2089888f664b9d4ba032b748b60
   m_configObjects: {}

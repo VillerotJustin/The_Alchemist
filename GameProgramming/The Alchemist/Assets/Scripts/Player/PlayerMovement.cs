@@ -22,6 +22,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Awake(){
         Player.body = gameObject;
+        if(!GameManager.player.startPos.Equals(Vector2.positiveInfinity)){
+            transform.position = GameManager.player.startPos;
+        }
+
+        animator.SetFloat("Horizontal",GameManager.instance.lastPlayerOrientationX);    
+        animator.SetFloat("Vertical",GameManager.instance.lastPlayerOrientationY);
     }
 
     public void ForceMove(float x,float y){
