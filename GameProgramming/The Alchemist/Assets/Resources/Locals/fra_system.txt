@@ -14,6 +14,8 @@ Day_6 = Dim.
 
 TitleScreen_Quit = Quitter
 TitleScreen_Play = Jouer
+TitleScreen_Debug = Map DEBUG
+
 
 # ------------ Menus --------------
 

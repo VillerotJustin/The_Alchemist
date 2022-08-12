@@ -9,8 +9,8 @@ public class TitleScreenManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void LaunchGame(){
-        GameManager.instance.NewGame();
+    public void LaunchGame(bool debug){
+        GameManager.instance.NewGame(debug);
     }
 
 

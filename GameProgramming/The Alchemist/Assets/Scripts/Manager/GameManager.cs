@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
             
 
             if(fastBoot){
-                NewGame();
+                NewGame(true);
                 recipeManager.DEBUG_SHOWALLRECIPES();
                 DEBUG_GIVEITEMS();
             }
@@ -103,6 +103,9 @@ public class GameManager : MonoBehaviour
 
     public float lastPlayerOrientationY = 0;
 
+
+    private bool _debug;
+
     public static void ChangeLevel(string newLevel){
         instance._map = newLevel;
         SceneManager.LoadScene(newLevel);
@@ -118,7 +121,8 @@ public class GameManager : MonoBehaviour
         ChangeLevel(newLevel);
     }
 
-    public void NewGame(){
+    public void NewGame(bool debug){
+        _debug = debug;
         _player = new Player();
         player = _player;
         InitializeNewDay(false);
@@ -146,7 +150,7 @@ public class GameManager : MonoBehaviour
         movingCharacters.InitializeAllMovingCharacters();
         
         if(!fastBoot || !firstAsk){
-            ChangeLevel("TEST_AREA");
+            ChangeLevel(_debug ? "TEST_AREA" : "PlayerHome");
         }
         firstAsk = false;
 

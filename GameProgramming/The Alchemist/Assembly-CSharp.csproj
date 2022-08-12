@@ -74,6 +74,7 @@
      <Compile Include="Assets\Scripts\GUI\EffectGUI\UIEffectManager.cs" />
      <Compile Include="Assets\Scripts\Crafting System\Recipe.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\MenuGUI.cs" />
+     <Compile Include="Assets\Scripts\World\TeleportToMap.cs" />
      <Compile Include="Assets\Scripts\GUI\ItemSlot\UI_ItemSlot.cs" />
      <Compile Include="Assets\Scripts\World\AmbientLightAdapter.cs" />
      <Compile Include="Assets\Scripts\World\InteractableObject\CraftingTable.cs" />
@@ -101,7 +102,6 @@
      <Compile Include="Assets\Scripts\Utils\FileManager.cs" />
      <Compile Include="Assets\Scripts\GUI\EffectGUI\UI_ItemEffect.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerHotBarUI.cs" />
-     <Compile Include="Assets\Scripts\World\TeleportToMap.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Locals\eng_items.txt" />
